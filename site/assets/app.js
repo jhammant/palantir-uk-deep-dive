@@ -4,7 +4,7 @@
   const D = window.PUK || { contracts: [], tax: [], payments: [], influence: [], timeline: [], quotes: [], notes: {}, sectors: [] };
   const PAGES = [
     ["index.html", "Overview"], ["contracts.html", "Contracts"], ["competition.html", "Competition"],
-    ["payments.html", "Payments"], ["market.html", "Market share"], ["revolving-door.html", "Revolving door"],
+    ["payments.html", "Payments"], ["market.html", "Market share"], ["revolving-door.html", "Revolving door"], ["city-hall.html", "City Hall case"],
     ["influence.html", "Influence"], ["tax.html", "Tax"], ["lock-in.html", "Lock-in"], ["people.html", "People"],
     ["timeline.html", "Timeline"], ["about.html", "Method"],
   ];
@@ -286,7 +286,7 @@
       g += `<circle class="seg dot" cx="${x(c.awarded)}" cy="${laneA}" r="${rr}" fill="${c.route === "Direct award" ? "var(--stamp)" : "var(--g2)"}" fill-opacity=".85" stroke="var(--surface)" stroke-width="2" data-k="a${i}" tabindex="0" aria-label="${esc(`${c.title}, ${money(c.value)}, ${fmtDate(c.awarded)}`)}"/>`;
     });
     moves.forEach((mv, i) => {
-      const d = mv.joined_palantir || mv.left_public_office || mv.date;
+      const d = [mv.joined_palantir, mv.left_public_office, mv.date].find((v) => /^\d{4}/.test(v || ""));
       if (!d) return;
       const xx = x(d);
       g += `<path class="seg mark" d="M${xx},${laneB - 22} l7,12 h-14 z" fill="var(--ink-2)" data-k="m${i}" tabindex="0" aria-label="${esc(`${mv.person || mv.who}, ${fmtDate(d)}`)}"/>`;
@@ -667,9 +667,14 @@
       .filter((r) => !/^The Nerve|Trickett/i.test(r.who))
       .map((r) => ({ person: r.who, former_org: r.organisation, joined_palantir: r.date, approval_route: r.category === "acoba" ? "ACOBA" : "", conditions: "", summary: r.summary, source_url: r.source_url, source_type: r.source_type }));
     const M = (D.revolving.length ? D.revolving : fromInfluence).filter((m) => (m.direction || "gov-to-palantir") !== "palantir-to-gov" || true);
+    const moved = M.filter((m) => (m.direction || "gov-to-palantir") === "gov-to-palantir");
+    const people = (xs) => new Set(xs.map((m) => m.person)).size;
+    const concurrent = M.filter((m) => m.direction === "concurrent");
     $("#tiles").innerHTML = `
-      <div class="tile"><div class="label">Documented moves between UK public office and Palantir</div><div class="value">${M.length}</div><div class="foot">from ACOBA letters, departmental business appointment records, Companies House and attributed press</div></div>
-      <div class="tile"><div class="label">From the Ministry of Defence</div><div class="value">${M.filter((m) => /defence|\bMOD\b|armed forces/i.test(m.former_org + " " + (m.former_role || ""))).length}</div><div class="foot">the department that has awarded Palantir the most</div></div>`;
+      <div class="tile"><div class="label">People who moved from senior public roles to Palantir</div><div class="value">${people(moved)}</div><div class="foot">from ACOBA letters, departmental business appointment records, Companies House and attributed press</div></div>
+      <div class="tile"><div class="label">From the Ministry of Defence</div><div class="value">${people(moved.filter((m) => /defence|\bMOD\b|armed forces|army/i.test(m.former_org + " " + (m.former_role || ""))))}</div><div class="foot">the department that has awarded Palantir the most</div></div>
+      ${concurrent.length ? `<div class="tile"><div class="label">Held a Palantir role while in public office</div><div class="value">${people(concurrent)}</div><div class="foot">peers and an NHS trust chair, from registers of interests and press</div></div>` : ""}
+      <div class="tile"><div class="label">Recorded breaches of the conditions</div><div class="value">0</div><div class="foot">no ACOBA or departmental release records one involving Palantir</div></div>`;
     const sel = $("#dept");
     sel.innerHTML = DEPTS.slice(0, 3).map(([n]) => `<option>${esc(n)}</option>`).join("");
     const draw = () => {
@@ -680,11 +685,11 @@
       $("#strip-note").innerHTML = `${awards.length} contract awards from ${esc(name)} (red: no competition; size: value) and ${moves.length} people who moved from ${esc(name)} to Palantir.`;
     };
     sel.addEventListener("change", draw); draw();
-    $("#people").innerHTML = [...M].reverse().map((m) => `<article class="quote">
-        <div class="meta"><b>${esc(fmtDate(m.joined_palantir || m.left_public_office || ""))}</b> · ${esc(m.approval_route || "")}${m.source_type ? ` <span class="pill">${esc(m.source_type)}</span>` : ""}</div>
+    $("#people").innerHTML = [...M].sort((p, q) => String(q.joined_palantir || "").localeCompare(String(p.joined_palantir || ""))).map((m) => `<article class="quote">
+        <div class="meta"><b>${esc(/^\d{4}/.test(m.joined_palantir || "") ? fmtDate(m.joined_palantir) : m.direction === "concurrent" ? "Concurrent role" : "Date not stated")}</b> · ${esc(m.approval_route || "")}${m.source_type ? ` <span class="pill">${esc(m.source_type)}</span>` : ""}</div>
         <h3 style="margin:6px 0 4px">${esc(m.person)}</h3>
         <div>${esc([m.former_role, m.former_org].filter(Boolean).join(", "))}${m.palantir_role ? ` → <b>${esc(m.palantir_role)}</b>, Palantir` : ""}</div>
-        ${m.summary ? `<div class="ctx">${esc(m.summary)}</div>` : ""}
+        ${m.summary ? `<div class="ctx">${esc(m.summary)}</div>` : ""}${m.notes ? `<div class="ctx muted">${esc(m.notes)}</div>` : ""}
         ${m.conditions ? `<div class="ctx"><b>Conditions:</b> ${esc(m.conditions)}${m.conditions_until ? ` (until ${esc(fmtDate(m.conditions_until))})` : ""}</div>` : ""}
         ${m.recorded_contact_with_palantir_in_office ? `<div class="ctx"><b>Recorded contact with Palantir in office:</b> ${esc(m.recorded_contact_with_palantir_in_office)}</div>` : ""}
         <div class="meta" style="margin-top:8px">${link(m.source_url, "Source")}</div></article>`).join("");
@@ -716,6 +721,21 @@
     });
   };
   function num(v) { const n = parseFloat(String(v ?? "").replace(/[£,]/g, "")); return isNaN(n) ? null : n; }
+
+  page.cityhall = function () {
+    const ev = D.timeline.filter((t) => /MOPAC|City Hall|Metropolitan|Met Police|Met's|Mayor/i.test(t.event + " " + t.notes));
+    const met = C.filter((c) => /METROPOLITAN POLICE/i.test(c.buyer));
+    // Quotes about the case itself, or about competition (the principle at issue).
+    const qs = D.quotes.filter((q) => q.who === "Louis Mosley" && q.date >= "2026-05-01"
+      && (/City Hall|MOPAC|Mayor|Khan|Metropolitan|Met Police|Met's/i.test(q.context) || /objective criteria|level playing|competitor|procurement/i.test(q.quote)));
+    const direct = C.filter((c) => c.route === "Direct award");
+    $("#events").innerHTML = ev.map((t) => `<li><div class="date">${esc(fmtDate(t.date))} · <span class="pill">${esc(t.source_type)}</span></div><div class="event">${esc(t.event)} ${link(t.source_url, "source")}</div></li>`).join("");
+    $("#said").innerHTML = qs.map((x) => `<article class="quote"><blockquote>${esc(x.quote)}</blockquote><div class="meta"><b>${esc(x.who)}</b> · ${esc(fmtDate(x.date))} · ${link(x.source_url, "source")} <span class="pill">${esc(x.source_type || "")}</span>${/caption/i.test(x.source_type || "") ? ' <span class="pill caption">Auto-captions, not yet checked against the audio</span>' : ""}</div>${x.context ? `<div class="ctx">${esc(x.context)}</div>` : ""}</article>`).join("");
+    $("#measured").innerHTML = `
+      <div class="tile"><div class="label">Palantir UK award value with no competition at all</div><div class="value hit">${((sum(direct, (c) => c.value) / total) * 100).toFixed(0)}%</div><div class="foot">${money(sum(direct, (c) => c.value))} across ${direct.length} direct awards. <a href="competition.html">How every pound was awarded</a></div></div>
+      <div class="tile"><div class="label">The Met's pilot, the starting point</div><div class="value">${money(sum(met, (c) => c.value))}</div><div class="foot">${met.map((c) => esc(c.title)).join(", ")} (${esc(met.map((c) => fmtDate(c.awarded)).join(", "))}) ${met.map((c) => link(c.url, "notice")).join(" ")}</div></div>
+      <div class="tile"><div class="label">Buyers that said they could not switch away</div><div class="value">${C.filter((c) => /proprietary|alternative supplier|not possible/i.test(c.procedure_rationale || "")).length}</div><div class="foot">NESO, in its own published reasons. <a href="lock-in.html">Lock-in, in writing</a></div></div>`;
+  };
 
   layout();
   const fn = page[document.body.dataset.page];

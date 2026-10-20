@@ -96,8 +96,29 @@ def md_to_html(md):
             out.append(f"<{kind}>" + "".join(f"<li>{inline(i)}</li>" for i in items) + f"</{kind}>")
             items, kind = [], None
 
+    table = []
+
+    def flush_table():
+        nonlocal table
+        if not table:
+            return
+        cells = [[c.strip() for c in row.strip().strip("|").split("|")] for row in table]
+        body = [r for r in cells if not all(re.fullmatch(r":?-{3,}:?", c) for c in r)]
+        head, rows = body[0], body[1:]
+        right = [bool(re.fullmatch(r"-{3,}:", c)) for c in (cells[1] if len(cells) > 1 else [])]
+        cls = lambda i: ' class="r num"' if i < len(right) and right[i] else ""
+        out.append('<div class="table-wrap"><table><thead><tr>' + "".join(f"<th{cls(i)}>{inline(c)}</th>" for i, c in enumerate(head))
+                   + "</tr></thead><tbody>" + "".join("<tr>" + "".join(f"<td{cls(i)}>{inline(c)}</td>" for i, c in enumerate(r)) + "</tr>" for r in rows)
+                   + "</tbody></table></div>")
+        table = []
+
     for line in md.splitlines():
         s = line.rstrip()
+        if s.lstrip().startswith("|"):
+            flush()
+            table.append(s)
+            continue
+        flush_table()
         if not s.strip():
             flush()
             continue
@@ -129,6 +150,7 @@ def md_to_html(md):
                 flush()
             para.append(s.strip())
     flush()
+    flush_table()
     return "\n".join(out)
 
 
@@ -151,7 +173,13 @@ def build():
         for r in read_csv("tax.csv")]
     tax.sort(key=lambda r: r.get("year_end") or "")
 
-    payments = [{**r, "amount": num(r.get("amount_gbp"))} for r in read_csv("payments.csv")]
+    def counted(r):
+        """Count only payment lines where Palantir is the published supplier; FOI aggregates overlap them."""
+        notes = (r.get("notes") or "").lower()
+        return "palantir" in (r.get("supplier_name_as_published") or "").lower() \
+            and "supplier is not palantir" not in notes and "aggregate figure" not in notes
+
+    payments = [{**r, "amount": num(r.get("amount_gbp")), "counted": counted(r)} for r in read_csv("payments.csv")]
 
     notes = {}
     for name in ("tax-notes", "payments-notes", "influence-notes", "sovereignty-notes"):

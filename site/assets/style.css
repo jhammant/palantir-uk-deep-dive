@@ -106,10 +106,11 @@ main { padding: 36px 0 64px; }
 
 /* horizontal bars used as a labelled table */
 .hbars { display: grid; gap: 10px; }
-.hbar { display: grid; grid-template-columns: minmax(120px, 1fr) 2fr auto; gap: 10px; align-items: center; font-size: 14px; color: inherit; text-decoration: none; }
+.hbar { display: grid; grid-template-columns: minmax(120px, 1fr) 2fr 9.5em; gap: 10px; align-items: center; font-size: 14px; color: inherit; text-decoration: none; }
 .hbar .track { display: block; height: 12px; background: var(--surface-2); border-radius: 4px; overflow: hidden; }
 .hbar .fill { display: block; height: 100%; border-radius: 0 4px 4px 0; }
 .hbar:hover .name { text-decoration: underline; }
+.hbar > .num { text-align: right; }
 
 /* filters + tables */
 .filters { display: flex; flex-wrap: wrap; gap: 10px; align-items: end; margin: 20px 0 14px; }

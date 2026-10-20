@@ -347,30 +347,36 @@
     },
 
     payments() {
-      const P = D.payments.map((p, i) => ({ ...p, _id: i }));
-      if (!P.length) { $("#content").innerHTML = pending("We are reading departmental, NHS, police and council spending files and FOI answers for payments to Palantir."); return; }
+      const ALL = D.payments.map((p, i) => ({ ...p, _id: i }));
+      const P = ALL.filter((p) => p.counted);
+      if (!ALL.length) { $("#content").innerHTML = pending("We are reading departmental, NHS, police and council spending files and FOI answers for payments to Palantir."); return; }
       const payers = uniq(P.map((p) => p.payer)).map((name) => { const xs = P.filter((p) => p.payer === name); return { label: name, value: sum(xs, (p) => p.amount), n: xs.length }; }).sort((a, b) => b.value - a.value);
       $("#content").innerHTML = `
-        <div class="tiles"><div class="tile"><div class="label">Payments found</div><div class="value">${money(sum(P, (p) => p.amount))}</div><div class="foot">${P.length} payment lines from ${payers.length} public bodies</div></div></div>
-        <h2>Who paid</h2><div id="payers"></div>
+        <div class="tiles">
+          <div class="tile"><div class="label">Paid to Palantir, from published spend files</div><div class="value">${money(sum(P, (p) => p.amount))}</div><div class="foot">${P.length} payment lines from ${payers.length} public bodies, net of credit notes. A floor, not a total: see the gaps below.</div></div>
+          <div class="tile"><div class="label">Published contract awards, for comparison</div><div class="value">${money(total)}</div><div class="foot">award values, which are ceilings or estimates</div></div>
+        </div>
+        <div class="grid-2"><section><h2 style="margin-top:0">Who paid</h2><div id="payers"></div></section><section><h2 style="margin-top:0">By year paid</h2><div id="years"></div></section></div>
         <div class="filters"><label>Search<input type="search" id="q" placeholder="Payer, description…"></label>
         <label>Payer type<select id="type"><option value="">All</option>${uniq(P.map((p) => p.payer_type)).sort().map((t) => `<option>${esc(t)}</option>`).join("")}</select></label>
         <button class="btn" id="dl" type="button">Download these rows (CSV)</button></div>
         <p class="summary" id="summary"></p><div id="table"></div>
         ${D.notes["payments-notes"] ? `<h2>Notes</h2><div class="prose">${D.notes["payments-notes"]}</div>` : ""}`;
       hbars($("#payers"), payers.slice(0, 15));
-      const filtered = () => { const q = $("#q").value.toLowerCase(), t = $("#type").value; return P.filter((p) => (!t || p.payer_type === t) && (!q || [p.payer, p.description_as_published, p.notes].join(" ").toLowerCase().includes(q))); };
+      hbars($("#years"), uniq(P.map((p) => (p.period || "").slice(0, 4))).sort().map((yv) => { const xs = P.filter((p) => (p.period || "").startsWith(yv)); return { label: yv, value: sum(xs, (p) => p.amount), n: xs.length }; }));
+      const filtered = () => { const q = $("#q").value.toLowerCase(), t = $("#type").value; return ALL.filter((p) => (!t || p.payer_type === t) && (!q || [p.payer, p.description_as_published, p.notes].join(" ").toLowerCase().includes(q))); };
       const table = dataTable($("#table"), {
         rows: filtered, sort: { key: "period", dir: "desc" },
         cols: [
           { key: "period", label: "When", render: (r) => `<span class="num">${esc(fmtDate(r.period))}</span>` },
           { key: "payer", label: "Payer" },
           { key: "description_as_published", label: "Description as published" },
-          { key: "amount", label: "Amount", right: true, render: (r) => money(r.amount, { exact: true }) },
+          { key: "amount", label: "Amount", right: true, render: (r) => money(r.amount, { exact: true }) + (r.counted ? "" : `<div class="muted small">not counted in totals</div>`) },
           { key: "source_file_url", label: "Source", sortable: false, render: (r) => link(r.source_file_url || r.source_page_url, "File") },
         ],
+        detail: (r) => `<dl><dt>Supplier as published</dt><dd>${esc(r.supplier_name_as_published)}</dd><dt>Notes</dt><dd>${esc(r.notes)}</dd><dt>Source page</dt><dd>${link(r.source_page_url, r.source_page_url)}</dd></dl>`,
       });
-      const update = () => { const rows = filtered(); $("#summary").innerHTML = `<b>${rows.length}</b> lines · <b>${money(sum(rows, (r) => r.amount))}</b>`; table.render(); };
+      const update = () => { const rows = filtered(), c = rows.filter((r) => r.counted); $("#summary").innerHTML = `<b>${rows.length}</b> lines · <b>${money(sum(c, (r) => r.amount))}</b> counted${rows.length > c.length ? ` · ${rows.length - c.length} not counted (FOI aggregate or not a Palantir supplier line; click for why)` : ""}`; table.render(); };
       $("#content").addEventListener("input", update);
       $("#dl").addEventListener("click", () => downloadCsv("palantir-uk-payments.csv", filtered(), ["period", "payer", "payer_type", "amount_gbp", "supplier_name_as_published", "description_as_published", "source_file_url", "source_page_url", "notes"]));
       update();

@@ -752,7 +752,7 @@
     const people = (xs) => new Set(xs.map((m) => m.person)).size;
     const concurrent = M.filter((m) => m.direction === "concurrent");
     $("#tiles").innerHTML = `
-      <div class="tile"><div class="label">People who moved from senior public roles to Palantir</div><div class="value">${people(moved)}</div><div class="foot">from ACOBA letters, departmental business appointment records, Companies House and attributed press</div></div>
+      <div class="tile"><div class="label">People who moved from UK public roles to Palantir</div><div class="value">${people(moved)}</div><div class="foot">from ACOBA letters, departmental business appointment records, Companies House and attributed press</div></div>
       <div class="tile"><div class="label">From the Ministry of Defence</div><div class="value">${people(moved.filter((m) => /defence|\bMOD\b|armed forces|army/i.test(m.former_org + " " + (m.former_role || ""))))}</div><div class="foot">the department that has awarded Palantir the most</div></div>
       ${concurrent.length ? `<div class="tile"><div class="label">Held a Palantir role while in public office</div><div class="value">${people(concurrent)}</div><div class="foot">peers and an NHS trust chair, from registers of interests and press</div></div>` : ""}
       <div class="tile"><div class="label">Recorded breaches of the conditions</div><div class="value">0</div><div class="foot">no ACOBA or departmental release records one involving Palantir</div></div>`;

@@ -201,3 +201,8 @@ td.nw, th.nw, td .num { white-space: nowrap; }
 .payer-link { color: inherit; text-decoration: underline; text-decoration-color: var(--rule); text-underline-offset: 3px; }
 .payer-link:hover { text-decoration-color: currentColor; }
 .hit-text { color: var(--stamp); }
+@media (max-width: 640px) {
+  .hbar { grid-template-columns: minmax(70px, 1fr) 1fr minmax(6em, auto); }
+  .hbar > .num { white-space: normal; }
+  .market-card h2 .pill { white-space: normal; }
+}

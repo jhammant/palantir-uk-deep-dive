@@ -154,7 +154,7 @@ h1 {{ font-size:66px; font-weight:800; letter-spacing:-.025em; margin:14px 0 6px
 </style></head><body><div class="sheet">
 <div class="eyebrow">PALANTIR UK DEEP DIVE · THE PUBLIC RECORD</div>
 <div class="hero">“Buying our way in…!”</div>
-<div class="hero-who">Subject line of a 2021 internal email from Palantir's UK head about the NHS, reported by Bloomberg. Palantir called the language “regrettable”; he later called it “a thought experiment”. Here is what the public record shows.</div>
+<div class="hero-who">Louis Mosley, who runs Palantir in the UK, gave this subject line to a 2021 internal email about the NHS, reported by Bloomberg. Palantir called the language “regrettable”; he later called it “a thought experiment”. Here is what the public record shows.</div>
 <div class="grid">
   <div class="card"><div class="big">{money(f["total"])}</div><div class="what">awarded to Palantir in <b>{f["n"]} published contracts</b>, {f["y0"]}–{f["y1"]}</div></div>
   <div class="card hit"><div class="big">{f["direct_pct"]:.0f}%<span class="stamp">NO COMPETITION</span></div><div class="what">of that value, <b>{money(f["direct"])}</b>, was awarded directly with no competition</div></div>
@@ -171,9 +171,12 @@ h1 {{ font-size:66px; font-weight:800; letter-spacing:-.025em; margin:14px 0 6px
 
 
 def main():
+    import sys
     raw = BUNDLE.read_text()
     d = json.loads(raw[raw.index("{"): raw.rindex("}") + 1])
     f = figures(d)
+    if "--no-market" in sys.argv:  # until the market-share figures are reviewed
+        f["market"] = None
     OUT_HTML.write_text(render(f))
     from playwright.sync_api import sync_playwright
     with sync_playwright() as p:

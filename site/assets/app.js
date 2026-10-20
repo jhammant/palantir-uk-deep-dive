@@ -85,10 +85,15 @@
     };
   }
   // Round tick steps (1, 2, 2.5, 5 × 10^k) so the axis reads £0, £50m, £100m…
-  function niceMax(v, ticks = 4) {
+  function niceStep(v, ticks) {
     const raw = (v || 1) / ticks, p = Math.pow(10, Math.floor(Math.log10(raw)));
-    const step = [1, 2, 2.5, 5, 10].map((m) => m * p).find((s) => s >= raw);
-    return step * ticks;
+    return [1, 2, 2.5, 5, 10].map((m) => m * p).find((s) => s >= raw);
+  }
+  function niceMax(v, ticks = 4) { return niceStep(v, ticks) * ticks; }
+  // The tightest round axis using 4 to 6 gridlines.
+  function niceScale(v) {
+    return [4, 5, 6].map((n) => ({ step: niceStep(v, n), n })).map((o) => ({ ...o, max: o.step * Math.ceil((v || 1) / o.step) }))
+      .sort((a, b) => a.max - b.max || a.n - b.n)[0];
   }
   const tickLabel = (v) => (v < 0 ? "−" + tickLabel(-v) : v === 0 ? "£0" : v >= 1e6 ? `£${+(v / 1e6).toFixed(1)}m` : v >= 1e3 ? `£${+(v / 1e3).toFixed(1)}k` : `£${v}`);
   // Rounded top corners only: the data end, not the baseline.
@@ -102,13 +107,13 @@
     const W = 760, H = 300, m = { t: 22, r: 8, b: 26, l: 52 };
     const iw = W - m.l - m.r, ih = H - m.t - m.b;
     const totals = columns.map((c) => sum(c.parts, (p) => p.value));
-    const max = niceMax(Math.max(...totals, 1));
+    const scale = niceScale(Math.max(...totals, 1)), max = scale.max;
     const bw = Math.min(44, (iw / columns.length) * 0.62);
     const step = iw / columns.length;
     const y = (v) => m.t + ih - (v / max) * ih;
     let g = "";
-    for (let i = 0; i <= 4; i++) {
-      const v = (max / 4) * i, yy = y(v);
+    for (let v = 0; v <= max + 1e-6; v += scale.step) {
+      const yy = y(v), i = v;
       g += `<line class="${i ? "gridline" : "baseline"}" x1="${m.l}" x2="${W - m.r}" y1="${yy}" y2="${yy}"/>`;
       g += `<text class="tick" x="${m.l - 8}" y="${yy + 4}" text-anchor="end">${tickLabel(v)}</text>`;
     }
@@ -121,12 +126,13 @@
       parts.forEach((p, j) => {
         const y0 = y(acc), y1 = y(acc + p.value);
         const top = j === parts.length - 1;
-        const h = Math.max(1, y0 - y1 - (j ? 2 : 0)); // 2px surface gap between stacked fills
+        // 2px surface gap between stacked fills; a non-zero year always shows at least a 3px bar.
+        const h = Math.max(top && acc === 0 ? 3 : 1, y0 - y1 - (j ? 2 : 0));
         const d = top ? barPath(x, y1, bw, h, 4) : `M${x},${y1 + h}V${y1}H${x + bw}V${y1 + h}Z`;
         g += `<path class="seg" d="${d}" fill="${colourOf(p.series)}" data-col="${i}" data-part="${j}" tabindex="0" aria-label="${esc(`${c.label}, ${p.series}: ${money(p.value)}`)}"/>`;
         acc += p.value;
       });
-      if (totals[i] >= labelOver && totals[i] > 0) g += `<text class="total-label" x="${x + bw / 2}" y="${y(totals[i]) - 6}" text-anchor="middle">${money(totals[i])}</text>`;
+      if (totals[i] >= labelOver && totals[i] > 0) g += `<text class="total-label" x="${x + bw / 2}" y="${Math.min(y(totals[i]), m.t + ih - 3) - 6}" text-anchor="middle">${money(totals[i])}</text>`;
       g += `<text class="tick" x="${x + bw / 2}" y="${H - 6}" text-anchor="middle">${esc(c.label)}</text>`;
     });
     const legend = series.map((s) => `<span><span class="sw" style="background:${colourOf(s)}"></span>${esc(s)}</span>`).join("");
@@ -366,9 +372,13 @@
         <div class="tile"><div class="label">Palantir UK sales in the UK, ${esc((latestTax?.year_end || "").slice(0, 4))}</div><div class="value">${money(latestTax?.uk_turnover_gbp)}</div><div class="foot">from its filed accounts</div></div>
         <div class="tile"><div class="label">UK corporation tax, ${esc((latestTax?.year_end || "").slice(0, 4))}</div><div class="value hit">${money(latestTax?.uk_corporation_tax_current_gbp)}</div><div class="foot">on ${money(latestTax?.profit_before_tax_gbp)} profit before tax</div></div>`;
       stackedBars($("#by-year"), yearColumns(C), {
-        series: D.sectors.filter((s) => C.some((c) => c.sector === s)), labelOver: 20e6,
+        series: D.sectors.filter((s) => C.some((c) => c.sector === s)), labelOver: 1,
         onClick: (c, p) => (location.href = `contracts.html#year=${c.key}` + (p ? `&sector=${encodeURIComponent(p.series)}` : "")),
       });
+      const cols = yearColumns(C), maxY = Math.max(...cols.map((c) => sum(c.parts, (p) => p.value)));
+      const quiet = cols.filter((c) => { const t = sum(c.parts, (p) => p.value); return t < maxY * 0.02; });
+      const paidIn = (yv) => sum(D.payments.filter((p) => p.counted && (p.period || "").startsWith(yv)), (p) => p.amount);
+      $("#quiet").innerHTML = quiet.length ? `Small years are small, not empty: ${quiet.map((c) => { const n = sum(c.parts, (p) => p.n), t = sum(c.parts, (p) => p.value), pd = paidIn(c.key); return `<b>${esc(c.key)}</b> ${n ? `${n} award${n === 1 ? "" : "s"}, ${money(t)}` : "no awards"}${pd ? ` (but ${money(pd)} paid under earlier contracts)` : ""}`; }).join("; ")}. Big contracts are signed in a few years and paid out over many; see <a href="payments.html">Payments</a>.` : "";
       hbars($("#by-sector"), bySector(C), { colour: (i) => colourOf(i.label), hrefOf: (i) => `contracts.html#sector=${encodeURIComponent(i.label)}` });
       const neso = C.find((c) => /NESO/i.test(c.title) && c.procedure_rationale);
       if (neso) $("#evidence").innerHTML = `<div class="evidence"><blockquote>“…underpinned by proprietary architecture licensed exclusively by Palantir… Transitioning to an alternative supplier is not possible without significant cost, resource commitment and delivery risk…”</blockquote><div class="who">National Energy System Operator, explaining why it gave Palantir ${money(neso.value)} with no competition (${fmtDate(neso.awarded)}). ${link(neso.url, "Read the notice")}</div></div>`;

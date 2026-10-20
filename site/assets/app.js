@@ -516,10 +516,38 @@
           <div class="tile"><div class="label">UK corporation tax</div><div class="value hit">${money(l.uk_corporation_tax_current_gbp)}</div><div class="foot">total tax charge ${money(l.tax_charge_total_gbp)}</div></div>
           <div class="tile"><div class="label">At the ${l.standard_rate ? Math.round(l.standard_rate * 100) : 25}% headline rate</div><div class="value">${money(l.tax_at_standard_rate_gbp)}</div><div class="foot">from the accounts' own reconciliation</div></div>
         </div>
+        <h2>Net tax rate</h2>
+        <p class="muted small">Total tax charged, net of credits, divided by total profit before tax over each period. The accounts show tax <em>charged</em>, not cash paid (the company is exempt from publishing a cash-flow statement). "UK corporation tax" is the current-tax line for UK profits; the total also includes deferred tax, foreign tax and adjustments.</p>
+        <div id="periods"></div>
         <h2>Tax at the headline rate vs the tax actually charged</h2>
         <div id="tax-chart" class="card"></div>
         <h2>Year by year</h2><div id="table"></div>
         ${D.notes["tax-notes"] ? `<h2>What the accounts say</h2><div class="prose">${D.notes["tax-notes"]}</div>` : ""}`;
+      const yrs = T.map((t) => t.year_end.slice(0, 4));
+      const span = (a0, b0, label, note) => {
+        const xs = T.filter((t) => t.year_end.slice(0, 4) >= a0 && t.year_end.slice(0, 4) <= b0);
+        const p = sum(xs, (t) => t.profit_before_tax_gbp), tx = sum(xs, (t) => t.tax_charge_total_gbp);
+        const ct = sum(xs, (t) => t.uk_corporation_tax_current_gbp), std = sum(xs, (t) => t.tax_at_standard_rate_gbp);
+        return { _id: label, order: 0, label, note, profit: p, tax: tx, rate: p > 0 ? (tx / p) * 100 : null, ct, ctRate: p > 0 ? (ct / p) * 100 : null, std, sales: sum(xs, (t) => t.uk_turnover_gbp) };
+      };
+      const last = yrs[yrs.length - 1];
+      const periods = [
+        span(yrs[0], last, `All years, ${yrs[0]}–${last}`, "Includes a one-off £23.0m charge in 2021, when the company wrote off its whole deferred tax asset, and a £14.2m credit in 2020 when it was built up."),
+        span("2020", last, `2020–${last}`, "The Covid data store onwards. The UK corporation tax lines net to a credit over this period."),
+        span("2022", last, `2022–${last}, as UK public contracts scaled up`, "UK turnover grew from £87.0m to £236.4m a year; headline rates were 19% to 25%."),
+        span(last, last, `${last} only`, ""),
+      ].map((r, i) => ({ ...r, order: i }));
+      dataTable($("#periods"), {
+        rows: () => periods, sort: { key: "order", dir: "asc" },
+        cols: [
+          { key: "order", label: "Period", sortable: false, render: (r) => `<b>${esc(r.label)}</b>${r.note ? `<div class="muted small">${esc(r.note)}</div>` : ""}` },
+          { key: "profit", label: "Profit before tax", right: true, sortable: false, render: (r) => money(r.profit) },
+          { key: "tax", label: "Net tax charged", right: true, sortable: false, render: (r) => money(r.tax) },
+          { key: "rate", label: "Net tax rate", right: true, sortable: false, render: (r) => `<b class="${r.rate != null && r.rate < 15 ? "hit-text" : ""}">${r.rate == null ? "–" : r.rate.toFixed(1) + "%"}</b>` },
+          { key: "ct", label: "UK corporation tax", right: true, sortable: false, render: (r) => `${money(r.ct)}${r.ctRate != null ? ` <span class="muted">(${r.ctRate.toFixed(1).replace("-", "−")}%)</span>` : ""}` },
+          { key: "std", label: "At headline rates", right: true, sortable: false, render: (r) => money(r.std) },
+        ],
+      });
       groupedBars($("#tax-chart"), T.map((t) => ({ label: t.year_end.slice(0, 4), values: [
         { series: "Tax at the headline rate", value: t.tax_at_standard_rate_gbp }, { series: "Tax actually charged", value: t.tax_charge_total_gbp }] })),
       ["Tax at the headline rate", "Tax actually charged"], ["var(--s1)", "var(--s2)"]);

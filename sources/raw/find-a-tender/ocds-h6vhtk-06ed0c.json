@@ -1,0 +1,3970 @@
+{
+ "uri": "https://www.find-tender.service.gov.uk/api/1.0/ocdsRecordPackages/ocds-h6vhtk-06ed0c",
+ "publisher": {
+  "name": "Cabinet Office",
+  "scheme": "GB-GOR",
+  "uid": "D2",
+  "uri": "https://www.gov.uk/government/organisations/cabinet-office"
+ },
+ "publishedDate": "2026-10-06T17:12:36+01:00",
+ "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+ "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+ "version": "1.1",
+ "extensions": [
+  "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+  "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+  "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+  "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+  "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+  "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+  "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+  "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+  "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json"
+ ],
+ "packages": [
+  "https://www.find-tender.service.gov.uk/api/1.0/ocdsRecordPackages/ocds-h6vhtk-06ed0c"
+ ],
+ "records": [
+  {
+   "ocid": "ocds-h6vhtk-06ed0c",
+   "releases": [
+    {
+     "ocid": "ocds-h6vhtk-06ed0c",
+     "buyerID": [],
+     "id": "081532-2026",
+     "tag": [
+      "award",
+      "contract"
+     ],
+     "date": "2026-08-26T18:04:45+01:00",
+     "initiationType": "tender",
+     "parties": [
+      {
+       "name": "NATIONAL ENERGY SYSTEM OPERATOR LIMITED",
+       "id": "GB-COH-11014226",
+       "identifier": {
+        "scheme": "GB-COH",
+        "id": "11014226"
+       },
+       "additionalIdentifiers": [
+        {
+         "scheme": "GB-PPON",
+         "id": "PHQL-5234-MWWV"
+        }
+       ],
+       "address": {
+        "streetAddress": "St Catherine's Lodge Bearwood Road",
+        "locality": "Wokingham",
+        "postalCode": "RG41 5BN",
+        "country": "GB",
+        "countryName": "United Kingdom",
+        "region": "UKJ11"
+       },
+       "contactPoint": {
+        "email": "nesoprocurement@neso.energy"
+       },
+       "roles": [
+        "buyer"
+       ],
+       "details": {
+        "url": "https://www.neso.energy/",
+        "classifications": [
+         {
+          "scheme": "UK_CA_TYPE",
+          "id": "publicUndertaking",
+          "description": "Public undertaking"
+         }
+        ]
+       }
+      },
+      {
+       "name": "PALANTIR TECHNOLOGIES UK, LTD.",
+       "id": "GB-COH-07042994",
+       "identifier": {
+        "scheme": "GB-COH",
+        "id": "07042994"
+       },
+       "additionalIdentifiers": [
+        {
+         "scheme": "GB-PPON",
+         "id": "PCNQ-5186-DMPX"
+        }
+       ],
+       "address": {
+        "streetAddress": "Birchin Court 5th Floor, 19-25 Birchin Lane",
+        "locality": "London",
+        "postalCode": "EC3V 9DU",
+        "country": "GB",
+        "countryName": "United Kingdom",
+        "region": "UKI31"
+       },
+       "contactPoint": {
+        "email": "ig-mi-accounts@palantir.com"
+       },
+       "roles": [
+        "supplier"
+       ],
+       "details": {
+        "url": "https://www.palantir.com/uk/",
+        "scale": "large",
+        "vcse": false
+       }
+      }
+     ],
+     "buyer": {
+      "id": "GB-COH-11014226",
+      "name": "NATIONAL ENERGY SYSTEM OPERATOR LIMITED"
+     },
+     "tender": {
+      "id": "ocds-h6vhtk-06ed0c",
+      "legalBasis": {
+       "id": "2023/54",
+       "scheme": "UKPGA",
+       "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+      },
+      "title": "NESO Interim Capability",
+      "description": "National Energy System Operation (NESO) intends to award an Interim Capability agreement to Palantir Technologies UK Limited (Palantir) for continued licencing and support for Connections and Skip Rate related activities",
+      "status": "complete",
+      "procurementMethod": "direct",
+      "procurementMethodDetails": "Direct award",
+      "procurementMethodRationale": "It is considered that the contract can be awarded directly in accordance Section 41 of the Procurement Act 2023 paragraph 6 (absence of competition for technical reasons) of Schedule 5.\nNESO currently runs two critical business processes - Connections and Skip Rates using the Palantir Foundry platform which is underpinned by proprietary architecture licensed exclusively by Palantir, Palantir possesses the specialist knowledge, technical expertise and the system knowledge required to maintain and support the solution effectively.  Transitioning to an alternative supplier is not possible without significant cost, resource commitment and delivery risk to meet regulatory obligations.  It would require the replacement of or significant redevelopment of the current data analytics environment, including migration of data, security accreditation of the replacement solution to the required standards, and training of NESO personnel. \nA contract will be put in place to enable continuity of the existing critical platform services whilst a competitive procurement is undertaken. A Pre Market Engagement notice for the strategic modelling capability has been published.\nDisruption to the platform or associated services would impact the operational continuity of NESO's customer facing services and NESO's ability to fulfil regulatory requirements",
+      "specialRegime": [
+       "utilities"
+      ],
+      "lots": [
+       {
+        "id": "1",
+        "status": "complete",
+        "description": null
+       }
+      ],
+      "documents": [
+       {
+        "id": "conflictOfInterest",
+        "documentType": "conflictOfInterest",
+        "description": "Not published"
+       }
+      ],
+      "riskDetails": "The future procurement requires the implementation of a new enterprise technology solution to support and enable modelling, analytical transparency, decision support and AI-enabled innovation. This will include the migration of NESOs information to the new supplier platform. Due to the complexity of legacy data structures and potential security, data quality, or regulatory compliance issues, the data modelling process may encounter unforeseen challenges. Should these risks materialise and impact data integrity, security, regulatory compliance and/or the successful transition of services, the contract may be modified including to extend the transition timeline",
+      "procurementMethodRationaleClassifications": [
+       {
+        "id": "singleSuppliersTechnicalReasons"
+       }
+      ]
+     },
+     "awards": [
+      {
+       "id": "1",
+       "title": "NESO Interim Modelling Capability",
+       "status": "pending",
+       "value": {
+        "amountGross": 21240324,
+        "amount": 17700270,
+        "currency": "GBP"
+       },
+       "mainProcurementCategory": "services",
+       "aboveThreshold": true,
+       "suppliers": [
+        {
+         "id": "GB-COH-07042994",
+         "name": "PALANTIR TECHNOLOGIES UK, LTD."
+        }
+       ],
+       "items": [
+        {
+         "id": "1",
+         "additionalClassifications": [
+          {
+           "scheme": "CPV",
+           "id": "48000000",
+           "description": "Software package and information systems"
+          },
+          {
+           "scheme": "CPV",
+           "id": "72260000",
+           "description": "Software-related services"
+          },
+          {
+           "scheme": "CPV",
+           "id": "72300000",
+           "description": "Data services"
+          }
+         ],
+         "deliveryAddresses": [
+          {
+           "region": "UKC",
+           "country": "GB",
+           "countryName": "United Kingdom"
+          },
+          {
+           "region": "UKD",
+           "country": "GB",
+           "countryName": "United Kingdom"
+          },
+          {
+           "region": "UKE",
+           "country": "GB",
+           "countryName": "United Kingdom"
+          },
+          {
+           "region": "UKF",
+           "country": "GB",
+           "countryName": "United Kingdom"
+          },
+          {
+           "region": "UKG",
+           "country": "GB",
+           "countryName": "United Kingdom"
+          },
+          {
+           "region": "UKH",
+           "country": "GB",
+           "countryName": "United Kingdom"
+          },
+          {
+           "region": "UKI",
+           "country": "GB",
+           "countryName": "United Kingdom"
+          },
+          {
+           "region": "UKJ",
+           "country": "GB",
+           "countryName": "United Kingdom"
+          },
+          {
+           "region": "UKK",
+           "country": "GB",
+           "countryName": "United Kingdom"
+          },
+          {
+           "region": "UKL",
+           "country": "GB",
+           "countryName": "United Kingdom"
+          },
+          {
+           "region": "UKM",
+           "country": "GB",
+           "countryName": "United Kingdom"
+          }
+         ],
+         "relatedLot": "1"
+        }
+       ],
+       "contractPeriod": {
+        "startDate": "2026-09-08T00:00:00+01:00",
+        "endDate": "2027-07-31T23:59:59+01:00",
+        "maxExtentDate": "2028-07-31T23:59:59+01:00"
+       },
+       "hasRenewal": true,
+       "renewal": {
+        "description": "Possible extensions in 6 month increments will be\nused if required to enable business continuity and\ntransition out of the services (all or in part) if\nrequired."
+       },
+       "relatedLots": [
+        "1"
+       ],
+       "documents": [
+        {
+         "id": "081532-2026",
+         "documentType": "awardNotice",
+         "noticeType": "UK5",
+         "description": "Transparency notice on Find a Tender",
+         "url": "https://www.find-tender.service.gov.uk/Notice/081532-2026",
+         "datePublished": "2026-08-26T18:04:45+01:00",
+         "format": "text/html"
+        }
+       ],
+       "milestones": [
+        {
+         "id": "1",
+         "type": "futureSignatureDate",
+         "dueDate": "2026-09-08T23:59:59+01:00",
+         "status": "scheduled"
+        }
+       ]
+      }
+     ],
+     "language": "en",
+     "extensions": [
+      "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_performance_failures_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+      "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+      "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json"
+     ]
+    },
+    {
+     "buyerID": [],
+     "id": "081534-2026",
+     "tag": [
+      "award",
+      "contract"
+     ],
+     "date": "2026-08-26T18:18:38+01:00",
+     "initiationType": "tender",
+     "ocid": "ocds-h6vhtk-06ed0c",
+     "parties": [
+      {
+       "name": "NATIONAL ENERGY SYSTEM OPERATOR LIMITED",
+       "id": "GB-COH-11014226",
+       "identifier": {
+        "scheme": "GB-COH",
+        "id": "11014226"
+       },
+       "additionalIdentifiers": [
+        {
+         "scheme": "GB-PPON",
+         "id": "PHQL-5234-MWWV"
+        }
+       ],
+       "address": {
+        "streetAddress": "St Catherine's Lodge Bearwood Road",
+        "locality": "Wokingham",
+        "postalCode": "RG41 5BN",
+        "country": "GB",
+        "countryName": "United Kingdom",
+        "region": "UKJ11"
+       },
+       "contactPoint": {
+        "email": "nesoprocurement@neso.energy"
+       },
+       "roles": [
+        "buyer"
+       ],
+       "details": {
+        "url": "https://www.neso.energy/",
+        "classifications": [
+         {
+          "scheme": "UK_CA_TYPE",
+          "id": "publicUndertaking",
+          "description": "Public undertaking"
+         }
+        ]
+       }
+      },
+      {
+       "name": "PALANTIR TECHNOLOGIES UK, LTD.",
+       "id": "GB-COH-07042994",
+       "identifier": {
+        "scheme": "GB-COH",
+        "id": "07042994"
+       },
+       "additionalIdentifiers": [
+        {
+         "scheme": "GB-PPON",
+         "id": "PCNQ-5186-DMPX"
+        }
+       ],
+       "address": {
+        "streetAddress": "Birchin Court 5th Floor, 19-25 Birchin Lane",
+        "locality": "London",
+        "postalCode": "EC3V 9DU",
+        "country": "GB",
+        "countryName": "United Kingdom",
+        "region": "UKI31"
+       },
+       "contactPoint": {
+        "email": "ig-mi-accounts@palantir.com"
+       },
+       "roles": [
+        "supplier"
+       ],
+       "details": {
+        "url": "https://www.palantir.com/uk/",
+        "scale": "large",
+        "vcse": false,
+        "publicServiceMissionOrganization": false,
+        "shelteredWorkshop": false
+       }
+      }
+     ],
+     "buyer": {
+      "id": "GB-COH-11014226",
+      "name": "NATIONAL ENERGY SYSTEM OPERATOR LIMITED"
+     },
+     "tender": {
+      "id": "ocds-h6vhtk-06ed0c",
+      "legalBasis": {
+       "id": "2023/54",
+       "scheme": "UKPGA",
+       "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+      },
+      "title": "NESO Interim Capability",
+      "description": "National Energy System Operation (NESO) intends\nto award an Interim Capability agreement to\nPalantir Technologies UK Limited (Palantir) for\ncontinued licencing and support for Connections\nand Skip Rate related activities",
+      "status": "complete",
+      "procurementMethod": "direct",
+      "procurementMethodDetails": "Direct award",
+      "specialRegime": [
+       "utilities"
+      ],
+      "lots": [
+       {
+        "id": "1",
+        "status": "complete",
+        "description": null
+       }
+      ]
+     },
+     "awards": [
+      {
+       "id": "1",
+       "title": "NESO Interim Capability",
+       "status": "pending",
+       "date": "2026-08-25T00:00:00+01:00",
+       "value": {
+        "amountGross": 21240324,
+        "amount": 17700270,
+        "currency": "GBP"
+       },
+       "mainProcurementCategory": "services",
+       "aboveThreshold": true,
+       "suppliers": [
+        {
+         "id": "GB-COH-07042994",
+         "name": "PALANTIR TECHNOLOGIES UK, LTD."
+        }
+       ],
+       "items": [
+        {
+         "id": "1",
+         "additionalClassifications": [
+          {
+           "scheme": "CPV",
+           "id": "48000000",
+           "description": "Software package and information systems"
+          },
+          {
+           "scheme": "CPV",
+           "id": "72260000",
+           "description": "Software-related services"
+          },
+          {
+           "scheme": "CPV",
+           "id": "72300000",
+           "description": "Data services"
+          }
+         ],
+         "deliveryAddresses": [
+          {
+           "region": "UKC",
+           "country": "GB",
+           "countryName": "United Kingdom"
+          },
+          {
+           "region": "UKD",
+           "country": "GB",
+           "countryName": "United Kingdom"
+          },
+          {
+           "region": "UKE",
+           "country": "GB",
+           "countryName": "United Kingdom"
+          },
+          {
+           "region": "UKF",
+           "country": "GB",
+           "countryName": "United Kingdom"
+          },
+          {
+           "region": "UKG",
+           "country": "GB",
+           "countryName": "United Kingdom"
+          },
+          {
+           "region": "UKH",
+           "country": "GB",
+           "countryName": "United Kingdom"
+          },
+          {
+           "region": "UKI",
+           "country": "GB",
+           "countryName": "United Kingdom"
+          },
+          {
+           "region": "UKJ",
+           "country": "GB",
+           "countryName": "United Kingdom"
+          },
+          {
+           "region": "UKK",
+           "country": "GB",
+           "countryName": "United Kingdom"
+          },
+          {
+           "region": "UKL",
+           "country": "GB",
+           "countryName": "United Kingdom"
+          },
+          {
+           "region": "UKM",
+           "country": "GB",
+           "countryName": "United Kingdom"
+          }
+         ],
+         "relatedLot": "1"
+        }
+       ],
+       "standstillPeriod": {
+        "endDate": "2026-09-07T23:59:59+01:00"
+       },
+       "contractPeriod": {
+        "startDate": "2026-09-08T00:00:00+01:00",
+        "endDate": "2027-07-31T23:59:59+01:00",
+        "maxExtentDate": "2028-07-31T23:59:59+01:00"
+       },
+       "hasRenewal": true,
+       "renewal": {
+        "description": "Possible extensions in 6 month increments will be\nused if required to enable business continuity and\ntransition out of the services (all or in part) if\nrequired."
+       },
+       "relatedLots": [
+        "1"
+       ],
+       "documents": [
+        {
+         "id": "081534-2026",
+         "documentType": "awardNotice",
+         "noticeType": "UK6",
+         "description": "Contract award notice on Find a Tender",
+         "url": "https://www.find-tender.service.gov.uk/Notice/081534-2026",
+         "datePublished": "2026-08-26T18:18:38+01:00",
+         "format": "text/html"
+        }
+       ],
+       "milestones": [
+        {
+         "id": "1",
+         "type": "futureSignatureDate",
+         "dueDate": "2026-09-08T23:59:59+01:00",
+         "status": "scheduled"
+        }
+       ]
+      }
+     ],
+     "language": "en",
+     "extensions": [
+      "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_performance_failures_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+      "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+      "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json"
+     ]
+    },
+    {
+     "buyerID": [],
+     "id": "094458-2026",
+     "tag": [
+      "award",
+      "contract"
+     ],
+     "date": "2026-10-06T17:12:36+01:00",
+     "initiationType": "tender",
+     "ocid": "ocds-h6vhtk-06ed0c",
+     "parties": [
+      {
+       "name": "NATIONAL ENERGY SYSTEM OPERATOR LIMITED",
+       "id": "GB-COH-11014226",
+       "identifier": {
+        "scheme": "GB-COH",
+        "id": "11014226"
+       },
+       "additionalIdentifiers": [
+        {
+         "scheme": "GB-PPON",
+         "id": "PHQL-5234-MWWV"
+        }
+       ],
+       "address": {
+        "streetAddress": "St Catherine's Lodge Bearwood Road",
+        "locality": "Wokingham",
+        "postalCode": "RG41 5BN",
+        "country": "GB",
+        "countryName": "United Kingdom",
+        "region": "UKJ11"
+       },
+       "contactPoint": {
+        "email": "nesoprocurement@neso.energy"
+       },
+       "roles": [
+        "buyer"
+       ],
+       "details": {
+        "url": "https://www.neso.energy/",
+        "classifications": [
+         {
+          "scheme": "UK_CA_TYPE",
+          "id": "publicUndertaking",
+          "description": "Public undertaking"
+         }
+        ]
+       }
+      },
+      {
+       "name": "PALANTIR TECHNOLOGIES UK, LTD.",
+       "id": "GB-COH-07042994",
+       "identifier": {
+        "scheme": "GB-COH",
+        "id": "07042994"
+       },
+       "additionalIdentifiers": [
+        {
+         "scheme": "GB-PPON",
+         "id": "PCNQ-5186-DMPX"
+        }
+       ],
+       "address": {
+        "streetAddress": "Birchin Court 5th Floor, 19-25 Birchin Lane",
+        "locality": "London",
+        "postalCode": "EC3V 9DU",
+        "country": "GB",
+        "countryName": "United Kingdom",
+        "region": "UKI31"
+       },
+       "contactPoint": {
+        "email": "ig-mi-accounts@palantir.com"
+       },
+       "roles": [
+        "supplier"
+       ],
+       "details": {
+        "url": "https://www.palantir.com/uk/",
+        "scale": "large",
+        "vcse": false,
+        "publicServiceMissionOrganization": false,
+        "shelteredWorkshop": false
+       }
+      }
+     ],
+     "buyer": {
+      "id": "GB-COH-11014226",
+      "name": "NATIONAL ENERGY SYSTEM OPERATOR LIMITED"
+     },
+     "tender": {
+      "id": "ocds-h6vhtk-06ed0c",
+      "legalBasis": {
+       "id": "2023/54",
+       "scheme": "UKPGA",
+       "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+      },
+      "title": "NESO Interim Capability",
+      "description": "National Energy System Operation (NESO), has awarded an interim capability agreement to Palantir Technologies UK Limited (Palantir) for continued licencing and support for Connections and Skip Rate related activities.\nA redacted copy of the signed contract will be made available within 90 days of signature.",
+      "status": "complete",
+      "procurementMethod": "direct",
+      "procurementMethodDetails": "Direct award",
+      "procurementMethodRationale": "It was considered that the contract can be awarded directly in accordance Section 41 of the Procurement Act 2023 paragraph 6 (absence of competition for technical reasons) of  Schedule 5.\nNESO currently runs two critical business processes - Connections and Skip Rates using the Palantir Foundry platform which is underpinned by proprietary architecture licensed exclusively by Palantir, Palantir possesses the specialist knowledge, technical expertise and the system knowledge required to maintain and support the solution effectively.  Transitioning to an alternative supplier is not possible without significant cost, resource commitment and delivery risk to meet regulatory obligations. It would require the replacement of or significant redevelopment of the current data analytics environment, including migration of data, security accreditation of the replacement solution to the required standards, and training of NESO personnel.\nThis contract has been put in place to enable continuity of the existing critical platform services whilst a competitive  procurement is undertaken. A Pre-Market Engagement notice for the strategic modelling capability has been published.\nDisruption to the platform or associated services would impact the operational continuity of NESO's customer facing services and NESO's ability to fulfil regulatory requirements.",
+      "specialRegime": [
+       "utilities"
+      ],
+      "lots": [
+       {
+        "id": "1",
+        "status": "complete",
+        "description": null
+       }
+      ],
+      "documents": [
+       {
+        "id": "conflictOfInterest",
+        "documentType": "conflictOfInterest",
+        "description": "Not published"
+       }
+      ],
+      "procurementMethodRationaleClassifications": [
+       {
+        "id": "singleSuppliersTechnicalReasons"
+       }
+      ]
+     },
+     "awards": [
+      {
+       "id": "1",
+       "status": "active",
+       "mainProcurementCategory": "services",
+       "suppliers": [
+        {
+         "id": "GB-COH-07042994",
+         "name": "PALANTIR TECHNOLOGIES UK, LTD."
+        }
+       ],
+       "items": [
+        {
+         "id": "1",
+         "additionalClassifications": [
+          {
+           "scheme": "CPV",
+           "id": "48000000",
+           "description": "Software package and information systems"
+          },
+          {
+           "scheme": "CPV",
+           "id": "72260000",
+           "description": "Software-related services"
+          },
+          {
+           "scheme": "CPV",
+           "id": "72300000",
+           "description": "Data services"
+          }
+         ],
+         "deliveryAddresses": [
+          {
+           "region": "UKC",
+           "country": "GB",
+           "countryName": "United Kingdom"
+          },
+          {
+           "region": "UKD",
+           "country": "GB",
+           "countryName": "United Kingdom"
+          },
+          {
+           "region": "UKE",
+           "country": "GB",
+           "countryName": "United Kingdom"
+          },
+          {
+           "region": "UKF",
+           "country": "GB",
+           "countryName": "United Kingdom"
+          },
+          {
+           "region": "UKG",
+           "country": "GB",
+           "countryName": "United Kingdom"
+          },
+          {
+           "region": "UKH",
+           "country": "GB",
+           "countryName": "United Kingdom"
+          },
+          {
+           "region": "UKI",
+           "country": "GB",
+           "countryName": "United Kingdom"
+          },
+          {
+           "region": "UKJ",
+           "country": "GB",
+           "countryName": "United Kingdom"
+          },
+          {
+           "region": "UKK",
+           "country": "GB",
+           "countryName": "United Kingdom"
+          },
+          {
+           "region": "UKL",
+           "country": "GB",
+           "countryName": "United Kingdom"
+          },
+          {
+           "region": "UKM",
+           "country": "GB",
+           "countryName": "United Kingdom"
+          }
+         ],
+         "relatedLot": "1"
+        }
+       ],
+       "relatedLots": [
+        "1"
+       ]
+      }
+     ],
+     "contracts": [
+      {
+       "id": "1",
+       "awardID": "1",
+       "status": "active",
+       "period": {
+        "startDate": "2026-09-08T00:00:00+01:00",
+        "endDate": "2027-07-31T23:59:59+01:00",
+        "maxExtentDate": "2028-07-31T23:59:59+01:00"
+       },
+       "hasRenewal": true,
+       "renewal": {
+        "description": "Possible extensions in 6 month increments will be used if required to enable business continuity and transition out of the services (all or in part) if required."
+       },
+       "value": {
+        "amountGross": 20129619,
+        "amount": 16799683,
+        "currency": "GBP"
+       },
+       "aboveThreshold": true,
+       "dateSigned": "2026-09-08T00:00:00+01:00",
+       "agreedMetrics": [
+        {
+         "id": "1",
+         "title": "Availability - Performance Commitment"
+        },
+        {
+         "id": "2",
+         "title": "Migration Readiness - Migration readiness as per tracked capability"
+        },
+        {
+         "id": "3",
+         "title": "Exit -Export Completeness"
+        },
+        {
+         "id": "4",
+         "title": "Exit -Documentation"
+        },
+        {
+         "id": "5",
+         "title": "Exit -Knowledge Transfer"
+        },
+        {
+         "id": "6",
+         "title": "Exit - Critical Defects"
+        },
+        {
+         "id": "7",
+         "title": "Exit - Security Closure"
+        },
+        {
+         "id": "8",
+         "title": "Exit - Residual Data"
+        },
+        {
+         "id": "9",
+         "title": "Exit - Timetable"
+        }
+       ],
+       "statusDetails": null,
+       "documents": [
+        {
+         "id": "094458-2026",
+         "documentType": "contractNotice",
+         "noticeType": "UK7",
+         "description": "Contract details notice on Find a Tender",
+         "url": "https://www.find-tender.service.gov.uk/Notice/094458-2026",
+         "datePublished": "2026-10-06T17:12:36+01:00",
+         "format": "text/html"
+        }
+       ]
+      }
+     ],
+     "language": "en",
+     "extensions": [
+      "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_performance_failures_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+      "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+      "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json"
+     ]
+    }
+   ],
+   "compiledRelease": {
+    "tag": [
+     "compiled"
+    ],
+    "id": "ocds-h6vhtk-06ed0c-2026-10-06T17:12:36+01:00",
+    "date": "2026-10-06T17:12:36+01:00",
+    "ocid": "ocds-h6vhtk-06ed0c",
+    "initiationType": "tender",
+    "parties": [
+     {
+      "id": "GB-COH-11014226",
+      "name": "NATIONAL ENERGY SYSTEM OPERATOR LIMITED",
+      "identifier": {
+       "scheme": "GB-COH",
+       "id": "11014226"
+      },
+      "additionalIdentifiers": [
+       {
+        "scheme": "GB-PPON",
+        "id": "PHQL-5234-MWWV"
+       }
+      ],
+      "address": {
+       "streetAddress": "St Catherine's Lodge Bearwood Road",
+       "locality": "Wokingham",
+       "postalCode": "RG41 5BN",
+       "country": "GB",
+       "countryName": "United Kingdom",
+       "region": "UKJ11"
+      },
+      "contactPoint": {
+       "email": "nesoprocurement@neso.energy"
+      },
+      "roles": [
+       "buyer"
+      ],
+      "details": {
+       "url": "https://www.neso.energy/",
+       "classifications": [
+        {
+         "scheme": "UK_CA_TYPE",
+         "id": "publicUndertaking",
+         "description": "Public undertaking"
+        }
+       ]
+      }
+     },
+     {
+      "id": "GB-COH-07042994",
+      "name": "PALANTIR TECHNOLOGIES UK, LTD.",
+      "identifier": {
+       "scheme": "GB-COH",
+       "id": "07042994"
+      },
+      "additionalIdentifiers": [
+       {
+        "scheme": "GB-PPON",
+        "id": "PCNQ-5186-DMPX"
+       }
+      ],
+      "address": {
+       "streetAddress": "Birchin Court 5th Floor, 19-25 Birchin Lane",
+       "locality": "London",
+       "postalCode": "EC3V 9DU",
+       "country": "GB",
+       "countryName": "United Kingdom",
+       "region": "UKI31"
+      },
+      "contactPoint": {
+       "email": "ig-mi-accounts@palantir.com"
+      },
+      "roles": [
+       "supplier"
+      ],
+      "details": {
+       "url": "https://www.palantir.com/uk/",
+       "scale": "large",
+       "vcse": false,
+       "publicServiceMissionOrganization": false,
+       "shelteredWorkshop": false
+      }
+     }
+    ],
+    "buyer": {
+     "id": "GB-COH-11014226",
+     "name": "NATIONAL ENERGY SYSTEM OPERATOR LIMITED"
+    },
+    "tender": {
+     "id": "ocds-h6vhtk-06ed0c",
+     "legalBasis": {
+      "id": "2023/54",
+      "scheme": "UKPGA",
+      "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+     },
+     "title": "NESO Interim Capability",
+     "description": "National Energy System Operation (NESO), has awarded an interim capability agreement to Palantir Technologies UK Limited (Palantir) for continued licencing and support for Connections and Skip Rate related activities.\nA redacted copy of the signed contract will be made available within 90 days of signature.",
+     "status": "complete",
+     "procurementMethod": "direct",
+     "procurementMethodDetails": "Direct award",
+     "procurementMethodRationale": "It was considered that the contract can be awarded directly in accordance Section 41 of the Procurement Act 2023 paragraph 6 (absence of competition for technical reasons) of  Schedule 5.\nNESO currently runs two critical business processes - Connections and Skip Rates using the Palantir Foundry platform which is underpinned by proprietary architecture licensed exclusively by Palantir, Palantir possesses the specialist knowledge, technical expertise and the system knowledge required to maintain and support the solution effectively.  Transitioning to an alternative supplier is not possible without significant cost, resource commitment and delivery risk to meet regulatory obligations. It would require the replacement of or significant redevelopment of the current data analytics environment, including migration of data, security accreditation of the replacement solution to the required standards, and training of NESO personnel.\nThis contract has been put in place to enable continuity of the existing critical platform services whilst a competitive  procurement is undertaken. A Pre-Market Engagement notice for the strategic modelling capability has been published.\nDisruption to the platform or associated services would impact the operational continuity of NESO's customer facing services and NESO's ability to fulfil regulatory requirements.",
+     "specialRegime": [
+      "utilities"
+     ],
+     "lots": [
+      {
+       "id": "1",
+       "status": "complete"
+      }
+     ],
+     "documents": [
+      {
+       "id": "conflictOfInterest",
+       "documentType": "conflictOfInterest",
+       "description": "Not published"
+      }
+     ],
+     "riskDetails": "The future procurement requires the implementation of a new enterprise technology solution to support and enable modelling, analytical transparency, decision support and AI-enabled innovation. This will include the migration of NESOs information to the new supplier platform. Due to the complexity of legacy data structures and potential security, data quality, or regulatory compliance issues, the data modelling process may encounter unforeseen challenges. Should these risks materialise and impact data integrity, security, regulatory compliance and/or the successful transition of services, the contract may be modified including to extend the transition timeline",
+     "procurementMethodRationaleClassifications": [
+      {
+       "id": "singleSuppliersTechnicalReasons"
+      }
+     ]
+    },
+    "awards": [
+     {
+      "id": "1",
+      "title": "NESO Interim Capability",
+      "status": "active",
+      "value": {
+       "amountGross": 21240324,
+       "amount": 17700270,
+       "currency": "GBP"
+      },
+      "mainProcurementCategory": "services",
+      "aboveThreshold": true,
+      "suppliers": [
+       {
+        "id": "GB-COH-07042994",
+        "name": "PALANTIR TECHNOLOGIES UK, LTD."
+       }
+      ],
+      "items": [
+       {
+        "id": "1",
+        "additionalClassifications": [
+         {
+          "scheme": "CPV",
+          "id": "48000000",
+          "description": "Software package and information systems"
+         },
+         {
+          "scheme": "CPV",
+          "id": "72260000",
+          "description": "Software-related services"
+         },
+         {
+          "scheme": "CPV",
+          "id": "72300000",
+          "description": "Data services"
+         }
+        ],
+        "deliveryAddresses": [
+         {
+          "region": "UKC",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         },
+         {
+          "region": "UKD",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         },
+         {
+          "region": "UKE",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         },
+         {
+          "region": "UKF",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         },
+         {
+          "region": "UKG",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         },
+         {
+          "region": "UKH",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         },
+         {
+          "region": "UKI",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         },
+         {
+          "region": "UKJ",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         },
+         {
+          "region": "UKK",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         },
+         {
+          "region": "UKL",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         },
+         {
+          "region": "UKM",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         },
+         {
+          "region": "UKC",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         },
+         {
+          "region": "UKD",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         },
+         {
+          "region": "UKE",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         },
+         {
+          "region": "UKF",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         },
+         {
+          "region": "UKG",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         },
+         {
+          "region": "UKH",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         },
+         {
+          "region": "UKI",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         },
+         {
+          "region": "UKJ",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         },
+         {
+          "region": "UKK",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         },
+         {
+          "region": "UKL",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         },
+         {
+          "region": "UKM",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         },
+         {
+          "region": "UKC",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         },
+         {
+          "region": "UKD",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         },
+         {
+          "region": "UKE",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         },
+         {
+          "region": "UKF",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         },
+         {
+          "region": "UKG",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         },
+         {
+          "region": "UKH",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         },
+         {
+          "region": "UKI",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         },
+         {
+          "region": "UKJ",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         },
+         {
+          "region": "UKK",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         },
+         {
+          "region": "UKL",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         },
+         {
+          "region": "UKM",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         }
+        ],
+        "relatedLot": "1"
+       }
+      ],
+      "contractPeriod": {
+       "startDate": "2026-09-08T00:00:00+01:00",
+       "endDate": "2027-07-31T23:59:59+01:00",
+       "maxExtentDate": "2028-07-31T23:59:59+01:00"
+      },
+      "hasRenewal": true,
+      "renewal": {
+       "description": "Possible extensions in 6 month increments will be\nused if required to enable business continuity and\ntransition out of the services (all or in part) if\nrequired."
+      },
+      "relatedLots": [
+       "1"
+      ],
+      "documents": [
+       {
+        "id": "081532-2026",
+        "documentType": "awardNotice",
+        "noticeType": "UK5",
+        "description": "Transparency notice on Find a Tender",
+        "url": "https://www.find-tender.service.gov.uk/Notice/081532-2026",
+        "datePublished": "2026-08-26T18:04:45+01:00",
+        "format": "text/html"
+       },
+       {
+        "id": "081534-2026",
+        "documentType": "awardNotice",
+        "noticeType": "UK6",
+        "description": "Contract award notice on Find a Tender",
+        "url": "https://www.find-tender.service.gov.uk/Notice/081534-2026",
+        "datePublished": "2026-08-26T18:18:38+01:00",
+        "format": "text/html"
+       }
+      ],
+      "milestones": [
+       {
+        "id": "1",
+        "type": "futureSignatureDate",
+        "dueDate": "2026-09-08T23:59:59+01:00",
+        "status": "scheduled"
+       }
+      ],
+      "date": "2026-08-25T00:00:00+01:00",
+      "standstillPeriod": {
+       "endDate": "2026-09-07T23:59:59+01:00"
+      }
+     }
+    ],
+    "language": "en",
+    "extensions": [
+     "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+     "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+     "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+     "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+     "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+     "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+     "https://raw.githubusercontent.com/open-contracting-extensions/ocds_performance_failures_extension/master/extension.json",
+     "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+     "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+     "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json"
+    ],
+    "contracts": [
+     {
+      "id": "1",
+      "awardID": "1",
+      "status": "active",
+      "period": {
+       "startDate": "2026-09-08T00:00:00+01:00",
+       "endDate": "2027-07-31T23:59:59+01:00",
+       "maxExtentDate": "2028-07-31T23:59:59+01:00"
+      },
+      "hasRenewal": true,
+      "renewal": {
+       "description": "Possible extensions in 6 month increments will be used if required to enable business continuity and transition out of the services (all or in part) if required."
+      },
+      "value": {
+       "amountGross": 20129619,
+       "amount": 16799683,
+       "currency": "GBP"
+      },
+      "aboveThreshold": true,
+      "dateSigned": "2026-09-08T00:00:00+01:00",
+      "agreedMetrics": [
+       {
+        "id": "1",
+        "title": "Availability - Performance Commitment"
+       },
+       {
+        "id": "2",
+        "title": "Migration Readiness - Migration readiness as per tracked capability"
+       },
+       {
+        "id": "3",
+        "title": "Exit -Export Completeness"
+       },
+       {
+        "id": "4",
+        "title": "Exit -Documentation"
+       },
+       {
+        "id": "5",
+        "title": "Exit -Knowledge Transfer"
+       },
+       {
+        "id": "6",
+        "title": "Exit - Critical Defects"
+       },
+       {
+        "id": "7",
+        "title": "Exit - Security Closure"
+       },
+       {
+        "id": "8",
+        "title": "Exit - Residual Data"
+       },
+       {
+        "id": "9",
+        "title": "Exit - Timetable"
+       }
+      ],
+      "documents": [
+       {
+        "id": "094458-2026",
+        "documentType": "contractNotice",
+        "noticeType": "UK7",
+        "description": "Contract details notice on Find a Tender",
+        "url": "https://www.find-tender.service.gov.uk/Notice/094458-2026",
+        "datePublished": "2026-10-06T17:12:36+01:00",
+        "format": "text/html"
+       }
+      ]
+     }
+    ]
+   },
+   "versionedRelease": {
+    "ocid": "ocds-h6vhtk-06ed0c",
+    "initiationType": [
+     {
+      "releaseID": "081532-2026",
+      "releaseDate": "2026-08-26T18:04:45+01:00",
+      "releaseTag": [
+       "award",
+       "contract"
+      ],
+      "value": "tender"
+     }
+    ],
+    "parties": [
+     {
+      "id": "GB-COH-11014226",
+      "name": [
+       {
+        "releaseID": "081532-2026",
+        "releaseDate": "2026-08-26T18:04:45+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "NATIONAL ENERGY SYSTEM OPERATOR LIMITED"
+       }
+      ],
+      "identifier": {
+       "scheme": [
+        {
+         "releaseID": "081532-2026",
+         "releaseDate": "2026-08-26T18:04:45+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "GB-COH"
+        }
+       ],
+       "id": [
+        {
+         "releaseID": "081532-2026",
+         "releaseDate": "2026-08-26T18:04:45+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "11014226"
+        }
+       ]
+      },
+      "additionalIdentifiers": [
+       {
+        "releaseID": "081532-2026",
+        "releaseDate": "2026-08-26T18:04:45+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": [
+         {
+          "scheme": "GB-PPON",
+          "id": "PHQL-5234-MWWV"
+         }
+        ]
+       }
+      ],
+      "address": {
+       "streetAddress": [
+        {
+         "releaseID": "081532-2026",
+         "releaseDate": "2026-08-26T18:04:45+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "St Catherine's Lodge Bearwood Road"
+        }
+       ],
+       "locality": [
+        {
+         "releaseID": "081532-2026",
+         "releaseDate": "2026-08-26T18:04:45+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "Wokingham"
+        }
+       ],
+       "postalCode": [
+        {
+         "releaseID": "081532-2026",
+         "releaseDate": "2026-08-26T18:04:45+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "RG41 5BN"
+        }
+       ],
+       "country": [
+        {
+         "releaseID": "081532-2026",
+         "releaseDate": "2026-08-26T18:04:45+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "GB"
+        }
+       ],
+       "countryName": [
+        {
+         "releaseID": "081532-2026",
+         "releaseDate": "2026-08-26T18:04:45+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "United Kingdom"
+        }
+       ],
+       "region": [
+        {
+         "releaseID": "081532-2026",
+         "releaseDate": "2026-08-26T18:04:45+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "UKJ11"
+        }
+       ]
+      },
+      "contactPoint": {
+       "email": [
+        {
+         "releaseID": "081532-2026",
+         "releaseDate": "2026-08-26T18:04:45+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "nesoprocurement@neso.energy"
+        }
+       ]
+      },
+      "roles": [
+       {
+        "releaseID": "081532-2026",
+        "releaseDate": "2026-08-26T18:04:45+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": [
+         "buyer"
+        ]
+       }
+      ],
+      "details": {
+       "url": [
+        {
+         "releaseID": "081532-2026",
+         "releaseDate": "2026-08-26T18:04:45+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "https://www.neso.energy/"
+        }
+       ],
+       "classifications": [
+        {
+         "releaseID": "081532-2026",
+         "releaseDate": "2026-08-26T18:04:45+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": [
+          {
+           "scheme": "UK_CA_TYPE",
+           "id": "publicUndertaking",
+           "description": "Public undertaking"
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "id": "GB-COH-07042994",
+      "name": [
+       {
+        "releaseID": "081532-2026",
+        "releaseDate": "2026-08-26T18:04:45+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "PALANTIR TECHNOLOGIES UK, LTD."
+       }
+      ],
+      "identifier": {
+       "scheme": [
+        {
+         "releaseID": "081532-2026",
+         "releaseDate": "2026-08-26T18:04:45+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "GB-COH"
+        }
+       ],
+       "id": [
+        {
+         "releaseID": "081532-2026",
+         "releaseDate": "2026-08-26T18:04:45+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "07042994"
+        }
+       ]
+      },
+      "additionalIdentifiers": [
+       {
+        "releaseID": "081532-2026",
+        "releaseDate": "2026-08-26T18:04:45+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": [
+         {
+          "scheme": "GB-PPON",
+          "id": "PCNQ-5186-DMPX"
+         }
+        ]
+       }
+      ],
+      "address": {
+       "streetAddress": [
+        {
+         "releaseID": "081532-2026",
+         "releaseDate": "2026-08-26T18:04:45+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "Birchin Court 5th Floor, 19-25 Birchin Lane"
+        }
+       ],
+       "locality": [
+        {
+         "releaseID": "081532-2026",
+         "releaseDate": "2026-08-26T18:04:45+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "London"
+        }
+       ],
+       "postalCode": [
+        {
+         "releaseID": "081532-2026",
+         "releaseDate": "2026-08-26T18:04:45+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "EC3V 9DU"
+        }
+       ],
+       "country": [
+        {
+         "releaseID": "081532-2026",
+         "releaseDate": "2026-08-26T18:04:45+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "GB"
+        }
+       ],
+       "countryName": [
+        {
+         "releaseID": "081532-2026",
+         "releaseDate": "2026-08-26T18:04:45+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "United Kingdom"
+        }
+       ],
+       "region": [
+        {
+         "releaseID": "081532-2026",
+         "releaseDate": "2026-08-26T18:04:45+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "UKI31"
+        }
+       ]
+      },
+      "contactPoint": {
+       "email": [
+        {
+         "releaseID": "081532-2026",
+         "releaseDate": "2026-08-26T18:04:45+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "ig-mi-accounts@palantir.com"
+        }
+       ]
+      },
+      "roles": [
+       {
+        "releaseID": "081532-2026",
+        "releaseDate": "2026-08-26T18:04:45+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": [
+         "supplier"
+        ]
+       }
+      ],
+      "details": {
+       "url": [
+        {
+         "releaseID": "081532-2026",
+         "releaseDate": "2026-08-26T18:04:45+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "https://www.palantir.com/uk/"
+        }
+       ],
+       "scale": [
+        {
+         "releaseID": "081532-2026",
+         "releaseDate": "2026-08-26T18:04:45+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "large"
+        }
+       ],
+       "vcse": [
+        {
+         "releaseID": "081532-2026",
+         "releaseDate": "2026-08-26T18:04:45+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": false
+        }
+       ],
+       "publicServiceMissionOrganization": [
+        {
+         "releaseID": "081534-2026",
+         "releaseDate": "2026-08-26T18:18:38+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": false
+        }
+       ],
+       "shelteredWorkshop": [
+        {
+         "releaseID": "081534-2026",
+         "releaseDate": "2026-08-26T18:18:38+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": false
+        }
+       ]
+      }
+     }
+    ],
+    "buyer": {
+     "id": [
+      {
+       "releaseID": "081532-2026",
+       "releaseDate": "2026-08-26T18:04:45+01:00",
+       "releaseTag": [
+        "award",
+        "contract"
+       ],
+       "value": "GB-COH-11014226"
+      }
+     ],
+     "name": [
+      {
+       "releaseID": "081532-2026",
+       "releaseDate": "2026-08-26T18:04:45+01:00",
+       "releaseTag": [
+        "award",
+        "contract"
+       ],
+       "value": "NATIONAL ENERGY SYSTEM OPERATOR LIMITED"
+      }
+     ]
+    },
+    "tender": {
+     "id": [
+      {
+       "releaseID": "081532-2026",
+       "releaseDate": "2026-08-26T18:04:45+01:00",
+       "releaseTag": [
+        "award",
+        "contract"
+       ],
+       "value": "ocds-h6vhtk-06ed0c"
+      }
+     ],
+     "legalBasis": {
+      "id": [
+       {
+        "releaseID": "081532-2026",
+        "releaseDate": "2026-08-26T18:04:45+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "2023/54"
+       }
+      ],
+      "scheme": [
+       {
+        "releaseID": "081532-2026",
+        "releaseDate": "2026-08-26T18:04:45+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "UKPGA"
+       }
+      ],
+      "uri": [
+       {
+        "releaseID": "081532-2026",
+        "releaseDate": "2026-08-26T18:04:45+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+       }
+      ]
+     },
+     "title": [
+      {
+       "releaseID": "081532-2026",
+       "releaseDate": "2026-08-26T18:04:45+01:00",
+       "releaseTag": [
+        "award",
+        "contract"
+       ],
+       "value": "NESO Interim Capability"
+      }
+     ],
+     "description": [
+      {
+       "releaseID": "081532-2026",
+       "releaseDate": "2026-08-26T18:04:45+01:00",
+       "releaseTag": [
+        "award",
+        "contract"
+       ],
+       "value": "National Energy System Operation (NESO) intends to award an Interim Capability agreement to Palantir Technologies UK Limited (Palantir) for continued licencing and support for Connections and Skip Rate related activities"
+      },
+      {
+       "releaseID": "081534-2026",
+       "releaseDate": "2026-08-26T18:18:38+01:00",
+       "releaseTag": [
+        "award",
+        "contract"
+       ],
+       "value": "National Energy System Operation (NESO) intends\nto award an Interim Capability agreement to\nPalantir Technologies UK Limited (Palantir) for\ncontinued licencing and support for Connections\nand Skip Rate related activities"
+      },
+      {
+       "releaseID": "094458-2026",
+       "releaseDate": "2026-10-06T17:12:36+01:00",
+       "releaseTag": [
+        "award",
+        "contract"
+       ],
+       "value": "National Energy System Operation (NESO), has awarded an interim capability agreement to Palantir Technologies UK Limited (Palantir) for continued licencing and support for Connections and Skip Rate related activities.\nA redacted copy of the signed contract will be made available within 90 days of signature."
+      }
+     ],
+     "status": [
+      {
+       "releaseID": "081532-2026",
+       "releaseDate": "2026-08-26T18:04:45+01:00",
+       "releaseTag": [
+        "award",
+        "contract"
+       ],
+       "value": "complete"
+      }
+     ],
+     "procurementMethod": [
+      {
+       "releaseID": "081532-2026",
+       "releaseDate": "2026-08-26T18:04:45+01:00",
+       "releaseTag": [
+        "award",
+        "contract"
+       ],
+       "value": "direct"
+      }
+     ],
+     "procurementMethodDetails": [
+      {
+       "releaseID": "081532-2026",
+       "releaseDate": "2026-08-26T18:04:45+01:00",
+       "releaseTag": [
+        "award",
+        "contract"
+       ],
+       "value": "Direct award"
+      }
+     ],
+     "procurementMethodRationale": [
+      {
+       "releaseID": "081532-2026",
+       "releaseDate": "2026-08-26T18:04:45+01:00",
+       "releaseTag": [
+        "award",
+        "contract"
+       ],
+       "value": "It is considered that the contract can be awarded directly in accordance Section 41 of the Procurement Act 2023 paragraph 6 (absence of competition for technical reasons) of Schedule 5.\nNESO currently runs two critical business processes - Connections and Skip Rates using the Palantir Foundry platform which is underpinned by proprietary architecture licensed exclusively by Palantir, Palantir possesses the specialist knowledge, technical expertise and the system knowledge required to maintain and support the solution effectively.  Transitioning to an alternative supplier is not possible without significant cost, resource commitment and delivery risk to meet regulatory obligations.  It would require the replacement of or significant redevelopment of the current data analytics environment, including migration of data, security accreditation of the replacement solution to the required standards, and training of NESO personnel. \nA contract will be put in place to enable continuity of the existing critical platform services whilst a competitive procurement is undertaken. A Pre Market Engagement notice for the strategic modelling capability has been published.\nDisruption to the platform or associated services would impact the operational continuity of NESO's customer facing services and NESO's ability to fulfil regulatory requirements"
+      },
+      {
+       "releaseID": "094458-2026",
+       "releaseDate": "2026-10-06T17:12:36+01:00",
+       "releaseTag": [
+        "award",
+        "contract"
+       ],
+       "value": "It was considered that the contract can be awarded directly in accordance Section 41 of the Procurement Act 2023 paragraph 6 (absence of competition for technical reasons) of  Schedule 5.\nNESO currently runs two critical business processes - Connections and Skip Rates using the Palantir Foundry platform which is underpinned by proprietary architecture licensed exclusively by Palantir, Palantir possesses the specialist knowledge, technical expertise and the system knowledge required to maintain and support the solution effectively.  Transitioning to an alternative supplier is not possible without significant cost, resource commitment and delivery risk to meet regulatory obligations. It would require the replacement of or significant redevelopment of the current data analytics environment, including migration of data, security accreditation of the replacement solution to the required standards, and training of NESO personnel.\nThis contract has been put in place to enable continuity of the existing critical platform services whilst a competitive  procurement is undertaken. A Pre-Market Engagement notice for the strategic modelling capability has been published.\nDisruption to the platform or associated services would impact the operational continuity of NESO's customer facing services and NESO's ability to fulfil regulatory requirements."
+      }
+     ],
+     "specialRegime": [
+      {
+       "releaseID": "081532-2026",
+       "releaseDate": "2026-08-26T18:04:45+01:00",
+       "releaseTag": [
+        "award",
+        "contract"
+       ],
+       "value": [
+        "utilities"
+       ]
+      }
+     ],
+     "lots": [
+      {
+       "id": "1",
+       "status": [
+        {
+         "releaseID": "081532-2026",
+         "releaseDate": "2026-08-26T18:04:45+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "complete"
+        }
+       ],
+       "description": [
+        {
+         "releaseID": "081532-2026",
+         "releaseDate": "2026-08-26T18:04:45+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": null
+        }
+       ]
+      }
+     ],
+     "documents": [
+      {
+       "id": "conflictOfInterest",
+       "documentType": [
+        {
+         "releaseID": "081532-2026",
+         "releaseDate": "2026-08-26T18:04:45+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "conflictOfInterest"
+        }
+       ],
+       "description": [
+        {
+         "releaseID": "081532-2026",
+         "releaseDate": "2026-08-26T18:04:45+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "Not published"
+        }
+       ]
+      }
+     ],
+     "riskDetails": [
+      {
+       "releaseID": "081532-2026",
+       "releaseDate": "2026-08-26T18:04:45+01:00",
+       "releaseTag": [
+        "award",
+        "contract"
+       ],
+       "value": "The future procurement requires the implementation of a new enterprise technology solution to support and enable modelling, analytical transparency, decision support and AI-enabled innovation. This will include the migration of NESOs information to the new supplier platform. Due to the complexity of legacy data structures and potential security, data quality, or regulatory compliance issues, the data modelling process may encounter unforeseen challenges. Should these risks materialise and impact data integrity, security, regulatory compliance and/or the successful transition of services, the contract may be modified including to extend the transition timeline"
+      }
+     ],
+     "procurementMethodRationaleClassifications": [
+      {
+       "releaseID": "081532-2026",
+       "releaseDate": "2026-08-26T18:04:45+01:00",
+       "releaseTag": [
+        "award",
+        "contract"
+       ],
+       "value": [
+        {
+         "id": "singleSuppliersTechnicalReasons"
+        }
+       ]
+      }
+     ]
+    },
+    "awards": [
+     {
+      "id": "1",
+      "title": [
+       {
+        "releaseID": "081532-2026",
+        "releaseDate": "2026-08-26T18:04:45+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "NESO Interim Modelling Capability"
+       },
+       {
+        "releaseID": "081534-2026",
+        "releaseDate": "2026-08-26T18:18:38+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "NESO Interim Capability"
+       }
+      ],
+      "status": [
+       {
+        "releaseID": "081532-2026",
+        "releaseDate": "2026-08-26T18:04:45+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "pending"
+       },
+       {
+        "releaseID": "094458-2026",
+        "releaseDate": "2026-10-06T17:12:36+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "active"
+       }
+      ],
+      "value": {
+       "amountGross": [
+        {
+         "releaseID": "081532-2026",
+         "releaseDate": "2026-08-26T18:04:45+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": 21240324
+        }
+       ],
+       "amount": [
+        {
+         "releaseID": "081532-2026",
+         "releaseDate": "2026-08-26T18:04:45+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": 17700270
+        }
+       ],
+       "currency": [
+        {
+         "releaseID": "081532-2026",
+         "releaseDate": "2026-08-26T18:04:45+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "GBP"
+        }
+       ]
+      },
+      "mainProcurementCategory": [
+       {
+        "releaseID": "081532-2026",
+        "releaseDate": "2026-08-26T18:04:45+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "services"
+       }
+      ],
+      "aboveThreshold": [
+       {
+        "releaseID": "081532-2026",
+        "releaseDate": "2026-08-26T18:04:45+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": true
+       }
+      ],
+      "suppliers": [
+       {
+        "id": "GB-COH-07042994",
+        "name": [
+         {
+          "releaseID": "081532-2026",
+          "releaseDate": "2026-08-26T18:04:45+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "PALANTIR TECHNOLOGIES UK, LTD."
+         }
+        ]
+       }
+      ],
+      "items": [
+       {
+        "id": "1",
+        "additionalClassifications": [
+         {
+          "releaseID": "081532-2026",
+          "releaseDate": "2026-08-26T18:04:45+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": [
+           {
+            "scheme": "CPV",
+            "id": "48000000",
+            "description": "Software package and information systems"
+           },
+           {
+            "scheme": "CPV",
+            "id": "72260000",
+            "description": "Software-related services"
+           },
+           {
+            "scheme": "CPV",
+            "id": "72300000",
+            "description": "Data services"
+           }
+          ]
+         }
+        ],
+        "deliveryAddresses": [
+         {
+          "region": [
+           {
+            "releaseID": "081532-2026",
+            "releaseDate": "2026-08-26T18:04:45+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "UKC"
+           }
+          ],
+          "country": [
+           {
+            "releaseID": "081532-2026",
+            "releaseDate": "2026-08-26T18:04:45+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "GB"
+           }
+          ],
+          "countryName": [
+           {
+            "releaseID": "081532-2026",
+            "releaseDate": "2026-08-26T18:04:45+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "United Kingdom"
+           }
+          ]
+         },
+         {
+          "region": [
+           {
+            "releaseID": "081532-2026",
+            "releaseDate": "2026-08-26T18:04:45+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "UKD"
+           }
+          ],
+          "country": [
+           {
+            "releaseID": "081532-2026",
+            "releaseDate": "2026-08-26T18:04:45+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "GB"
+           }
+          ],
+          "countryName": [
+           {
+            "releaseID": "081532-2026",
+            "releaseDate": "2026-08-26T18:04:45+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "United Kingdom"
+           }
+          ]
+         },
+         {
+          "region": [
+           {
+            "releaseID": "081532-2026",
+            "releaseDate": "2026-08-26T18:04:45+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "UKE"
+           }
+          ],
+          "country": [
+           {
+            "releaseID": "081532-2026",
+            "releaseDate": "2026-08-26T18:04:45+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "GB"
+           }
+          ],
+          "countryName": [
+           {
+            "releaseID": "081532-2026",
+            "releaseDate": "2026-08-26T18:04:45+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "United Kingdom"
+           }
+          ]
+         },
+         {
+          "region": [
+           {
+            "releaseID": "081532-2026",
+            "releaseDate": "2026-08-26T18:04:45+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "UKF"
+           }
+          ],
+          "country": [
+           {
+            "releaseID": "081532-2026",
+            "releaseDate": "2026-08-26T18:04:45+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "GB"
+           }
+          ],
+          "countryName": [
+           {
+            "releaseID": "081532-2026",
+            "releaseDate": "2026-08-26T18:04:45+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "United Kingdom"
+           }
+          ]
+         },
+         {
+          "region": [
+           {
+            "releaseID": "081532-2026",
+            "releaseDate": "2026-08-26T18:04:45+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "UKG"
+           }
+          ],
+          "country": [
+           {
+            "releaseID": "081532-2026",
+            "releaseDate": "2026-08-26T18:04:45+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "GB"
+           }
+          ],
+          "countryName": [
+           {
+            "releaseID": "081532-2026",
+            "releaseDate": "2026-08-26T18:04:45+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "United Kingdom"
+           }
+          ]
+         },
+         {
+          "region": [
+           {
+            "releaseID": "081532-2026",
+            "releaseDate": "2026-08-26T18:04:45+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "UKH"
+           }
+          ],
+          "country": [
+           {
+            "releaseID": "081532-2026",
+            "releaseDate": "2026-08-26T18:04:45+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "GB"
+           }
+          ],
+          "countryName": [
+           {
+            "releaseID": "081532-2026",
+            "releaseDate": "2026-08-26T18:04:45+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "United Kingdom"
+           }
+          ]
+         },
+         {
+          "region": [
+           {
+            "releaseID": "081532-2026",
+            "releaseDate": "2026-08-26T18:04:45+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "UKI"
+           }
+          ],
+          "country": [
+           {
+            "releaseID": "081532-2026",
+            "releaseDate": "2026-08-26T18:04:45+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "GB"
+           }
+          ],
+          "countryName": [
+           {
+            "releaseID": "081532-2026",
+            "releaseDate": "2026-08-26T18:04:45+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "United Kingdom"
+           }
+          ]
+         },
+         {
+          "region": [
+           {
+            "releaseID": "081532-2026",
+            "releaseDate": "2026-08-26T18:04:45+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "UKJ"
+           }
+          ],
+          "country": [
+           {
+            "releaseID": "081532-2026",
+            "releaseDate": "2026-08-26T18:04:45+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "GB"
+           }
+          ],
+          "countryName": [
+           {
+            "releaseID": "081532-2026",
+            "releaseDate": "2026-08-26T18:04:45+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "United Kingdom"
+           }
+          ]
+         },
+         {
+          "region": [
+           {
+            "releaseID": "081532-2026",
+            "releaseDate": "2026-08-26T18:04:45+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "UKK"
+           }
+          ],
+          "country": [
+           {
+            "releaseID": "081532-2026",
+            "releaseDate": "2026-08-26T18:04:45+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "GB"
+           }
+          ],
+          "countryName": [
+           {
+            "releaseID": "081532-2026",
+            "releaseDate": "2026-08-26T18:04:45+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "United Kingdom"
+           }
+          ]
+         },
+         {
+          "region": [
+           {
+            "releaseID": "081532-2026",
+            "releaseDate": "2026-08-26T18:04:45+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "UKL"
+           }
+          ],
+          "country": [
+           {
+            "releaseID": "081532-2026",
+            "releaseDate": "2026-08-26T18:04:45+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "GB"
+           }
+          ],
+          "countryName": [
+           {
+            "releaseID": "081532-2026",
+            "releaseDate": "2026-08-26T18:04:45+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "United Kingdom"
+           }
+          ]
+         },
+         {
+          "region": [
+           {
+            "releaseID": "081532-2026",
+            "releaseDate": "2026-08-26T18:04:45+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "UKM"
+           }
+          ],
+          "country": [
+           {
+            "releaseID": "081532-2026",
+            "releaseDate": "2026-08-26T18:04:45+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "GB"
+           }
+          ],
+          "countryName": [
+           {
+            "releaseID": "081532-2026",
+            "releaseDate": "2026-08-26T18:04:45+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "United Kingdom"
+           }
+          ]
+         },
+         {
+          "region": [
+           {
+            "releaseID": "081534-2026",
+            "releaseDate": "2026-08-26T18:18:38+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "UKC"
+           }
+          ],
+          "country": [
+           {
+            "releaseID": "081534-2026",
+            "releaseDate": "2026-08-26T18:18:38+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "GB"
+           }
+          ],
+          "countryName": [
+           {
+            "releaseID": "081534-2026",
+            "releaseDate": "2026-08-26T18:18:38+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "United Kingdom"
+           }
+          ]
+         },
+         {
+          "region": [
+           {
+            "releaseID": "081534-2026",
+            "releaseDate": "2026-08-26T18:18:38+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "UKD"
+           }
+          ],
+          "country": [
+           {
+            "releaseID": "081534-2026",
+            "releaseDate": "2026-08-26T18:18:38+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "GB"
+           }
+          ],
+          "countryName": [
+           {
+            "releaseID": "081534-2026",
+            "releaseDate": "2026-08-26T18:18:38+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "United Kingdom"
+           }
+          ]
+         },
+         {
+          "region": [
+           {
+            "releaseID": "081534-2026",
+            "releaseDate": "2026-08-26T18:18:38+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "UKE"
+           }
+          ],
+          "country": [
+           {
+            "releaseID": "081534-2026",
+            "releaseDate": "2026-08-26T18:18:38+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "GB"
+           }
+          ],
+          "countryName": [
+           {
+            "releaseID": "081534-2026",
+            "releaseDate": "2026-08-26T18:18:38+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "United Kingdom"
+           }
+          ]
+         },
+         {
+          "region": [
+           {
+            "releaseID": "081534-2026",
+            "releaseDate": "2026-08-26T18:18:38+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "UKF"
+           }
+          ],
+          "country": [
+           {
+            "releaseID": "081534-2026",
+            "releaseDate": "2026-08-26T18:18:38+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "GB"
+           }
+          ],
+          "countryName": [
+           {
+            "releaseID": "081534-2026",
+            "releaseDate": "2026-08-26T18:18:38+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "United Kingdom"
+           }
+          ]
+         },
+         {
+          "region": [
+           {
+            "releaseID": "081534-2026",
+            "releaseDate": "2026-08-26T18:18:38+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "UKG"
+           }
+          ],
+          "country": [
+           {
+            "releaseID": "081534-2026",
+            "releaseDate": "2026-08-26T18:18:38+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "GB"
+           }
+          ],
+          "countryName": [
+           {
+            "releaseID": "081534-2026",
+            "releaseDate": "2026-08-26T18:18:38+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "United Kingdom"
+           }
+          ]
+         },
+         {
+          "region": [
+           {
+            "releaseID": "081534-2026",
+            "releaseDate": "2026-08-26T18:18:38+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "UKH"
+           }
+          ],
+          "country": [
+           {
+            "releaseID": "081534-2026",
+            "releaseDate": "2026-08-26T18:18:38+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "GB"
+           }
+          ],
+          "countryName": [
+           {
+            "releaseID": "081534-2026",
+            "releaseDate": "2026-08-26T18:18:38+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "United Kingdom"
+           }
+          ]
+         },
+         {
+          "region": [
+           {
+            "releaseID": "081534-2026",
+            "releaseDate": "2026-08-26T18:18:38+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "UKI"
+           }
+          ],
+          "country": [
+           {
+            "releaseID": "081534-2026",
+            "releaseDate": "2026-08-26T18:18:38+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "GB"
+           }
+          ],
+          "countryName": [
+           {
+            "releaseID": "081534-2026",
+            "releaseDate": "2026-08-26T18:18:38+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "United Kingdom"
+           }
+          ]
+         },
+         {
+          "region": [
+           {
+            "releaseID": "081534-2026",
+            "releaseDate": "2026-08-26T18:18:38+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "UKJ"
+           }
+          ],
+          "country": [
+           {
+            "releaseID": "081534-2026",
+            "releaseDate": "2026-08-26T18:18:38+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "GB"
+           }
+          ],
+          "countryName": [
+           {
+            "releaseID": "081534-2026",
+            "releaseDate": "2026-08-26T18:18:38+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "United Kingdom"
+           }
+          ]
+         },
+         {
+          "region": [
+           {
+            "releaseID": "081534-2026",
+            "releaseDate": "2026-08-26T18:18:38+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "UKK"
+           }
+          ],
+          "country": [
+           {
+            "releaseID": "081534-2026",
+            "releaseDate": "2026-08-26T18:18:38+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "GB"
+           }
+          ],
+          "countryName": [
+           {
+            "releaseID": "081534-2026",
+            "releaseDate": "2026-08-26T18:18:38+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "United Kingdom"
+           }
+          ]
+         },
+         {
+          "region": [
+           {
+            "releaseID": "081534-2026",
+            "releaseDate": "2026-08-26T18:18:38+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "UKL"
+           }
+          ],
+          "country": [
+           {
+            "releaseID": "081534-2026",
+            "releaseDate": "2026-08-26T18:18:38+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "GB"
+           }
+          ],
+          "countryName": [
+           {
+            "releaseID": "081534-2026",
+            "releaseDate": "2026-08-26T18:18:38+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "United Kingdom"
+           }
+          ]
+         },
+         {
+          "region": [
+           {
+            "releaseID": "081534-2026",
+            "releaseDate": "2026-08-26T18:18:38+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "UKM"
+           }
+          ],
+          "country": [
+           {
+            "releaseID": "081534-2026",
+            "releaseDate": "2026-08-26T18:18:38+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "GB"
+           }
+          ],
+          "countryName": [
+           {
+            "releaseID": "081534-2026",
+            "releaseDate": "2026-08-26T18:18:38+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "United Kingdom"
+           }
+          ]
+         },
+         {
+          "region": [
+           {
+            "releaseID": "094458-2026",
+            "releaseDate": "2026-10-06T17:12:36+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "UKC"
+           }
+          ],
+          "country": [
+           {
+            "releaseID": "094458-2026",
+            "releaseDate": "2026-10-06T17:12:36+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "GB"
+           }
+          ],
+          "countryName": [
+           {
+            "releaseID": "094458-2026",
+            "releaseDate": "2026-10-06T17:12:36+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "United Kingdom"
+           }
+          ]
+         },
+         {
+          "region": [
+           {
+            "releaseID": "094458-2026",
+            "releaseDate": "2026-10-06T17:12:36+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "UKD"
+           }
+          ],
+          "country": [
+           {
+            "releaseID": "094458-2026",
+            "releaseDate": "2026-10-06T17:12:36+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "GB"
+           }
+          ],
+          "countryName": [
+           {
+            "releaseID": "094458-2026",
+            "releaseDate": "2026-10-06T17:12:36+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "United Kingdom"
+           }
+          ]
+         },
+         {
+          "region": [
+           {
+            "releaseID": "094458-2026",
+            "releaseDate": "2026-10-06T17:12:36+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "UKE"
+           }
+          ],
+          "country": [
+           {
+            "releaseID": "094458-2026",
+            "releaseDate": "2026-10-06T17:12:36+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "GB"
+           }
+          ],
+          "countryName": [
+           {
+            "releaseID": "094458-2026",
+            "releaseDate": "2026-10-06T17:12:36+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "United Kingdom"
+           }
+          ]
+         },
+         {
+          "region": [
+           {
+            "releaseID": "094458-2026",
+            "releaseDate": "2026-10-06T17:12:36+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "UKF"
+           }
+          ],
+          "country": [
+           {
+            "releaseID": "094458-2026",
+            "releaseDate": "2026-10-06T17:12:36+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "GB"
+           }
+          ],
+          "countryName": [
+           {
+            "releaseID": "094458-2026",
+            "releaseDate": "2026-10-06T17:12:36+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "United Kingdom"
+           }
+          ]
+         },
+         {
+          "region": [
+           {
+            "releaseID": "094458-2026",
+            "releaseDate": "2026-10-06T17:12:36+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "UKG"
+           }
+          ],
+          "country": [
+           {
+            "releaseID": "094458-2026",
+            "releaseDate": "2026-10-06T17:12:36+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "GB"
+           }
+          ],
+          "countryName": [
+           {
+            "releaseID": "094458-2026",
+            "releaseDate": "2026-10-06T17:12:36+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "United Kingdom"
+           }
+          ]
+         },
+         {
+          "region": [
+           {
+            "releaseID": "094458-2026",
+            "releaseDate": "2026-10-06T17:12:36+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "UKH"
+           }
+          ],
+          "country": [
+           {
+            "releaseID": "094458-2026",
+            "releaseDate": "2026-10-06T17:12:36+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "GB"
+           }
+          ],
+          "countryName": [
+           {
+            "releaseID": "094458-2026",
+            "releaseDate": "2026-10-06T17:12:36+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "United Kingdom"
+           }
+          ]
+         },
+         {
+          "region": [
+           {
+            "releaseID": "094458-2026",
+            "releaseDate": "2026-10-06T17:12:36+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "UKI"
+           }
+          ],
+          "country": [
+           {
+            "releaseID": "094458-2026",
+            "releaseDate": "2026-10-06T17:12:36+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "GB"
+           }
+          ],
+          "countryName": [
+           {
+            "releaseID": "094458-2026",
+            "releaseDate": "2026-10-06T17:12:36+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "United Kingdom"
+           }
+          ]
+         },
+         {
+          "region": [
+           {
+            "releaseID": "094458-2026",
+            "releaseDate": "2026-10-06T17:12:36+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "UKJ"
+           }
+          ],
+          "country": [
+           {
+            "releaseID": "094458-2026",
+            "releaseDate": "2026-10-06T17:12:36+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "GB"
+           }
+          ],
+          "countryName": [
+           {
+            "releaseID": "094458-2026",
+            "releaseDate": "2026-10-06T17:12:36+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "United Kingdom"
+           }
+          ]
+         },
+         {
+          "region": [
+           {
+            "releaseID": "094458-2026",
+            "releaseDate": "2026-10-06T17:12:36+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "UKK"
+           }
+          ],
+          "country": [
+           {
+            "releaseID": "094458-2026",
+            "releaseDate": "2026-10-06T17:12:36+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "GB"
+           }
+          ],
+          "countryName": [
+           {
+            "releaseID": "094458-2026",
+            "releaseDate": "2026-10-06T17:12:36+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "United Kingdom"
+           }
+          ]
+         },
+         {
+          "region": [
+           {
+            "releaseID": "094458-2026",
+            "releaseDate": "2026-10-06T17:12:36+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "UKL"
+           }
+          ],
+          "country": [
+           {
+            "releaseID": "094458-2026",
+            "releaseDate": "2026-10-06T17:12:36+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "GB"
+           }
+          ],
+          "countryName": [
+           {
+            "releaseID": "094458-2026",
+            "releaseDate": "2026-10-06T17:12:36+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "United Kingdom"
+           }
+          ]
+         },
+         {
+          "region": [
+           {
+            "releaseID": "094458-2026",
+            "releaseDate": "2026-10-06T17:12:36+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "UKM"
+           }
+          ],
+          "country": [
+           {
+            "releaseID": "094458-2026",
+            "releaseDate": "2026-10-06T17:12:36+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "GB"
+           }
+          ],
+          "countryName": [
+           {
+            "releaseID": "094458-2026",
+            "releaseDate": "2026-10-06T17:12:36+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "United Kingdom"
+           }
+          ]
+         }
+        ],
+        "relatedLot": [
+         {
+          "releaseID": "081532-2026",
+          "releaseDate": "2026-08-26T18:04:45+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "1"
+         }
+        ]
+       }
+      ],
+      "contractPeriod": {
+       "startDate": [
+        {
+         "releaseID": "081532-2026",
+         "releaseDate": "2026-08-26T18:04:45+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "2026-09-08T00:00:00+01:00"
+        }
+       ],
+       "endDate": [
+        {
+         "releaseID": "081532-2026",
+         "releaseDate": "2026-08-26T18:04:45+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "2027-07-31T23:59:59+01:00"
+        }
+       ],
+       "maxExtentDate": [
+        {
+         "releaseID": "081532-2026",
+         "releaseDate": "2026-08-26T18:04:45+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "2028-07-31T23:59:59+01:00"
+        }
+       ]
+      },
+      "hasRenewal": [
+       {
+        "releaseID": "081532-2026",
+        "releaseDate": "2026-08-26T18:04:45+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": true
+       }
+      ],
+      "renewal": {
+       "description": [
+        {
+         "releaseID": "081532-2026",
+         "releaseDate": "2026-08-26T18:04:45+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "Possible extensions in 6 month increments will be\nused if required to enable business continuity and\ntransition out of the services (all or in part) if\nrequired."
+        }
+       ]
+      },
+      "relatedLots": [
+       {
+        "releaseID": "081532-2026",
+        "releaseDate": "2026-08-26T18:04:45+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": [
+         "1"
+        ]
+       }
+      ],
+      "documents": [
+       {
+        "id": "081532-2026",
+        "documentType": [
+         {
+          "releaseID": "081532-2026",
+          "releaseDate": "2026-08-26T18:04:45+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "awardNotice"
+         }
+        ],
+        "noticeType": [
+         {
+          "releaseID": "081532-2026",
+          "releaseDate": "2026-08-26T18:04:45+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "UK5"
+         }
+        ],
+        "description": [
+         {
+          "releaseID": "081532-2026",
+          "releaseDate": "2026-08-26T18:04:45+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "Transparency notice on Find a Tender"
+         }
+        ],
+        "url": [
+         {
+          "releaseID": "081532-2026",
+          "releaseDate": "2026-08-26T18:04:45+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "https://www.find-tender.service.gov.uk/Notice/081532-2026"
+         }
+        ],
+        "datePublished": [
+         {
+          "releaseID": "081532-2026",
+          "releaseDate": "2026-08-26T18:04:45+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "2026-08-26T18:04:45+01:00"
+         }
+        ],
+        "format": [
+         {
+          "releaseID": "081532-2026",
+          "releaseDate": "2026-08-26T18:04:45+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "text/html"
+         }
+        ]
+       },
+       {
+        "id": "081534-2026",
+        "documentType": [
+         {
+          "releaseID": "081534-2026",
+          "releaseDate": "2026-08-26T18:18:38+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "awardNotice"
+         }
+        ],
+        "noticeType": [
+         {
+          "releaseID": "081534-2026",
+          "releaseDate": "2026-08-26T18:18:38+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "UK6"
+         }
+        ],
+        "description": [
+         {
+          "releaseID": "081534-2026",
+          "releaseDate": "2026-08-26T18:18:38+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "Contract award notice on Find a Tender"
+         }
+        ],
+        "url": [
+         {
+          "releaseID": "081534-2026",
+          "releaseDate": "2026-08-26T18:18:38+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "https://www.find-tender.service.gov.uk/Notice/081534-2026"
+         }
+        ],
+        "datePublished": [
+         {
+          "releaseID": "081534-2026",
+          "releaseDate": "2026-08-26T18:18:38+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "2026-08-26T18:18:38+01:00"
+         }
+        ],
+        "format": [
+         {
+          "releaseID": "081534-2026",
+          "releaseDate": "2026-08-26T18:18:38+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "text/html"
+         }
+        ]
+       }
+      ],
+      "milestones": [
+       {
+        "id": "1",
+        "type": [
+         {
+          "releaseID": "081532-2026",
+          "releaseDate": "2026-08-26T18:04:45+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "futureSignatureDate"
+         }
+        ],
+        "dueDate": [
+         {
+          "releaseID": "081532-2026",
+          "releaseDate": "2026-08-26T18:04:45+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "2026-09-08T23:59:59+01:00"
+         }
+        ],
+        "status": [
+         {
+          "releaseID": "081532-2026",
+          "releaseDate": "2026-08-26T18:04:45+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "scheduled"
+         }
+        ]
+       }
+      ],
+      "date": [
+       {
+        "releaseID": "081534-2026",
+        "releaseDate": "2026-08-26T18:18:38+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "2026-08-25T00:00:00+01:00"
+       }
+      ],
+      "standstillPeriod": {
+       "endDate": [
+        {
+         "releaseID": "081534-2026",
+         "releaseDate": "2026-08-26T18:18:38+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "2026-09-07T23:59:59+01:00"
+        }
+       ]
+      }
+     }
+    ],
+    "language": [
+     {
+      "releaseID": "081532-2026",
+      "releaseDate": "2026-08-26T18:04:45+01:00",
+      "releaseTag": [
+       "award",
+       "contract"
+      ],
+      "value": "en"
+     }
+    ],
+    "extensions": [
+     {
+      "releaseID": "081532-2026",
+      "releaseDate": "2026-08-26T18:04:45+01:00",
+      "releaseTag": [
+       "award",
+       "contract"
+      ],
+      "value": [
+       "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+       "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+       "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+       "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+       "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+       "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+       "https://raw.githubusercontent.com/open-contracting-extensions/ocds_performance_failures_extension/master/extension.json",
+       "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+       "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+       "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json"
+      ]
+     }
+    ],
+    "contracts": [
+     {
+      "id": "1",
+      "awardID": [
+       {
+        "releaseID": "094458-2026",
+        "releaseDate": "2026-10-06T17:12:36+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "1"
+       }
+      ],
+      "status": [
+       {
+        "releaseID": "094458-2026",
+        "releaseDate": "2026-10-06T17:12:36+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "active"
+       }
+      ],
+      "period": {
+       "startDate": [
+        {
+         "releaseID": "094458-2026",
+         "releaseDate": "2026-10-06T17:12:36+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "2026-09-08T00:00:00+01:00"
+        }
+       ],
+       "endDate": [
+        {
+         "releaseID": "094458-2026",
+         "releaseDate": "2026-10-06T17:12:36+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "2027-07-31T23:59:59+01:00"
+        }
+       ],
+       "maxExtentDate": [
+        {
+         "releaseID": "094458-2026",
+         "releaseDate": "2026-10-06T17:12:36+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "2028-07-31T23:59:59+01:00"
+        }
+       ]
+      },
+      "hasRenewal": [
+       {
+        "releaseID": "094458-2026",
+        "releaseDate": "2026-10-06T17:12:36+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": true
+       }
+      ],
+      "renewal": {
+       "description": [
+        {
+         "releaseID": "094458-2026",
+         "releaseDate": "2026-10-06T17:12:36+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "Possible extensions in 6 month increments will be used if required to enable business continuity and transition out of the services (all or in part) if required."
+        }
+       ]
+      },
+      "value": {
+       "amountGross": [
+        {
+         "releaseID": "094458-2026",
+         "releaseDate": "2026-10-06T17:12:36+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": 20129619
+        }
+       ],
+       "amount": [
+        {
+         "releaseID": "094458-2026",
+         "releaseDate": "2026-10-06T17:12:36+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": 16799683
+        }
+       ],
+       "currency": [
+        {
+         "releaseID": "094458-2026",
+         "releaseDate": "2026-10-06T17:12:36+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "GBP"
+        }
+       ]
+      },
+      "aboveThreshold": [
+       {
+        "releaseID": "094458-2026",
+        "releaseDate": "2026-10-06T17:12:36+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": true
+       }
+      ],
+      "dateSigned": [
+       {
+        "releaseID": "094458-2026",
+        "releaseDate": "2026-10-06T17:12:36+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "2026-09-08T00:00:00+01:00"
+       }
+      ],
+      "agreedMetrics": [
+       {
+        "id": "1",
+        "title": [
+         {
+          "releaseID": "094458-2026",
+          "releaseDate": "2026-10-06T17:12:36+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "Availability - Performance Commitment"
+         }
+        ]
+       },
+       {
+        "id": "2",
+        "title": [
+         {
+          "releaseID": "094458-2026",
+          "releaseDate": "2026-10-06T17:12:36+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "Migration Readiness - Migration readiness as per tracked capability"
+         }
+        ]
+       },
+       {
+        "id": "3",
+        "title": [
+         {
+          "releaseID": "094458-2026",
+          "releaseDate": "2026-10-06T17:12:36+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "Exit -Export Completeness"
+         }
+        ]
+       },
+       {
+        "id": "4",
+        "title": [
+         {
+          "releaseID": "094458-2026",
+          "releaseDate": "2026-10-06T17:12:36+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "Exit -Documentation"
+         }
+        ]
+       },
+       {
+        "id": "5",
+        "title": [
+         {
+          "releaseID": "094458-2026",
+          "releaseDate": "2026-10-06T17:12:36+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "Exit -Knowledge Transfer"
+         }
+        ]
+       },
+       {
+        "id": "6",
+        "title": [
+         {
+          "releaseID": "094458-2026",
+          "releaseDate": "2026-10-06T17:12:36+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "Exit - Critical Defects"
+         }
+        ]
+       },
+       {
+        "id": "7",
+        "title": [
+         {
+          "releaseID": "094458-2026",
+          "releaseDate": "2026-10-06T17:12:36+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "Exit - Security Closure"
+         }
+        ]
+       },
+       {
+        "id": "8",
+        "title": [
+         {
+          "releaseID": "094458-2026",
+          "releaseDate": "2026-10-06T17:12:36+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "Exit - Residual Data"
+         }
+        ]
+       },
+       {
+        "id": "9",
+        "title": [
+         {
+          "releaseID": "094458-2026",
+          "releaseDate": "2026-10-06T17:12:36+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "Exit - Timetable"
+         }
+        ]
+       }
+      ],
+      "statusDetails": [
+       {
+        "releaseID": "094458-2026",
+        "releaseDate": "2026-10-06T17:12:36+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": null
+       }
+      ],
+      "documents": [
+       {
+        "id": "094458-2026",
+        "documentType": [
+         {
+          "releaseID": "094458-2026",
+          "releaseDate": "2026-10-06T17:12:36+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "contractNotice"
+         }
+        ],
+        "noticeType": [
+         {
+          "releaseID": "094458-2026",
+          "releaseDate": "2026-10-06T17:12:36+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "UK7"
+         }
+        ],
+        "description": [
+         {
+          "releaseID": "094458-2026",
+          "releaseDate": "2026-10-06T17:12:36+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "Contract details notice on Find a Tender"
+         }
+        ],
+        "url": [
+         {
+          "releaseID": "094458-2026",
+          "releaseDate": "2026-10-06T17:12:36+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "https://www.find-tender.service.gov.uk/Notice/094458-2026"
+         }
+        ],
+        "datePublished": [
+         {
+          "releaseID": "094458-2026",
+          "releaseDate": "2026-10-06T17:12:36+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "2026-10-06T17:12:36+01:00"
+         }
+        ],
+        "format": [
+         {
+          "releaseID": "094458-2026",
+          "releaseDate": "2026-10-06T17:12:36+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "text/html"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

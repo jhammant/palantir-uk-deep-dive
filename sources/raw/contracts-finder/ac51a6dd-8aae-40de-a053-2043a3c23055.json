@@ -1,0 +1,130 @@
+{
+ "id": "ac51a6dd-8aae-40de-a053-2043a3c23055",
+ "notice": {
+  "id": "ac51a6dd-8aae-40de-a053-2043a3c23055",
+  "parentId": null,
+  "parentIdentifier": null,
+  "linkReason": null,
+  "version": 1,
+  "contactDetails": {
+   "name": "Eleanor Ross",
+   "email": "eleanor.ross2@nhs.net",
+   "address1": "Broadway",
+   "address2": "",
+   "town": "SALFORD",
+   "postcode": "M502UW",
+   "country": "England",
+   "phone": "07708486041",
+   "webAddress": ""
+  },
+  "identifier": "SBS22-226 WS1184005381",
+  "title": "Optica Stage 3 Palantir Foundry Engineering Support",
+  "description": "Implementation and Engineering Services - One person for one quarter to undertake the services outlined in the SoW in Schedule 1",
+  "cpvDescription": "Information technology services",
+  "publishedDate": "2023-03-15T16:46:16Z",
+  "approachMarketDate": "",
+  "deadlineDate": "2022-12-01T16:00:00Z",
+  "valueLow": 137500,
+  "valueHigh": 0,
+  "postcode": null,
+  "region": "North East",
+  "nationwide": false,
+  "location": {
+   "lat": 0,
+   "lon": 0
+  },
+  "start": "2022-12-12T00:00:00Z",
+  "end": "2023-03-31T00:00:00+01:00",
+  "type": "Contract",
+  "cpvCodes": [
+   "72222300"
+  ],
+  "spendProfile": null,
+  "status": "Awarded",
+  "isSuitableForSme": false,
+  "isSuitableForVco": false,
+  "supplyChain": false,
+  "lastNotifiableUpdate": "2023-03-15T16:46:16Z",
+  "organisationName": "NHS Shared Business Services",
+  "sector": null,
+  "procedureType": null,
+  "procedureTypeOther": null,
+  "procedureAcceleratedJustification": null,
+  "ojeuContractType": "Services",
+  "isFrameworkAgreement": false,
+  "isExtensionPossible": false,
+  "annexDOption": null,
+  "reasonContractLawful": null
+ },
+ "createdByUser": "eleanor.ross2@nhs.net",
+ "createdDate": "2023-03-15T16:42:02Z",
+ "lastUpdatedbyUser": "eleanor.ross2@nhs.net",
+ "lastUpdatedDate": "2023-03-15T16:46:16Z",
+ "awards": [
+  {
+   "id": "555284",
+   "noticeId": "ac51a6dd-8aae-40de-a053-2043a3c23055",
+   "parentId": null,
+   "value": 137500,
+   "supplierName": "PALANTIR TECHNOLOGIES UK, LTD.",
+   "supplierAddress": "New Penderel House, 4th Floor,High Holborn\nLONDON\nWC1V 7HP\nGB",
+   "contact": null,
+   "dunsNumber": "216241882",
+   "supplierAwardedValue": 137500,
+   "referenceType": "COMPANIES_HOUSE",
+   "reference": "07042994",
+   "startDate": "2022-12-12T00:00:00Z",
+   "endDate": "2023-03-31T00:00:00+01:00",
+   "awardedDate": "2022-12-12T00:00:00Z",
+   "awardedProcedureType": "CallOffFromFrameworkAgreement",
+   "awardedProcedureTypeOther": "",
+   "awardedProcedureAcceleratedJustification": "",
+   "annexDOptionType": "",
+   "reasonContractLawful": "",
+   "additionalDetails": "",
+   "awardedToSME": false,
+   "awardedToVCSO": false,
+   "awardGuid": "7fe0a46a-1cfd-4244-a264-2ca5581ab1e0"
+  }
+ ],
+ "isPublished": true,
+ "isPreAwarded": true,
+ "organisation": {
+  "name": "NHS Shared Business Services"
+ },
+ "additionalDetails": [
+  {
+   "id": "ac51a6dd-8aae-40de-a053-2043a3c23055",
+   "noticeId": "ac51a6dd-8aae-40de-a053-2043a3c23055",
+   "description": "Additional Text",
+   "dataType": "AdditionalText",
+   "textData": "",
+   "mimeType": null,
+   "awardGuid": null
+  }
+ ],
+ "withdrawnDate": "",
+ "withdrawnReason": null,
+ "withdrawnByUser": null,
+ "cpvCodes": [
+  {
+   "code": "72222300",
+   "description": "Information technology services",
+   "parentCode": "72222000",
+   "hasChildren": false
+  }
+ ],
+ "publishedVersion": [
+  {
+   "changedByUser": "eleanor.ross2@nhs.net",
+   "dateChanged": "2023-03-15T16:46:16Z",
+   "id": "692819",
+   "noticeStatus": "Awarded",
+   "noticeType": "Contract",
+   "publishedNoticeId": "ac51a6dd-8aae-40de-a053-2043a3c23055",
+   "versionNumber": 1,
+   "visibleToPublic": true
+  }
+ ],
+ "numberOfViews": "648"
+}

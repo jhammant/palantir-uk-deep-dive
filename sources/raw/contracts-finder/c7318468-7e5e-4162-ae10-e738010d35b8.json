@@ -1,0 +1,148 @@
+{
+ "id": "c7318468-7e5e-4162-ae10-e738010d35b8",
+ "notice": {
+  "id": "c7318468-7e5e-4162-ae10-e738010d35b8",
+  "parentId": null,
+  "parentIdentifier": null,
+  "linkReason": null,
+  "version": 1,
+  "contactDetails": {
+   "name": "",
+   "email": "gds-procurement@digital.cabinet-office.gov.uk",
+   "address1": "Aviation House 6th Floor",
+   "address2": "125 Kingsway",
+   "town": "London",
+   "postcode": "WC2B 6NH",
+   "country": "England",
+   "phone": "",
+   "webAddress": ""
+  },
+  "identifier": "WP990",
+  "title": "Palantir",
+  "description": "Enterprise Analytical Platform and Intelligence Service",
+  "cpvDescription": "IT services: consulting, software development, Internet and support",
+  "publishedDate": "2015-10-27T12:26:30Z",
+  "approachMarketDate": "",
+  "deadlineDate": "2015-09-01T00:00:00+01:00",
+  "valueLow": 0,
+  "valueHigh": 0,
+  "postcode": "",
+  "region": "London",
+  "nationwide": false,
+  "location": {
+   "lat": 0,
+   "lon": 0
+  },
+  "start": "2015-09-01T00:00:00+01:00",
+  "end": "2017-08-31T00:00:00+01:00",
+  "type": "Contract",
+  "cpvCodes": [
+   "72000000"
+  ],
+  "spendProfile": null,
+  "status": "Awarded",
+  "isSuitableForSme": false,
+  "isSuitableForVco": false,
+  "supplyChain": false,
+  "lastNotifiableUpdate": "2015-10-27T12:26:30Z",
+  "organisationName": "GDS",
+  "sector": "Computer and Related Services",
+  "procedureType": null,
+  "procedureTypeOther": null,
+  "procedureAcceleratedJustification": null,
+  "ojeuContractType": "NotSpecified",
+  "isFrameworkAgreement": false,
+  "isExtensionPossible": false,
+  "annexDOption": null,
+  "reasonContractLawful": null
+ },
+ "createdByUser": "rheanna.price-danilewicz@digital.cabinet-office.gov.uk",
+ "createdDate": "2015-10-27T12:26:30Z",
+ "lastUpdatedbyUser": "rheanna.price-danilewicz@digital.cabinet-office.gov.uk",
+ "lastUpdatedDate": "2015-10-27T12:26:30Z",
+ "awards": [
+  {
+   "id": "40027",
+   "noticeId": "c7318468-7e5e-4162-ae10-e738010d35b8",
+   "parentId": null,
+   "value": 734834,
+   "supplierName": "Palantir",
+   "supplierAddress": "8 Lincoln's Inn Fields, London, WC2A 3BP",
+   "contact": null,
+   "dunsNumber": "000000000",
+   "supplierAwardedValue": null,
+   "referenceType": null,
+   "reference": null,
+   "startDate": "2015-09-01T00:00:00+01:00",
+   "endDate": "2017-08-31T00:00:00+01:00",
+   "awardedDate": "2015-09-01T00:00:00+01:00",
+   "awardedProcedureType": "Other",
+   "awardedProcedureTypeOther": null,
+   "awardedProcedureAcceleratedJustification": null,
+   "annexDOptionType": null,
+   "reasonContractLawful": null,
+   "additionalDetails": null,
+   "awardedToSME": false,
+   "awardedToVCSO": false,
+   "awardGuid": "FC96DEC1-F6AA-4678-B3E7-89151377F0E9"
+  }
+ ],
+ "isPublished": true,
+ "isPreAwarded": true,
+ "organisation": {
+  "name": "GDS"
+ },
+ "additionalDetails": [
+  {
+   "id": "c7318468-7e5e-4162-ae10-e738010d35b8",
+   "noticeId": "c7318468-7e5e-4162-ae10-e738010d35b8",
+   "description": "Additional Text",
+   "dataType": "AdditionalText",
+   "textData": null,
+   "mimeType": null,
+   "awardGuid": null
+  },
+  {
+   "id": "757866d2-bfa1-49bb-8916-d03f73785f8f",
+   "noticeId": "c7318468-7e5e-4162-ae10-e738010d35b8",
+   "description": "WP990 Palantir Redacted Full Contract",
+   "dataType": "Attachment",
+   "filename": "WP990 Palantir Redacted Contract.pdf",
+   "mimeType": "application/pdf",
+   "awardGuid": null
+  },
+  {
+   "id": "61757f5e-b401-45e4-a4c6-21911ae5cb81",
+   "noticeId": "c7318468-7e5e-4162-ae10-e738010d35b8",
+   "description": "WP990 Palantir Signed Contract",
+   "dataType": "Attachment",
+   "filename": "WP990 Palantir signed_Redacted Contract.pdf",
+   "mimeType": "application/pdf",
+   "awardGuid": null
+  }
+ ],
+ "withdrawnDate": "",
+ "withdrawnReason": "",
+ "withdrawnByUser": null,
+ "cpvCodes": [
+  {
+   "code": "72000000",
+   "description": "IT services: consulting, software development, Internet and support",
+   "parentCode": "72000000",
+   "hasChildren": true
+  }
+ ],
+ "publishedVersion": [
+  {
+   "changedByUser": "rheanna.price-danilewicz@digital.cabinet-office.gov.uk",
+   "dateChanged": "2015-10-27T12:26:30Z",
+   "id": "114724",
+   "noticeStatus": "Awarded",
+   "noticeType": "Contract",
+   "publishedNoticeId": "c7318468-7e5e-4162-ae10-e738010d35b8",
+   "versionNumber": 1,
+   "visibleToPublic": false
+  }
+ ],
+ "numberOfViews": "2493"
+}

@@ -1,0 +1,130 @@
+{
+ "id": "89e56e99-e4b4-4cf3-89eb-36a737bfc0d6",
+ "notice": {
+  "id": "89e56e99-e4b4-4cf3-89eb-36a737bfc0d6",
+  "parentId": null,
+  "parentIdentifier": null,
+  "linkReason": null,
+  "version": 1,
+  "contactDetails": {
+   "name": "Paul Greenwood",
+   "email": "Paul.greenwood@northumbria-healthcare.nhs.uk",
+   "address1": "UNIT 7-8,SILVER FOX WAY COBALT BUSINESS PK",
+   "address2": "",
+   "town": "North Shields",
+   "postcode": "NE270QJ",
+   "country": "England",
+   "phone": "07747 797572",
+   "webAddress": ""
+  },
+  "identifier": "NH1659",
+  "title": "Foundry Support for Supply Chain FDP",
+  "description": "Foundry Support for the Supply Chain FDP Product",
+  "cpvDescription": "Business services: law, marketing, consulting, recruitment, printing and security",
+  "publishedDate": "2025-07-23T15:51:32+01:00",
+  "approachMarketDate": "",
+  "deadlineDate": "2024-09-20T12:00:00+01:00",
+  "valueLow": 412500,
+  "valueHigh": 0,
+  "postcode": "NE27 0QJ",
+  "region": "",
+  "nationwide": false,
+  "location": {
+   "lat": 55.039304,
+   "lon": -1.51945
+  },
+  "start": "2024-09-23T00:00:00+01:00",
+  "end": "2025-03-22T00:00:00Z",
+  "type": "Contract",
+  "cpvCodes": [
+   "79000000"
+  ],
+  "spendProfile": null,
+  "status": "Awarded",
+  "isSuitableForSme": true,
+  "isSuitableForVco": false,
+  "supplyChain": false,
+  "lastNotifiableUpdate": "2025-07-23T15:51:32+01:00",
+  "organisationName": "NORTHUMBRIA HEALTHCARE NHS FOUNDATION TRUST",
+  "sector": null,
+  "procedureType": null,
+  "procedureTypeOther": null,
+  "procedureAcceleratedJustification": null,
+  "ojeuContractType": "Products",
+  "isFrameworkAgreement": false,
+  "isExtensionPossible": false,
+  "annexDOption": null,
+  "reasonContractLawful": null
+ },
+ "createdByUser": "Paul.greenwood@northumbria-healthcare.nhs.uk",
+ "createdDate": "2025-07-23T15:48:09+01:00",
+ "lastUpdatedbyUser": "Paul.greenwood@northumbria-healthcare.nhs.uk",
+ "lastUpdatedDate": "2025-07-23T15:51:32+01:00",
+ "awards": [
+  {
+   "id": "784716",
+   "noticeId": "89e56e99-e4b4-4cf3-89eb-36a737bfc0d6",
+   "parentId": null,
+   "value": 412500,
+   "supplierName": "Palantir Technologies UK Ltd",
+   "supplierAddress": "Birchin Court 5th Floor,\r\n19-25 Birchin Lane,\r\nLondon\r\nEC3V 9DU",
+   "contact": null,
+   "dunsNumber": "",
+   "supplierAwardedValue": 412500,
+   "referenceType": "COMPANIES_HOUSE",
+   "reference": "07042994",
+   "startDate": "2024-09-23T00:00:00+01:00",
+   "endDate": "2025-03-22T00:00:00Z",
+   "awardedDate": "2024-09-20T00:00:00+01:00",
+   "awardedProcedureType": "CallOffFromFrameworkAgreement",
+   "awardedProcedureTypeOther": "",
+   "awardedProcedureAcceleratedJustification": "",
+   "annexDOptionType": "",
+   "reasonContractLawful": "",
+   "additionalDetails": "",
+   "awardedToSME": false,
+   "awardedToVCSO": false,
+   "awardGuid": "dc909175-2d72-4c7d-b0d4-4d0b0f82502f"
+  }
+ ],
+ "isPublished": true,
+ "isPreAwarded": true,
+ "organisation": {
+  "name": "NORTHUMBRIA HEALTHCARE NHS FOUNDATION TRUST"
+ },
+ "additionalDetails": [
+  {
+   "id": "89e56e99-e4b4-4cf3-89eb-36a737bfc0d6",
+   "noticeId": "89e56e99-e4b4-4cf3-89eb-36a737bfc0d6",
+   "description": "Additional Text",
+   "dataType": "AdditionalText",
+   "textData": "",
+   "mimeType": null,
+   "awardGuid": null
+  }
+ ],
+ "withdrawnDate": "",
+ "withdrawnReason": null,
+ "withdrawnByUser": null,
+ "cpvCodes": [
+  {
+   "code": "79000000",
+   "description": "Business services: law, marketing, consulting, recruitment, printing and security",
+   "parentCode": "79000000",
+   "hasChildren": true
+  }
+ ],
+ "publishedVersion": [
+  {
+   "changedByUser": "Paul.greenwood@northumbria-healthcare.nhs.uk",
+   "dateChanged": "2025-07-23T15:51:32+01:00",
+   "id": "908127",
+   "noticeStatus": "Awarded",
+   "noticeType": "Contract",
+   "publishedNoticeId": "89e56e99-e4b4-4cf3-89eb-36a737bfc0d6",
+   "versionNumber": 1,
+   "visibleToPublic": true
+  }
+ ],
+ "numberOfViews": "770"
+}

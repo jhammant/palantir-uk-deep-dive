@@ -1,0 +1,130 @@
+{
+ "id": "d5cf0f8e-8085-4793-b051-67b59958211c",
+ "notice": {
+  "id": "d5cf0f8e-8085-4793-b051-67b59958211c",
+  "parentId": null,
+  "parentIdentifier": "",
+  "linkReason": "",
+  "version": 1,
+  "contactDetails": {
+   "name": "Neil Widdop",
+   "email": "Neil.Widdop@defra.gov.uk",
+   "address1": "2 Marsham Street",
+   "address2": "",
+   "town": "London",
+   "postcode": "SW1P 4DF",
+   "country": "GB",
+   "phone": "",
+   "webAddress": ""
+  },
+  "identifier": "CF-0143900D8d000003VQwdEAG",
+  "title": "Trade Analytics Solution",
+  "description": "Trade Analytics Solution",
+  "cpvDescription": "Analytical or scientific software package",
+  "publishedDate": "2023-10-10T09:40:24+01:00",
+  "approachMarketDate": "",
+  "deadlineDate": "2023-09-13T12:00:00+01:00",
+  "valueLow": 1500000,
+  "valueHigh": 1500000,
+  "postcode": "",
+  "region": "Any region",
+  "nationwide": false,
+  "location": {
+   "lat": 0,
+   "lon": 0
+  },
+  "start": "2023-11-01T00:00:00Z",
+  "end": "2024-03-31T00:00:00Z",
+  "type": "Contract",
+  "cpvCodes": [
+   "48461000"
+  ],
+  "spendProfile": null,
+  "status": "Awarded",
+  "isSuitableForSme": false,
+  "isSuitableForVco": false,
+  "supplyChain": false,
+  "lastNotifiableUpdate": "2023-10-10T09:40:24+01:00",
+  "organisationName": "Defra",
+  "sector": "",
+  "procedureType": "CallOffFromFrameworkAgreement",
+  "procedureTypeOther": "",
+  "procedureAcceleratedJustification": "",
+  "ojeuContractType": "Services",
+  "isFrameworkAgreement": false,
+  "isExtensionPossible": true,
+  "annexDOption": null,
+  "reasonContractLawful": null
+ },
+ "createdByUser": "joe.beech@atamis.co.uk",
+ "createdDate": "2023-10-10T09:40:02+01:00",
+ "lastUpdatedbyUser": "joe.beech@atamis.co.uk",
+ "lastUpdatedDate": "2023-10-10T09:40:24+01:00",
+ "awards": [
+  {
+   "id": "613799",
+   "noticeId": "d5cf0f8e-8085-4793-b051-67b59958211c",
+   "parentId": null,
+   "value": 1500000,
+   "supplierName": "Palantir Technologies",
+   "supplierAddress": "20 Soho Square, London W1D 3QW",
+   "contact": null,
+   "dunsNumber": "null",
+   "supplierAwardedValue": null,
+   "referenceType": "NONE",
+   "reference": "",
+   "startDate": "2023-11-01T00:00:00Z",
+   "endDate": "2024-03-31T00:00:00Z",
+   "awardedDate": "2023-09-13T00:00:00+01:00",
+   "awardedProcedureType": "CallOffFromFrameworkAgreement",
+   "awardedProcedureTypeOther": "",
+   "awardedProcedureAcceleratedJustification": "",
+   "annexDOptionType": "",
+   "reasonContractLawful": "null",
+   "additionalDetails": "",
+   "awardedToSME": null,
+   "awardedToVCSO": null,
+   "awardGuid": "null"
+  }
+ ],
+ "isPublished": true,
+ "isPreAwarded": true,
+ "organisation": {
+  "name": "Defra"
+ },
+ "additionalDetails": [
+  {
+   "id": "d5cf0f8e-8085-4793-b051-67b59958211c",
+   "noticeId": "d5cf0f8e-8085-4793-b051-67b59958211c",
+   "description": "Additional Text",
+   "dataType": "AdditionalText",
+   "textData": "",
+   "mimeType": null,
+   "awardGuid": null
+  }
+ ],
+ "withdrawnDate": "",
+ "withdrawnReason": "",
+ "withdrawnByUser": null,
+ "cpvCodes": [
+  {
+   "code": "48461000",
+   "description": "Analytical or scientific software package",
+   "parentCode": "48460000",
+   "hasChildren": false
+  }
+ ],
+ "publishedVersion": [
+  {
+   "changedByUser": "joe.beech@atamis.co.uk",
+   "dateChanged": "2023-10-10T09:40:24+01:00",
+   "id": "750008",
+   "noticeStatus": "Awarded",
+   "noticeType": "Contract",
+   "publishedNoticeId": "d5cf0f8e-8085-4793-b051-67b59958211c",
+   "versionNumber": 1,
+   "visibleToPublic": true
+  }
+ ],
+ "numberOfViews": "1441"
+}

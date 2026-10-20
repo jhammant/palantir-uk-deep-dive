@@ -1,0 +1,2859 @@
+{
+ "uri": "https://www.find-tender.service.gov.uk/api/1.0/ocdsRecordPackages/ocds-h6vhtk-0328ce",
+ "publisher": {
+  "name": "Cabinet Office",
+  "scheme": "GB-GOR",
+  "uid": "D2",
+  "uri": "https://www.gov.uk/government/organisations/cabinet-office"
+ },
+ "publishedDate": "2023-12-22T09:21:57Z",
+ "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+ "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+ "version": "1.1",
+ "extensions": [
+  "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+  "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+  "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+  "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+  "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+  "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+  "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+  "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+  "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json"
+ ],
+ "packages": [
+  "https://www.find-tender.service.gov.uk/api/1.0/ocdsRecordPackages/ocds-h6vhtk-0328ce"
+ ],
+ "records": [
+  {
+   "ocid": "ocds-h6vhtk-0328ce",
+   "releases": [
+    {
+     "ocid": "ocds-h6vhtk-0328ce",
+     "id": "008755-2022",
+     "date": "2022-04-01T08:16:44+01:00",
+     "tag": [
+      "planning"
+     ],
+     "description": "NHS England is issuing a Request for Information in relation to the project and accompanying background information which will be made available to suppliers. \u2018Suppliers\u2019 means entities or groups of entities which offer the provision of services on the market.<br/> <br/>NHS England intends to hold a supplier briefing session in relation to the project on 13 April 2022. The session is open to suppliers interested in the procurement, subject to registration with NHS England and on confidential terms, by https://www.events.england.nhs.uk/events/federated-data-platform-supplier-briefing-session   <br/> <br/>Subsequent procurements or other awards of contract in relation to the project may be carried out by contracting authorities other than NHS England. The estimated total value set out above does not necessarily include the value of such procurements or awards.",
+     "initiationType": "tender",
+     "tender": {
+      "id": "ocds-h6vhtk-0328ce",
+      "legalBasis": {
+       "id": "32014L0024",
+       "scheme": "CELEX"
+      },
+      "title": "NHS Federated Data Platform",
+      "status": "planned",
+      "classification": {
+       "scheme": "CPV",
+       "id": "72322000",
+       "description": "Data management services"
+      },
+      "mainProcurementCategory": "services",
+      "description": "NHS England is planning to go to the market for a Federated Data Platform (FDP), which will be an essential enabler to transformational improvements across the NHS.<br/><br/>The FDP will be an ecosystem of technologies and services implemented across the NHS in England.<br/>\u200b<br/>The FDP will be built on five use cases:\u200b<br/>1. Population health and person insight<br/>2. Care coordination (ICS)<br/>3. Elective recovery (Trust) <br/>4. Vaccines and immunisation and<br/>5) Supply Chain",
+      "value": {
+       "amount": 240000000,
+       "currency": "GBP"
+      },
+      "lots": [
+       {
+        "id": "1",
+        "description": "It is anticipated that the scope of this procurement will comprise two lots: <br/><br/>1. The FDP itself, with ICS integration and consultancy and communications support for ICS implementation and adoption\u200b<br/><br/>2. Privacy-enhancing technology<br/><br/>It is anticipated that this procurement will follow the open procedure, as detailed in regulation 27 of the Public Contracts Regulations 2015. <br/><br/>Planned subsequent procurements exercises will cover a marketplace for applications\u200b and training and deployment support\u200b. Additional information: Interested suppliers are invited to participate in NHS England's pre-market consultation (this will be made available on NHS England's e-tendering portal: http://health.atamis.co.uk) <br/><br/>Please note that this PIN is NOT a call for competition.",
+        "status": "planned"
+       }
+      ],
+      "items": [
+       {
+        "id": "1",
+        "additionalClassifications": [
+         {
+          "scheme": "CPV",
+          "id": "72322000",
+          "description": "Data management services"
+         },
+         {
+          "scheme": "CPV",
+          "id": "48211000",
+          "description": "Platform interconnectivity software package"
+         },
+         {
+          "scheme": "CPV",
+          "id": "48611000",
+          "description": "Database software package"
+         },
+         {
+          "scheme": "CPV",
+          "id": "48000000",
+          "description": "Software package and information systems"
+         },
+         {
+          "scheme": "CPV",
+          "id": "48814000",
+          "description": "Medical information systems"
+         },
+         {
+          "scheme": "CPV",
+          "id": "48613000",
+          "description": "Electronic data management (EDM)"
+         }
+        ],
+        "deliveryAddresses": [
+         {
+          "region": "UKE4"
+         }
+        ],
+        "deliveryLocation": {
+         "description": "The NHS in England."
+        },
+        "relatedLot": "1"
+       }
+      ],
+      "communication": {
+       "futureNoticeDate": "2022-06-06T00:00:00+01:00",
+       "atypicalToolUrl": "http://health.atamis.co.uk"
+      },
+      "coveredBy": [
+       "GPA"
+      ]
+     },
+     "parties": [
+      {
+       "name": "NHS England",
+       "id": "GB-FTS-3717",
+       "identifier": {
+        "legalName": "NHS England"
+       },
+       "address": {
+        "streetAddress": "Quarry House",
+        "locality": "Leeds",
+        "region": "UKE",
+        "postalCode": "LS2 7UE",
+        "countryName": "United Kingdom"
+       },
+       "contactPoint": {
+        "name": "Senior Procurement Manager",
+        "email": "england.commercialqueries@nhs.net"
+       },
+       "roles": [
+        "buyer"
+       ],
+       "details": {
+        "url": "https://www.england.nhs.uk//",
+        "buyerProfile": "https://www.england.nhs.uk//",
+        "classifications": [
+         {
+          "scheme": "TED_CA_TYPE",
+          "id": "MINISTRY",
+          "description": "Ministry or any other national or federal authority, including their regional or local subdivisions"
+         },
+         {
+          "scheme": "COFOG",
+          "id": "07",
+          "description": "Health"
+         }
+        ]
+       }
+      }
+     ],
+     "buyer": {
+      "id": "GB-FTS-3717",
+      "name": "NHS England"
+     },
+     "language": "en"
+    },
+    {
+     "ocid": "ocds-h6vhtk-0328ce",
+     "id": "009960-2022",
+     "date": "2022-04-13T16:26:41+01:00",
+     "tag": [
+      "tenderUpdate"
+     ],
+     "initiationType": "tender",
+     "tender": {
+      "id": "ocds-h6vhtk-0328ce",
+      "legalBasis": {
+       "id": "32014L0024",
+       "scheme": "CELEX"
+      },
+      "title": "NHS Federated Data Platform",
+      "classification": {
+       "scheme": "CPV",
+       "id": "72322000",
+       "description": "Data management services"
+      },
+      "mainProcurementCategory": "services",
+      "description": "NHS England is planning to go to the market for a Federated Data Platform (FDP), which will be an essential enabler to transformational improvements across the NHS.The FDP will be an ecosystem of technologies and services implemented across the NHS in England.\u200bThe FDP will be built on five use cases:\u200b1. Population health and person insight2. Care coordination (ICS)3. Elective recovery (Trust) 4. Vaccines and immunisation and5) Supply Chain",
+      "amendments": [
+       {
+        "id": "3",
+        "description": "Interested suppliers are invited to participate in NHS England's pre-market consultation: https://health-family-contract-search.secure.force.com/ProSpend__CS_ContractPage?SearchType=Projects&uid=a078d000000tfAKAAY&searchStr=&sortStr=Recently+Published&page=1&filters=&County=\nPlease note that this PIN is NOT a call for competition."
+       }
+      ]
+     },
+     "parties": [
+      {
+       "name": "NHS England",
+       "id": "GB-FTS-3717",
+       "identifier": {
+        "legalName": "NHS England"
+       },
+       "address": {
+        "streetAddress": "Quarry House",
+        "locality": "Leeds",
+        "region": "UKE",
+        "postalCode": "LS2 7UE",
+        "countryName": "United Kingdom"
+       },
+       "contactPoint": {
+        "name": "Senior Procurement Manager",
+        "email": "england.commercialqueries@nhs.net"
+       },
+       "roles": [
+        "buyer"
+       ],
+       "details": {
+        "url": "https://www.england.nhs.uk//",
+        "buyerProfile": "https://www.england.nhs.uk//"
+       }
+      }
+     ],
+     "buyer": {
+      "id": "GB-FTS-3717",
+      "name": "NHS England"
+     },
+     "language": "en"
+    },
+    {
+     "ocid": "ocds-h6vhtk-0328ce",
+     "id": "020196-2022",
+     "date": "2022-07-25T15:54:24+01:00",
+     "tag": [
+      "tenderUpdate"
+     ],
+     "initiationType": "tender",
+     "tender": {
+      "id": "ocds-h6vhtk-0328ce",
+      "legalBasis": {
+       "id": "32014L0024",
+       "scheme": "CELEX"
+      },
+      "title": "NHS Federated Data Platform",
+      "classification": {
+       "scheme": "CPV",
+       "id": "72322000",
+       "description": "Data management services"
+      },
+      "mainProcurementCategory": "services",
+      "description": "NHS England is planning to go to the market for a Federated Data Platform (FDP), which will be an essential enabler to transformational improvements across the NHS.The FDP will be an ecosystem of technologies and services implemented across the NHS in England.\u200bThe FDP will be built on five use cases:\u200b1. Population health and person insight2. Care coordination (ICS)3. Elective recovery (Trust) 4. Vaccines and immunisation and5) Supply Chain",
+      "amendments": [
+       {
+        "id": "4",
+        "unstructuredChanges": [
+         {
+          "oldValue": {
+           "text": ""
+          },
+          "newValue": {
+           "text": "\u00a3360,000,000.00"
+          },
+          "where": {
+           "section": "II.1.5.1",
+           "label": "Estimated total value"
+          }
+         },
+         {
+          "oldValue": {
+           "text": ""
+          },
+          "newValue": {
+           "text": "It is anticipated that the scope of this procurement will comprise\n1. The FDP itself, with ICS integration and consultancy and communications support for ICS implementation and adoption\u200b\nFurther detail on the planned procurement can be found on NHS England's e-Tendering system, Atamis. Please email england.commercialqueries@nhs.net.\nPlanned subsequent procurements exercises will cover privacy-enhancing technology, a marketplace for applications\u200b and training and deployment support\u200b."
+          },
+          "where": {
+           "section": "II.2.4.1",
+           "label": "Description of procurement"
+          }
+         },
+         {
+          "oldValue": {
+           "text": ""
+          },
+          "newValue": {
+           "date": "2022-09-05T00:00:00+01:00"
+          },
+          "where": {
+           "section": "II.3.0.1",
+           "label": "Estimated notice publication"
+          }
+         },
+         {
+          "oldValue": {
+           "text": ""
+          },
+          "newValue": {
+           "text": "Suppliers should refer to NHS England's e-Tendering system, Atamis for up to date information relating to this procurement. 'Suppliers' means entities or groups of entities which offer the provision of services on the market.\nSubsequent procurements or other awards of contract in relation to the project may be carried out by contracting authorities other than NHS England. The estimated total value set out above does not necessarily include the value of such procurements or awards."
+          },
+          "where": {
+           "section": "VI.3.0.1",
+           "label": "Additional information"
+          }
+         }
+        ]
+       }
+      ]
+     },
+     "parties": [
+      {
+       "name": "NHS England",
+       "id": "GB-FTS-3717",
+       "identifier": {
+        "legalName": "NHS England"
+       },
+       "address": {
+        "streetAddress": "Quarry House",
+        "locality": "Leeds",
+        "region": "UKE",
+        "postalCode": "LS2 7UE",
+        "countryName": "United Kingdom"
+       },
+       "contactPoint": {
+        "name": "Senior Procurement Manager",
+        "email": "england.commercialqueries@nhs.net"
+       },
+       "roles": [
+        "buyer"
+       ],
+       "details": {
+        "url": "https://www.england.nhs.uk//",
+        "buyerProfile": "https://www.england.nhs.uk//"
+       }
+      }
+     ],
+     "buyer": {
+      "id": "GB-FTS-3717",
+      "name": "NHS England"
+     },
+     "language": "en"
+    },
+    {
+     "ocid": "ocds-h6vhtk-0328ce",
+     "id": "000669-2023",
+     "date": "2023-01-10T13:19:40Z",
+     "tag": [
+      "tender"
+     ],
+     "initiationType": "tender",
+     "tender": {
+      "id": "C104091",
+      "legalBasis": {
+       "id": "32014L0024",
+       "scheme": "CELEX"
+      },
+      "title": "NHS Federated Data Platform and Associated Services",
+      "status": "active",
+      "classification": {
+       "scheme": "CPV",
+       "id": "72322000",
+       "description": "Data management services"
+      },
+      "mainProcurementCategory": "services",
+      "description": "This is the first procurement exercise NHS England is carrying out in relation to plans for a federated data platform for the NHS. NHS England requires a Supplier for the provision of Federated Data Platform and Associated Services (FDP-AS). The data platform will be owned and controlled by the NHS to unlock the power of NHS data to understand patterns, solve problems, plan services for local populations and ultimately transform the health and care of the people they serve.<br/><br/>It is anticipated that the 5-year contract value will be up to \u00a3360,000,000. There will be an additional option to extend by 12 +12 months with a total estimated value of up to \u00a3480,000,000 over the contract period. The actual contract value will depend on the extent of the use of the solution.",
+      "value": {
+       "amount": 480000000,
+       "currency": "GBP"
+      },
+      "lots": [
+       {
+        "id": "1",
+        "description": "NHS England is undertaking a competitive procurement to replace its existing COVID-19 Data Platform with a data platform for NHS England and NHS bodies.  <br/><br/>Services will be provided under the contract for FDP-AS to NHS bodies (as defined in the National Health Service Act 2006) and other providers of NHS-funded services (in relation to the provision of those services), as well as NHS England.<br/><br/>The data platform will be a cloud-based Software as a Service (Saas) Solution, which will enable the use and sharing of data using a safe and secure environment.  <br/><br/>NHS England are not mandating use of the data platform. It will be of benefit for Trusts and ICSs to use the data platform to support Use Cases they wish to adopt. Local Trusts and ICS\u2019s will have the autonomy to use the data platform to address their own key challenges and priorities. De-identified data will only flow to central platforms for specific, necessary and pre-agreed planning purposes (such as national reporting on vaccine uptake, to increase supply chain efficiency or to create benchmarks of good practice that can inform national policy) and in compliance with information governance principles and data protection law.  <br/><br/>The key features of this requirement are: <br/><br/>1. Platform: We are buying a platform that will be run as a SaaS with some key Requirements which will have to be met<br/><br/>2.     Service: The Successful Supplier will need to meet our robust performance measures and governance standards.<br/><br/>3.     Customer base: FDP-AS will be delivered to NHS England and other NHS Bodies. Providers of NHS funded care may also use the platform.<br/><br/>4.     Landscape: FDP-AS to fit within the wider NHS England environment and constraints.<br/><br/>5.     Transition: needs to be successfully implemented to support a safe transition from the incumbent solution.<br/><br/>6.     Implementation: will be based around Use Cases, as instructed by NHS England.<br/><br/>7.     Behaviours: We require the Successful Supplier to meet our ways of working.",
+        "value": {
+         "amount": 480000000,
+         "currency": "GBP"
+        },
+        "contractPeriod": {
+         "durationInDays": 1800
+        },
+        "hasRenewal": false,
+        "submissionTerms": {
+         "variantPolicy": "notAllowed"
+        },
+        "hasOptions": true,
+        "options": {
+         "description": "Optional extensions to the contract term of 12+12 months.  The value stated in section II.1.5 includes the optional extension periods."
+        },
+        "status": "active"
+       }
+      ],
+      "items": [
+       {
+        "id": "1",
+        "additionalClassifications": [
+         {
+          "scheme": "CPV",
+          "id": "30211300",
+          "description": "Computer platforms"
+         },
+         {
+          "scheme": "CPV",
+          "id": "72000000",
+          "description": "IT services: consulting, software development, Internet and support"
+         },
+         {
+          "scheme": "CPV",
+          "id": "48610000",
+          "description": "Database systems"
+         },
+         {
+          "scheme": "CPV",
+          "id": "72322000",
+          "description": "Data management services"
+         },
+         {
+          "scheme": "CPV",
+          "id": "48612000",
+          "description": "Database-management system"
+         },
+         {
+          "scheme": "CPV",
+          "id": "48613000",
+          "description": "Electronic data management (EDM)"
+         },
+         {
+          "scheme": "CPV",
+          "id": "72317000",
+          "description": "Data storage services"
+         },
+         {
+          "scheme": "CPV",
+          "id": "72319000",
+          "description": "Data supply services"
+         },
+         {
+          "scheme": "CPV",
+          "id": "72310000",
+          "description": "Data-processing services"
+         }
+        ],
+        "deliveryAddresses": [
+         {
+          "region": "UK"
+         }
+        ],
+        "relatedLot": "1"
+       }
+      ],
+      "submissionMethod": [
+       "electronicSubmission",
+       "written"
+      ],
+      "submissionMethodDetails": "https://health-family.force.com/s/Welcome",
+      "communication": {
+       "atypicalToolUrl": "https://health-family.force.com/s/Welcome"
+      },
+      "selectionCriteria": {
+       "criteria": [
+        {
+         "type": "suitability",
+         "description": "Applicants will be assessed in accordance with the Public Contracts Regulations 2015 on the basis of the information provided in response to the Selection Questionnaire.",
+         "appliesTo": [
+          "supplier"
+         ]
+        },
+        {
+         "type": "economic",
+         "description": "Selection criteria as stated in the procurement documents.",
+         "minimum": "Selection criteria as stated in the procurement documents.",
+         "appliesTo": [
+          "supplier"
+         ]
+        }
+       ]
+      },
+      "procurementMethod": "selective",
+      "procurementMethodDetails": "Competitive dialogue",
+      "secondStage": {
+       "successiveReduction": true,
+       "invitationDate": "2023-01-10T00:00:00Z"
+      },
+      "coveredBy": [
+       "GPA"
+      ],
+      "tenderPeriod": {
+       "endDate": "2023-02-09T12:00:00Z"
+      },
+      "submissionTerms": {
+       "languages": [
+        "en"
+       ],
+       "bidValidityPeriod": {
+        "durationInDays": 270
+       }
+      },
+      "hasRecurrence": false
+     },
+     "parties": [
+      {
+       "name": "NHS England",
+       "id": "GB-FTS-67205",
+       "identifier": {
+        "legalName": "NHS England"
+       },
+       "address": {
+        "streetAddress": "1st Floor, Quarry House, Quarry Hill",
+        "locality": "Leeds",
+        "region": "UKE",
+        "postalCode": "LS2 7UE",
+        "countryName": "United Kingdom"
+       },
+       "contactPoint": {
+        "name": "Kate Cassidy",
+        "email": "england.commercialqueries@nhs.net",
+        "url": "https://health-family.force.com/s/Welcome"
+       },
+       "roles": [
+        "buyer"
+       ],
+       "details": {
+        "url": "https://www.england.nhs.uk//",
+        "buyerProfile": "https://www.england.nhs.uk//",
+        "classifications": [
+         {
+          "scheme": "TED_CA_TYPE",
+          "id": "MINISTRY",
+          "description": "Ministry or any other national or federal authority, including their regional or local subdivisions"
+         },
+         {
+          "scheme": "COFOG",
+          "id": "07",
+          "description": "Health"
+         }
+        ]
+       }
+      },
+      {
+       "name": "The High Court",
+       "id": "GB-FTS-497",
+       "identifier": {
+        "legalName": "The High Court"
+       },
+       "address": {
+        "streetAddress": "Strand",
+        "locality": "London",
+        "postalCode": "WC2A 2LL",
+        "countryName": "United Kingdom"
+       },
+       "contactPoint": {
+        "email": "generaloffice@administrativecourtoffice.justice.gov.uk"
+       },
+       "roles": [
+        "reviewBody"
+       ],
+       "details": {
+        "url": "https://www.gov.uk/courts-tribunals"
+       }
+      }
+     ],
+     "buyer": {
+      "id": "GB-FTS-67205",
+      "name": "NHS England"
+     },
+     "language": "en"
+    },
+    {
+     "ocid": "ocds-h6vhtk-0328ce",
+     "id": "037776-2023",
+     "date": "2023-12-22T09:21:57Z",
+     "tag": [
+      "award",
+      "contract"
+     ],
+     "initiationType": "tender",
+     "tender": {
+      "id": "C104091",
+      "legalBasis": {
+       "id": "32014L0024",
+       "scheme": "CELEX"
+      },
+      "title": "Federated Data Platform and Associated Services",
+      "status": "complete",
+      "classification": {
+       "scheme": "CPV",
+       "id": "72322000",
+       "description": "Data management services"
+      },
+      "mainProcurementCategory": "services",
+      "description": "NHS England has procured a contract for the provision of Federated Data Platform and Associated Services (FDP-AS). The data platform will be owned and controlled by the NHS to unlock the power of NHS data to understand patterns, solve problems, plan services for local populations and ultimately transform the health and care of the people they serve.<br/><br/>The contract value set out in section II.1.7.1 is not a committed amount.<br/>Under the terms of the contract, the Authority pays for data platform services as they are consumed according to an agreed pricing schedule and therefore the contract value could increase to a forecasted amount of \u00a3330m. This figure is also not a committed amount.",
+      "lots": [
+       {
+        "id": "1",
+        "description": "NHS England has undertaken a competitive procurement, using the competitive dialogue procedure, for the provision of a Federated Data Platform and Associated Services for NHS England and NHS bodies.<br/><br/>The procurement has been undertaken in accordance with the procurement documentation and process outlined.<br/><br/>Services will be provided under the contract for FDP-AS to NHS bodies (as defined in the National Health Service Act 2006) and other providers of NHS-funded services (in relation to the provision of those services), as well as NHS England.<br/><br/>The data platform is a cloud-based Software as a Service (SaaS) Solution, which will enable the use and sharing of data using a safe and secure environment. Additional information: Additional information on the Federated Data Platform can be found here: https://www.england.nhs.uk/digitaltechnology/digitising-connecting-and-transforming-health-and-care/",
+        "awardCriteria": {
+         "criteria": [
+          {
+           "name": "Quality",
+           "type": "quality",
+           "description": "60"
+          },
+          {
+           "name": "Social Value",
+           "type": "quality",
+           "description": "10"
+          },
+          {
+           "name": "Price",
+           "type": "cost",
+           "description": "30"
+          }
+         ]
+        },
+        "hasOptions": true,
+        "options": {
+         "description": "Optional extensions to the contract term of 24+12+12 months."
+        },
+        "status": "cancelled"
+       }
+      ],
+      "items": [
+       {
+        "id": "1",
+        "additionalClassifications": [
+         {
+          "scheme": "CPV",
+          "id": "30211300",
+          "description": "Computer platforms"
+         },
+         {
+          "scheme": "CPV",
+          "id": "72260000",
+          "description": "Software-related services"
+         }
+        ],
+        "deliveryAddresses": [
+         {
+          "region": "UK"
+         }
+        ],
+        "deliveryLocation": {
+         "description": "NHS England"
+        },
+        "relatedLot": "1"
+       }
+      ],
+      "procurementMethod": "selective",
+      "procurementMethodDetails": "Competitive dialogue",
+      "coveredBy": [
+       "GPA"
+      ]
+     },
+     "awards": [
+      {
+       "id": "037776-2023-1",
+       "relatedLots": [
+        "1"
+       ],
+       "status": "active",
+       "suppliers": [
+        {
+         "id": "GB-FTS-101398",
+         "name": "PALANTIR TECHNOLOGIES UK, LTD."
+        }
+       ]
+      }
+     ],
+     "parties": [
+      {
+       "name": "NHS England",
+       "id": "GB-FTS-67205",
+       "identifier": {
+        "legalName": "NHS England"
+       },
+       "address": {
+        "streetAddress": "1st Floor, Quarry House, Quarry Hill",
+        "locality": "Leeds",
+        "region": "UKE",
+        "postalCode": "LS2 7UE",
+        "countryName": "United Kingdom"
+       },
+       "contactPoint": {
+        "name": "Kate Cassidy",
+        "email": "england.commercialqueries@nhs.net"
+       },
+       "roles": [
+        "buyer"
+       ],
+       "details": {
+        "url": "https://www.england.nhs.uk//",
+        "buyerProfile": "https://www.england.nhs.uk//",
+        "classifications": [
+         {
+          "scheme": "TED_CA_TYPE",
+          "id": "MINISTRY",
+          "description": "Ministry or any other national or federal authority, including their regional or local subdivisions"
+         },
+         {
+          "scheme": "COFOG",
+          "id": "07",
+          "description": "Health"
+         }
+        ]
+       }
+      },
+      {
+       "name": "PALANTIR TECHNOLOGIES UK, LTD.",
+       "id": "GB-FTS-101398",
+       "identifier": {
+        "legalName": "PALANTIR TECHNOLOGIES UK, LTD.",
+        "id": "07042994"
+       },
+       "address": {
+        "streetAddress": "New Penderel House, 4th Floor, 283-288 High Holborn",
+        "locality": "London",
+        "region": "UK",
+        "postalCode": "WC1V 7HP",
+        "countryName": "United Kingdom"
+       },
+       "roles": [
+        "supplier"
+       ],
+       "details": {
+        "url": "http://www.palantir.com",
+        "scale": "large"
+       }
+      },
+      {
+       "name": "The High Court",
+       "id": "GB-FTS-1661",
+       "identifier": {
+        "legalName": "The High Court"
+       },
+       "address": {
+        "streetAddress": "The Strand",
+        "locality": "London",
+        "postalCode": "WC2A 2LL",
+        "countryName": "United Kingdom"
+       },
+       "roles": [
+        "reviewBody"
+       ],
+       "details": {
+        "url": "https://www.judiciary.uk/courts-and-tribunals/high-court/"
+       }
+      }
+     ],
+     "buyer": {
+      "id": "GB-FTS-67205",
+      "name": "NHS England"
+     },
+     "contracts": [
+      {
+       "id": "037776-2023-1",
+       "awardID": "037776-2023-1",
+       "status": "active",
+       "value": {
+        "amount": 182242760,
+        "currency": "GBP"
+       },
+       "dateSigned": "2023-11-22T00:00:00Z"
+      }
+     ],
+     "bids": {
+      "statistics": [
+       {
+        "id": "2",
+        "measure": "bids",
+        "relatedLot": "1",
+        "value": 7
+       }
+      ]
+     },
+     "language": "en"
+    }
+   ],
+   "compiledRelease": {
+    "tag": [
+     "compiled"
+    ],
+    "id": "ocds-h6vhtk-0328ce-2023-12-22T09:21:57Z",
+    "date": "2023-12-22T09:21:57Z",
+    "ocid": "ocds-h6vhtk-0328ce",
+    "description": "NHS England is issuing a Request for Information in relation to the project and accompanying background information which will be made available to suppliers. \u2018Suppliers\u2019 means entities or groups of entities which offer the provision of services on the market.<br/> <br/>NHS England intends to hold a supplier briefing session in relation to the project on 13 April 2022. The session is open to suppliers interested in the procurement, subject to registration with NHS England and on confidential terms, by https://www.events.england.nhs.uk/events/federated-data-platform-supplier-briefing-session   <br/> <br/>Subsequent procurements or other awards of contract in relation to the project may be carried out by contracting authorities other than NHS England. The estimated total value set out above does not necessarily include the value of such procurements or awards.",
+    "initiationType": "tender",
+    "tender": {
+     "id": "C104091",
+     "legalBasis": {
+      "id": "32014L0024",
+      "scheme": "CELEX"
+     },
+     "title": "Federated Data Platform and Associated Services",
+     "status": "complete",
+     "classification": {
+      "scheme": "CPV",
+      "id": "72322000",
+      "description": "Data management services"
+     },
+     "mainProcurementCategory": "services",
+     "description": "NHS England has procured a contract for the provision of Federated Data Platform and Associated Services (FDP-AS). The data platform will be owned and controlled by the NHS to unlock the power of NHS data to understand patterns, solve problems, plan services for local populations and ultimately transform the health and care of the people they serve.<br/><br/>The contract value set out in section II.1.7.1 is not a committed amount.<br/>Under the terms of the contract, the Authority pays for data platform services as they are consumed according to an agreed pricing schedule and therefore the contract value could increase to a forecasted amount of \u00a3330m. This figure is also not a committed amount.",
+     "value": {
+      "amount": 480000000,
+      "currency": "GBP"
+     },
+     "lots": [
+      {
+       "id": "1",
+       "description": "NHS England has undertaken a competitive procurement, using the competitive dialogue procedure, for the provision of a Federated Data Platform and Associated Services for NHS England and NHS bodies.<br/><br/>The procurement has been undertaken in accordance with the procurement documentation and process outlined.<br/><br/>Services will be provided under the contract for FDP-AS to NHS bodies (as defined in the National Health Service Act 2006) and other providers of NHS-funded services (in relation to the provision of those services), as well as NHS England.<br/><br/>The data platform is a cloud-based Software as a Service (SaaS) Solution, which will enable the use and sharing of data using a safe and secure environment. Additional information: Additional information on the Federated Data Platform can be found here: https://www.england.nhs.uk/digitaltechnology/digitising-connecting-and-transforming-health-and-care/",
+       "status": "cancelled",
+       "value": {
+        "amount": 480000000,
+        "currency": "GBP"
+       },
+       "contractPeriod": {
+        "durationInDays": 1800
+       },
+       "hasRenewal": false,
+       "submissionTerms": {
+        "variantPolicy": "notAllowed"
+       },
+       "hasOptions": true,
+       "options": {
+        "description": "Optional extensions to the contract term of 24+12+12 months."
+       },
+       "awardCriteria": {
+        "criteria": [
+         {
+          "name": "Quality",
+          "type": "quality",
+          "description": "60"
+         },
+         {
+          "name": "Social Value",
+          "type": "quality",
+          "description": "10"
+         },
+         {
+          "name": "Price",
+          "type": "cost",
+          "description": "30"
+         }
+        ]
+       }
+      }
+     ],
+     "items": [
+      {
+       "id": "1",
+       "additionalClassifications": [
+        {
+         "scheme": "CPV",
+         "id": "30211300",
+         "description": "Computer platforms"
+        },
+        {
+         "scheme": "CPV",
+         "id": "72260000",
+         "description": "Software-related services"
+        }
+       ],
+       "deliveryAddresses": [
+        {
+         "region": "UKE4"
+        },
+        {
+         "region": "UK"
+        },
+        {
+         "region": "UK"
+        }
+       ],
+       "deliveryLocation": {
+        "description": "NHS England"
+       },
+       "relatedLot": "1"
+      }
+     ],
+     "communication": {
+      "futureNoticeDate": "2022-06-06T00:00:00+01:00",
+      "atypicalToolUrl": "https://health-family.force.com/s/Welcome"
+     },
+     "coveredBy": [
+      "GPA"
+     ],
+     "amendments": [
+      {
+       "id": "3",
+       "description": "Interested suppliers are invited to participate in NHS England's pre-market consultation: https://health-family-contract-search.secure.force.com/ProSpend__CS_ContractPage?SearchType=Projects&uid=a078d000000tfAKAAY&searchStr=&sortStr=Recently+Published&page=1&filters=&County=\nPlease note that this PIN is NOT a call for competition."
+      },
+      {
+       "id": "4",
+       "unstructuredChanges": [
+        {
+         "oldValue": {
+          "text": ""
+         },
+         "newValue": {
+          "text": "\u00a3360,000,000.00"
+         },
+         "where": {
+          "section": "II.1.5.1",
+          "label": "Estimated total value"
+         }
+        },
+        {
+         "oldValue": {
+          "text": ""
+         },
+         "newValue": {
+          "text": "It is anticipated that the scope of this procurement will comprise\n1. The FDP itself, with ICS integration and consultancy and communications support for ICS implementation and adoption\u200b\nFurther detail on the planned procurement can be found on NHS England's e-Tendering system, Atamis. Please email england.commercialqueries@nhs.net.\nPlanned subsequent procurements exercises will cover privacy-enhancing technology, a marketplace for applications\u200b and training and deployment support\u200b."
+         },
+         "where": {
+          "section": "II.2.4.1",
+          "label": "Description of procurement"
+         }
+        },
+        {
+         "oldValue": {
+          "text": ""
+         },
+         "newValue": {
+          "date": "2022-09-05T00:00:00+01:00"
+         },
+         "where": {
+          "section": "II.3.0.1",
+          "label": "Estimated notice publication"
+         }
+        },
+        {
+         "oldValue": {
+          "text": ""
+         },
+         "newValue": {
+          "text": "Suppliers should refer to NHS England's e-Tendering system, Atamis for up to date information relating to this procurement. 'Suppliers' means entities or groups of entities which offer the provision of services on the market.\nSubsequent procurements or other awards of contract in relation to the project may be carried out by contracting authorities other than NHS England. The estimated total value set out above does not necessarily include the value of such procurements or awards."
+         },
+         "where": {
+          "section": "VI.3.0.1",
+          "label": "Additional information"
+         }
+        }
+       ]
+      }
+     ],
+     "submissionMethod": [
+      "electronicSubmission",
+      "written"
+     ],
+     "submissionMethodDetails": "https://health-family.force.com/s/Welcome",
+     "selectionCriteria": {
+      "criteria": [
+       {
+        "type": "suitability",
+        "description": "Applicants will be assessed in accordance with the Public Contracts Regulations 2015 on the basis of the information provided in response to the Selection Questionnaire.",
+        "appliesTo": [
+         "supplier"
+        ]
+       },
+       {
+        "type": "economic",
+        "description": "Selection criteria as stated in the procurement documents.",
+        "minimum": "Selection criteria as stated in the procurement documents.",
+        "appliesTo": [
+         "supplier"
+        ]
+       }
+      ]
+     },
+     "procurementMethod": "selective",
+     "procurementMethodDetails": "Competitive dialogue",
+     "secondStage": {
+      "successiveReduction": true,
+      "invitationDate": "2023-01-10T00:00:00Z"
+     },
+     "tenderPeriod": {
+      "endDate": "2023-02-09T12:00:00Z"
+     },
+     "submissionTerms": {
+      "languages": [
+       "en"
+      ],
+      "bidValidityPeriod": {
+       "durationInDays": 270
+      }
+     },
+     "hasRecurrence": false
+    },
+    "parties": [
+     {
+      "id": "GB-FTS-3717",
+      "name": "NHS England",
+      "identifier": {
+       "legalName": "NHS England"
+      },
+      "address": {
+       "streetAddress": "Quarry House",
+       "locality": "Leeds",
+       "region": "UKE",
+       "postalCode": "LS2 7UE",
+       "countryName": "United Kingdom"
+      },
+      "contactPoint": {
+       "name": "Senior Procurement Manager",
+       "email": "england.commercialqueries@nhs.net"
+      },
+      "roles": [
+       "buyer"
+      ],
+      "details": {
+       "url": "https://www.england.nhs.uk//",
+       "buyerProfile": "https://www.england.nhs.uk//",
+       "classifications": [
+        {
+         "scheme": "TED_CA_TYPE",
+         "id": "MINISTRY",
+         "description": "Ministry or any other national or federal authority, including their regional or local subdivisions"
+        },
+        {
+         "scheme": "COFOG",
+         "id": "07",
+         "description": "Health"
+        }
+       ]
+      }
+     },
+     {
+      "id": "GB-FTS-67205",
+      "name": "NHS England",
+      "identifier": {
+       "legalName": "NHS England"
+      },
+      "address": {
+       "streetAddress": "1st Floor, Quarry House, Quarry Hill",
+       "locality": "Leeds",
+       "region": "UKE",
+       "postalCode": "LS2 7UE",
+       "countryName": "United Kingdom"
+      },
+      "contactPoint": {
+       "name": "Kate Cassidy",
+       "email": "england.commercialqueries@nhs.net",
+       "url": "https://health-family.force.com/s/Welcome"
+      },
+      "roles": [
+       "buyer"
+      ],
+      "details": {
+       "url": "https://www.england.nhs.uk//",
+       "buyerProfile": "https://www.england.nhs.uk//",
+       "classifications": [
+        {
+         "scheme": "TED_CA_TYPE",
+         "id": "MINISTRY",
+         "description": "Ministry or any other national or federal authority, including their regional or local subdivisions"
+        },
+        {
+         "scheme": "COFOG",
+         "id": "07",
+         "description": "Health"
+        }
+       ]
+      }
+     },
+     {
+      "id": "GB-FTS-497",
+      "name": "The High Court",
+      "identifier": {
+       "legalName": "The High Court"
+      },
+      "address": {
+       "streetAddress": "Strand",
+       "locality": "London",
+       "postalCode": "WC2A 2LL",
+       "countryName": "United Kingdom"
+      },
+      "contactPoint": {
+       "email": "generaloffice@administrativecourtoffice.justice.gov.uk"
+      },
+      "roles": [
+       "reviewBody"
+      ],
+      "details": {
+       "url": "https://www.gov.uk/courts-tribunals"
+      }
+     },
+     {
+      "id": "GB-FTS-101398",
+      "name": "PALANTIR TECHNOLOGIES UK, LTD.",
+      "identifier": {
+       "legalName": "PALANTIR TECHNOLOGIES UK, LTD.",
+       "id": "07042994"
+      },
+      "address": {
+       "streetAddress": "New Penderel House, 4th Floor, 283-288 High Holborn",
+       "locality": "London",
+       "region": "UK",
+       "postalCode": "WC1V 7HP",
+       "countryName": "United Kingdom"
+      },
+      "roles": [
+       "supplier"
+      ],
+      "details": {
+       "url": "http://www.palantir.com",
+       "scale": "large"
+      }
+     },
+     {
+      "id": "GB-FTS-1661",
+      "name": "The High Court",
+      "identifier": {
+       "legalName": "The High Court"
+      },
+      "address": {
+       "streetAddress": "The Strand",
+       "locality": "London",
+       "postalCode": "WC2A 2LL",
+       "countryName": "United Kingdom"
+      },
+      "roles": [
+       "reviewBody"
+      ],
+      "details": {
+       "url": "https://www.judiciary.uk/courts-and-tribunals/high-court/"
+      }
+     }
+    ],
+    "buyer": {
+     "id": "GB-FTS-67205",
+     "name": "NHS England"
+    },
+    "language": "en",
+    "awards": [
+     {
+      "id": "037776-2023-1",
+      "relatedLots": [
+       "1"
+      ],
+      "status": "active",
+      "suppliers": [
+       {
+        "id": "GB-FTS-101398",
+        "name": "PALANTIR TECHNOLOGIES UK, LTD."
+       }
+      ]
+     }
+    ],
+    "contracts": [
+     {
+      "id": "037776-2023-1",
+      "awardID": "037776-2023-1",
+      "status": "active",
+      "value": {
+       "amount": 182242760,
+       "currency": "GBP"
+      },
+      "dateSigned": "2023-11-22T00:00:00Z"
+     }
+    ],
+    "bids": {
+     "statistics": [
+      {
+       "id": "2",
+       "measure": "bids",
+       "relatedLot": "1",
+       "value": 7
+      }
+     ]
+    }
+   },
+   "versionedRelease": {
+    "ocid": "ocds-h6vhtk-0328ce",
+    "description": [
+     {
+      "releaseID": "008755-2022",
+      "releaseDate": "2022-04-01T08:16:44+01:00",
+      "releaseTag": [
+       "planning"
+      ],
+      "value": "NHS England is issuing a Request for Information in relation to the project and accompanying background information which will be made available to suppliers. \u2018Suppliers\u2019 means entities or groups of entities which offer the provision of services on the market.<br/> <br/>NHS England intends to hold a supplier briefing session in relation to the project on 13 April 2022. The session is open to suppliers interested in the procurement, subject to registration with NHS England and on confidential terms, by https://www.events.england.nhs.uk/events/federated-data-platform-supplier-briefing-session   <br/> <br/>Subsequent procurements or other awards of contract in relation to the project may be carried out by contracting authorities other than NHS England. The estimated total value set out above does not necessarily include the value of such procurements or awards."
+     }
+    ],
+    "initiationType": [
+     {
+      "releaseID": "008755-2022",
+      "releaseDate": "2022-04-01T08:16:44+01:00",
+      "releaseTag": [
+       "planning"
+      ],
+      "value": "tender"
+     }
+    ],
+    "tender": {
+     "id": [
+      {
+       "releaseID": "008755-2022",
+       "releaseDate": "2022-04-01T08:16:44+01:00",
+       "releaseTag": [
+        "planning"
+       ],
+       "value": "ocds-h6vhtk-0328ce"
+      },
+      {
+       "releaseID": "000669-2023",
+       "releaseDate": "2023-01-10T13:19:40Z",
+       "releaseTag": [
+        "tender"
+       ],
+       "value": "C104091"
+      }
+     ],
+     "legalBasis": {
+      "id": [
+       {
+        "releaseID": "008755-2022",
+        "releaseDate": "2022-04-01T08:16:44+01:00",
+        "releaseTag": [
+         "planning"
+        ],
+        "value": "32014L0024"
+       }
+      ],
+      "scheme": [
+       {
+        "releaseID": "008755-2022",
+        "releaseDate": "2022-04-01T08:16:44+01:00",
+        "releaseTag": [
+         "planning"
+        ],
+        "value": "CELEX"
+       }
+      ]
+     },
+     "title": [
+      {
+       "releaseID": "008755-2022",
+       "releaseDate": "2022-04-01T08:16:44+01:00",
+       "releaseTag": [
+        "planning"
+       ],
+       "value": "NHS Federated Data Platform"
+      },
+      {
+       "releaseID": "000669-2023",
+       "releaseDate": "2023-01-10T13:19:40Z",
+       "releaseTag": [
+        "tender"
+       ],
+       "value": "NHS Federated Data Platform and Associated Services"
+      },
+      {
+       "releaseID": "037776-2023",
+       "releaseDate": "2023-12-22T09:21:57Z",
+       "releaseTag": [
+        "award",
+        "contract"
+       ],
+       "value": "Federated Data Platform and Associated Services"
+      }
+     ],
+     "status": [
+      {
+       "releaseID": "008755-2022",
+       "releaseDate": "2022-04-01T08:16:44+01:00",
+       "releaseTag": [
+        "planning"
+       ],
+       "value": "planned"
+      },
+      {
+       "releaseID": "000669-2023",
+       "releaseDate": "2023-01-10T13:19:40Z",
+       "releaseTag": [
+        "tender"
+       ],
+       "value": "active"
+      },
+      {
+       "releaseID": "037776-2023",
+       "releaseDate": "2023-12-22T09:21:57Z",
+       "releaseTag": [
+        "award",
+        "contract"
+       ],
+       "value": "complete"
+      }
+     ],
+     "classification": {
+      "scheme": [
+       {
+        "releaseID": "008755-2022",
+        "releaseDate": "2022-04-01T08:16:44+01:00",
+        "releaseTag": [
+         "planning"
+        ],
+        "value": "CPV"
+       }
+      ],
+      "id": [
+       {
+        "releaseID": "008755-2022",
+        "releaseDate": "2022-04-01T08:16:44+01:00",
+        "releaseTag": [
+         "planning"
+        ],
+        "value": "72322000"
+       }
+      ],
+      "description": [
+       {
+        "releaseID": "008755-2022",
+        "releaseDate": "2022-04-01T08:16:44+01:00",
+        "releaseTag": [
+         "planning"
+        ],
+        "value": "Data management services"
+       }
+      ]
+     },
+     "mainProcurementCategory": [
+      {
+       "releaseID": "008755-2022",
+       "releaseDate": "2022-04-01T08:16:44+01:00",
+       "releaseTag": [
+        "planning"
+       ],
+       "value": "services"
+      }
+     ],
+     "description": [
+      {
+       "releaseID": "008755-2022",
+       "releaseDate": "2022-04-01T08:16:44+01:00",
+       "releaseTag": [
+        "planning"
+       ],
+       "value": "NHS England is planning to go to the market for a Federated Data Platform (FDP), which will be an essential enabler to transformational improvements across the NHS.<br/><br/>The FDP will be an ecosystem of technologies and services implemented across the NHS in England.<br/>\u200b<br/>The FDP will be built on five use cases:\u200b<br/>1. Population health and person insight<br/>2. Care coordination (ICS)<br/>3. Elective recovery (Trust) <br/>4. Vaccines and immunisation and<br/>5) Supply Chain"
+      },
+      {
+       "releaseID": "009960-2022",
+       "releaseDate": "2022-04-13T16:26:41+01:00",
+       "releaseTag": [
+        "tenderUpdate"
+       ],
+       "value": "NHS England is planning to go to the market for a Federated Data Platform (FDP), which will be an essential enabler to transformational improvements across the NHS.The FDP will be an ecosystem of technologies and services implemented across the NHS in England.\u200bThe FDP will be built on five use cases:\u200b1. Population health and person insight2. Care coordination (ICS)3. Elective recovery (Trust) 4. Vaccines and immunisation and5) Supply Chain"
+      },
+      {
+       "releaseID": "000669-2023",
+       "releaseDate": "2023-01-10T13:19:40Z",
+       "releaseTag": [
+        "tender"
+       ],
+       "value": "This is the first procurement exercise NHS England is carrying out in relation to plans for a federated data platform for the NHS. NHS England requires a Supplier for the provision of Federated Data Platform and Associated Services (FDP-AS). The data platform will be owned and controlled by the NHS to unlock the power of NHS data to understand patterns, solve problems, plan services for local populations and ultimately transform the health and care of the people they serve.<br/><br/>It is anticipated that the 5-year contract value will be up to \u00a3360,000,000. There will be an additional option to extend by 12 +12 months with a total estimated value of up to \u00a3480,000,000 over the contract period. The actual contract value will depend on the extent of the use of the solution."
+      },
+      {
+       "releaseID": "037776-2023",
+       "releaseDate": "2023-12-22T09:21:57Z",
+       "releaseTag": [
+        "award",
+        "contract"
+       ],
+       "value": "NHS England has procured a contract for the provision of Federated Data Platform and Associated Services (FDP-AS). The data platform will be owned and controlled by the NHS to unlock the power of NHS data to understand patterns, solve problems, plan services for local populations and ultimately transform the health and care of the people they serve.<br/><br/>The contract value set out in section II.1.7.1 is not a committed amount.<br/>Under the terms of the contract, the Authority pays for data platform services as they are consumed according to an agreed pricing schedule and therefore the contract value could increase to a forecasted amount of \u00a3330m. This figure is also not a committed amount."
+      }
+     ],
+     "value": {
+      "amount": [
+       {
+        "releaseID": "008755-2022",
+        "releaseDate": "2022-04-01T08:16:44+01:00",
+        "releaseTag": [
+         "planning"
+        ],
+        "value": 240000000
+       },
+       {
+        "releaseID": "000669-2023",
+        "releaseDate": "2023-01-10T13:19:40Z",
+        "releaseTag": [
+         "tender"
+        ],
+        "value": 480000000
+       }
+      ],
+      "currency": [
+       {
+        "releaseID": "008755-2022",
+        "releaseDate": "2022-04-01T08:16:44+01:00",
+        "releaseTag": [
+         "planning"
+        ],
+        "value": "GBP"
+       }
+      ]
+     },
+     "lots": [
+      {
+       "id": "1",
+       "description": [
+        {
+         "releaseID": "008755-2022",
+         "releaseDate": "2022-04-01T08:16:44+01:00",
+         "releaseTag": [
+          "planning"
+         ],
+         "value": "It is anticipated that the scope of this procurement will comprise two lots: <br/><br/>1. The FDP itself, with ICS integration and consultancy and communications support for ICS implementation and adoption\u200b<br/><br/>2. Privacy-enhancing technology<br/><br/>It is anticipated that this procurement will follow the open procedure, as detailed in regulation 27 of the Public Contracts Regulations 2015. <br/><br/>Planned subsequent procurements exercises will cover a marketplace for applications\u200b and training and deployment support\u200b. Additional information: Interested suppliers are invited to participate in NHS England's pre-market consultation (this will be made available on NHS England's e-tendering portal: http://health.atamis.co.uk) <br/><br/>Please note that this PIN is NOT a call for competition."
+        },
+        {
+         "releaseID": "000669-2023",
+         "releaseDate": "2023-01-10T13:19:40Z",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "NHS England is undertaking a competitive procurement to replace its existing COVID-19 Data Platform with a data platform for NHS England and NHS bodies.  <br/><br/>Services will be provided under the contract for FDP-AS to NHS bodies (as defined in the National Health Service Act 2006) and other providers of NHS-funded services (in relation to the provision of those services), as well as NHS England.<br/><br/>The data platform will be a cloud-based Software as a Service (Saas) Solution, which will enable the use and sharing of data using a safe and secure environment.  <br/><br/>NHS England are not mandating use of the data platform. It will be of benefit for Trusts and ICSs to use the data platform to support Use Cases they wish to adopt. Local Trusts and ICS\u2019s will have the autonomy to use the data platform to address their own key challenges and priorities. De-identified data will only flow to central platforms for specific, necessary and pre-agreed planning purposes (such as national reporting on vaccine uptake, to increase supply chain efficiency or to create benchmarks of good practice that can inform national policy) and in compliance with information governance principles and data protection law.  <br/><br/>The key features of this requirement are: <br/><br/>1. Platform: We are buying a platform that will be run as a SaaS with some key Requirements which will have to be met<br/><br/>2.     Service: The Successful Supplier will need to meet our robust performance measures and governance standards.<br/><br/>3.     Customer base: FDP-AS will be delivered to NHS England and other NHS Bodies. Providers of NHS funded care may also use the platform.<br/><br/>4.     Landscape: FDP-AS to fit within the wider NHS England environment and constraints.<br/><br/>5.     Transition: needs to be successfully implemented to support a safe transition from the incumbent solution.<br/><br/>6.     Implementation: will be based around Use Cases, as instructed by NHS England.<br/><br/>7.     Behaviours: We require the Successful Supplier to meet our ways of working."
+        },
+        {
+         "releaseID": "037776-2023",
+         "releaseDate": "2023-12-22T09:21:57Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "NHS England has undertaken a competitive procurement, using the competitive dialogue procedure, for the provision of a Federated Data Platform and Associated Services for NHS England and NHS bodies.<br/><br/>The procurement has been undertaken in accordance with the procurement documentation and process outlined.<br/><br/>Services will be provided under the contract for FDP-AS to NHS bodies (as defined in the National Health Service Act 2006) and other providers of NHS-funded services (in relation to the provision of those services), as well as NHS England.<br/><br/>The data platform is a cloud-based Software as a Service (SaaS) Solution, which will enable the use and sharing of data using a safe and secure environment. Additional information: Additional information on the Federated Data Platform can be found here: https://www.england.nhs.uk/digitaltechnology/digitising-connecting-and-transforming-health-and-care/"
+        }
+       ],
+       "status": [
+        {
+         "releaseID": "008755-2022",
+         "releaseDate": "2022-04-01T08:16:44+01:00",
+         "releaseTag": [
+          "planning"
+         ],
+         "value": "planned"
+        },
+        {
+         "releaseID": "000669-2023",
+         "releaseDate": "2023-01-10T13:19:40Z",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "active"
+        },
+        {
+         "releaseID": "037776-2023",
+         "releaseDate": "2023-12-22T09:21:57Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "cancelled"
+        }
+       ],
+       "value": {
+        "amount": [
+         {
+          "releaseID": "000669-2023",
+          "releaseDate": "2023-01-10T13:19:40Z",
+          "releaseTag": [
+           "tender"
+          ],
+          "value": 480000000
+         }
+        ],
+        "currency": [
+         {
+          "releaseID": "000669-2023",
+          "releaseDate": "2023-01-10T13:19:40Z",
+          "releaseTag": [
+           "tender"
+          ],
+          "value": "GBP"
+         }
+        ]
+       },
+       "contractPeriod": {
+        "durationInDays": [
+         {
+          "releaseID": "000669-2023",
+          "releaseDate": "2023-01-10T13:19:40Z",
+          "releaseTag": [
+           "tender"
+          ],
+          "value": 1800
+         }
+        ]
+       },
+       "hasRenewal": [
+        {
+         "releaseID": "000669-2023",
+         "releaseDate": "2023-01-10T13:19:40Z",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": false
+        }
+       ],
+       "submissionTerms": {
+        "variantPolicy": [
+         {
+          "releaseID": "000669-2023",
+          "releaseDate": "2023-01-10T13:19:40Z",
+          "releaseTag": [
+           "tender"
+          ],
+          "value": "notAllowed"
+         }
+        ]
+       },
+       "hasOptions": [
+        {
+         "releaseID": "000669-2023",
+         "releaseDate": "2023-01-10T13:19:40Z",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": true
+        }
+       ],
+       "options": {
+        "description": [
+         {
+          "releaseID": "000669-2023",
+          "releaseDate": "2023-01-10T13:19:40Z",
+          "releaseTag": [
+           "tender"
+          ],
+          "value": "Optional extensions to the contract term of 12+12 months.  The value stated in section II.1.5 includes the optional extension periods."
+         },
+         {
+          "releaseID": "037776-2023",
+          "releaseDate": "2023-12-22T09:21:57Z",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "Optional extensions to the contract term of 24+12+12 months."
+         }
+        ]
+       },
+       "awardCriteria": {
+        "criteria": [
+         {
+          "releaseID": "037776-2023",
+          "releaseDate": "2023-12-22T09:21:57Z",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": [
+           {
+            "name": "Quality",
+            "type": "quality",
+            "description": "60"
+           },
+           {
+            "name": "Social Value",
+            "type": "quality",
+            "description": "10"
+           },
+           {
+            "name": "Price",
+            "type": "cost",
+            "description": "30"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ],
+     "items": [
+      {
+       "id": "1",
+       "additionalClassifications": [
+        {
+         "releaseID": "008755-2022",
+         "releaseDate": "2022-04-01T08:16:44+01:00",
+         "releaseTag": [
+          "planning"
+         ],
+         "value": [
+          {
+           "scheme": "CPV",
+           "id": "72322000",
+           "description": "Data management services"
+          },
+          {
+           "scheme": "CPV",
+           "id": "48211000",
+           "description": "Platform interconnectivity software package"
+          },
+          {
+           "scheme": "CPV",
+           "id": "48611000",
+           "description": "Database software package"
+          },
+          {
+           "scheme": "CPV",
+           "id": "48000000",
+           "description": "Software package and information systems"
+          },
+          {
+           "scheme": "CPV",
+           "id": "48814000",
+           "description": "Medical information systems"
+          },
+          {
+           "scheme": "CPV",
+           "id": "48613000",
+           "description": "Electronic data management (EDM)"
+          }
+         ]
+        },
+        {
+         "releaseID": "000669-2023",
+         "releaseDate": "2023-01-10T13:19:40Z",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": [
+          {
+           "scheme": "CPV",
+           "id": "30211300",
+           "description": "Computer platforms"
+          },
+          {
+           "scheme": "CPV",
+           "id": "72000000",
+           "description": "IT services: consulting, software development, Internet and support"
+          },
+          {
+           "scheme": "CPV",
+           "id": "48610000",
+           "description": "Database systems"
+          },
+          {
+           "scheme": "CPV",
+           "id": "72322000",
+           "description": "Data management services"
+          },
+          {
+           "scheme": "CPV",
+           "id": "48612000",
+           "description": "Database-management system"
+          },
+          {
+           "scheme": "CPV",
+           "id": "48613000",
+           "description": "Electronic data management (EDM)"
+          },
+          {
+           "scheme": "CPV",
+           "id": "72317000",
+           "description": "Data storage services"
+          },
+          {
+           "scheme": "CPV",
+           "id": "72319000",
+           "description": "Data supply services"
+          },
+          {
+           "scheme": "CPV",
+           "id": "72310000",
+           "description": "Data-processing services"
+          }
+         ]
+        },
+        {
+         "releaseID": "037776-2023",
+         "releaseDate": "2023-12-22T09:21:57Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": [
+          {
+           "scheme": "CPV",
+           "id": "30211300",
+           "description": "Computer platforms"
+          },
+          {
+           "scheme": "CPV",
+           "id": "72260000",
+           "description": "Software-related services"
+          }
+         ]
+        }
+       ],
+       "deliveryAddresses": [
+        {
+         "region": [
+          {
+           "releaseID": "008755-2022",
+           "releaseDate": "2022-04-01T08:16:44+01:00",
+           "releaseTag": [
+            "planning"
+           ],
+           "value": "UKE4"
+          }
+         ]
+        },
+        {
+         "region": [
+          {
+           "releaseID": "000669-2023",
+           "releaseDate": "2023-01-10T13:19:40Z",
+           "releaseTag": [
+            "tender"
+           ],
+           "value": "UK"
+          }
+         ]
+        },
+        {
+         "region": [
+          {
+           "releaseID": "037776-2023",
+           "releaseDate": "2023-12-22T09:21:57Z",
+           "releaseTag": [
+            "award",
+            "contract"
+           ],
+           "value": "UK"
+          }
+         ]
+        }
+       ],
+       "deliveryLocation": {
+        "description": [
+         {
+          "releaseID": "008755-2022",
+          "releaseDate": "2022-04-01T08:16:44+01:00",
+          "releaseTag": [
+           "planning"
+          ],
+          "value": "The NHS in England."
+         },
+         {
+          "releaseID": "037776-2023",
+          "releaseDate": "2023-12-22T09:21:57Z",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "NHS England"
+         }
+        ]
+       },
+       "relatedLot": [
+        {
+         "releaseID": "008755-2022",
+         "releaseDate": "2022-04-01T08:16:44+01:00",
+         "releaseTag": [
+          "planning"
+         ],
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "communication": {
+      "futureNoticeDate": [
+       {
+        "releaseID": "008755-2022",
+        "releaseDate": "2022-04-01T08:16:44+01:00",
+        "releaseTag": [
+         "planning"
+        ],
+        "value": "2022-06-06T00:00:00+01:00"
+       }
+      ],
+      "atypicalToolUrl": [
+       {
+        "releaseID": "008755-2022",
+        "releaseDate": "2022-04-01T08:16:44+01:00",
+        "releaseTag": [
+         "planning"
+        ],
+        "value": "http://health.atamis.co.uk"
+       },
+       {
+        "releaseID": "000669-2023",
+        "releaseDate": "2023-01-10T13:19:40Z",
+        "releaseTag": [
+         "tender"
+        ],
+        "value": "https://health-family.force.com/s/Welcome"
+       }
+      ]
+     },
+     "coveredBy": [
+      {
+       "releaseID": "008755-2022",
+       "releaseDate": "2022-04-01T08:16:44+01:00",
+       "releaseTag": [
+        "planning"
+       ],
+       "value": [
+        "GPA"
+       ]
+      }
+     ],
+     "amendments": [
+      {
+       "id": "3",
+       "description": [
+        {
+         "releaseID": "009960-2022",
+         "releaseDate": "2022-04-13T16:26:41+01:00",
+         "releaseTag": [
+          "tenderUpdate"
+         ],
+         "value": "Interested suppliers are invited to participate in NHS England's pre-market consultation: https://health-family-contract-search.secure.force.com/ProSpend__CS_ContractPage?SearchType=Projects&uid=a078d000000tfAKAAY&searchStr=&sortStr=Recently+Published&page=1&filters=&County=\nPlease note that this PIN is NOT a call for competition."
+        }
+       ]
+      },
+      {
+       "id": "4",
+       "unstructuredChanges": [
+        {
+         "releaseID": "020196-2022",
+         "releaseDate": "2022-07-25T15:54:24+01:00",
+         "releaseTag": [
+          "tenderUpdate"
+         ],
+         "value": [
+          {
+           "oldValue": {
+            "text": ""
+           },
+           "newValue": {
+            "text": "\u00a3360,000,000.00"
+           },
+           "where": {
+            "section": "II.1.5.1",
+            "label": "Estimated total value"
+           }
+          },
+          {
+           "oldValue": {
+            "text": ""
+           },
+           "newValue": {
+            "text": "It is anticipated that the scope of this procurement will comprise\n1. The FDP itself, with ICS integration and consultancy and communications support for ICS implementation and adoption\u200b\nFurther detail on the planned procurement can be found on NHS England's e-Tendering system, Atamis. Please email england.commercialqueries@nhs.net.\nPlanned subsequent procurements exercises will cover privacy-enhancing technology, a marketplace for applications\u200b and training and deployment support\u200b."
+           },
+           "where": {
+            "section": "II.2.4.1",
+            "label": "Description of procurement"
+           }
+          },
+          {
+           "oldValue": {
+            "text": ""
+           },
+           "newValue": {
+            "date": "2022-09-05T00:00:00+01:00"
+           },
+           "where": {
+            "section": "II.3.0.1",
+            "label": "Estimated notice publication"
+           }
+          },
+          {
+           "oldValue": {
+            "text": ""
+           },
+           "newValue": {
+            "text": "Suppliers should refer to NHS England's e-Tendering system, Atamis for up to date information relating to this procurement. 'Suppliers' means entities or groups of entities which offer the provision of services on the market.\nSubsequent procurements or other awards of contract in relation to the project may be carried out by contracting authorities other than NHS England. The estimated total value set out above does not necessarily include the value of such procurements or awards."
+           },
+           "where": {
+            "section": "VI.3.0.1",
+            "label": "Additional information"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "submissionMethod": [
+      {
+       "releaseID": "000669-2023",
+       "releaseDate": "2023-01-10T13:19:40Z",
+       "releaseTag": [
+        "tender"
+       ],
+       "value": [
+        "electronicSubmission",
+        "written"
+       ]
+      }
+     ],
+     "submissionMethodDetails": [
+      {
+       "releaseID": "000669-2023",
+       "releaseDate": "2023-01-10T13:19:40Z",
+       "releaseTag": [
+        "tender"
+       ],
+       "value": "https://health-family.force.com/s/Welcome"
+      }
+     ],
+     "selectionCriteria": {
+      "criteria": [
+       {
+        "releaseID": "000669-2023",
+        "releaseDate": "2023-01-10T13:19:40Z",
+        "releaseTag": [
+         "tender"
+        ],
+        "value": [
+         {
+          "type": "suitability",
+          "description": "Applicants will be assessed in accordance with the Public Contracts Regulations 2015 on the basis of the information provided in response to the Selection Questionnaire.",
+          "appliesTo": [
+           "supplier"
+          ]
+         },
+         {
+          "type": "economic",
+          "description": "Selection criteria as stated in the procurement documents.",
+          "minimum": "Selection criteria as stated in the procurement documents.",
+          "appliesTo": [
+           "supplier"
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     "procurementMethod": [
+      {
+       "releaseID": "000669-2023",
+       "releaseDate": "2023-01-10T13:19:40Z",
+       "releaseTag": [
+        "tender"
+       ],
+       "value": "selective"
+      }
+     ],
+     "procurementMethodDetails": [
+      {
+       "releaseID": "000669-2023",
+       "releaseDate": "2023-01-10T13:19:40Z",
+       "releaseTag": [
+        "tender"
+       ],
+       "value": "Competitive dialogue"
+      }
+     ],
+     "secondStage": {
+      "successiveReduction": [
+       {
+        "releaseID": "000669-2023",
+        "releaseDate": "2023-01-10T13:19:40Z",
+        "releaseTag": [
+         "tender"
+        ],
+        "value": true
+       }
+      ],
+      "invitationDate": [
+       {
+        "releaseID": "000669-2023",
+        "releaseDate": "2023-01-10T13:19:40Z",
+        "releaseTag": [
+         "tender"
+        ],
+        "value": "2023-01-10T00:00:00Z"
+       }
+      ]
+     },
+     "tenderPeriod": {
+      "endDate": [
+       {
+        "releaseID": "000669-2023",
+        "releaseDate": "2023-01-10T13:19:40Z",
+        "releaseTag": [
+         "tender"
+        ],
+        "value": "2023-02-09T12:00:00Z"
+       }
+      ]
+     },
+     "submissionTerms": {
+      "languages": [
+       {
+        "releaseID": "000669-2023",
+        "releaseDate": "2023-01-10T13:19:40Z",
+        "releaseTag": [
+         "tender"
+        ],
+        "value": [
+         "en"
+        ]
+       }
+      ],
+      "bidValidityPeriod": {
+       "durationInDays": [
+        {
+         "releaseID": "000669-2023",
+         "releaseDate": "2023-01-10T13:19:40Z",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": 270
+        }
+       ]
+      }
+     },
+     "hasRecurrence": [
+      {
+       "releaseID": "000669-2023",
+       "releaseDate": "2023-01-10T13:19:40Z",
+       "releaseTag": [
+        "tender"
+       ],
+       "value": false
+      }
+     ]
+    },
+    "parties": [
+     {
+      "id": "GB-FTS-3717",
+      "name": [
+       {
+        "releaseID": "008755-2022",
+        "releaseDate": "2022-04-01T08:16:44+01:00",
+        "releaseTag": [
+         "planning"
+        ],
+        "value": "NHS England"
+       }
+      ],
+      "identifier": {
+       "legalName": [
+        {
+         "releaseID": "008755-2022",
+         "releaseDate": "2022-04-01T08:16:44+01:00",
+         "releaseTag": [
+          "planning"
+         ],
+         "value": "NHS England"
+        }
+       ]
+      },
+      "address": {
+       "streetAddress": [
+        {
+         "releaseID": "008755-2022",
+         "releaseDate": "2022-04-01T08:16:44+01:00",
+         "releaseTag": [
+          "planning"
+         ],
+         "value": "Quarry House"
+        }
+       ],
+       "locality": [
+        {
+         "releaseID": "008755-2022",
+         "releaseDate": "2022-04-01T08:16:44+01:00",
+         "releaseTag": [
+          "planning"
+         ],
+         "value": "Leeds"
+        }
+       ],
+       "region": [
+        {
+         "releaseID": "008755-2022",
+         "releaseDate": "2022-04-01T08:16:44+01:00",
+         "releaseTag": [
+          "planning"
+         ],
+         "value": "UKE"
+        }
+       ],
+       "postalCode": [
+        {
+         "releaseID": "008755-2022",
+         "releaseDate": "2022-04-01T08:16:44+01:00",
+         "releaseTag": [
+          "planning"
+         ],
+         "value": "LS2 7UE"
+        }
+       ],
+       "countryName": [
+        {
+         "releaseID": "008755-2022",
+         "releaseDate": "2022-04-01T08:16:44+01:00",
+         "releaseTag": [
+          "planning"
+         ],
+         "value": "United Kingdom"
+        }
+       ]
+      },
+      "contactPoint": {
+       "name": [
+        {
+         "releaseID": "008755-2022",
+         "releaseDate": "2022-04-01T08:16:44+01:00",
+         "releaseTag": [
+          "planning"
+         ],
+         "value": "Senior Procurement Manager"
+        }
+       ],
+       "email": [
+        {
+         "releaseID": "008755-2022",
+         "releaseDate": "2022-04-01T08:16:44+01:00",
+         "releaseTag": [
+          "planning"
+         ],
+         "value": "england.commercialqueries@nhs.net"
+        }
+       ]
+      },
+      "roles": [
+       {
+        "releaseID": "008755-2022",
+        "releaseDate": "2022-04-01T08:16:44+01:00",
+        "releaseTag": [
+         "planning"
+        ],
+        "value": [
+         "buyer"
+        ]
+       }
+      ],
+      "details": {
+       "url": [
+        {
+         "releaseID": "008755-2022",
+         "releaseDate": "2022-04-01T08:16:44+01:00",
+         "releaseTag": [
+          "planning"
+         ],
+         "value": "https://www.england.nhs.uk//"
+        }
+       ],
+       "buyerProfile": [
+        {
+         "releaseID": "008755-2022",
+         "releaseDate": "2022-04-01T08:16:44+01:00",
+         "releaseTag": [
+          "planning"
+         ],
+         "value": "https://www.england.nhs.uk//"
+        }
+       ],
+       "classifications": [
+        {
+         "releaseID": "008755-2022",
+         "releaseDate": "2022-04-01T08:16:44+01:00",
+         "releaseTag": [
+          "planning"
+         ],
+         "value": [
+          {
+           "scheme": "TED_CA_TYPE",
+           "id": "MINISTRY",
+           "description": "Ministry or any other national or federal authority, including their regional or local subdivisions"
+          },
+          {
+           "scheme": "COFOG",
+           "id": "07",
+           "description": "Health"
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "id": "GB-FTS-67205",
+      "name": [
+       {
+        "releaseID": "000669-2023",
+        "releaseDate": "2023-01-10T13:19:40Z",
+        "releaseTag": [
+         "tender"
+        ],
+        "value": "NHS England"
+       }
+      ],
+      "identifier": {
+       "legalName": [
+        {
+         "releaseID": "000669-2023",
+         "releaseDate": "2023-01-10T13:19:40Z",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "NHS England"
+        }
+       ]
+      },
+      "address": {
+       "streetAddress": [
+        {
+         "releaseID": "000669-2023",
+         "releaseDate": "2023-01-10T13:19:40Z",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "1st Floor, Quarry House, Quarry Hill"
+        }
+       ],
+       "locality": [
+        {
+         "releaseID": "000669-2023",
+         "releaseDate": "2023-01-10T13:19:40Z",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "Leeds"
+        }
+       ],
+       "region": [
+        {
+         "releaseID": "000669-2023",
+         "releaseDate": "2023-01-10T13:19:40Z",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "UKE"
+        }
+       ],
+       "postalCode": [
+        {
+         "releaseID": "000669-2023",
+         "releaseDate": "2023-01-10T13:19:40Z",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "LS2 7UE"
+        }
+       ],
+       "countryName": [
+        {
+         "releaseID": "000669-2023",
+         "releaseDate": "2023-01-10T13:19:40Z",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "United Kingdom"
+        }
+       ]
+      },
+      "contactPoint": {
+       "name": [
+        {
+         "releaseID": "000669-2023",
+         "releaseDate": "2023-01-10T13:19:40Z",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "Kate Cassidy"
+        }
+       ],
+       "email": [
+        {
+         "releaseID": "000669-2023",
+         "releaseDate": "2023-01-10T13:19:40Z",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "england.commercialqueries@nhs.net"
+        }
+       ],
+       "url": [
+        {
+         "releaseID": "000669-2023",
+         "releaseDate": "2023-01-10T13:19:40Z",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "https://health-family.force.com/s/Welcome"
+        }
+       ]
+      },
+      "roles": [
+       {
+        "releaseID": "000669-2023",
+        "releaseDate": "2023-01-10T13:19:40Z",
+        "releaseTag": [
+         "tender"
+        ],
+        "value": [
+         "buyer"
+        ]
+       }
+      ],
+      "details": {
+       "url": [
+        {
+         "releaseID": "000669-2023",
+         "releaseDate": "2023-01-10T13:19:40Z",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "https://www.england.nhs.uk//"
+        }
+       ],
+       "buyerProfile": [
+        {
+         "releaseID": "000669-2023",
+         "releaseDate": "2023-01-10T13:19:40Z",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "https://www.england.nhs.uk//"
+        }
+       ],
+       "classifications": [
+        {
+         "releaseID": "000669-2023",
+         "releaseDate": "2023-01-10T13:19:40Z",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": [
+          {
+           "scheme": "TED_CA_TYPE",
+           "id": "MINISTRY",
+           "description": "Ministry or any other national or federal authority, including their regional or local subdivisions"
+          },
+          {
+           "scheme": "COFOG",
+           "id": "07",
+           "description": "Health"
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "id": "GB-FTS-497",
+      "name": [
+       {
+        "releaseID": "000669-2023",
+        "releaseDate": "2023-01-10T13:19:40Z",
+        "releaseTag": [
+         "tender"
+        ],
+        "value": "The High Court"
+       }
+      ],
+      "identifier": {
+       "legalName": [
+        {
+         "releaseID": "000669-2023",
+         "releaseDate": "2023-01-10T13:19:40Z",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "The High Court"
+        }
+       ]
+      },
+      "address": {
+       "streetAddress": [
+        {
+         "releaseID": "000669-2023",
+         "releaseDate": "2023-01-10T13:19:40Z",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "Strand"
+        }
+       ],
+       "locality": [
+        {
+         "releaseID": "000669-2023",
+         "releaseDate": "2023-01-10T13:19:40Z",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "London"
+        }
+       ],
+       "postalCode": [
+        {
+         "releaseID": "000669-2023",
+         "releaseDate": "2023-01-10T13:19:40Z",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "WC2A 2LL"
+        }
+       ],
+       "countryName": [
+        {
+         "releaseID": "000669-2023",
+         "releaseDate": "2023-01-10T13:19:40Z",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "United Kingdom"
+        }
+       ]
+      },
+      "contactPoint": {
+       "email": [
+        {
+         "releaseID": "000669-2023",
+         "releaseDate": "2023-01-10T13:19:40Z",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "generaloffice@administrativecourtoffice.justice.gov.uk"
+        }
+       ]
+      },
+      "roles": [
+       {
+        "releaseID": "000669-2023",
+        "releaseDate": "2023-01-10T13:19:40Z",
+        "releaseTag": [
+         "tender"
+        ],
+        "value": [
+         "reviewBody"
+        ]
+       }
+      ],
+      "details": {
+       "url": [
+        {
+         "releaseID": "000669-2023",
+         "releaseDate": "2023-01-10T13:19:40Z",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "https://www.gov.uk/courts-tribunals"
+        }
+       ]
+      }
+     },
+     {
+      "id": "GB-FTS-101398",
+      "name": [
+       {
+        "releaseID": "037776-2023",
+        "releaseDate": "2023-12-22T09:21:57Z",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "PALANTIR TECHNOLOGIES UK, LTD."
+       }
+      ],
+      "identifier": {
+       "legalName": [
+        {
+         "releaseID": "037776-2023",
+         "releaseDate": "2023-12-22T09:21:57Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "PALANTIR TECHNOLOGIES UK, LTD."
+        }
+       ],
+       "id": [
+        {
+         "releaseID": "037776-2023",
+         "releaseDate": "2023-12-22T09:21:57Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "07042994"
+        }
+       ]
+      },
+      "address": {
+       "streetAddress": [
+        {
+         "releaseID": "037776-2023",
+         "releaseDate": "2023-12-22T09:21:57Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "New Penderel House, 4th Floor, 283-288 High Holborn"
+        }
+       ],
+       "locality": [
+        {
+         "releaseID": "037776-2023",
+         "releaseDate": "2023-12-22T09:21:57Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "London"
+        }
+       ],
+       "region": [
+        {
+         "releaseID": "037776-2023",
+         "releaseDate": "2023-12-22T09:21:57Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "UK"
+        }
+       ],
+       "postalCode": [
+        {
+         "releaseID": "037776-2023",
+         "releaseDate": "2023-12-22T09:21:57Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "WC1V 7HP"
+        }
+       ],
+       "countryName": [
+        {
+         "releaseID": "037776-2023",
+         "releaseDate": "2023-12-22T09:21:57Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "United Kingdom"
+        }
+       ]
+      },
+      "roles": [
+       {
+        "releaseID": "037776-2023",
+        "releaseDate": "2023-12-22T09:21:57Z",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": [
+         "supplier"
+        ]
+       }
+      ],
+      "details": {
+       "url": [
+        {
+         "releaseID": "037776-2023",
+         "releaseDate": "2023-12-22T09:21:57Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "http://www.palantir.com"
+        }
+       ],
+       "scale": [
+        {
+         "releaseID": "037776-2023",
+         "releaseDate": "2023-12-22T09:21:57Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "large"
+        }
+       ]
+      }
+     },
+     {
+      "id": "GB-FTS-1661",
+      "name": [
+       {
+        "releaseID": "037776-2023",
+        "releaseDate": "2023-12-22T09:21:57Z",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "The High Court"
+       }
+      ],
+      "identifier": {
+       "legalName": [
+        {
+         "releaseID": "037776-2023",
+         "releaseDate": "2023-12-22T09:21:57Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "The High Court"
+        }
+       ]
+      },
+      "address": {
+       "streetAddress": [
+        {
+         "releaseID": "037776-2023",
+         "releaseDate": "2023-12-22T09:21:57Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "The Strand"
+        }
+       ],
+       "locality": [
+        {
+         "releaseID": "037776-2023",
+         "releaseDate": "2023-12-22T09:21:57Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "London"
+        }
+       ],
+       "postalCode": [
+        {
+         "releaseID": "037776-2023",
+         "releaseDate": "2023-12-22T09:21:57Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "WC2A 2LL"
+        }
+       ],
+       "countryName": [
+        {
+         "releaseID": "037776-2023",
+         "releaseDate": "2023-12-22T09:21:57Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "United Kingdom"
+        }
+       ]
+      },
+      "roles": [
+       {
+        "releaseID": "037776-2023",
+        "releaseDate": "2023-12-22T09:21:57Z",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": [
+         "reviewBody"
+        ]
+       }
+      ],
+      "details": {
+       "url": [
+        {
+         "releaseID": "037776-2023",
+         "releaseDate": "2023-12-22T09:21:57Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "https://www.judiciary.uk/courts-and-tribunals/high-court/"
+        }
+       ]
+      }
+     }
+    ],
+    "buyer": {
+     "id": [
+      {
+       "releaseID": "008755-2022",
+       "releaseDate": "2022-04-01T08:16:44+01:00",
+       "releaseTag": [
+        "planning"
+       ],
+       "value": "GB-FTS-3717"
+      },
+      {
+       "releaseID": "000669-2023",
+       "releaseDate": "2023-01-10T13:19:40Z",
+       "releaseTag": [
+        "tender"
+       ],
+       "value": "GB-FTS-67205"
+      }
+     ],
+     "name": [
+      {
+       "releaseID": "008755-2022",
+       "releaseDate": "2022-04-01T08:16:44+01:00",
+       "releaseTag": [
+        "planning"
+       ],
+       "value": "NHS England"
+      }
+     ]
+    },
+    "language": [
+     {
+      "releaseID": "008755-2022",
+      "releaseDate": "2022-04-01T08:16:44+01:00",
+      "releaseTag": [
+       "planning"
+      ],
+      "value": "en"
+     }
+    ],
+    "awards": [
+     {
+      "id": "037776-2023-1",
+      "relatedLots": [
+       {
+        "releaseID": "037776-2023",
+        "releaseDate": "2023-12-22T09:21:57Z",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": [
+         "1"
+        ]
+       }
+      ],
+      "status": [
+       {
+        "releaseID": "037776-2023",
+        "releaseDate": "2023-12-22T09:21:57Z",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "active"
+       }
+      ],
+      "suppliers": [
+       {
+        "id": "GB-FTS-101398",
+        "name": [
+         {
+          "releaseID": "037776-2023",
+          "releaseDate": "2023-12-22T09:21:57Z",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "PALANTIR TECHNOLOGIES UK, LTD."
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "contracts": [
+     {
+      "id": "037776-2023-1",
+      "awardID": [
+       {
+        "releaseID": "037776-2023",
+        "releaseDate": "2023-12-22T09:21:57Z",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "037776-2023-1"
+       }
+      ],
+      "status": [
+       {
+        "releaseID": "037776-2023",
+        "releaseDate": "2023-12-22T09:21:57Z",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "active"
+       }
+      ],
+      "value": {
+       "amount": [
+        {
+         "releaseID": "037776-2023",
+         "releaseDate": "2023-12-22T09:21:57Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": 182242760
+        }
+       ],
+       "currency": [
+        {
+         "releaseID": "037776-2023",
+         "releaseDate": "2023-12-22T09:21:57Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "GBP"
+        }
+       ]
+      },
+      "dateSigned": [
+       {
+        "releaseID": "037776-2023",
+        "releaseDate": "2023-12-22T09:21:57Z",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "2023-11-22T00:00:00Z"
+       }
+      ]
+     }
+    ],
+    "bids": {
+     "statistics": [
+      {
+       "id": "2",
+       "measure": [
+        {
+         "releaseID": "037776-2023",
+         "releaseDate": "2023-12-22T09:21:57Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "bids"
+        }
+       ],
+       "relatedLot": [
+        {
+         "releaseID": "037776-2023",
+         "releaseDate": "2023-12-22T09:21:57Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "1"
+        }
+       ],
+       "value": [
+        {
+         "releaseID": "037776-2023",
+         "releaseDate": "2023-12-22T09:21:57Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": 7
+        }
+       ]
+      }
+     ]
+    }
+   }
+  }
+ ]
+}

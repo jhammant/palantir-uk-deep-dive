@@ -1,0 +1,139 @@
+{
+ "id": "01aef857-7e72-4b21-8769-10fe8f0b074c",
+ "notice": {
+  "id": "01aef857-7e72-4b21-8769-10fe8f0b074c",
+  "parentId": null,
+  "parentIdentifier": "",
+  "linkReason": "",
+  "version": 1,
+  "contactDetails": {
+   "name": "Lauren Terry",
+   "email": "lauren.terry103@mod.gov.uk",
+   "address1": "4 Deck, NCHQ, Whale Island",
+   "address2": "",
+   "town": "Portsmouth",
+   "postcode": "PO2 8BY",
+   "country": "England",
+   "phone": "",
+   "webAddress": ""
+  },
+  "identifier": "tender_304376/1061154",
+  "title": "703156450-Data Integration and Management",
+  "description": "FOR TRANSPARENCY PURPOSES ONLY. CONTRACT HAS BEEN LET THROUGH THE G CLOUD 12 FRAMEWORK.",
+  "cpvDescription": "Software supply services",
+  "publishedDate": "2022-04-13T10:36:24+01:00",
+  "approachMarketDate": "",
+  "deadlineDate": "2022-03-02T23:59:00Z",
+  "valueLow": 10000000,
+  "valueHigh": 0,
+  "postcode": "",
+  "region": "South East",
+  "nationwide": false,
+  "location": {
+   "lat": 0,
+   "lon": 0
+  },
+  "start": "2022-03-03T00:00:00Z",
+  "end": "2023-03-02T00:00:00Z",
+  "type": "Contract",
+  "cpvCodes": [
+   "72268000"
+  ],
+  "spendProfile": null,
+  "status": "Awarded",
+  "isSuitableForSme": false,
+  "isSuitableForVco": false,
+  "supplyChain": false,
+  "lastNotifiableUpdate": "2022-04-13T10:36:24+01:00",
+  "organisationName": "Ministry of Defence",
+  "sector": "",
+  "procedureType": "CallOffFromFrameworkAgreement",
+  "procedureTypeOther": "",
+  "procedureAcceleratedJustification": "",
+  "ojeuContractType": "Services",
+  "isFrameworkAgreement": false,
+  "isExtensionPossible": false,
+  "annexDOption": null,
+  "reasonContractLawful": null
+ },
+ "createdByUser": "i.dawson@bravosolution.com",
+ "createdDate": "2022-04-13T10:36:13+01:00",
+ "lastUpdatedbyUser": "i.dawson@bravosolution.com",
+ "lastUpdatedDate": "2022-04-13T10:36:24+01:00",
+ "awards": [
+  {
+   "id": "470593",
+   "noticeId": "01aef857-7e72-4b21-8769-10fe8f0b074c",
+   "parentId": null,
+   "value": 10000000,
+   "supplierName": "Palantir Technologies UK Ltd",
+   "supplierAddress": "New Penderel House, 4th Floor, 283-288 High Holborn, London, WC1V 7HP",
+   "contact": null,
+   "dunsNumber": "",
+   "supplierAwardedValue": null,
+   "referenceType": "COMPANIES_HOUSE",
+   "reference": "07042994",
+   "startDate": "2022-03-03T00:00:00Z",
+   "endDate": "2023-03-02T00:00:00Z",
+   "awardedDate": "2022-03-03T00:00:00Z",
+   "awardedProcedureType": "CallOffFromFrameworkAgreement",
+   "awardedProcedureTypeOther": "",
+   "awardedProcedureAcceleratedJustification": "",
+   "annexDOptionType": "",
+   "reasonContractLawful": "",
+   "additionalDetails": "",
+   "awardedToSME": false,
+   "awardedToVCSO": false,
+   "awardGuid": "793129fb-3f37-47cc-8794-726f5fff8b9f"
+  }
+ ],
+ "isPublished": true,
+ "isPreAwarded": true,
+ "organisation": {
+  "name": "Ministry of Defence"
+ },
+ "additionalDetails": [
+  {
+   "id": "01aef857-7e72-4b21-8769-10fe8f0b074c",
+   "noticeId": "01aef857-7e72-4b21-8769-10fe8f0b074c",
+   "description": "Additional Text",
+   "dataType": "AdditionalText",
+   "textData": "",
+   "mimeType": null,
+   "awardGuid": null
+  },
+  {
+   "id": "4282252f-f0cd-4f5a-8db2-c21aff0ae335",
+   "noticeId": "01aef857-7e72-4b21-8769-10fe8f0b074c",
+   "description": "n/a",
+   "dataType": "Attachment",
+   "filename": "703156450-Data Integration and Management-Redacted.pdf",
+   "mimeType": "application/pdf",
+   "awardGuid": null
+  }
+ ],
+ "withdrawnDate": "",
+ "withdrawnReason": "",
+ "withdrawnByUser": null,
+ "cpvCodes": [
+  {
+   "code": "72268000",
+   "description": "Software supply services",
+   "parentCode": "72260000",
+   "hasChildren": false
+  }
+ ],
+ "publishedVersion": [
+  {
+   "changedByUser": "i.dawson@bravosolution.com",
+   "dateChanged": "2022-04-13T10:36:24+01:00",
+   "id": "605392",
+   "noticeStatus": "Awarded",
+   "noticeType": "Contract",
+   "publishedNoticeId": "01aef857-7e72-4b21-8769-10fe8f0b074c",
+   "versionNumber": 1,
+   "visibleToPublic": true
+  }
+ ],
+ "numberOfViews": "1808"
+}

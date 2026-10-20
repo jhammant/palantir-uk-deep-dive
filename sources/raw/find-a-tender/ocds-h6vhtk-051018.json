@@ -1,0 +1,5075 @@
+{
+ "uri": "https://www.find-tender.service.gov.uk/api/1.0/ocdsRecordPackages/ocds-h6vhtk-051018",
+ "publisher": {
+  "name": "Cabinet Office",
+  "scheme": "GB-GOR",
+  "uid": "D2",
+  "uri": "https://www.gov.uk/government/organisations/cabinet-office"
+ },
+ "publishedDate": "2026-06-01T10:49:19+01:00",
+ "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+ "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+ "version": "1.1",
+ "extensions": [
+  "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+  "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+  "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+  "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+  "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+  "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+  "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+  "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+  "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json"
+ ],
+ "packages": [
+  "https://www.find-tender.service.gov.uk/api/1.0/ocdsRecordPackages/ocds-h6vhtk-051018"
+ ],
+ "records": [
+  {
+   "ocid": "ocds-h6vhtk-051018",
+   "releases": [
+    {
+     "ocid": "ocds-h6vhtk-051018",
+     "id": "020194-2025",
+     "tag": [
+      "tender"
+     ],
+     "date": "2025-05-09T16:28:07+01:00",
+     "initiationType": "tender",
+     "parties": [
+      {
+       "name": "Police Digital Service",
+       "id": "GB-PPON-PZRN-3375-DBRT",
+       "identifier": {
+        "scheme": "GB-PPON",
+        "id": "PZRN-3375-DBRT"
+       },
+       "address": {
+        "streetAddress": "20 Gresham Street",
+        "locality": "London",
+        "postalCode": "EC2V 7JE",
+        "country": "GB",
+        "countryName": "United Kingdom",
+        "region": "UKI31"
+       },
+       "contactPoint": {
+        "name": "Lynne Allen",
+        "email": "e-procurement@bluelight.police.uk"
+       },
+       "roles": [
+        "buyer"
+       ],
+       "details": {
+        "classifications": [
+         {
+          "scheme": "UK_CA_TYPE",
+          "id": "publicAuthoritySubCentralGovernment",
+          "description": "Public authority - sub-central government"
+         }
+        ]
+       }
+      },
+      {
+       "name": "BLUELIGHT COMMERCIAL LIMITED",
+       "id": "GB-COH-12517649",
+       "identifier": {
+        "scheme": "GB-COH",
+        "id": "12517649"
+       },
+       "address": {
+        "streetAddress": "Lower Ground 5-8 The Sanctuary",
+        "locality": "London",
+        "postalCode": "SW1P 3JS",
+        "country": "GB",
+        "countryName": "United Kingdom",
+        "region": "UKI32"
+       },
+       "contactPoint": {
+        "name": "Lynne Allen",
+        "email": "e-procurement@bluelight.police.uk"
+       },
+       "roles": [
+        "procuringEntity",
+        "processContactPoint"
+       ],
+       "roleDetails": "Commercial Partner",
+       "details": {
+        "url": "http://www.bluelightcommercial.police.uk/"
+       }
+      }
+     ],
+     "buyer": {
+      "id": "GB-PPON-PZRN-3375-DBRT",
+      "name": "Police Digital Service"
+     },
+     "tender": {
+      "id": "BLC0222",
+      "legalBasis": {
+       "id": "2023/54",
+       "scheme": "UKPGA",
+       "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+      },
+      "title": "BLC0222 - National Firearms Licensing Management System (NFLMS)",
+      "description": "This Invitation to Tender (\u201cITT\u201d) has been issued by BlueLight Commercial (\u201cBLC\u201d) who are seeking to award a Contract for the provision of a National Firearms Licensing Management System (NFLMS).   BLC will be tendering this requirement on behalf of Police Digital Services (\u201cPDS\u201d) for use by themselves and the Additional Authorities defined in the Terms and Conditions of the contract. \nThe requirement will be tendered via a multi-stage Competitive Flexible Process, under the Procurement Act 2023 (\u201cPA23\u201d), with the intention of awarding a contract to a single supplier.  The Contract Term shall be for an initial period of 5 years with options to extend up to a maximum of 10 years. \nBidders must register on the Central Digital Platform (www.gov.uk/find-tender) and ensure that Core Supplier Information is up to date, downloaded and is submitted as part of the Bid submission (in downloaded file format) in order to be assessed against the Conditions of Participation.",
+      "status": "active",
+      "items": [
+       {
+        "id": "LOT-0001",
+        "additionalClassifications": [
+         {
+          "scheme": "CPV",
+          "id": "48000000",
+          "description": "Software package and information systems"
+         },
+         {
+          "scheme": "CPV",
+          "id": "72260000",
+          "description": "Software-related services"
+         }
+        ],
+        "deliveryAddresses": [
+         {
+          "region": "UK",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         }
+        ],
+        "relatedLot": "LOT-0001"
+       }
+      ],
+      "value": {
+       "amountGross": 16999999,
+       "amount": 14166667,
+       "currency": "GBP"
+      },
+      "procurementMethod": "open",
+      "procurementMethodDetails": "Competitive flexible procedure",
+      "procedure": {
+       "features": "The competitive flexible procedure consists of the following 2 stages:\nSTAGE 1 \u2013 Tender Stage\nSTAGE 2 \u2013 Demonstration Stage\nSTAGE 1 \u2013 TENDER STAGE\nThe Tender Stage consists of the following:\nConditions of Participation \u2013 this is a series of pass/fail questions relating to the requirement of the procurement.\nGateway Technical Questions \u2013 this is a series of technical Pass/Fail questions relating to the product and service required.   \nITT Technical Questions - 55 % \u2013 this is completion of the Response to Tender document consisting of questions relating to Design, Cyber, Implementation and Delivery, Service, and Solution.\nSocial Value \u2013 10% - this is the completion of the Response to Tender document consisting of questions relating to Social Value.\nPrice \u2013 30% - this is the completion of the Pricing Schedule which is based on a schedule of rates for the services required.\nAll bidders that PASS all Conditions of Participation AND Tender Gateway Questions AND achieve a minimum score of 40% for the ITT Technical Questions will progress to Stage 2 of the Procurement Process.\nSTAGE 2 \u2013 DEMONSTRATION\nThe Demonstration Stage consists of a scenario-based demonstration.  A Demonstration Briefing document has been published with the full suite of tender documentation to aid understanding.\nThe Demonstration score will be added to the score from Stage 1 to form the Total Score and identify the Highest Scoring Bidder.  The Highest Scoring Bidder will be awarded the contract.  In the event of a tie where two or more bidders achieve the same total aggregate score the Highest Scoring Bidder for the Solution sub-criteria shall be awarded the contract."
+      },
+      "mainProcurementCategory": "goods",
+      "aboveThreshold": true,
+      "submissionMethodDetails": "https://sell2.in-tend.co.uk/uk/blpd/home",
+      "submissionTerms": {
+       "electronicSubmissionPolicy": "allowed",
+       "languages": [
+        "en"
+       ]
+      },
+      "tenderPeriod": {
+       "endDate": "2025-06-30T12:00:00+00:00"
+      },
+      "enquiryPeriod": {
+       "endDate": "2025-06-23T16:00:00+00:00"
+      },
+      "awardPeriod": {
+       "endDate": "2025-10-09T23:59:59+00:00"
+      },
+      "lots": [
+       {
+        "id": "LOT-0001",
+        "status": "active",
+        "value": {
+         "amountGross": 16999999,
+         "amount": 14166667,
+         "currency": "AED"
+        },
+        "awardCriteria": {
+         "weightingDescription": "Award Criteria: Stage 1 ITT Stage - ITT Technical Questions \u2013 55% - Social Value \u2013 10% - Price \u2013 30%\nAward Criteria: Stage 2 \u2013 Demonstration 5%\nFurther information has been provided within the tender documentation.",
+         "criteria": [
+          {
+           "type": "price",
+           "name": "Simple description",
+           "description": "Award Criteria: Stage 1 ITT Stage - ITT Technical Questions \u2013 55% - Social Value \u2013 10% - Price \u2013 30%\nAward Criteria: Stage 2 \u2013 Demonstration 5%\nFurther information has been provided within the tender documentation."
+          }
+         ]
+        },
+        "contractPeriod": {
+         "startDate": "2025-10-31T00:00:00+00:00",
+         "endDate": "2030-10-30T23:59:59+00:00",
+         "maxExtentDate": "2035-10-30T23:59:59+00:00"
+        },
+        "hasRenewal": true,
+        "renewal": {
+         "description": "The Contract Term shall be for an initial period of 5 years with options to extend up to a maximum of 10 years."
+        }
+       }
+      ],
+      "documents": [
+       {
+        "id": "L-1",
+        "documentType": "biddingDocuments",
+        "description": "Please search for reference BLC0222 - National Firearms Licensing Management System (NFLMS)",
+        "url": "https://sell2.in-tend.co.uk/uk/blpd/home"
+       },
+       {
+        "id": "conflictOfInterest",
+        "documentType": "conflictOfInterest",
+        "description": "Not published"
+       },
+       {
+        "id": "020194-2025",
+        "documentType": "tenderNotice",
+        "noticeType": "UK4",
+        "description": "Tender notice on Find a Tender",
+        "url": "https://www.find-tender.service.gov.uk/Notice/020194-2025",
+        "datePublished": "2025-05-09T16:28:07+01:00",
+        "format": "text/html"
+       }
+      ],
+      "contractTerms": {
+       "financialTerms": "The payment terms are detailed in the Form of Contract, Terms and Conditions"
+      },
+      "riskDetails": "The description of risks to contract performance have been identified in the Form of Contract, Terms and Conditions."
+     },
+     "language": "en",
+     "extensions": [
+      "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+      "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+      "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json"
+     ]
+    },
+    {
+     "id": "020338-2025",
+     "tag": [
+      "tenderUpdate"
+     ],
+     "date": "2025-05-12T10:36:49+01:00",
+     "initiationType": "tender",
+     "ocid": "ocds-h6vhtk-051018",
+     "parties": [
+      {
+       "name": "Police Digital Service",
+       "id": "GB-PPON-PZRN-3375-DBRT",
+       "identifier": {
+        "scheme": "GB-PPON",
+        "id": "PZRN-3375-DBRT"
+       },
+       "address": {
+        "streetAddress": "20 Gresham Street",
+        "locality": "London",
+        "postalCode": "EC2V 7JE",
+        "country": "GB",
+        "countryName": "United Kingdom",
+        "region": "UKI31"
+       },
+       "contactPoint": {
+        "name": "Lynne Allen",
+        "email": "e-procurement@bluelight.police.uk"
+       },
+       "roles": [
+        "buyer"
+       ],
+       "details": {
+        "classifications": [
+         {
+          "scheme": "UK_CA_TYPE",
+          "id": "publicAuthoritySubCentralGovernment",
+          "description": "Public authority - sub-central government"
+         }
+        ]
+       }
+      },
+      {
+       "name": "BLUELIGHT COMMERCIAL LIMITED",
+       "id": "GB-COH-12517649",
+       "identifier": {
+        "scheme": "GB-COH",
+        "id": "12517649"
+       },
+       "address": {
+        "streetAddress": "Lower Ground 5-8 The Sanctuary",
+        "locality": "London",
+        "postalCode": "SW1P 3JS",
+        "country": "GB",
+        "countryName": "United Kingdom",
+        "region": "UKI32"
+       },
+       "contactPoint": {
+        "name": "Lynne Allen",
+        "email": "e-procurement@bluelight.police.uk"
+       },
+       "roles": [
+        "procuringEntity",
+        "processContactPoint"
+       ],
+       "roleDetails": "Commercial Partner",
+       "details": {
+        "url": "http://www.bluelightcommercial.police.uk/"
+       }
+      }
+     ],
+     "buyer": {
+      "id": "GB-PPON-PZRN-3375-DBRT",
+      "name": "Police Digital Service"
+     },
+     "tender": {
+      "id": "BLC0222",
+      "legalBasis": {
+       "id": "2023/54",
+       "scheme": "UKPGA",
+       "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+      },
+      "title": "BLC0222 - National Firearms Licensing Management System (NFLMS)",
+      "description": "This Invitation to Tender (\u201cITT\u201d) has been issued by BlueLight Commercial (\u201cBLC\u201d) who are seeking to award a Contract for the provision of a National Firearms Licensing Management System (NFLMS).   BLC will be tendering this requirement on behalf of Police Digital Services (\u201cPDS\u201d) for use by themselves and the Additional Authorities defined in the Terms and Conditions of the contract. \nThe requirement will be tendered via a multi-stage Competitive Flexible Process, under the Procurement Act 2023 (\u201cPA23\u201d), with the intention of awarding a contract to a single supplier.  The Contract Term shall be for an initial period of 5 years with options to extend up to a maximum of 10 years. \nBidders must register on the Central Digital Platform (www.gov.uk/find-tender) and ensure that Core Supplier Information is up to date, downloaded and is submitted as part of the Bid submission (in downloaded file format) in order to be assessed against the Conditions of Participation.",
+      "status": "active",
+      "items": [
+       {
+        "id": "LOT-0001",
+        "additionalClassifications": [
+         {
+          "scheme": "CPV",
+          "id": "48000000",
+          "description": "Software package and information systems"
+         },
+         {
+          "scheme": "CPV",
+          "id": "72260000",
+          "description": "Software-related services"
+         }
+        ],
+        "deliveryAddresses": [
+         {
+          "region": "UK",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         }
+        ],
+        "relatedLot": "LOT-0001"
+       }
+      ],
+      "value": {
+       "amountGross": 16999999,
+       "amount": 14166667,
+       "currency": "GBP"
+      },
+      "procurementMethod": "open",
+      "procurementMethodDetails": "Competitive flexible procedure",
+      "procedure": {
+       "features": "The competitive flexible procedure consists of the following 2 stages:\nSTAGE 1 \u2013 Tender Stage\nSTAGE 2 \u2013 Demonstration Stage\nSTAGE 1 \u2013 TENDER STAGE\nThe Tender Stage consists of the following:\nConditions of Participation \u2013 this is a series of pass/fail questions relating to the requirement of the procurement.\nGateway Technical Questions \u2013 this is a series of technical Pass/Fail questions relating to the product and service required.   \nITT Technical Questions - 55 % \u2013 this is completion of the Response to Tender document consisting of questions relating to Design, Cyber, Implementation and Delivery, Service, and Solution.\nSocial Value \u2013 10% - this is the completion of the Response to Tender document consisting of questions relating to Social Value.\nPrice \u2013 30% - this is the completion of the Pricing Schedule which is based on a schedule of rates for the services required.\nAll bidders that PASS all Conditions of Participation AND Tender Gateway Questions AND achieve a minimum score of 40% for the ITT Technical Questions will progress to Stage 2 of the Procurement Process.\nSTAGE 2 \u2013 DEMONSTRATION\nThe Demonstration Stage consists of a scenario-based demonstration.  A Demonstration Briefing document has been published with the full suite of tender documentation to aid understanding.\nThe Demonstration score will be added to the score from Stage 1 to form the Total Score and identify the Highest Scoring Bidder.  The Highest Scoring Bidder will be awarded the contract.  In the event of a tie where two or more bidders achieve the same total aggregate score the Highest Scoring Bidder for the Solution sub-criteria shall be awarded the contract."
+      },
+      "mainProcurementCategory": "goods",
+      "aboveThreshold": true,
+      "submissionMethodDetails": "https://sell2.in-tend.co.uk/blpd/home",
+      "submissionTerms": {
+       "electronicSubmissionPolicy": "allowed",
+       "languages": [
+        "en"
+       ]
+      },
+      "tenderPeriod": {
+       "endDate": "2025-06-30T12:00:00+00:00"
+      },
+      "enquiryPeriod": {
+       "endDate": "2025-06-23T16:00:00+00:00"
+      },
+      "awardPeriod": {
+       "endDate": "2025-10-09T23:59:59+00:00"
+      },
+      "lots": [
+       {
+        "id": "LOT-0001",
+        "status": "active",
+        "value": {
+         "amountGross": 16999999,
+         "amount": 14166667,
+         "currency": "AED"
+        },
+        "awardCriteria": {
+         "weightingDescription": "Award Criteria: Stage 1 ITT Stage - ITT Technical Questions \u2013 55% - Social Value \u2013 10% - Price \u2013 30%\nAward Criteria: Stage 2 \u2013 Demonstration 5%\nFurther information has been provided within the tender documentation.",
+         "criteria": [
+          {
+           "type": "price",
+           "name": "Simple description",
+           "description": "Award Criteria: Stage 1 ITT Stage - ITT Technical Questions \u2013 55% - Social Value \u2013 10% - Price \u2013 30%\nAward Criteria: Stage 2 \u2013 Demonstration 5%\nFurther information has been provided within the tender documentation."
+          }
+         ]
+        },
+        "contractPeriod": {
+         "startDate": "2025-10-31T00:00:00+00:00",
+         "endDate": "2030-10-30T23:59:59+00:00",
+         "maxExtentDate": "2035-10-30T23:59:59+00:00"
+        },
+        "hasRenewal": true,
+        "renewal": {
+         "description": "The Contract Term shall be for an initial period of 5 years with options to extend up to a maximum of 10 years."
+        }
+       }
+      ],
+      "documents": [
+       {
+        "id": "L-1",
+        "documentType": "biddingDocuments",
+        "description": "Please search for reference BLC0222 - National Firearms Licensing Management System (NFLMS)",
+        "url": "https://sell2.in-tend.co.uk/blpd/home"
+       },
+       {
+        "id": "conflictOfInterest",
+        "documentType": "conflictOfInterest",
+        "description": "Not published"
+       },
+       {
+        "id": "020338-2025",
+        "documentType": "tenderNotice",
+        "noticeType": "UK4",
+        "description": "Tender notice on Find a Tender",
+        "url": "https://www.find-tender.service.gov.uk/Notice/020338-2025",
+        "datePublished": "2025-05-12T10:36:49+01:00",
+        "format": "text/html"
+       }
+      ],
+      "contractTerms": {
+       "financialTerms": "The payment terms are detailed in the Form of Contract, Terms and Conditions"
+      },
+      "riskDetails": "The description of risks to contract performance have been identified in the Form of Contract, Terms and Conditions.",
+      "amendments": [
+       {
+        "description": "Updated Tender Portal Link",
+        "id": "020338-2025"
+       }
+      ]
+     },
+     "language": "en",
+     "extensions": [
+      "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+      "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+      "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json"
+     ]
+    },
+    {
+     "id": "023490-2025",
+     "tag": [
+      "tenderUpdate"
+     ],
+     "date": "2025-05-20T17:42:48+01:00",
+     "initiationType": "tender",
+     "ocid": "ocds-h6vhtk-051018",
+     "parties": [
+      {
+       "name": "Police Digital Service",
+       "id": "GB-PPON-PZRN-3375-DBRT",
+       "identifier": {
+        "scheme": "GB-PPON",
+        "id": "PZRN-3375-DBRT"
+       },
+       "address": {
+        "streetAddress": "20 Gresham Street",
+        "locality": "London",
+        "postalCode": "EC2V 7JE",
+        "country": "GB",
+        "countryName": "United Kingdom",
+        "region": "UKI31"
+       },
+       "contactPoint": {
+        "name": "Lynne Allen",
+        "email": "e-procurement@bluelight.police.uk"
+       },
+       "roles": [
+        "buyer"
+       ],
+       "details": {
+        "classifications": [
+         {
+          "scheme": "UK_CA_TYPE",
+          "id": "publicAuthoritySubCentralGovernment",
+          "description": "Public authority - sub-central government"
+         }
+        ]
+       }
+      },
+      {
+       "name": "BLUELIGHT COMMERCIAL LIMITED",
+       "id": "GB-COH-12517649",
+       "identifier": {
+        "scheme": "GB-COH",
+        "id": "12517649"
+       },
+       "address": {
+        "streetAddress": "Lower Ground 5-8 The Sanctuary",
+        "locality": "London",
+        "postalCode": "SW1P 3JS",
+        "country": "GB",
+        "countryName": "United Kingdom",
+        "region": "UKI32"
+       },
+       "contactPoint": {
+        "name": "Lynne Allen",
+        "email": "e-procurement@bluelight.police.uk"
+       },
+       "roles": [
+        "procuringEntity",
+        "processContactPoint"
+       ],
+       "roleDetails": "Commercial Partner",
+       "details": {
+        "url": "http://www.bluelightcommercial.police.uk/"
+       }
+      }
+     ],
+     "buyer": {
+      "id": "GB-PPON-PZRN-3375-DBRT",
+      "name": "Police Digital Service"
+     },
+     "planning": {
+      "noEngagementNoticeRationale": "Pre-market engagement was undertaken in relation to this procurement by the Home Office under Public Contract Regulations 2015, and all relevant outputs have been built into the Statement of Requirements.  The Authority is satisfied that: \n(a) suppliers who participated in the preliminary market engagement have not been put at an unfair advantage; and \n(b) competition in relation to the award of the public contract is not otherwise distorted."
+     },
+     "tender": {
+      "id": "BLC0222",
+      "legalBasis": {
+       "id": "2023/54",
+       "scheme": "UKPGA",
+       "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+      },
+      "title": "BLC0222 - National Firearms Licensing Management System (NFLMS)",
+      "description": "This Invitation to Tender (\"ITT\") has been issued by BlueLight Commercial (\"BLC\") who are seeking to award a Contract for the provision of a National Firearms Licensing Management System (NFLMS).   BLC will be tendering this requirement on behalf of Police Digital Services (\"PDS\") for use by themselves and the Additional Authorities defined in the Terms and Conditions of the contract.\nThe requirement will be tendered via a multi-stage Competitive Flexible Process, under the Procurement Act 2023 (\"PA23\"), with the intention of awarding a contract to a single supplier.  The Contract Term shall be for an initial period of 5 years with options to extend up to a maximum of 10 years.\nBidders must register on the Central Digital Platform (www.gov.uk/find-tender) and ensure that Core Supplier Information is up to date, downloaded and is submitted as part of the Bid submission (in downloaded file format) in order to be assessed against the Conditions of Participation.",
+      "status": "active",
+      "items": [
+       {
+        "id": "LOT-0001",
+        "additionalClassifications": [
+         {
+          "scheme": "CPV",
+          "id": "48000000",
+          "description": "Software package and information systems"
+         },
+         {
+          "scheme": "CPV",
+          "id": "72260000",
+          "description": "Software-related services"
+         }
+        ],
+        "deliveryAddresses": [
+         {
+          "region": "UK",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         }
+        ],
+        "relatedLot": "LOT-0001"
+       }
+      ],
+      "value": {
+       "amountGross": 16999999,
+       "amount": 14166667,
+       "currency": "GBP"
+      },
+      "procurementMethod": "open",
+      "procurementMethodDetails": "Competitive flexible procedure",
+      "procedure": {
+       "features": "The competitive flexible procedure consists of the following 2 stages:\nSTAGE 1 - Tender Stage\nSTAGE 2 - Demonstration Stage\nSTAGE 1 - TENDER STAGE\nThe Tender Stage consists of the following:\nConditions of Participation - this is a series of pass/fail questions relating to the requirement of the procurement.\nGateway Technical Questions - this is a series of technical Pass/Fail questions relating to the product and service required.\nITT Technical Questions - 55 % - this is completion of the Response to Tender document consisting of questions relating to Design, Cyber, Implementation and Delivery, Service, and Solution.\nSocial Value - 10% - this is the completion of the Response to Tender document consisting of questions relating to Social Value.\nPrice - 30% - this is the completion of the Pricing Schedule which is based on a schedule of rates for the services required.\nAll bidders that PASS all Conditions of Participation AND Tender Gateway Questions AND achieve a minimum score of 40% for the ITT Technical Questions will progress to Stage 2 of the Procurement Process.\nSTAGE 2 - DEMONSTRATION\nThe Demonstration Stage consists of a scenario-based demonstration.  A Demonstration Briefing document has been published with the full suite of tender documentation to aid understanding.\nThe Demonstration score will be added to the score from Stage 1 to form the Total Score and identify the Highest Scoring Bidder.  The Highest Scoring Bidder will be awarded the contract.  In the event of a tie where two or more bidders achieve the same total aggregate score the Highest Scoring Bidder for the Solution sub-criteria shall be awarded the contract."
+      },
+      "mainProcurementCategory": "goods",
+      "aboveThreshold": true,
+      "submissionMethodDetails": "https://sell2.in-tend.co.uk/blpd/home",
+      "submissionTerms": {
+       "electronicSubmissionPolicy": "allowed",
+       "languages": [
+        "en"
+       ]
+      },
+      "tenderPeriod": {
+       "endDate": "2025-06-30T13:00:00+01:00"
+      },
+      "enquiryPeriod": {
+       "endDate": "2025-06-23T17:00:00+01:00"
+      },
+      "awardPeriod": {
+       "endDate": "2025-10-10T23:59:59+01:00"
+      },
+      "lots": [
+       {
+        "id": "LOT-0001",
+        "status": "active",
+        "value": {
+         "amountGross": 16999999,
+         "amount": 14166667,
+         "currency": "GBP"
+        },
+        "awardCriteria": {
+         "weightingDescription": "Award Criteria: Stage 1 ITT Stage - ITT Technical Questions - 55% - Social Value - 10% - Price - 30%\nAward Criteria: Stage 2 - Demonstration 5%\nFurther information has been provided within the tender documentation.",
+         "criteria": [
+          {
+           "type": "price",
+           "name": "Simple description",
+           "description": "Award Criteria: Stage 1 ITT Stage - ITT Technical Questions - 55% - Social Value - 10% - Price - 30%\nAward Criteria: Stage 2 - Demonstration 5%\nFurther information has been provided within the tender documentation."
+          }
+         ]
+        },
+        "contractPeriod": {
+         "startDate": "2025-10-31T00:00:00Z",
+         "endDate": "2030-10-30T23:59:59Z",
+         "maxExtentDate": "2035-10-30T23:59:59Z"
+        },
+        "hasRenewal": true,
+        "renewal": {
+         "description": "The Contract Term shall be for an initial period of 5 years with options to extend up to a maximum of 10 years."
+        }
+       }
+      ],
+      "documents": [
+       {
+        "id": "conflictOfInterest",
+        "documentType": "conflictOfInterest",
+        "description": "Not published"
+       },
+       {
+        "id": "L-1",
+        "documentType": "biddingDocuments",
+        "description": "Please search for reference BLC0222 - National Firearms Licensing Management System (NFLMS)",
+        "url": "https://sell2.in-tend.co.uk/blpd/home"
+       },
+       {
+        "id": "023490-2025",
+        "documentType": "tenderNotice",
+        "noticeType": "UK4",
+        "description": "Tender notice on Find a Tender",
+        "url": "https://www.find-tender.service.gov.uk/Notice/023490-2025",
+        "datePublished": "2025-05-20T17:42:48+01:00",
+        "format": "text/html"
+       }
+      ],
+      "contractTerms": {
+       "financialTerms": "The payment terms are detailed in the Form of Contract, Terms and Conditions"
+      },
+      "riskDetails": "The description of risks to contract performance have been identified in the Form of Contract, Terms and Conditions.",
+      "amendments": [
+       {
+        "description": "Changes to \"Procedure\" - \"Has preliminary market engagement been carried out?\" Changed from No to Yes and justification provided around why a Preliminary Market Engagement notice was not published.",
+        "id": "023490-2025"
+       }
+      ]
+     },
+     "language": "en",
+     "extensions": [
+      "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+      "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+      "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json"
+     ]
+    },
+    {
+     "id": "033781-2025",
+     "tag": [
+      "tenderUpdate"
+     ],
+     "date": "2025-06-19T15:27:39+01:00",
+     "initiationType": "tender",
+     "ocid": "ocds-h6vhtk-051018",
+     "parties": [
+      {
+       "name": "Police Digital Service",
+       "id": "GB-PPON-PZRN-3375-DBRT",
+       "identifier": {
+        "scheme": "GB-PPON",
+        "id": "PZRN-3375-DBRT"
+       },
+       "address": {
+        "streetAddress": "20 Gresham Street",
+        "locality": "London",
+        "postalCode": "EC2V 7JE",
+        "country": "GB",
+        "countryName": "United Kingdom",
+        "region": "UKI31"
+       },
+       "contactPoint": {
+        "name": "Lynne Allen",
+        "email": "e-procurement@bluelight.police.uk"
+       },
+       "roles": [
+        "buyer"
+       ],
+       "details": {
+        "classifications": [
+         {
+          "scheme": "UK_CA_TYPE",
+          "id": "publicAuthoritySubCentralGovernment",
+          "description": "Public authority - sub-central government"
+         }
+        ]
+       }
+      },
+      {
+       "name": "BLUELIGHT COMMERCIAL LIMITED",
+       "id": "GB-COH-12517649",
+       "identifier": {
+        "scheme": "GB-COH",
+        "id": "12517649"
+       },
+       "address": {
+        "streetAddress": "Lower Ground 5-8 The Sanctuary",
+        "locality": "London",
+        "postalCode": "SW1P 3JS",
+        "country": "GB",
+        "countryName": "United Kingdom",
+        "region": "UKI32"
+       },
+       "contactPoint": {
+        "name": "Lynne Allen",
+        "email": "e-procurement@bluelight.police.uk"
+       },
+       "roles": [
+        "procuringEntity",
+        "processContactPoint"
+       ],
+       "roleDetails": "Commercial Partner",
+       "details": {
+        "url": "http://www.bluelightcommercial.police.uk/"
+       }
+      }
+     ],
+     "buyer": {
+      "id": "GB-PPON-PZRN-3375-DBRT",
+      "name": "Police Digital Service"
+     },
+     "planning": {
+      "noEngagementNoticeRationale": "Pre-market engagement was undertaken in relation to this procurement by the Home Office under Public Contract Regulations 2015, and all relevant outputs have been built into the Statement of Requirements.  The Authority is satisfied that:\n(a) suppliers who participated in the preliminary market engagement have not been put at an unfair advantage; and\n(b) competition in relation to the award of the public contract is not otherwise distorted."
+     },
+     "tender": {
+      "id": "BLC0222",
+      "legalBasis": {
+       "id": "2023/54",
+       "scheme": "UKPGA",
+       "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+      },
+      "title": "BLC0222 - National Firearms Licensing Management System (NFLMS)",
+      "description": "This Invitation to Tender (\"ITT\") has been issued by BlueLight Commercial (\"BLC\") who are seeking to award a Contract for the provision of a National Firearms Licensing Management System (NFLMS).   BLC will be tendering this requirement on behalf of Police Digital Services (\"PDS\") for use by themselves and the Additional Authorities defined in the Terms and Conditions of the contract.\nThe requirement will be tendered via a multi-stage Competitive Flexible Process, under the Procurement Act 2023 (\"PA23\"), with the intention of awarding a contract to a single supplier.  The Contract Term shall be for an initial period of 5 years with options to extend up to a maximum of 10 years.\nBidders must register on the Central Digital Platform (www.gov.uk/find-tender) and ensure that Core Supplier Information is up to date, downloaded and is submitted as part of the Bid submission (in downloaded file format) in order to be assessed against the Conditions of Participation.",
+      "status": "active",
+      "items": [
+       {
+        "id": "LOT-0001",
+        "additionalClassifications": [
+         {
+          "scheme": "CPV",
+          "id": "48000000",
+          "description": "Software package and information systems"
+         },
+         {
+          "scheme": "CPV",
+          "id": "72260000",
+          "description": "Software-related services"
+         }
+        ],
+        "deliveryAddresses": [
+         {
+          "region": "UK",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         }
+        ],
+        "relatedLot": "LOT-0001"
+       }
+      ],
+      "value": {
+       "amountGross": 16999999,
+       "amount": 14166667,
+       "currency": "GBP"
+      },
+      "procurementMethod": "open",
+      "procurementMethodDetails": "Competitive flexible procedure",
+      "procedure": {
+       "features": "The competitive flexible procedure consists of the following 2 stages:\nSTAGE 1 - Tender Stage\nSTAGE 2 - Demonstration Stage\nSTAGE 1 - TENDER STAGE\nThe Tender Stage consists of the following:\nConditions of Participation - this is a series of pass/fail questions relating to the requirement of the procurement.\nGateway Technical Questions - this is a series of technical Pass/Fail questions relating to the product and service required.\nITT Technical Questions - 55 % - this is completion of the Response to Tender document consisting of questions relating to Design, Cyber, Implementation and Delivery, Service, and Solution.\nSocial Value - 10% - this is the completion of the Response to Tender document consisting of questions relating to Social Value.\nPrice - 30% - this is the completion of the Pricing Schedule which is based on a schedule of rates for the services required.\nAll bidders that PASS all Conditions of Participation AND Tender Gateway Questions AND achieve a minimum score of 40% for the ITT Technical Questions will progress to Stage 2 of the Procurement Process.\nSTAGE 2 - DEMONSTRATION\nThe Demonstration Stage consists of a scenario-based demonstration.  A Demonstration Briefing document has been published with the full suite of tender documentation to aid understanding.\nThe Demonstration score will be added to the score from Stage 1 to form the Total Score and identify the Highest Scoring Bidder.  The Highest Scoring Bidder will be awarded the contract.  In the event of a tie where two or more bidders achieve the same total aggregate score the Highest Scoring Bidder for the Solution sub-criteria shall be awarded the contract."
+      },
+      "mainProcurementCategory": "goods",
+      "aboveThreshold": true,
+      "submissionMethodDetails": "https://sell2.in-tend.co.uk/blpd/home",
+      "submissionTerms": {
+       "electronicSubmissionPolicy": "allowed",
+       "languages": [
+        "en"
+       ]
+      },
+      "tenderPeriod": {
+       "endDate": "2025-07-14T13:00:00+01:00"
+      },
+      "enquiryPeriod": {
+       "endDate": "2025-06-30T17:00:00+01:00"
+      },
+      "awardPeriod": {
+       "endDate": "2025-10-10T23:59:59+01:00"
+      },
+      "lots": [
+       {
+        "id": "LOT-0001",
+        "status": "active",
+        "value": {
+         "amountGross": 16999999,
+         "amount": 14166667,
+         "currency": "GBP"
+        },
+        "awardCriteria": {
+         "weightingDescription": "Award Criteria: Stage 1 ITT Stage - ITT Technical Questions - 55% - Social Value - 10% - Price - 30%\nAward Criteria: Stage 2 - Demonstration 5%\nFurther information has been provided within the tender documentation.",
+         "criteria": [
+          {
+           "type": "price",
+           "name": "Simple description",
+           "description": "Award Criteria: Stage 1 ITT Stage - ITT Technical Questions - 55% - Social Value - 10% - Price - 30%\nAward Criteria: Stage 2 - Demonstration 5%\nFurther information has been provided within the tender documentation."
+          }
+         ]
+        },
+        "contractPeriod": {
+         "startDate": "2025-10-31T00:00:00Z",
+         "endDate": "2030-10-30T23:59:59Z",
+         "maxExtentDate": "2035-10-30T23:59:59Z"
+        },
+        "hasRenewal": true,
+        "renewal": {
+         "description": "The Contract Term shall be for an initial period of 5 years with options to extend up to a maximum of 10 years."
+        }
+       }
+      ],
+      "documents": [
+       {
+        "id": "conflictOfInterest",
+        "documentType": "conflictOfInterest",
+        "description": "Not published"
+       },
+       {
+        "id": "L-1",
+        "documentType": "biddingDocuments",
+        "description": "Please search for reference BLC0222 - National Firearms Licensing Management System (NFLMS)",
+        "url": "https://sell2.in-tend.co.uk/blpd/home"
+       },
+       {
+        "id": "033781-2025",
+        "documentType": "tenderNotice",
+        "noticeType": "UK4",
+        "description": "Tender notice on Find a Tender",
+        "url": "https://www.find-tender.service.gov.uk/Notice/033781-2025",
+        "datePublished": "2025-06-19T15:27:39+01:00",
+        "format": "text/html"
+       }
+      ],
+      "contractTerms": {
+       "financialTerms": "The payment terms are detailed in the Form of Contract, Terms and Conditions"
+      },
+      "riskDetails": "The description of risks to contract performance have been identified in the Form of Contract, Terms and Conditions.",
+      "amendments": [
+       {
+        "description": "Updated enquiry deadline and tender submission deadline extended , due to a minor amendment in the Statement of Requirements documents, section 5.3, IR-09 and GPR Requirements (now GFR).",
+        "id": "033781-2025"
+       }
+      ]
+     },
+     "language": "en",
+     "extensions": [
+      "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+      "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+      "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json"
+     ]
+    },
+    {
+     "id": "036532-2025",
+     "tag": [
+      "tenderUpdate"
+     ],
+     "date": "2025-07-01T16:29:51+01:00",
+     "initiationType": "tender",
+     "ocid": "ocds-h6vhtk-051018",
+     "parties": [
+      {
+       "name": "Police Digital Service",
+       "id": "GB-PPON-PZRN-3375-DBRT",
+       "identifier": {
+        "scheme": "GB-PPON",
+        "id": "PZRN-3375-DBRT"
+       },
+       "address": {
+        "streetAddress": "20 Gresham Street",
+        "locality": "London",
+        "postalCode": "EC2V 7JE",
+        "country": "GB",
+        "countryName": "United Kingdom",
+        "region": "UKI31"
+       },
+       "contactPoint": {
+        "name": "Lynne Allen",
+        "email": "e-procurement@bluelight.police.uk"
+       },
+       "roles": [
+        "buyer"
+       ],
+       "details": {
+        "classifications": [
+         {
+          "scheme": "UK_CA_TYPE",
+          "id": "publicAuthoritySubCentralGovernment",
+          "description": "Public authority - sub-central government"
+         }
+        ]
+       }
+      },
+      {
+       "name": "BLUELIGHT COMMERCIAL LIMITED",
+       "id": "GB-COH-12517649",
+       "identifier": {
+        "scheme": "GB-COH",
+        "id": "12517649"
+       },
+       "address": {
+        "streetAddress": "Lower Ground 5-8 The Sanctuary",
+        "locality": "London",
+        "postalCode": "SW1P 3JS",
+        "country": "GB",
+        "countryName": "United Kingdom",
+        "region": "UKI32"
+       },
+       "contactPoint": {
+        "name": "Lynne Allen",
+        "email": "e-procurement@bluelight.police.uk"
+       },
+       "roles": [
+        "procuringEntity",
+        "processContactPoint"
+       ],
+       "roleDetails": "Commercial Partner",
+       "details": {
+        "url": "http://www.bluelightcommercial.police.uk/"
+       }
+      }
+     ],
+     "buyer": {
+      "id": "GB-PPON-PZRN-3375-DBRT",
+      "name": "Police Digital Service"
+     },
+     "planning": {
+      "noEngagementNoticeRationale": "Pre-market engagement was undertaken in relation to this procurement by the Home Office under Public Contract Regulations 2015, and all relevant outputs have been built into the Statement of Requirements.  The Authority is satisfied that:\n(a) suppliers who participated in the preliminary market engagement have not been put at an unfair advantage; and\n(b) competition in relation to the award of the public contract is not otherwise distorted."
+     },
+     "tender": {
+      "id": "BLC0222",
+      "legalBasis": {
+       "id": "2023/54",
+       "scheme": "UKPGA",
+       "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+      },
+      "title": "BLC0222 - National Firearms Licensing Management System (NFLMS)",
+      "description": "This Invitation to Tender (\"ITT\") has been issued by BlueLight Commercial (\"BLC\") who are seeking to award a Contract for the provision of a National Firearms Licensing Management System (NFLMS).   BLC will be tendering this requirement on behalf of Police Digital Services (\"PDS\") for use by themselves and the Additional Authorities defined in the Terms and Conditions of the contract.\nThe requirement will be tendered via a multi-stage Competitive Flexible Process, under the Procurement Act 2023 (\"PA23\"), with the intention of awarding a contract to a single supplier.  The Contract Term shall be for an initial period of 5 years with options to extend up to a maximum of 10 years.\nBidders must register on the Central Digital Platform (www.gov.uk/find-tender) and ensure that Core Supplier Information is up to date, downloaded and is submitted as part of the Bid submission (in downloaded file format) in order to be assessed against the Conditions of Participation.",
+      "status": "active",
+      "items": [
+       {
+        "id": "LOT-0001",
+        "additionalClassifications": [
+         {
+          "scheme": "CPV",
+          "id": "48000000",
+          "description": "Software package and information systems"
+         },
+         {
+          "scheme": "CPV",
+          "id": "72260000",
+          "description": "Software-related services"
+         }
+        ],
+        "deliveryAddresses": [
+         {
+          "region": "UK",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         }
+        ],
+        "relatedLot": "LOT-0001"
+       }
+      ],
+      "value": {
+       "amountGross": 16999999,
+       "amount": 14166667,
+       "currency": "GBP"
+      },
+      "procurementMethod": "open",
+      "procurementMethodDetails": "Competitive flexible procedure",
+      "procedure": {
+       "features": "The competitive flexible procedure consists of the following 2 stages:\nSTAGE 1 - Tender Stage\nSTAGE 2 - Demonstration Stage\nSTAGE 1 - TENDER STAGE\nThe Tender Stage consists of the following:\nConditions of Participation - this is a series of pass/fail questions relating to the requirement of the procurement.\nGateway Technical Questions - this is a series of technical Pass/Fail questions relating to the product and service required.\nITT Technical Questions - 55 % - this is completion of the Response to Tender document consisting of questions relating to Design, Cyber, Implementation and Delivery, Service, and Solution.\nSocial Value - 10% - this is the completion of the Response to Tender document consisting of questions relating to Social Value.\nPrice - 30% - this is the completion of the Pricing Schedule which is based on a schedule of rates for the services required.\nAll bidders that PASS all Conditions of Participation AND Tender Gateway Questions AND achieve a minimum score of 40% for the ITT Technical Questions will progress to Stage 2 of the Procurement Process.\nSTAGE 2 - DEMONSTRATION\nThe Demonstration Stage consists of a scenario-based demonstration.  A Demonstration Briefing document has been published with the full suite of tender documentation to aid understanding.\nThe Demonstration score will be added to the score from Stage 1 to form the Total Score and identify the Highest Scoring Bidder.  The Highest Scoring Bidder will be awarded the contract.  In the event of a tie where two or more bidders achieve the same total aggregate score the Highest Scoring Bidder for the Solution sub-criteria shall be awarded the contract."
+      },
+      "mainProcurementCategory": "goods",
+      "aboveThreshold": true,
+      "coveredBy": [
+       "GPA",
+       "CPTPP"
+      ],
+      "submissionMethodDetails": "https://sell2.in-tend.co.uk/blpd/home",
+      "submissionTerms": {
+       "electronicSubmissionPolicy": "allowed",
+       "languages": [
+        "en"
+       ]
+      },
+      "tenderPeriod": {
+       "endDate": "2025-07-28T13:00:00+01:00"
+      },
+      "enquiryPeriod": {
+       "endDate": "2025-06-30T17:00:00+01:00"
+      },
+      "awardPeriod": {
+       "endDate": "2025-10-10T23:59:59+01:00"
+      },
+      "lots": [
+       {
+        "id": "LOT-0001",
+        "status": "active",
+        "value": {
+         "amountGross": 16999999,
+         "amount": 14166667,
+         "currency": "GBP"
+        },
+        "awardCriteria": {
+         "weightingDescription": "Award Criteria: Stage 1 ITT Stage - ITT Technical Questions - 55% - Social Value - 10% - Price - 30%\nAward Criteria: Stage 2 - Demonstration 5%\nFurther information has been provided within the tender documentation.",
+         "criteria": [
+          {
+           "type": "price",
+           "name": "Simple description",
+           "description": "Award Criteria: Stage 1 ITT Stage - ITT Technical Questions - 55% - Social Value - 10% - Price - 30%\nAward Criteria: Stage 2 - Demonstration 5%\nFurther information has been provided within the tender documentation."
+          }
+         ]
+        },
+        "contractPeriod": {
+         "startDate": "2025-10-31T00:00:00Z",
+         "endDate": "2030-10-30T23:59:59Z",
+         "maxExtentDate": "2035-10-30T23:59:59Z"
+        },
+        "hasRenewal": true,
+        "renewal": {
+         "description": "The Contract Term shall be for an initial period of 5 years with options to extend up to a maximum of 10 years."
+        }
+       }
+      ],
+      "documents": [
+       {
+        "id": "conflictOfInterest",
+        "documentType": "conflictOfInterest",
+        "description": "Not published"
+       },
+       {
+        "id": "L-1",
+        "documentType": "biddingDocuments",
+        "description": "Please search for reference BLC0222 - National Firearms Licensing Management System (NFLMS)",
+        "url": "https://sell2.in-tend.co.uk/blpd/home"
+       },
+       {
+        "id": "036532-2025",
+        "documentType": "tenderNotice",
+        "noticeType": "UK4",
+        "description": "Tender notice on Find a Tender",
+        "url": "https://www.find-tender.service.gov.uk/Notice/036532-2025",
+        "datePublished": "2025-07-01T16:29:51+01:00",
+        "format": "text/html"
+       }
+      ],
+      "contractTerms": {
+       "financialTerms": "The payment terms are detailed in the Form of Contract, Terms and Conditions"
+      },
+      "riskDetails": "The description of risks to contract performance have been identified in the Form of Contract, Terms and Conditions.",
+      "amendments": [
+       {
+        "description": "The deadline for this tender response has been extended, following amendments to the specification, by 14 days. This provides more than 25 days between the date of this amendment to the date of tender submission. Amendments to the specification will be provided via the In-Tend portal.",
+        "id": "036532-2025"
+       }
+      ]
+     },
+     "language": "en",
+     "extensions": [
+      "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+      "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+      "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json"
+     ]
+    },
+    {
+     "buyerID": [],
+     "id": "051257-2026",
+     "tag": [
+      "award",
+      "contract"
+     ],
+     "date": "2026-06-01T10:49:18+01:00",
+     "initiationType": "tender",
+     "ocid": "ocds-h6vhtk-051018",
+     "parties": [
+      {
+       "name": "POLICE DIGITAL SERVICE",
+       "id": "GB-COH-08113293",
+       "identifier": {
+        "scheme": "GB-COH",
+        "id": "08113293"
+       },
+       "additionalIdentifiers": [
+        {
+         "scheme": "GB-PPON",
+         "id": "PZRN-3375-DBRT"
+        }
+       ],
+       "address": {
+        "streetAddress": "20 Gresham Street",
+        "locality": "London",
+        "postalCode": "EC2V 7JE",
+        "country": "GB",
+        "countryName": "United Kingdom",
+        "region": "UKI31"
+       },
+       "contactPoint": {
+        "email": "commercial@pds.police.uk"
+       },
+       "roles": [
+        "buyer"
+       ],
+       "details": {
+        "url": "http://www.pds.police.uk",
+        "classifications": [
+         {
+          "scheme": "UK_CA_TYPE",
+          "id": "publicAuthoritySubCentralGovernment",
+          "description": "Public authority - sub-central government"
+         }
+        ]
+       }
+      },
+      {
+       "name": "BLUELIGHT COMMERCIAL LIMITED",
+       "id": "GB-COH-12517649",
+       "identifier": {
+        "scheme": "GB-COH",
+        "id": "12517649"
+       },
+       "additionalIdentifiers": [
+        {
+         "scheme": "GB-PPON",
+         "id": "PHNR-1637-NVGV"
+        }
+       ],
+       "address": {
+        "streetAddress": "Lower Ground 5-8 The Sanctuary",
+        "locality": "London",
+        "postalCode": "SW1P 3JS",
+        "country": "GB",
+        "countryName": "United Kingdom",
+        "region": "UKI32"
+       },
+       "contactPoint": {
+        "email": "e-procurement@bluelight.police.uk"
+       },
+       "roles": [
+        "procuringEntity",
+        "processContactPoint"
+       ],
+       "roleDetails": "Bluelight Commercial have acted as the agent for procuring this agreement on behalf of Police Digital Service",
+       "details": {
+        "url": "http://www.bluelightcommercial.police.uk/"
+       }
+      },
+      {
+       "name": "ACCENTURE (UK) LIMITED",
+       "id": "GB-COH-04757301",
+       "identifier": {
+        "scheme": "GB-COH",
+        "id": "04757301"
+       },
+       "additionalIdentifiers": [
+        {
+         "scheme": "GB-PPON",
+         "id": "PYHC-2313-BXRY"
+        }
+       ],
+       "address": {
+        "streetAddress": "30 Fenchurch Street",
+        "locality": "London",
+        "postalCode": "EC3M 3BD",
+        "country": "GB",
+        "countryName": "United Kingdom",
+        "region": "UKI31"
+       },
+       "roles": [
+        "tenderer"
+       ],
+       "details": {
+        "url": "https://www.accenture.com/gb-en",
+        "scale": "large",
+        "vcse": false
+       }
+      },
+      {
+       "name": "NEC SOFTWARE SOLUTIONS UK LIMITED",
+       "id": "GB-COH-00968498",
+       "identifier": {
+        "scheme": "GB-COH",
+        "id": "00968498"
+       },
+       "additionalIdentifiers": [
+        {
+         "scheme": "GB-PPON",
+         "id": "PHXX-6931-VYBP"
+        }
+       ],
+       "address": {
+        "streetAddress": "1st Floor, Imex Centre",
+        "locality": "Hemel Hempstead",
+        "postalCode": "HP2 7DX",
+        "country": "GB",
+        "countryName": "United Kingdom",
+        "region": "UKH23"
+       },
+       "roles": [
+        "tenderer"
+       ],
+       "details": {
+        "url": "https://www.necsws.com",
+        "scale": "large",
+        "vcse": false
+       }
+      },
+      {
+       "name": "PALANTIR TECHNOLOGIES UK, LTD.",
+       "id": "GB-COH-07042994",
+       "identifier": {
+        "scheme": "GB-COH",
+        "id": "07042994"
+       },
+       "additionalIdentifiers": [
+        {
+         "scheme": "GB-PPON",
+         "id": "PCNQ-5186-DMPX"
+        }
+       ],
+       "address": {
+        "streetAddress": "Birchin Court 5th Floor, 19-25 Birchin Lane",
+        "locality": "London",
+        "postalCode": "EC3V 9DU",
+        "country": "GB",
+        "countryName": "United Kingdom",
+        "region": "UKI31"
+       },
+       "contactPoint": {
+        "email": "ig-mi-accounts@palantir.com"
+       },
+       "roles": [
+        "supplier",
+        "tenderer"
+       ],
+       "details": {
+        "url": "https://www.palantir.com/uk/",
+        "scale": "large",
+        "vcse": false,
+        "publicServiceMissionOrganization": false,
+        "shelteredWorkshop": false
+       }
+      }
+     ],
+     "buyer": {
+      "id": "GB-COH-08113293",
+      "name": "POLICE DIGITAL SERVICE"
+     },
+     "tender": {
+      "id": "BLC0222",
+      "legalBasis": {
+       "id": "2023/54",
+       "scheme": "UKPGA",
+       "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+      },
+      "title": "BLC0222 - National Firearms Licensing Management System (NFLMS)",
+      "description": "This Contract Award Notice issued by BlueLight Commercial Ltd (\"BLC\"), on behalf of Police Digital Services (\"PDS\") for the provision of a replacement National Firearms Licensing Management System (\"NFLMS\") on behalf of themselves as the Contracting Authority and the Additional Authorities defined in the Terms and Conditions of the contract.  The NFLMS will enable all 43 Police Forces in England & Wales, to record the grant, renewal, and revocation of firearms licenses.  The NFLMS will also hold Home Office licensing information relating to explosives, explosive precursors, and poisons.  The contract may be modified to include Police Scotland and the Police Service of Northern Ireland (PSNI) if required.\nThe services will be delivered by a single supplier.",
+      "status": "complete",
+      "procurementMethod": "open",
+      "procurementMethodDetails": "Competitive flexible procedure",
+      "lots": [
+       {
+        "id": "LOT-0001",
+        "status": "complete",
+        "description": null
+       }
+      ]
+     },
+     "bids": {
+      "details": [
+       {
+        "id": "1",
+        "status": "valid",
+        "tenderers": [
+         {
+          "id": "GB-COH-07042994",
+          "name": "PALANTIR TECHNOLOGIES UK, LTD."
+         }
+        ],
+        "relatedLots": [
+         "LOT-0001"
+        ]
+       },
+       {
+        "id": "2",
+        "status": "valid",
+        "tenderers": [
+         {
+          "id": "GB-COH-04757301",
+          "name": "ACCENTURE (UK) LIMITED"
+         }
+        ],
+        "relatedLots": [
+         "LOT-0001"
+        ]
+       },
+       {
+        "id": "3",
+        "status": "valid",
+        "tenderers": [
+         {
+          "id": "GB-COH-00968498",
+          "name": "NEC SOFTWARE SOLUTIONS UK LIMITED"
+         }
+        ],
+        "relatedLots": [
+         "LOT-0001"
+        ]
+       }
+      ],
+      "statistics": [
+       {
+        "id": "1",
+        "measure": "bids",
+        "value": 18,
+        "relatedLot": "LOT-0001"
+       },
+       {
+        "id": "2",
+        "measure": "finalStageBids",
+        "value": 3,
+        "relatedLot": "LOT-0001"
+       },
+       {
+        "id": "3",
+        "measure": "smeFinalStageBids",
+        "value": 0,
+        "relatedLot": "LOT-0001"
+       },
+       {
+        "id": "4",
+        "measure": "vcseFinalStageBids",
+        "value": 0,
+        "relatedLot": "LOT-0001"
+       }
+      ]
+     },
+     "awards": [
+      {
+       "id": "1",
+       "status": "pending",
+       "date": "2026-05-21T00:00:00+01:00",
+       "value": {
+        "amountGross": 9000000,
+        "amount": 7500000,
+        "currency": "GBP"
+       },
+       "mainProcurementCategory": "goods",
+       "aboveThreshold": true,
+       "suppliers": [
+        {
+         "id": "GB-COH-07042994",
+         "name": "PALANTIR TECHNOLOGIES UK, LTD."
+        }
+       ],
+       "items": [
+        {
+         "id": "LOT-0001",
+         "additionalClassifications": [
+          {
+           "scheme": "CPV",
+           "id": "48000000",
+           "description": "Software package and information systems"
+          },
+          {
+           "scheme": "CPV",
+           "id": "72260000",
+           "description": "Software-related services"
+          }
+         ],
+         "deliveryAddresses": [
+          {
+           "region": "UK",
+           "country": "GB",
+           "countryName": "United Kingdom"
+          }
+         ],
+         "relatedLot": "LOT-0001"
+        }
+       ],
+       "standstillPeriod": {
+        "endDate": "2026-06-10T23:59:59+01:00"
+       },
+       "contractPeriod": {
+        "startDate": "2026-09-04T00:00:00+01:00",
+        "endDate": "2031-09-03T23:59:59+01:00",
+        "maxExtentDate": "2036-09-03T23:59:59+01:00"
+       },
+       "hasRenewal": true,
+       "renewal": {
+        "description": "The Contract Term shall be for an initial period of 5 years with options to extend up to a maximum of 10 years."
+       },
+       "relatedLots": [
+        "LOT-0001"
+       ],
+       "documents": [
+        {
+         "id": "051257-2026",
+         "documentType": "awardNotice",
+         "noticeType": "UK6",
+         "description": "Contract award notice on Find a Tender",
+         "url": "https://www.find-tender.service.gov.uk/Notice/051257-2026",
+         "datePublished": "2026-06-01T10:49:18+01:00",
+         "format": "text/html"
+        }
+       ],
+       "assessmentSummariesDateSent": "2026-06-01T00:00:00+01:00",
+       "milestones": [
+        {
+         "id": "1",
+         "type": "futureSignatureDate",
+         "dueDate": "2026-06-11T23:59:59+01:00",
+         "status": "scheduled"
+        }
+       ]
+      }
+     ],
+     "language": "en",
+     "extensions": [
+      "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_performance_failures_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+      "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+      "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json"
+     ]
+    }
+   ],
+   "compiledRelease": {
+    "tag": [
+     "compiled"
+    ],
+    "id": "ocds-h6vhtk-051018-2026-06-01T10:49:18+01:00",
+    "date": "2026-06-01T10:49:18+01:00",
+    "ocid": "ocds-h6vhtk-051018",
+    "initiationType": "tender",
+    "parties": [
+     {
+      "id": "GB-PPON-PZRN-3375-DBRT",
+      "name": "Police Digital Service",
+      "identifier": {
+       "scheme": "GB-PPON",
+       "id": "PZRN-3375-DBRT"
+      },
+      "address": {
+       "streetAddress": "20 Gresham Street",
+       "locality": "London",
+       "postalCode": "EC2V 7JE",
+       "country": "GB",
+       "countryName": "United Kingdom",
+       "region": "UKI31"
+      },
+      "contactPoint": {
+       "name": "Lynne Allen",
+       "email": "e-procurement@bluelight.police.uk"
+      },
+      "roles": [
+       "buyer"
+      ],
+      "details": {
+       "classifications": [
+        {
+         "scheme": "UK_CA_TYPE",
+         "id": "publicAuthoritySubCentralGovernment",
+         "description": "Public authority - sub-central government"
+        }
+       ]
+      }
+     },
+     {
+      "id": "GB-COH-12517649",
+      "name": "BLUELIGHT COMMERCIAL LIMITED",
+      "identifier": {
+       "scheme": "GB-COH",
+       "id": "12517649"
+      },
+      "address": {
+       "streetAddress": "Lower Ground 5-8 The Sanctuary",
+       "locality": "London",
+       "postalCode": "SW1P 3JS",
+       "country": "GB",
+       "countryName": "United Kingdom",
+       "region": "UKI32"
+      },
+      "contactPoint": {
+       "name": "Lynne Allen",
+       "email": "e-procurement@bluelight.police.uk"
+      },
+      "roles": [
+       "procuringEntity",
+       "processContactPoint"
+      ],
+      "roleDetails": "Bluelight Commercial have acted as the agent for procuring this agreement on behalf of Police Digital Service",
+      "details": {
+       "url": "http://www.bluelightcommercial.police.uk/"
+      },
+      "additionalIdentifiers": [
+       {
+        "scheme": "GB-PPON",
+        "id": "PHNR-1637-NVGV"
+       }
+      ]
+     },
+     {
+      "id": "GB-COH-08113293",
+      "name": "POLICE DIGITAL SERVICE",
+      "identifier": {
+       "scheme": "GB-COH",
+       "id": "08113293"
+      },
+      "additionalIdentifiers": [
+       {
+        "scheme": "GB-PPON",
+        "id": "PZRN-3375-DBRT"
+       }
+      ],
+      "address": {
+       "streetAddress": "20 Gresham Street",
+       "locality": "London",
+       "postalCode": "EC2V 7JE",
+       "country": "GB",
+       "countryName": "United Kingdom",
+       "region": "UKI31"
+      },
+      "contactPoint": {
+       "email": "commercial@pds.police.uk"
+      },
+      "roles": [
+       "buyer"
+      ],
+      "details": {
+       "url": "http://www.pds.police.uk",
+       "classifications": [
+        {
+         "scheme": "UK_CA_TYPE",
+         "id": "publicAuthoritySubCentralGovernment",
+         "description": "Public authority - sub-central government"
+        }
+       ]
+      }
+     },
+     {
+      "id": "GB-COH-04757301",
+      "name": "ACCENTURE (UK) LIMITED",
+      "identifier": {
+       "scheme": "GB-COH",
+       "id": "04757301"
+      },
+      "additionalIdentifiers": [
+       {
+        "scheme": "GB-PPON",
+        "id": "PYHC-2313-BXRY"
+       }
+      ],
+      "address": {
+       "streetAddress": "30 Fenchurch Street",
+       "locality": "London",
+       "postalCode": "EC3M 3BD",
+       "country": "GB",
+       "countryName": "United Kingdom",
+       "region": "UKI31"
+      },
+      "roles": [
+       "tenderer"
+      ],
+      "details": {
+       "url": "https://www.accenture.com/gb-en",
+       "scale": "large",
+       "vcse": false
+      }
+     },
+     {
+      "id": "GB-COH-00968498",
+      "name": "NEC SOFTWARE SOLUTIONS UK LIMITED",
+      "identifier": {
+       "scheme": "GB-COH",
+       "id": "00968498"
+      },
+      "additionalIdentifiers": [
+       {
+        "scheme": "GB-PPON",
+        "id": "PHXX-6931-VYBP"
+       }
+      ],
+      "address": {
+       "streetAddress": "1st Floor, Imex Centre",
+       "locality": "Hemel Hempstead",
+       "postalCode": "HP2 7DX",
+       "country": "GB",
+       "countryName": "United Kingdom",
+       "region": "UKH23"
+      },
+      "roles": [
+       "tenderer"
+      ],
+      "details": {
+       "url": "https://www.necsws.com",
+       "scale": "large",
+       "vcse": false
+      }
+     },
+     {
+      "id": "GB-COH-07042994",
+      "name": "PALANTIR TECHNOLOGIES UK, LTD.",
+      "identifier": {
+       "scheme": "GB-COH",
+       "id": "07042994"
+      },
+      "additionalIdentifiers": [
+       {
+        "scheme": "GB-PPON",
+        "id": "PCNQ-5186-DMPX"
+       }
+      ],
+      "address": {
+       "streetAddress": "Birchin Court 5th Floor, 19-25 Birchin Lane",
+       "locality": "London",
+       "postalCode": "EC3V 9DU",
+       "country": "GB",
+       "countryName": "United Kingdom",
+       "region": "UKI31"
+      },
+      "contactPoint": {
+       "email": "ig-mi-accounts@palantir.com"
+      },
+      "roles": [
+       "supplier",
+       "tenderer"
+      ],
+      "details": {
+       "url": "https://www.palantir.com/uk/",
+       "scale": "large",
+       "vcse": false,
+       "publicServiceMissionOrganization": false,
+       "shelteredWorkshop": false
+      }
+     }
+    ],
+    "buyer": {
+     "id": "GB-COH-08113293",
+     "name": "POLICE DIGITAL SERVICE"
+    },
+    "tender": {
+     "id": "BLC0222",
+     "legalBasis": {
+      "id": "2023/54",
+      "scheme": "UKPGA",
+      "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+     },
+     "title": "BLC0222 - National Firearms Licensing Management System (NFLMS)",
+     "description": "This Contract Award Notice issued by BlueLight Commercial Ltd (\"BLC\"), on behalf of Police Digital Services (\"PDS\") for the provision of a replacement National Firearms Licensing Management System (\"NFLMS\") on behalf of themselves as the Contracting Authority and the Additional Authorities defined in the Terms and Conditions of the contract.  The NFLMS will enable all 43 Police Forces in England & Wales, to record the grant, renewal, and revocation of firearms licenses.  The NFLMS will also hold Home Office licensing information relating to explosives, explosive precursors, and poisons.  The contract may be modified to include Police Scotland and the Police Service of Northern Ireland (PSNI) if required.\nThe services will be delivered by a single supplier.",
+     "status": "complete",
+     "items": [
+      {
+       "id": "LOT-0001",
+       "additionalClassifications": [
+        {
+         "scheme": "CPV",
+         "id": "48000000",
+         "description": "Software package and information systems"
+        },
+        {
+         "scheme": "CPV",
+         "id": "72260000",
+         "description": "Software-related services"
+        }
+       ],
+       "deliveryAddresses": [
+        {
+         "region": "UK",
+         "country": "GB",
+         "countryName": "United Kingdom"
+        },
+        {
+         "region": "UK",
+         "country": "GB",
+         "countryName": "United Kingdom"
+        },
+        {
+         "region": "UK",
+         "country": "GB",
+         "countryName": "United Kingdom"
+        },
+        {
+         "region": "UK",
+         "country": "GB",
+         "countryName": "United Kingdom"
+        },
+        {
+         "region": "UK",
+         "country": "GB",
+         "countryName": "United Kingdom"
+        }
+       ],
+       "relatedLot": "LOT-0001"
+      }
+     ],
+     "value": {
+      "amountGross": 16999999,
+      "amount": 14166667,
+      "currency": "GBP"
+     },
+     "procurementMethod": "open",
+     "procurementMethodDetails": "Competitive flexible procedure",
+     "procedure": {
+      "features": "The competitive flexible procedure consists of the following 2 stages:\nSTAGE 1 - Tender Stage\nSTAGE 2 - Demonstration Stage\nSTAGE 1 - TENDER STAGE\nThe Tender Stage consists of the following:\nConditions of Participation - this is a series of pass/fail questions relating to the requirement of the procurement.\nGateway Technical Questions - this is a series of technical Pass/Fail questions relating to the product and service required.\nITT Technical Questions - 55 % - this is completion of the Response to Tender document consisting of questions relating to Design, Cyber, Implementation and Delivery, Service, and Solution.\nSocial Value - 10% - this is the completion of the Response to Tender document consisting of questions relating to Social Value.\nPrice - 30% - this is the completion of the Pricing Schedule which is based on a schedule of rates for the services required.\nAll bidders that PASS all Conditions of Participation AND Tender Gateway Questions AND achieve a minimum score of 40% for the ITT Technical Questions will progress to Stage 2 of the Procurement Process.\nSTAGE 2 - DEMONSTRATION\nThe Demonstration Stage consists of a scenario-based demonstration.  A Demonstration Briefing document has been published with the full suite of tender documentation to aid understanding.\nThe Demonstration score will be added to the score from Stage 1 to form the Total Score and identify the Highest Scoring Bidder.  The Highest Scoring Bidder will be awarded the contract.  In the event of a tie where two or more bidders achieve the same total aggregate score the Highest Scoring Bidder for the Solution sub-criteria shall be awarded the contract."
+     },
+     "mainProcurementCategory": "goods",
+     "aboveThreshold": true,
+     "submissionMethodDetails": "https://sell2.in-tend.co.uk/blpd/home",
+     "submissionTerms": {
+      "electronicSubmissionPolicy": "allowed",
+      "languages": [
+       "en"
+      ]
+     },
+     "tenderPeriod": {
+      "endDate": "2025-07-28T13:00:00+01:00"
+     },
+     "enquiryPeriod": {
+      "endDate": "2025-06-30T17:00:00+01:00"
+     },
+     "awardPeriod": {
+      "endDate": "2025-10-10T23:59:59+01:00"
+     },
+     "lots": [
+      {
+       "id": "LOT-0001",
+       "status": "complete",
+       "value": {
+        "amountGross": 16999999,
+        "amount": 14166667,
+        "currency": "GBP"
+       },
+       "awardCriteria": {
+        "weightingDescription": "Award Criteria: Stage 1 ITT Stage - ITT Technical Questions - 55% - Social Value - 10% - Price - 30%\nAward Criteria: Stage 2 - Demonstration 5%\nFurther information has been provided within the tender documentation.",
+        "criteria": [
+         {
+          "type": "price",
+          "name": "Simple description",
+          "description": "Award Criteria: Stage 1 ITT Stage - ITT Technical Questions - 55% - Social Value - 10% - Price - 30%\nAward Criteria: Stage 2 - Demonstration 5%\nFurther information has been provided within the tender documentation."
+         }
+        ]
+       },
+       "contractPeriod": {
+        "startDate": "2025-10-31T00:00:00Z",
+        "endDate": "2030-10-30T23:59:59Z",
+        "maxExtentDate": "2035-10-30T23:59:59Z"
+       },
+       "hasRenewal": true,
+       "renewal": {
+        "description": "The Contract Term shall be for an initial period of 5 years with options to extend up to a maximum of 10 years."
+       }
+      }
+     ],
+     "documents": [
+      {
+       "id": "L-1",
+       "documentType": "biddingDocuments",
+       "description": "Please search for reference BLC0222 - National Firearms Licensing Management System (NFLMS)",
+       "url": "https://sell2.in-tend.co.uk/blpd/home"
+      },
+      {
+       "id": "conflictOfInterest",
+       "documentType": "conflictOfInterest",
+       "description": "Not published"
+      },
+      {
+       "id": "020194-2025",
+       "documentType": "tenderNotice",
+       "noticeType": "UK4",
+       "description": "Tender notice on Find a Tender",
+       "url": "https://www.find-tender.service.gov.uk/Notice/020194-2025",
+       "datePublished": "2025-05-09T16:28:07+01:00",
+       "format": "text/html"
+      },
+      {
+       "id": "020338-2025",
+       "documentType": "tenderNotice",
+       "noticeType": "UK4",
+       "description": "Tender notice on Find a Tender",
+       "url": "https://www.find-tender.service.gov.uk/Notice/020338-2025",
+       "datePublished": "2025-05-12T10:36:49+01:00",
+       "format": "text/html"
+      },
+      {
+       "id": "023490-2025",
+       "documentType": "tenderNotice",
+       "noticeType": "UK4",
+       "description": "Tender notice on Find a Tender",
+       "url": "https://www.find-tender.service.gov.uk/Notice/023490-2025",
+       "datePublished": "2025-05-20T17:42:48+01:00",
+       "format": "text/html"
+      },
+      {
+       "id": "033781-2025",
+       "documentType": "tenderNotice",
+       "noticeType": "UK4",
+       "description": "Tender notice on Find a Tender",
+       "url": "https://www.find-tender.service.gov.uk/Notice/033781-2025",
+       "datePublished": "2025-06-19T15:27:39+01:00",
+       "format": "text/html"
+      },
+      {
+       "id": "036532-2025",
+       "documentType": "tenderNotice",
+       "noticeType": "UK4",
+       "description": "Tender notice on Find a Tender",
+       "url": "https://www.find-tender.service.gov.uk/Notice/036532-2025",
+       "datePublished": "2025-07-01T16:29:51+01:00",
+       "format": "text/html"
+      }
+     ],
+     "contractTerms": {
+      "financialTerms": "The payment terms are detailed in the Form of Contract, Terms and Conditions"
+     },
+     "riskDetails": "The description of risks to contract performance have been identified in the Form of Contract, Terms and Conditions.",
+     "amendments": [
+      {
+       "id": "020338-2025",
+       "description": "Updated Tender Portal Link"
+      },
+      {
+       "id": "023490-2025",
+       "description": "Changes to \"Procedure\" - \"Has preliminary market engagement been carried out?\" Changed from No to Yes and justification provided around why a Preliminary Market Engagement notice was not published."
+      },
+      {
+       "id": "033781-2025",
+       "description": "Updated enquiry deadline and tender submission deadline extended , due to a minor amendment in the Statement of Requirements documents, section 5.3, IR-09 and GPR Requirements (now GFR)."
+      },
+      {
+       "id": "036532-2025",
+       "description": "The deadline for this tender response has been extended, following amendments to the specification, by 14 days. This provides more than 25 days between the date of this amendment to the date of tender submission. Amendments to the specification will be provided via the In-Tend portal."
+      }
+     ],
+     "coveredBy": [
+      "GPA",
+      "CPTPP"
+     ]
+    },
+    "language": "en",
+    "extensions": [
+     "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+     "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+     "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+     "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+     "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+     "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+     "https://raw.githubusercontent.com/open-contracting-extensions/ocds_performance_failures_extension/master/extension.json",
+     "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+     "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+     "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json"
+    ],
+    "planning": {
+     "noEngagementNoticeRationale": "Pre-market engagement was undertaken in relation to this procurement by the Home Office under Public Contract Regulations 2015, and all relevant outputs have been built into the Statement of Requirements.  The Authority is satisfied that:\n(a) suppliers who participated in the preliminary market engagement have not been put at an unfair advantage; and\n(b) competition in relation to the award of the public contract is not otherwise distorted."
+    },
+    "bids": {
+     "details": [
+      {
+       "id": "1",
+       "status": "valid",
+       "tenderers": [
+        {
+         "id": "GB-COH-07042994",
+         "name": "PALANTIR TECHNOLOGIES UK, LTD."
+        }
+       ],
+       "relatedLots": [
+        "LOT-0001"
+       ]
+      },
+      {
+       "id": "2",
+       "status": "valid",
+       "tenderers": [
+        {
+         "id": "GB-COH-04757301",
+         "name": "ACCENTURE (UK) LIMITED"
+        }
+       ],
+       "relatedLots": [
+        "LOT-0001"
+       ]
+      },
+      {
+       "id": "3",
+       "status": "valid",
+       "tenderers": [
+        {
+         "id": "GB-COH-00968498",
+         "name": "NEC SOFTWARE SOLUTIONS UK LIMITED"
+        }
+       ],
+       "relatedLots": [
+        "LOT-0001"
+       ]
+      }
+     ],
+     "statistics": [
+      {
+       "id": "1",
+       "measure": "bids",
+       "value": 18,
+       "relatedLot": "LOT-0001"
+      },
+      {
+       "id": "2",
+       "measure": "finalStageBids",
+       "value": 3,
+       "relatedLot": "LOT-0001"
+      },
+      {
+       "id": "3",
+       "measure": "smeFinalStageBids",
+       "value": 0,
+       "relatedLot": "LOT-0001"
+      },
+      {
+       "id": "4",
+       "measure": "vcseFinalStageBids",
+       "value": 0,
+       "relatedLot": "LOT-0001"
+      }
+     ]
+    },
+    "awards": [
+     {
+      "id": "1",
+      "status": "pending",
+      "date": "2026-05-21T00:00:00+01:00",
+      "value": {
+       "amountGross": 9000000,
+       "amount": 7500000,
+       "currency": "GBP"
+      },
+      "mainProcurementCategory": "goods",
+      "aboveThreshold": true,
+      "suppliers": [
+       {
+        "id": "GB-COH-07042994",
+        "name": "PALANTIR TECHNOLOGIES UK, LTD."
+       }
+      ],
+      "items": [
+       {
+        "id": "LOT-0001",
+        "additionalClassifications": [
+         {
+          "scheme": "CPV",
+          "id": "48000000",
+          "description": "Software package and information systems"
+         },
+         {
+          "scheme": "CPV",
+          "id": "72260000",
+          "description": "Software-related services"
+         }
+        ],
+        "deliveryAddresses": [
+         {
+          "region": "UK",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         }
+        ],
+        "relatedLot": "LOT-0001"
+       }
+      ],
+      "standstillPeriod": {
+       "endDate": "2026-06-10T23:59:59+01:00"
+      },
+      "contractPeriod": {
+       "startDate": "2026-09-04T00:00:00+01:00",
+       "endDate": "2031-09-03T23:59:59+01:00",
+       "maxExtentDate": "2036-09-03T23:59:59+01:00"
+      },
+      "hasRenewal": true,
+      "renewal": {
+       "description": "The Contract Term shall be for an initial period of 5 years with options to extend up to a maximum of 10 years."
+      },
+      "relatedLots": [
+       "LOT-0001"
+      ],
+      "documents": [
+       {
+        "id": "051257-2026",
+        "documentType": "awardNotice",
+        "noticeType": "UK6",
+        "description": "Contract award notice on Find a Tender",
+        "url": "https://www.find-tender.service.gov.uk/Notice/051257-2026",
+        "datePublished": "2026-06-01T10:49:18+01:00",
+        "format": "text/html"
+       }
+      ],
+      "assessmentSummariesDateSent": "2026-06-01T00:00:00+01:00",
+      "milestones": [
+       {
+        "id": "1",
+        "type": "futureSignatureDate",
+        "dueDate": "2026-06-11T23:59:59+01:00",
+        "status": "scheduled"
+       }
+      ]
+     }
+    ]
+   },
+   "versionedRelease": {
+    "ocid": "ocds-h6vhtk-051018",
+    "initiationType": [
+     {
+      "releaseID": "020194-2025",
+      "releaseDate": "2025-05-09T16:28:07+01:00",
+      "releaseTag": [
+       "tender"
+      ],
+      "value": "tender"
+     }
+    ],
+    "parties": [
+     {
+      "id": "GB-PPON-PZRN-3375-DBRT",
+      "name": [
+       {
+        "releaseID": "020194-2025",
+        "releaseDate": "2025-05-09T16:28:07+01:00",
+        "releaseTag": [
+         "tender"
+        ],
+        "value": "Police Digital Service"
+       }
+      ],
+      "identifier": {
+       "scheme": [
+        {
+         "releaseID": "020194-2025",
+         "releaseDate": "2025-05-09T16:28:07+01:00",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "GB-PPON"
+        }
+       ],
+       "id": [
+        {
+         "releaseID": "020194-2025",
+         "releaseDate": "2025-05-09T16:28:07+01:00",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "PZRN-3375-DBRT"
+        }
+       ]
+      },
+      "address": {
+       "streetAddress": [
+        {
+         "releaseID": "020194-2025",
+         "releaseDate": "2025-05-09T16:28:07+01:00",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "20 Gresham Street"
+        }
+       ],
+       "locality": [
+        {
+         "releaseID": "020194-2025",
+         "releaseDate": "2025-05-09T16:28:07+01:00",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "London"
+        }
+       ],
+       "postalCode": [
+        {
+         "releaseID": "020194-2025",
+         "releaseDate": "2025-05-09T16:28:07+01:00",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "EC2V 7JE"
+        }
+       ],
+       "country": [
+        {
+         "releaseID": "020194-2025",
+         "releaseDate": "2025-05-09T16:28:07+01:00",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "GB"
+        }
+       ],
+       "countryName": [
+        {
+         "releaseID": "020194-2025",
+         "releaseDate": "2025-05-09T16:28:07+01:00",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "United Kingdom"
+        }
+       ],
+       "region": [
+        {
+         "releaseID": "020194-2025",
+         "releaseDate": "2025-05-09T16:28:07+01:00",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "UKI31"
+        }
+       ]
+      },
+      "contactPoint": {
+       "name": [
+        {
+         "releaseID": "020194-2025",
+         "releaseDate": "2025-05-09T16:28:07+01:00",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "Lynne Allen"
+        }
+       ],
+       "email": [
+        {
+         "releaseID": "020194-2025",
+         "releaseDate": "2025-05-09T16:28:07+01:00",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "e-procurement@bluelight.police.uk"
+        }
+       ]
+      },
+      "roles": [
+       {
+        "releaseID": "020194-2025",
+        "releaseDate": "2025-05-09T16:28:07+01:00",
+        "releaseTag": [
+         "tender"
+        ],
+        "value": [
+         "buyer"
+        ]
+       }
+      ],
+      "details": {
+       "classifications": [
+        {
+         "releaseID": "020194-2025",
+         "releaseDate": "2025-05-09T16:28:07+01:00",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": [
+          {
+           "scheme": "UK_CA_TYPE",
+           "id": "publicAuthoritySubCentralGovernment",
+           "description": "Public authority - sub-central government"
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "id": "GB-COH-12517649",
+      "name": [
+       {
+        "releaseID": "020194-2025",
+        "releaseDate": "2025-05-09T16:28:07+01:00",
+        "releaseTag": [
+         "tender"
+        ],
+        "value": "BLUELIGHT COMMERCIAL LIMITED"
+       }
+      ],
+      "identifier": {
+       "scheme": [
+        {
+         "releaseID": "020194-2025",
+         "releaseDate": "2025-05-09T16:28:07+01:00",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "GB-COH"
+        }
+       ],
+       "id": [
+        {
+         "releaseID": "020194-2025",
+         "releaseDate": "2025-05-09T16:28:07+01:00",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "12517649"
+        }
+       ]
+      },
+      "address": {
+       "streetAddress": [
+        {
+         "releaseID": "020194-2025",
+         "releaseDate": "2025-05-09T16:28:07+01:00",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "Lower Ground 5-8 The Sanctuary"
+        }
+       ],
+       "locality": [
+        {
+         "releaseID": "020194-2025",
+         "releaseDate": "2025-05-09T16:28:07+01:00",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "London"
+        }
+       ],
+       "postalCode": [
+        {
+         "releaseID": "020194-2025",
+         "releaseDate": "2025-05-09T16:28:07+01:00",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "SW1P 3JS"
+        }
+       ],
+       "country": [
+        {
+         "releaseID": "020194-2025",
+         "releaseDate": "2025-05-09T16:28:07+01:00",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "GB"
+        }
+       ],
+       "countryName": [
+        {
+         "releaseID": "020194-2025",
+         "releaseDate": "2025-05-09T16:28:07+01:00",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "United Kingdom"
+        }
+       ],
+       "region": [
+        {
+         "releaseID": "020194-2025",
+         "releaseDate": "2025-05-09T16:28:07+01:00",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "UKI32"
+        }
+       ]
+      },
+      "contactPoint": {
+       "name": [
+        {
+         "releaseID": "020194-2025",
+         "releaseDate": "2025-05-09T16:28:07+01:00",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "Lynne Allen"
+        }
+       ],
+       "email": [
+        {
+         "releaseID": "020194-2025",
+         "releaseDate": "2025-05-09T16:28:07+01:00",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "e-procurement@bluelight.police.uk"
+        }
+       ]
+      },
+      "roles": [
+       {
+        "releaseID": "020194-2025",
+        "releaseDate": "2025-05-09T16:28:07+01:00",
+        "releaseTag": [
+         "tender"
+        ],
+        "value": [
+         "procuringEntity",
+         "processContactPoint"
+        ]
+       }
+      ],
+      "roleDetails": [
+       {
+        "releaseID": "020194-2025",
+        "releaseDate": "2025-05-09T16:28:07+01:00",
+        "releaseTag": [
+         "tender"
+        ],
+        "value": "Commercial Partner"
+       },
+       {
+        "releaseID": "051257-2026",
+        "releaseDate": "2026-06-01T10:49:18+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "Bluelight Commercial have acted as the agent for procuring this agreement on behalf of Police Digital Service"
+       }
+      ],
+      "details": {
+       "url": [
+        {
+         "releaseID": "020194-2025",
+         "releaseDate": "2025-05-09T16:28:07+01:00",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "http://www.bluelightcommercial.police.uk/"
+        }
+       ]
+      },
+      "additionalIdentifiers": [
+       {
+        "releaseID": "051257-2026",
+        "releaseDate": "2026-06-01T10:49:18+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": [
+         {
+          "scheme": "GB-PPON",
+          "id": "PHNR-1637-NVGV"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "GB-COH-08113293",
+      "name": [
+       {
+        "releaseID": "051257-2026",
+        "releaseDate": "2026-06-01T10:49:18+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "POLICE DIGITAL SERVICE"
+       }
+      ],
+      "identifier": {
+       "scheme": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "GB-COH"
+        }
+       ],
+       "id": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "08113293"
+        }
+       ]
+      },
+      "additionalIdentifiers": [
+       {
+        "releaseID": "051257-2026",
+        "releaseDate": "2026-06-01T10:49:18+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": [
+         {
+          "scheme": "GB-PPON",
+          "id": "PZRN-3375-DBRT"
+         }
+        ]
+       }
+      ],
+      "address": {
+       "streetAddress": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "20 Gresham Street"
+        }
+       ],
+       "locality": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "London"
+        }
+       ],
+       "postalCode": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "EC2V 7JE"
+        }
+       ],
+       "country": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "GB"
+        }
+       ],
+       "countryName": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "United Kingdom"
+        }
+       ],
+       "region": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "UKI31"
+        }
+       ]
+      },
+      "contactPoint": {
+       "email": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "commercial@pds.police.uk"
+        }
+       ]
+      },
+      "roles": [
+       {
+        "releaseID": "051257-2026",
+        "releaseDate": "2026-06-01T10:49:18+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": [
+         "buyer"
+        ]
+       }
+      ],
+      "details": {
+       "url": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "http://www.pds.police.uk"
+        }
+       ],
+       "classifications": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": [
+          {
+           "scheme": "UK_CA_TYPE",
+           "id": "publicAuthoritySubCentralGovernment",
+           "description": "Public authority - sub-central government"
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "id": "GB-COH-04757301",
+      "name": [
+       {
+        "releaseID": "051257-2026",
+        "releaseDate": "2026-06-01T10:49:18+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "ACCENTURE (UK) LIMITED"
+       }
+      ],
+      "identifier": {
+       "scheme": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "GB-COH"
+        }
+       ],
+       "id": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "04757301"
+        }
+       ]
+      },
+      "additionalIdentifiers": [
+       {
+        "releaseID": "051257-2026",
+        "releaseDate": "2026-06-01T10:49:18+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": [
+         {
+          "scheme": "GB-PPON",
+          "id": "PYHC-2313-BXRY"
+         }
+        ]
+       }
+      ],
+      "address": {
+       "streetAddress": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "30 Fenchurch Street"
+        }
+       ],
+       "locality": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "London"
+        }
+       ],
+       "postalCode": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "EC3M 3BD"
+        }
+       ],
+       "country": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "GB"
+        }
+       ],
+       "countryName": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "United Kingdom"
+        }
+       ],
+       "region": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "UKI31"
+        }
+       ]
+      },
+      "roles": [
+       {
+        "releaseID": "051257-2026",
+        "releaseDate": "2026-06-01T10:49:18+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": [
+         "tenderer"
+        ]
+       }
+      ],
+      "details": {
+       "url": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "https://www.accenture.com/gb-en"
+        }
+       ],
+       "scale": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "large"
+        }
+       ],
+       "vcse": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": false
+        }
+       ]
+      }
+     },
+     {
+      "id": "GB-COH-00968498",
+      "name": [
+       {
+        "releaseID": "051257-2026",
+        "releaseDate": "2026-06-01T10:49:18+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "NEC SOFTWARE SOLUTIONS UK LIMITED"
+       }
+      ],
+      "identifier": {
+       "scheme": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "GB-COH"
+        }
+       ],
+       "id": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "00968498"
+        }
+       ]
+      },
+      "additionalIdentifiers": [
+       {
+        "releaseID": "051257-2026",
+        "releaseDate": "2026-06-01T10:49:18+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": [
+         {
+          "scheme": "GB-PPON",
+          "id": "PHXX-6931-VYBP"
+         }
+        ]
+       }
+      ],
+      "address": {
+       "streetAddress": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "1st Floor, Imex Centre"
+        }
+       ],
+       "locality": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "Hemel Hempstead"
+        }
+       ],
+       "postalCode": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "HP2 7DX"
+        }
+       ],
+       "country": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "GB"
+        }
+       ],
+       "countryName": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "United Kingdom"
+        }
+       ],
+       "region": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "UKH23"
+        }
+       ]
+      },
+      "roles": [
+       {
+        "releaseID": "051257-2026",
+        "releaseDate": "2026-06-01T10:49:18+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": [
+         "tenderer"
+        ]
+       }
+      ],
+      "details": {
+       "url": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "https://www.necsws.com"
+        }
+       ],
+       "scale": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "large"
+        }
+       ],
+       "vcse": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": false
+        }
+       ]
+      }
+     },
+     {
+      "id": "GB-COH-07042994",
+      "name": [
+       {
+        "releaseID": "051257-2026",
+        "releaseDate": "2026-06-01T10:49:18+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "PALANTIR TECHNOLOGIES UK, LTD."
+       }
+      ],
+      "identifier": {
+       "scheme": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "GB-COH"
+        }
+       ],
+       "id": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "07042994"
+        }
+       ]
+      },
+      "additionalIdentifiers": [
+       {
+        "releaseID": "051257-2026",
+        "releaseDate": "2026-06-01T10:49:18+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": [
+         {
+          "scheme": "GB-PPON",
+          "id": "PCNQ-5186-DMPX"
+         }
+        ]
+       }
+      ],
+      "address": {
+       "streetAddress": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "Birchin Court 5th Floor, 19-25 Birchin Lane"
+        }
+       ],
+       "locality": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "London"
+        }
+       ],
+       "postalCode": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "EC3V 9DU"
+        }
+       ],
+       "country": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "GB"
+        }
+       ],
+       "countryName": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "United Kingdom"
+        }
+       ],
+       "region": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "UKI31"
+        }
+       ]
+      },
+      "contactPoint": {
+       "email": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "ig-mi-accounts@palantir.com"
+        }
+       ]
+      },
+      "roles": [
+       {
+        "releaseID": "051257-2026",
+        "releaseDate": "2026-06-01T10:49:18+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": [
+         "supplier",
+         "tenderer"
+        ]
+       }
+      ],
+      "details": {
+       "url": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "https://www.palantir.com/uk/"
+        }
+       ],
+       "scale": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "large"
+        }
+       ],
+       "vcse": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": false
+        }
+       ],
+       "publicServiceMissionOrganization": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": false
+        }
+       ],
+       "shelteredWorkshop": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": false
+        }
+       ]
+      }
+     }
+    ],
+    "buyer": {
+     "id": [
+      {
+       "releaseID": "020194-2025",
+       "releaseDate": "2025-05-09T16:28:07+01:00",
+       "releaseTag": [
+        "tender"
+       ],
+       "value": "GB-PPON-PZRN-3375-DBRT"
+      },
+      {
+       "releaseID": "051257-2026",
+       "releaseDate": "2026-06-01T10:49:18+01:00",
+       "releaseTag": [
+        "award",
+        "contract"
+       ],
+       "value": "GB-COH-08113293"
+      }
+     ],
+     "name": [
+      {
+       "releaseID": "020194-2025",
+       "releaseDate": "2025-05-09T16:28:07+01:00",
+       "releaseTag": [
+        "tender"
+       ],
+       "value": "Police Digital Service"
+      },
+      {
+       "releaseID": "051257-2026",
+       "releaseDate": "2026-06-01T10:49:18+01:00",
+       "releaseTag": [
+        "award",
+        "contract"
+       ],
+       "value": "POLICE DIGITAL SERVICE"
+      }
+     ]
+    },
+    "tender": {
+     "id": [
+      {
+       "releaseID": "020194-2025",
+       "releaseDate": "2025-05-09T16:28:07+01:00",
+       "releaseTag": [
+        "tender"
+       ],
+       "value": "BLC0222"
+      }
+     ],
+     "legalBasis": {
+      "id": [
+       {
+        "releaseID": "020194-2025",
+        "releaseDate": "2025-05-09T16:28:07+01:00",
+        "releaseTag": [
+         "tender"
+        ],
+        "value": "2023/54"
+       }
+      ],
+      "scheme": [
+       {
+        "releaseID": "020194-2025",
+        "releaseDate": "2025-05-09T16:28:07+01:00",
+        "releaseTag": [
+         "tender"
+        ],
+        "value": "UKPGA"
+       }
+      ],
+      "uri": [
+       {
+        "releaseID": "020194-2025",
+        "releaseDate": "2025-05-09T16:28:07+01:00",
+        "releaseTag": [
+         "tender"
+        ],
+        "value": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+       }
+      ]
+     },
+     "title": [
+      {
+       "releaseID": "020194-2025",
+       "releaseDate": "2025-05-09T16:28:07+01:00",
+       "releaseTag": [
+        "tender"
+       ],
+       "value": "BLC0222 - National Firearms Licensing Management System (NFLMS)"
+      }
+     ],
+     "description": [
+      {
+       "releaseID": "020194-2025",
+       "releaseDate": "2025-05-09T16:28:07+01:00",
+       "releaseTag": [
+        "tender"
+       ],
+       "value": "This Invitation to Tender (\u201cITT\u201d) has been issued by BlueLight Commercial (\u201cBLC\u201d) who are seeking to award a Contract for the provision of a National Firearms Licensing Management System (NFLMS).   BLC will be tendering this requirement on behalf of Police Digital Services (\u201cPDS\u201d) for use by themselves and the Additional Authorities defined in the Terms and Conditions of the contract. \nThe requirement will be tendered via a multi-stage Competitive Flexible Process, under the Procurement Act 2023 (\u201cPA23\u201d), with the intention of awarding a contract to a single supplier.  The Contract Term shall be for an initial period of 5 years with options to extend up to a maximum of 10 years. \nBidders must register on the Central Digital Platform (www.gov.uk/find-tender) and ensure that Core Supplier Information is up to date, downloaded and is submitted as part of the Bid submission (in downloaded file format) in order to be assessed against the Conditions of Participation."
+      },
+      {
+       "releaseID": "023490-2025",
+       "releaseDate": "2025-05-20T17:42:48+01:00",
+       "releaseTag": [
+        "tenderUpdate"
+       ],
+       "value": "This Invitation to Tender (\"ITT\") has been issued by BlueLight Commercial (\"BLC\") who are seeking to award a Contract for the provision of a National Firearms Licensing Management System (NFLMS).   BLC will be tendering this requirement on behalf of Police Digital Services (\"PDS\") for use by themselves and the Additional Authorities defined in the Terms and Conditions of the contract.\nThe requirement will be tendered via a multi-stage Competitive Flexible Process, under the Procurement Act 2023 (\"PA23\"), with the intention of awarding a contract to a single supplier.  The Contract Term shall be for an initial period of 5 years with options to extend up to a maximum of 10 years.\nBidders must register on the Central Digital Platform (www.gov.uk/find-tender) and ensure that Core Supplier Information is up to date, downloaded and is submitted as part of the Bid submission (in downloaded file format) in order to be assessed against the Conditions of Participation."
+      },
+      {
+       "releaseID": "051257-2026",
+       "releaseDate": "2026-06-01T10:49:18+01:00",
+       "releaseTag": [
+        "award",
+        "contract"
+       ],
+       "value": "This Contract Award Notice issued by BlueLight Commercial Ltd (\"BLC\"), on behalf of Police Digital Services (\"PDS\") for the provision of a replacement National Firearms Licensing Management System (\"NFLMS\") on behalf of themselves as the Contracting Authority and the Additional Authorities defined in the Terms and Conditions of the contract.  The NFLMS will enable all 43 Police Forces in England & Wales, to record the grant, renewal, and revocation of firearms licenses.  The NFLMS will also hold Home Office licensing information relating to explosives, explosive precursors, and poisons.  The contract may be modified to include Police Scotland and the Police Service of Northern Ireland (PSNI) if required.\nThe services will be delivered by a single supplier."
+      }
+     ],
+     "status": [
+      {
+       "releaseID": "020194-2025",
+       "releaseDate": "2025-05-09T16:28:07+01:00",
+       "releaseTag": [
+        "tender"
+       ],
+       "value": "active"
+      },
+      {
+       "releaseID": "051257-2026",
+       "releaseDate": "2026-06-01T10:49:18+01:00",
+       "releaseTag": [
+        "award",
+        "contract"
+       ],
+       "value": "complete"
+      }
+     ],
+     "items": [
+      {
+       "id": "LOT-0001",
+       "additionalClassifications": [
+        {
+         "releaseID": "020194-2025",
+         "releaseDate": "2025-05-09T16:28:07+01:00",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": [
+          {
+           "scheme": "CPV",
+           "id": "48000000",
+           "description": "Software package and information systems"
+          },
+          {
+           "scheme": "CPV",
+           "id": "72260000",
+           "description": "Software-related services"
+          }
+         ]
+        }
+       ],
+       "deliveryAddresses": [
+        {
+         "region": [
+          {
+           "releaseID": "020194-2025",
+           "releaseDate": "2025-05-09T16:28:07+01:00",
+           "releaseTag": [
+            "tender"
+           ],
+           "value": "UK"
+          }
+         ],
+         "country": [
+          {
+           "releaseID": "020194-2025",
+           "releaseDate": "2025-05-09T16:28:07+01:00",
+           "releaseTag": [
+            "tender"
+           ],
+           "value": "GB"
+          }
+         ],
+         "countryName": [
+          {
+           "releaseID": "020194-2025",
+           "releaseDate": "2025-05-09T16:28:07+01:00",
+           "releaseTag": [
+            "tender"
+           ],
+           "value": "United Kingdom"
+          }
+         ]
+        },
+        {
+         "region": [
+          {
+           "releaseID": "020338-2025",
+           "releaseDate": "2025-05-12T10:36:49+01:00",
+           "releaseTag": [
+            "tenderUpdate"
+           ],
+           "value": "UK"
+          }
+         ],
+         "country": [
+          {
+           "releaseID": "020338-2025",
+           "releaseDate": "2025-05-12T10:36:49+01:00",
+           "releaseTag": [
+            "tenderUpdate"
+           ],
+           "value": "GB"
+          }
+         ],
+         "countryName": [
+          {
+           "releaseID": "020338-2025",
+           "releaseDate": "2025-05-12T10:36:49+01:00",
+           "releaseTag": [
+            "tenderUpdate"
+           ],
+           "value": "United Kingdom"
+          }
+         ]
+        },
+        {
+         "region": [
+          {
+           "releaseID": "023490-2025",
+           "releaseDate": "2025-05-20T17:42:48+01:00",
+           "releaseTag": [
+            "tenderUpdate"
+           ],
+           "value": "UK"
+          }
+         ],
+         "country": [
+          {
+           "releaseID": "023490-2025",
+           "releaseDate": "2025-05-20T17:42:48+01:00",
+           "releaseTag": [
+            "tenderUpdate"
+           ],
+           "value": "GB"
+          }
+         ],
+         "countryName": [
+          {
+           "releaseID": "023490-2025",
+           "releaseDate": "2025-05-20T17:42:48+01:00",
+           "releaseTag": [
+            "tenderUpdate"
+           ],
+           "value": "United Kingdom"
+          }
+         ]
+        },
+        {
+         "region": [
+          {
+           "releaseID": "033781-2025",
+           "releaseDate": "2025-06-19T15:27:39+01:00",
+           "releaseTag": [
+            "tenderUpdate"
+           ],
+           "value": "UK"
+          }
+         ],
+         "country": [
+          {
+           "releaseID": "033781-2025",
+           "releaseDate": "2025-06-19T15:27:39+01:00",
+           "releaseTag": [
+            "tenderUpdate"
+           ],
+           "value": "GB"
+          }
+         ],
+         "countryName": [
+          {
+           "releaseID": "033781-2025",
+           "releaseDate": "2025-06-19T15:27:39+01:00",
+           "releaseTag": [
+            "tenderUpdate"
+           ],
+           "value": "United Kingdom"
+          }
+         ]
+        },
+        {
+         "region": [
+          {
+           "releaseID": "036532-2025",
+           "releaseDate": "2025-07-01T16:29:51+01:00",
+           "releaseTag": [
+            "tenderUpdate"
+           ],
+           "value": "UK"
+          }
+         ],
+         "country": [
+          {
+           "releaseID": "036532-2025",
+           "releaseDate": "2025-07-01T16:29:51+01:00",
+           "releaseTag": [
+            "tenderUpdate"
+           ],
+           "value": "GB"
+          }
+         ],
+         "countryName": [
+          {
+           "releaseID": "036532-2025",
+           "releaseDate": "2025-07-01T16:29:51+01:00",
+           "releaseTag": [
+            "tenderUpdate"
+           ],
+           "value": "United Kingdom"
+          }
+         ]
+        }
+       ],
+       "relatedLot": [
+        {
+         "releaseID": "020194-2025",
+         "releaseDate": "2025-05-09T16:28:07+01:00",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "LOT-0001"
+        }
+       ]
+      }
+     ],
+     "value": {
+      "amountGross": [
+       {
+        "releaseID": "020194-2025",
+        "releaseDate": "2025-05-09T16:28:07+01:00",
+        "releaseTag": [
+         "tender"
+        ],
+        "value": 16999999
+       }
+      ],
+      "amount": [
+       {
+        "releaseID": "020194-2025",
+        "releaseDate": "2025-05-09T16:28:07+01:00",
+        "releaseTag": [
+         "tender"
+        ],
+        "value": 14166667
+       }
+      ],
+      "currency": [
+       {
+        "releaseID": "020194-2025",
+        "releaseDate": "2025-05-09T16:28:07+01:00",
+        "releaseTag": [
+         "tender"
+        ],
+        "value": "GBP"
+       }
+      ]
+     },
+     "procurementMethod": [
+      {
+       "releaseID": "020194-2025",
+       "releaseDate": "2025-05-09T16:28:07+01:00",
+       "releaseTag": [
+        "tender"
+       ],
+       "value": "open"
+      }
+     ],
+     "procurementMethodDetails": [
+      {
+       "releaseID": "020194-2025",
+       "releaseDate": "2025-05-09T16:28:07+01:00",
+       "releaseTag": [
+        "tender"
+       ],
+       "value": "Competitive flexible procedure"
+      }
+     ],
+     "procedure": {
+      "features": [
+       {
+        "releaseID": "020194-2025",
+        "releaseDate": "2025-05-09T16:28:07+01:00",
+        "releaseTag": [
+         "tender"
+        ],
+        "value": "The competitive flexible procedure consists of the following 2 stages:\nSTAGE 1 \u2013 Tender Stage\nSTAGE 2 \u2013 Demonstration Stage\nSTAGE 1 \u2013 TENDER STAGE\nThe Tender Stage consists of the following:\nConditions of Participation \u2013 this is a series of pass/fail questions relating to the requirement of the procurement.\nGateway Technical Questions \u2013 this is a series of technical Pass/Fail questions relating to the product and service required.   \nITT Technical Questions - 55 % \u2013 this is completion of the Response to Tender document consisting of questions relating to Design, Cyber, Implementation and Delivery, Service, and Solution.\nSocial Value \u2013 10% - this is the completion of the Response to Tender document consisting of questions relating to Social Value.\nPrice \u2013 30% - this is the completion of the Pricing Schedule which is based on a schedule of rates for the services required.\nAll bidders that PASS all Conditions of Participation AND Tender Gateway Questions AND achieve a minimum score of 40% for the ITT Technical Questions will progress to Stage 2 of the Procurement Process.\nSTAGE 2 \u2013 DEMONSTRATION\nThe Demonstration Stage consists of a scenario-based demonstration.  A Demonstration Briefing document has been published with the full suite of tender documentation to aid understanding.\nThe Demonstration score will be added to the score from Stage 1 to form the Total Score and identify the Highest Scoring Bidder.  The Highest Scoring Bidder will be awarded the contract.  In the event of a tie where two or more bidders achieve the same total aggregate score the Highest Scoring Bidder for the Solution sub-criteria shall be awarded the contract."
+       },
+       {
+        "releaseID": "023490-2025",
+        "releaseDate": "2025-05-20T17:42:48+01:00",
+        "releaseTag": [
+         "tenderUpdate"
+        ],
+        "value": "The competitive flexible procedure consists of the following 2 stages:\nSTAGE 1 - Tender Stage\nSTAGE 2 - Demonstration Stage\nSTAGE 1 - TENDER STAGE\nThe Tender Stage consists of the following:\nConditions of Participation - this is a series of pass/fail questions relating to the requirement of the procurement.\nGateway Technical Questions - this is a series of technical Pass/Fail questions relating to the product and service required.\nITT Technical Questions - 55 % - this is completion of the Response to Tender document consisting of questions relating to Design, Cyber, Implementation and Delivery, Service, and Solution.\nSocial Value - 10% - this is the completion of the Response to Tender document consisting of questions relating to Social Value.\nPrice - 30% - this is the completion of the Pricing Schedule which is based on a schedule of rates for the services required.\nAll bidders that PASS all Conditions of Participation AND Tender Gateway Questions AND achieve a minimum score of 40% for the ITT Technical Questions will progress to Stage 2 of the Procurement Process.\nSTAGE 2 - DEMONSTRATION\nThe Demonstration Stage consists of a scenario-based demonstration.  A Demonstration Briefing document has been published with the full suite of tender documentation to aid understanding.\nThe Demonstration score will be added to the score from Stage 1 to form the Total Score and identify the Highest Scoring Bidder.  The Highest Scoring Bidder will be awarded the contract.  In the event of a tie where two or more bidders achieve the same total aggregate score the Highest Scoring Bidder for the Solution sub-criteria shall be awarded the contract."
+       }
+      ]
+     },
+     "mainProcurementCategory": [
+      {
+       "releaseID": "020194-2025",
+       "releaseDate": "2025-05-09T16:28:07+01:00",
+       "releaseTag": [
+        "tender"
+       ],
+       "value": "goods"
+      }
+     ],
+     "aboveThreshold": [
+      {
+       "releaseID": "020194-2025",
+       "releaseDate": "2025-05-09T16:28:07+01:00",
+       "releaseTag": [
+        "tender"
+       ],
+       "value": true
+      }
+     ],
+     "submissionMethodDetails": [
+      {
+       "releaseID": "020194-2025",
+       "releaseDate": "2025-05-09T16:28:07+01:00",
+       "releaseTag": [
+        "tender"
+       ],
+       "value": "https://sell2.in-tend.co.uk/uk/blpd/home"
+      },
+      {
+       "releaseID": "020338-2025",
+       "releaseDate": "2025-05-12T10:36:49+01:00",
+       "releaseTag": [
+        "tenderUpdate"
+       ],
+       "value": "https://sell2.in-tend.co.uk/blpd/home"
+      }
+     ],
+     "submissionTerms": {
+      "electronicSubmissionPolicy": [
+       {
+        "releaseID": "020194-2025",
+        "releaseDate": "2025-05-09T16:28:07+01:00",
+        "releaseTag": [
+         "tender"
+        ],
+        "value": "allowed"
+       }
+      ],
+      "languages": [
+       {
+        "releaseID": "020194-2025",
+        "releaseDate": "2025-05-09T16:28:07+01:00",
+        "releaseTag": [
+         "tender"
+        ],
+        "value": [
+         "en"
+        ]
+       }
+      ]
+     },
+     "tenderPeriod": {
+      "endDate": [
+       {
+        "releaseID": "020194-2025",
+        "releaseDate": "2025-05-09T16:28:07+01:00",
+        "releaseTag": [
+         "tender"
+        ],
+        "value": "2025-06-30T12:00:00+00:00"
+       },
+       {
+        "releaseID": "023490-2025",
+        "releaseDate": "2025-05-20T17:42:48+01:00",
+        "releaseTag": [
+         "tenderUpdate"
+        ],
+        "value": "2025-06-30T13:00:00+01:00"
+       },
+       {
+        "releaseID": "033781-2025",
+        "releaseDate": "2025-06-19T15:27:39+01:00",
+        "releaseTag": [
+         "tenderUpdate"
+        ],
+        "value": "2025-07-14T13:00:00+01:00"
+       },
+       {
+        "releaseID": "036532-2025",
+        "releaseDate": "2025-07-01T16:29:51+01:00",
+        "releaseTag": [
+         "tenderUpdate"
+        ],
+        "value": "2025-07-28T13:00:00+01:00"
+       }
+      ]
+     },
+     "enquiryPeriod": {
+      "endDate": [
+       {
+        "releaseID": "020194-2025",
+        "releaseDate": "2025-05-09T16:28:07+01:00",
+        "releaseTag": [
+         "tender"
+        ],
+        "value": "2025-06-23T16:00:00+00:00"
+       },
+       {
+        "releaseID": "023490-2025",
+        "releaseDate": "2025-05-20T17:42:48+01:00",
+        "releaseTag": [
+         "tenderUpdate"
+        ],
+        "value": "2025-06-23T17:00:00+01:00"
+       },
+       {
+        "releaseID": "033781-2025",
+        "releaseDate": "2025-06-19T15:27:39+01:00",
+        "releaseTag": [
+         "tenderUpdate"
+        ],
+        "value": "2025-06-30T17:00:00+01:00"
+       }
+      ]
+     },
+     "awardPeriod": {
+      "endDate": [
+       {
+        "releaseID": "020194-2025",
+        "releaseDate": "2025-05-09T16:28:07+01:00",
+        "releaseTag": [
+         "tender"
+        ],
+        "value": "2025-10-09T23:59:59+00:00"
+       },
+       {
+        "releaseID": "023490-2025",
+        "releaseDate": "2025-05-20T17:42:48+01:00",
+        "releaseTag": [
+         "tenderUpdate"
+        ],
+        "value": "2025-10-10T23:59:59+01:00"
+       }
+      ]
+     },
+     "lots": [
+      {
+       "id": "LOT-0001",
+       "status": [
+        {
+         "releaseID": "020194-2025",
+         "releaseDate": "2025-05-09T16:28:07+01:00",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "active"
+        },
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "complete"
+        }
+       ],
+       "value": {
+        "amountGross": [
+         {
+          "releaseID": "020194-2025",
+          "releaseDate": "2025-05-09T16:28:07+01:00",
+          "releaseTag": [
+           "tender"
+          ],
+          "value": 16999999
+         }
+        ],
+        "amount": [
+         {
+          "releaseID": "020194-2025",
+          "releaseDate": "2025-05-09T16:28:07+01:00",
+          "releaseTag": [
+           "tender"
+          ],
+          "value": 14166667
+         }
+        ],
+        "currency": [
+         {
+          "releaseID": "020194-2025",
+          "releaseDate": "2025-05-09T16:28:07+01:00",
+          "releaseTag": [
+           "tender"
+          ],
+          "value": "AED"
+         },
+         {
+          "releaseID": "023490-2025",
+          "releaseDate": "2025-05-20T17:42:48+01:00",
+          "releaseTag": [
+           "tenderUpdate"
+          ],
+          "value": "GBP"
+         }
+        ]
+       },
+       "awardCriteria": {
+        "weightingDescription": [
+         {
+          "releaseID": "020194-2025",
+          "releaseDate": "2025-05-09T16:28:07+01:00",
+          "releaseTag": [
+           "tender"
+          ],
+          "value": "Award Criteria: Stage 1 ITT Stage - ITT Technical Questions \u2013 55% - Social Value \u2013 10% - Price \u2013 30%\nAward Criteria: Stage 2 \u2013 Demonstration 5%\nFurther information has been provided within the tender documentation."
+         },
+         {
+          "releaseID": "023490-2025",
+          "releaseDate": "2025-05-20T17:42:48+01:00",
+          "releaseTag": [
+           "tenderUpdate"
+          ],
+          "value": "Award Criteria: Stage 1 ITT Stage - ITT Technical Questions - 55% - Social Value - 10% - Price - 30%\nAward Criteria: Stage 2 - Demonstration 5%\nFurther information has been provided within the tender documentation."
+         }
+        ],
+        "criteria": [
+         {
+          "releaseID": "020194-2025",
+          "releaseDate": "2025-05-09T16:28:07+01:00",
+          "releaseTag": [
+           "tender"
+          ],
+          "value": [
+           {
+            "type": "price",
+            "name": "Simple description",
+            "description": "Award Criteria: Stage 1 ITT Stage - ITT Technical Questions \u2013 55% - Social Value \u2013 10% - Price \u2013 30%\nAward Criteria: Stage 2 \u2013 Demonstration 5%\nFurther information has been provided within the tender documentation."
+           }
+          ]
+         },
+         {
+          "releaseID": "023490-2025",
+          "releaseDate": "2025-05-20T17:42:48+01:00",
+          "releaseTag": [
+           "tenderUpdate"
+          ],
+          "value": [
+           {
+            "type": "price",
+            "name": "Simple description",
+            "description": "Award Criteria: Stage 1 ITT Stage - ITT Technical Questions - 55% - Social Value - 10% - Price - 30%\nAward Criteria: Stage 2 - Demonstration 5%\nFurther information has been provided within the tender documentation."
+           }
+          ]
+         }
+        ]
+       },
+       "contractPeriod": {
+        "startDate": [
+         {
+          "releaseID": "020194-2025",
+          "releaseDate": "2025-05-09T16:28:07+01:00",
+          "releaseTag": [
+           "tender"
+          ],
+          "value": "2025-10-31T00:00:00+00:00"
+         },
+         {
+          "releaseID": "023490-2025",
+          "releaseDate": "2025-05-20T17:42:48+01:00",
+          "releaseTag": [
+           "tenderUpdate"
+          ],
+          "value": "2025-10-31T00:00:00Z"
+         }
+        ],
+        "endDate": [
+         {
+          "releaseID": "020194-2025",
+          "releaseDate": "2025-05-09T16:28:07+01:00",
+          "releaseTag": [
+           "tender"
+          ],
+          "value": "2030-10-30T23:59:59+00:00"
+         },
+         {
+          "releaseID": "023490-2025",
+          "releaseDate": "2025-05-20T17:42:48+01:00",
+          "releaseTag": [
+           "tenderUpdate"
+          ],
+          "value": "2030-10-30T23:59:59Z"
+         }
+        ],
+        "maxExtentDate": [
+         {
+          "releaseID": "020194-2025",
+          "releaseDate": "2025-05-09T16:28:07+01:00",
+          "releaseTag": [
+           "tender"
+          ],
+          "value": "2035-10-30T23:59:59+00:00"
+         },
+         {
+          "releaseID": "023490-2025",
+          "releaseDate": "2025-05-20T17:42:48+01:00",
+          "releaseTag": [
+           "tenderUpdate"
+          ],
+          "value": "2035-10-30T23:59:59Z"
+         }
+        ]
+       },
+       "hasRenewal": [
+        {
+         "releaseID": "020194-2025",
+         "releaseDate": "2025-05-09T16:28:07+01:00",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": true
+        }
+       ],
+       "renewal": {
+        "description": [
+         {
+          "releaseID": "020194-2025",
+          "releaseDate": "2025-05-09T16:28:07+01:00",
+          "releaseTag": [
+           "tender"
+          ],
+          "value": "The Contract Term shall be for an initial period of 5 years with options to extend up to a maximum of 10 years."
+         }
+        ]
+       },
+       "description": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": null
+        }
+       ]
+      }
+     ],
+     "documents": [
+      {
+       "id": "L-1",
+       "documentType": [
+        {
+         "releaseID": "020194-2025",
+         "releaseDate": "2025-05-09T16:28:07+01:00",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "biddingDocuments"
+        }
+       ],
+       "description": [
+        {
+         "releaseID": "020194-2025",
+         "releaseDate": "2025-05-09T16:28:07+01:00",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "Please search for reference BLC0222 - National Firearms Licensing Management System (NFLMS)"
+        }
+       ],
+       "url": [
+        {
+         "releaseID": "020194-2025",
+         "releaseDate": "2025-05-09T16:28:07+01:00",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "https://sell2.in-tend.co.uk/uk/blpd/home"
+        },
+        {
+         "releaseID": "020338-2025",
+         "releaseDate": "2025-05-12T10:36:49+01:00",
+         "releaseTag": [
+          "tenderUpdate"
+         ],
+         "value": "https://sell2.in-tend.co.uk/blpd/home"
+        }
+       ]
+      },
+      {
+       "id": "conflictOfInterest",
+       "documentType": [
+        {
+         "releaseID": "020194-2025",
+         "releaseDate": "2025-05-09T16:28:07+01:00",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "conflictOfInterest"
+        }
+       ],
+       "description": [
+        {
+         "releaseID": "020194-2025",
+         "releaseDate": "2025-05-09T16:28:07+01:00",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "Not published"
+        }
+       ]
+      },
+      {
+       "id": "020194-2025",
+       "documentType": [
+        {
+         "releaseID": "020194-2025",
+         "releaseDate": "2025-05-09T16:28:07+01:00",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "tenderNotice"
+        }
+       ],
+       "noticeType": [
+        {
+         "releaseID": "020194-2025",
+         "releaseDate": "2025-05-09T16:28:07+01:00",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "UK4"
+        }
+       ],
+       "description": [
+        {
+         "releaseID": "020194-2025",
+         "releaseDate": "2025-05-09T16:28:07+01:00",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "Tender notice on Find a Tender"
+        }
+       ],
+       "url": [
+        {
+         "releaseID": "020194-2025",
+         "releaseDate": "2025-05-09T16:28:07+01:00",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "https://www.find-tender.service.gov.uk/Notice/020194-2025"
+        }
+       ],
+       "datePublished": [
+        {
+         "releaseID": "020194-2025",
+         "releaseDate": "2025-05-09T16:28:07+01:00",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "2025-05-09T16:28:07+01:00"
+        }
+       ],
+       "format": [
+        {
+         "releaseID": "020194-2025",
+         "releaseDate": "2025-05-09T16:28:07+01:00",
+         "releaseTag": [
+          "tender"
+         ],
+         "value": "text/html"
+        }
+       ]
+      },
+      {
+       "id": "020338-2025",
+       "documentType": [
+        {
+         "releaseID": "020338-2025",
+         "releaseDate": "2025-05-12T10:36:49+01:00",
+         "releaseTag": [
+          "tenderUpdate"
+         ],
+         "value": "tenderNotice"
+        }
+       ],
+       "noticeType": [
+        {
+         "releaseID": "020338-2025",
+         "releaseDate": "2025-05-12T10:36:49+01:00",
+         "releaseTag": [
+          "tenderUpdate"
+         ],
+         "value": "UK4"
+        }
+       ],
+       "description": [
+        {
+         "releaseID": "020338-2025",
+         "releaseDate": "2025-05-12T10:36:49+01:00",
+         "releaseTag": [
+          "tenderUpdate"
+         ],
+         "value": "Tender notice on Find a Tender"
+        }
+       ],
+       "url": [
+        {
+         "releaseID": "020338-2025",
+         "releaseDate": "2025-05-12T10:36:49+01:00",
+         "releaseTag": [
+          "tenderUpdate"
+         ],
+         "value": "https://www.find-tender.service.gov.uk/Notice/020338-2025"
+        }
+       ],
+       "datePublished": [
+        {
+         "releaseID": "020338-2025",
+         "releaseDate": "2025-05-12T10:36:49+01:00",
+         "releaseTag": [
+          "tenderUpdate"
+         ],
+         "value": "2025-05-12T10:36:49+01:00"
+        }
+       ],
+       "format": [
+        {
+         "releaseID": "020338-2025",
+         "releaseDate": "2025-05-12T10:36:49+01:00",
+         "releaseTag": [
+          "tenderUpdate"
+         ],
+         "value": "text/html"
+        }
+       ]
+      },
+      {
+       "id": "023490-2025",
+       "documentType": [
+        {
+         "releaseID": "023490-2025",
+         "releaseDate": "2025-05-20T17:42:48+01:00",
+         "releaseTag": [
+          "tenderUpdate"
+         ],
+         "value": "tenderNotice"
+        }
+       ],
+       "noticeType": [
+        {
+         "releaseID": "023490-2025",
+         "releaseDate": "2025-05-20T17:42:48+01:00",
+         "releaseTag": [
+          "tenderUpdate"
+         ],
+         "value": "UK4"
+        }
+       ],
+       "description": [
+        {
+         "releaseID": "023490-2025",
+         "releaseDate": "2025-05-20T17:42:48+01:00",
+         "releaseTag": [
+          "tenderUpdate"
+         ],
+         "value": "Tender notice on Find a Tender"
+        }
+       ],
+       "url": [
+        {
+         "releaseID": "023490-2025",
+         "releaseDate": "2025-05-20T17:42:48+01:00",
+         "releaseTag": [
+          "tenderUpdate"
+         ],
+         "value": "https://www.find-tender.service.gov.uk/Notice/023490-2025"
+        }
+       ],
+       "datePublished": [
+        {
+         "releaseID": "023490-2025",
+         "releaseDate": "2025-05-20T17:42:48+01:00",
+         "releaseTag": [
+          "tenderUpdate"
+         ],
+         "value": "2025-05-20T17:42:48+01:00"
+        }
+       ],
+       "format": [
+        {
+         "releaseID": "023490-2025",
+         "releaseDate": "2025-05-20T17:42:48+01:00",
+         "releaseTag": [
+          "tenderUpdate"
+         ],
+         "value": "text/html"
+        }
+       ]
+      },
+      {
+       "id": "033781-2025",
+       "documentType": [
+        {
+         "releaseID": "033781-2025",
+         "releaseDate": "2025-06-19T15:27:39+01:00",
+         "releaseTag": [
+          "tenderUpdate"
+         ],
+         "value": "tenderNotice"
+        }
+       ],
+       "noticeType": [
+        {
+         "releaseID": "033781-2025",
+         "releaseDate": "2025-06-19T15:27:39+01:00",
+         "releaseTag": [
+          "tenderUpdate"
+         ],
+         "value": "UK4"
+        }
+       ],
+       "description": [
+        {
+         "releaseID": "033781-2025",
+         "releaseDate": "2025-06-19T15:27:39+01:00",
+         "releaseTag": [
+          "tenderUpdate"
+         ],
+         "value": "Tender notice on Find a Tender"
+        }
+       ],
+       "url": [
+        {
+         "releaseID": "033781-2025",
+         "releaseDate": "2025-06-19T15:27:39+01:00",
+         "releaseTag": [
+          "tenderUpdate"
+         ],
+         "value": "https://www.find-tender.service.gov.uk/Notice/033781-2025"
+        }
+       ],
+       "datePublished": [
+        {
+         "releaseID": "033781-2025",
+         "releaseDate": "2025-06-19T15:27:39+01:00",
+         "releaseTag": [
+          "tenderUpdate"
+         ],
+         "value": "2025-06-19T15:27:39+01:00"
+        }
+       ],
+       "format": [
+        {
+         "releaseID": "033781-2025",
+         "releaseDate": "2025-06-19T15:27:39+01:00",
+         "releaseTag": [
+          "tenderUpdate"
+         ],
+         "value": "text/html"
+        }
+       ]
+      },
+      {
+       "id": "036532-2025",
+       "documentType": [
+        {
+         "releaseID": "036532-2025",
+         "releaseDate": "2025-07-01T16:29:51+01:00",
+         "releaseTag": [
+          "tenderUpdate"
+         ],
+         "value": "tenderNotice"
+        }
+       ],
+       "noticeType": [
+        {
+         "releaseID": "036532-2025",
+         "releaseDate": "2025-07-01T16:29:51+01:00",
+         "releaseTag": [
+          "tenderUpdate"
+         ],
+         "value": "UK4"
+        }
+       ],
+       "description": [
+        {
+         "releaseID": "036532-2025",
+         "releaseDate": "2025-07-01T16:29:51+01:00",
+         "releaseTag": [
+          "tenderUpdate"
+         ],
+         "value": "Tender notice on Find a Tender"
+        }
+       ],
+       "url": [
+        {
+         "releaseID": "036532-2025",
+         "releaseDate": "2025-07-01T16:29:51+01:00",
+         "releaseTag": [
+          "tenderUpdate"
+         ],
+         "value": "https://www.find-tender.service.gov.uk/Notice/036532-2025"
+        }
+       ],
+       "datePublished": [
+        {
+         "releaseID": "036532-2025",
+         "releaseDate": "2025-07-01T16:29:51+01:00",
+         "releaseTag": [
+          "tenderUpdate"
+         ],
+         "value": "2025-07-01T16:29:51+01:00"
+        }
+       ],
+       "format": [
+        {
+         "releaseID": "036532-2025",
+         "releaseDate": "2025-07-01T16:29:51+01:00",
+         "releaseTag": [
+          "tenderUpdate"
+         ],
+         "value": "text/html"
+        }
+       ]
+      }
+     ],
+     "contractTerms": {
+      "financialTerms": [
+       {
+        "releaseID": "020194-2025",
+        "releaseDate": "2025-05-09T16:28:07+01:00",
+        "releaseTag": [
+         "tender"
+        ],
+        "value": "The payment terms are detailed in the Form of Contract, Terms and Conditions"
+       }
+      ]
+     },
+     "riskDetails": [
+      {
+       "releaseID": "020194-2025",
+       "releaseDate": "2025-05-09T16:28:07+01:00",
+       "releaseTag": [
+        "tender"
+       ],
+       "value": "The description of risks to contract performance have been identified in the Form of Contract, Terms and Conditions."
+      }
+     ],
+     "amendments": [
+      {
+       "id": "020338-2025",
+       "description": [
+        {
+         "releaseID": "020338-2025",
+         "releaseDate": "2025-05-12T10:36:49+01:00",
+         "releaseTag": [
+          "tenderUpdate"
+         ],
+         "value": "Updated Tender Portal Link"
+        }
+       ]
+      },
+      {
+       "id": "023490-2025",
+       "description": [
+        {
+         "releaseID": "023490-2025",
+         "releaseDate": "2025-05-20T17:42:48+01:00",
+         "releaseTag": [
+          "tenderUpdate"
+         ],
+         "value": "Changes to \"Procedure\" - \"Has preliminary market engagement been carried out?\" Changed from No to Yes and justification provided around why a Preliminary Market Engagement notice was not published."
+        }
+       ]
+      },
+      {
+       "id": "033781-2025",
+       "description": [
+        {
+         "releaseID": "033781-2025",
+         "releaseDate": "2025-06-19T15:27:39+01:00",
+         "releaseTag": [
+          "tenderUpdate"
+         ],
+         "value": "Updated enquiry deadline and tender submission deadline extended , due to a minor amendment in the Statement of Requirements documents, section 5.3, IR-09 and GPR Requirements (now GFR)."
+        }
+       ]
+      },
+      {
+       "id": "036532-2025",
+       "description": [
+        {
+         "releaseID": "036532-2025",
+         "releaseDate": "2025-07-01T16:29:51+01:00",
+         "releaseTag": [
+          "tenderUpdate"
+         ],
+         "value": "The deadline for this tender response has been extended, following amendments to the specification, by 14 days. This provides more than 25 days between the date of this amendment to the date of tender submission. Amendments to the specification will be provided via the In-Tend portal."
+        }
+       ]
+      }
+     ],
+     "coveredBy": [
+      {
+       "releaseID": "036532-2025",
+       "releaseDate": "2025-07-01T16:29:51+01:00",
+       "releaseTag": [
+        "tenderUpdate"
+       ],
+       "value": [
+        "GPA",
+        "CPTPP"
+       ]
+      }
+     ]
+    },
+    "language": [
+     {
+      "releaseID": "020194-2025",
+      "releaseDate": "2025-05-09T16:28:07+01:00",
+      "releaseTag": [
+       "tender"
+      ],
+      "value": "en"
+     }
+    ],
+    "extensions": [
+     {
+      "releaseID": "020194-2025",
+      "releaseDate": "2025-05-09T16:28:07+01:00",
+      "releaseTag": [
+       "tender"
+      ],
+      "value": [
+       "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+       "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+       "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+       "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+       "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+       "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+       "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+       "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+       "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json"
+      ]
+     },
+     {
+      "releaseID": "051257-2026",
+      "releaseDate": "2026-06-01T10:49:18+01:00",
+      "releaseTag": [
+       "award",
+       "contract"
+      ],
+      "value": [
+       "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+       "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+       "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+       "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+       "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+       "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+       "https://raw.githubusercontent.com/open-contracting-extensions/ocds_performance_failures_extension/master/extension.json",
+       "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+       "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+       "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json"
+      ]
+     }
+    ],
+    "planning": {
+     "noEngagementNoticeRationale": [
+      {
+       "releaseID": "023490-2025",
+       "releaseDate": "2025-05-20T17:42:48+01:00",
+       "releaseTag": [
+        "tenderUpdate"
+       ],
+       "value": "Pre-market engagement was undertaken in relation to this procurement by the Home Office under Public Contract Regulations 2015, and all relevant outputs have been built into the Statement of Requirements.  The Authority is satisfied that: \n(a) suppliers who participated in the preliminary market engagement have not been put at an unfair advantage; and \n(b) competition in relation to the award of the public contract is not otherwise distorted."
+      },
+      {
+       "releaseID": "033781-2025",
+       "releaseDate": "2025-06-19T15:27:39+01:00",
+       "releaseTag": [
+        "tenderUpdate"
+       ],
+       "value": "Pre-market engagement was undertaken in relation to this procurement by the Home Office under Public Contract Regulations 2015, and all relevant outputs have been built into the Statement of Requirements.  The Authority is satisfied that:\n(a) suppliers who participated in the preliminary market engagement have not been put at an unfair advantage; and\n(b) competition in relation to the award of the public contract is not otherwise distorted."
+      }
+     ]
+    },
+    "bids": {
+     "details": [
+      {
+       "id": "1",
+       "status": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "valid"
+        }
+       ],
+       "tenderers": [
+        {
+         "id": "GB-COH-07042994",
+         "name": [
+          {
+           "releaseID": "051257-2026",
+           "releaseDate": "2026-06-01T10:49:18+01:00",
+           "releaseTag": [
+            "award",
+            "contract"
+           ],
+           "value": "PALANTIR TECHNOLOGIES UK, LTD."
+          }
+         ]
+        }
+       ],
+       "relatedLots": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": [
+          "LOT-0001"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "2",
+       "status": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "valid"
+        }
+       ],
+       "tenderers": [
+        {
+         "id": "GB-COH-04757301",
+         "name": [
+          {
+           "releaseID": "051257-2026",
+           "releaseDate": "2026-06-01T10:49:18+01:00",
+           "releaseTag": [
+            "award",
+            "contract"
+           ],
+           "value": "ACCENTURE (UK) LIMITED"
+          }
+         ]
+        }
+       ],
+       "relatedLots": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": [
+          "LOT-0001"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "3",
+       "status": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "valid"
+        }
+       ],
+       "tenderers": [
+        {
+         "id": "GB-COH-00968498",
+         "name": [
+          {
+           "releaseID": "051257-2026",
+           "releaseDate": "2026-06-01T10:49:18+01:00",
+           "releaseTag": [
+            "award",
+            "contract"
+           ],
+           "value": "NEC SOFTWARE SOLUTIONS UK LIMITED"
+          }
+         ]
+        }
+       ],
+       "relatedLots": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": [
+          "LOT-0001"
+         ]
+        }
+       ]
+      }
+     ],
+     "statistics": [
+      {
+       "id": "1",
+       "measure": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "bids"
+        }
+       ],
+       "value": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": 18
+        }
+       ],
+       "relatedLot": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "LOT-0001"
+        }
+       ]
+      },
+      {
+       "id": "2",
+       "measure": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "finalStageBids"
+        }
+       ],
+       "value": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": 3
+        }
+       ],
+       "relatedLot": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "LOT-0001"
+        }
+       ]
+      },
+      {
+       "id": "3",
+       "measure": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "smeFinalStageBids"
+        }
+       ],
+       "value": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": 0
+        }
+       ],
+       "relatedLot": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "LOT-0001"
+        }
+       ]
+      },
+      {
+       "id": "4",
+       "measure": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "vcseFinalStageBids"
+        }
+       ],
+       "value": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": 0
+        }
+       ],
+       "relatedLot": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "LOT-0001"
+        }
+       ]
+      }
+     ]
+    },
+    "awards": [
+     {
+      "id": "1",
+      "status": [
+       {
+        "releaseID": "051257-2026",
+        "releaseDate": "2026-06-01T10:49:18+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "pending"
+       }
+      ],
+      "date": [
+       {
+        "releaseID": "051257-2026",
+        "releaseDate": "2026-06-01T10:49:18+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "2026-05-21T00:00:00+01:00"
+       }
+      ],
+      "value": {
+       "amountGross": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": 9000000
+        }
+       ],
+       "amount": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": 7500000
+        }
+       ],
+       "currency": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "GBP"
+        }
+       ]
+      },
+      "mainProcurementCategory": [
+       {
+        "releaseID": "051257-2026",
+        "releaseDate": "2026-06-01T10:49:18+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "goods"
+       }
+      ],
+      "aboveThreshold": [
+       {
+        "releaseID": "051257-2026",
+        "releaseDate": "2026-06-01T10:49:18+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": true
+       }
+      ],
+      "suppliers": [
+       {
+        "id": "GB-COH-07042994",
+        "name": [
+         {
+          "releaseID": "051257-2026",
+          "releaseDate": "2026-06-01T10:49:18+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "PALANTIR TECHNOLOGIES UK, LTD."
+         }
+        ]
+       }
+      ],
+      "items": [
+       {
+        "id": "LOT-0001",
+        "additionalClassifications": [
+         {
+          "releaseID": "051257-2026",
+          "releaseDate": "2026-06-01T10:49:18+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": [
+           {
+            "scheme": "CPV",
+            "id": "48000000",
+            "description": "Software package and information systems"
+           },
+           {
+            "scheme": "CPV",
+            "id": "72260000",
+            "description": "Software-related services"
+           }
+          ]
+         }
+        ],
+        "deliveryAddresses": [
+         {
+          "region": [
+           {
+            "releaseID": "051257-2026",
+            "releaseDate": "2026-06-01T10:49:18+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "UK"
+           }
+          ],
+          "country": [
+           {
+            "releaseID": "051257-2026",
+            "releaseDate": "2026-06-01T10:49:18+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "GB"
+           }
+          ],
+          "countryName": [
+           {
+            "releaseID": "051257-2026",
+            "releaseDate": "2026-06-01T10:49:18+01:00",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "United Kingdom"
+           }
+          ]
+         }
+        ],
+        "relatedLot": [
+         {
+          "releaseID": "051257-2026",
+          "releaseDate": "2026-06-01T10:49:18+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "LOT-0001"
+         }
+        ]
+       }
+      ],
+      "standstillPeriod": {
+       "endDate": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "2026-06-10T23:59:59+01:00"
+        }
+       ]
+      },
+      "contractPeriod": {
+       "startDate": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "2026-09-04T00:00:00+01:00"
+        }
+       ],
+       "endDate": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "2031-09-03T23:59:59+01:00"
+        }
+       ],
+       "maxExtentDate": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "2036-09-03T23:59:59+01:00"
+        }
+       ]
+      },
+      "hasRenewal": [
+       {
+        "releaseID": "051257-2026",
+        "releaseDate": "2026-06-01T10:49:18+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": true
+       }
+      ],
+      "renewal": {
+       "description": [
+        {
+         "releaseID": "051257-2026",
+         "releaseDate": "2026-06-01T10:49:18+01:00",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "The Contract Term shall be for an initial period of 5 years with options to extend up to a maximum of 10 years."
+        }
+       ]
+      },
+      "relatedLots": [
+       {
+        "releaseID": "051257-2026",
+        "releaseDate": "2026-06-01T10:49:18+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": [
+         "LOT-0001"
+        ]
+       }
+      ],
+      "documents": [
+       {
+        "id": "051257-2026",
+        "documentType": [
+         {
+          "releaseID": "051257-2026",
+          "releaseDate": "2026-06-01T10:49:18+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "awardNotice"
+         }
+        ],
+        "noticeType": [
+         {
+          "releaseID": "051257-2026",
+          "releaseDate": "2026-06-01T10:49:18+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "UK6"
+         }
+        ],
+        "description": [
+         {
+          "releaseID": "051257-2026",
+          "releaseDate": "2026-06-01T10:49:18+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "Contract award notice on Find a Tender"
+         }
+        ],
+        "url": [
+         {
+          "releaseID": "051257-2026",
+          "releaseDate": "2026-06-01T10:49:18+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "https://www.find-tender.service.gov.uk/Notice/051257-2026"
+         }
+        ],
+        "datePublished": [
+         {
+          "releaseID": "051257-2026",
+          "releaseDate": "2026-06-01T10:49:18+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "2026-06-01T10:49:18+01:00"
+         }
+        ],
+        "format": [
+         {
+          "releaseID": "051257-2026",
+          "releaseDate": "2026-06-01T10:49:18+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "text/html"
+         }
+        ]
+       }
+      ],
+      "assessmentSummariesDateSent": [
+       {
+        "releaseID": "051257-2026",
+        "releaseDate": "2026-06-01T10:49:18+01:00",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "2026-06-01T00:00:00+01:00"
+       }
+      ],
+      "milestones": [
+       {
+        "id": "1",
+        "type": [
+         {
+          "releaseID": "051257-2026",
+          "releaseDate": "2026-06-01T10:49:18+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "futureSignatureDate"
+         }
+        ],
+        "dueDate": [
+         {
+          "releaseID": "051257-2026",
+          "releaseDate": "2026-06-01T10:49:18+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "2026-06-11T23:59:59+01:00"
+         }
+        ],
+        "status": [
+         {
+          "releaseID": "051257-2026",
+          "releaseDate": "2026-06-01T10:49:18+01:00",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "scheduled"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

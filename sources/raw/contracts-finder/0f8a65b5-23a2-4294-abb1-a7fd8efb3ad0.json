@@ -1,0 +1,180 @@
+{
+ "id": "0f8a65b5-23a2-4294-abb1-a7fd8efb3ad0",
+ "notice": {
+  "id": "0f8a65b5-23a2-4294-abb1-a7fd8efb3ad0",
+  "parentId": "2e8c61c0-faab-4f99-ae69-b00df6bae165",
+  "parentIdentifier": "",
+  "linkReason": "",
+  "version": 1,
+  "contactDetails": {
+   "name": "Kate Cassidy",
+   "email": "england.commercialqueries@nhs.net",
+   "address1": "Quarry House, Quarry Hill",
+   "address2": "",
+   "town": "Leeds",
+   "postcode": "LS2 7UE",
+   "country": "United Kingdom",
+   "phone": "",
+   "webAddress": ""
+  },
+  "identifier": "CF-2082000D0O000000rwimUAA",
+  "title": "Federated Data Platform and Associated Services",
+  "description": "NHS England has procured a contract for the provision of Federated Data Platform and Associated Services (FDP-AS). The data platform will be owned and controlled by the NHS to unlock the power of NHS data to understand patterns, solve problems, plan services for local populations and ultimately transform the health and care of the people they serve.\r\n\r\nThe contract value set out is not a committed amount.\r\nUnder the terms of the contract, the Authority pays for data platform services as they are consumed according to an agreed pricing schedule and therefore the contract value could increase to a forecasted amount of &#xA3;330m. This figure is also not a committed amount.",
+  "cpvDescription": "Computer platforms and Software-related services and Data management services",
+  "publishedDate": "2024-03-21T17:24:35Z",
+  "approachMarketDate": "",
+  "deadlineDate": "2023-07-18T12:00:00+01:00",
+  "valueLow": 182242760,
+  "valueHigh": 0,
+  "postcode": "LS2 7UE",
+  "region": "North East,North West,Yorkshire and The Humber,East Midlands,West Midlands,East of England,London,South East,South West",
+  "nationwide": false,
+  "location": {
+   "lat": 53.80295,
+   "lon": -1.547347
+  },
+  "start": "2023-11-22T00:00:00Z",
+  "end": "2027-02-15T00:00:00Z",
+  "type": "Contract",
+  "cpvCodes": [
+   "30211300",
+   "72260000",
+   "72322000"
+  ],
+  "spendProfile": null,
+  "status": "Awarded",
+  "isSuitableForSme": false,
+  "isSuitableForVco": false,
+  "supplyChain": false,
+  "lastNotifiableUpdate": "2024-03-21T17:24:35Z",
+  "organisationName": "NHS England",
+  "sector": "",
+  "procedureType": "CompetitiveDialogueOJEU",
+  "procedureTypeOther": "",
+  "procedureAcceleratedJustification": "",
+  "ojeuContractType": "Services",
+  "isFrameworkAgreement": false,
+  "isExtensionPossible": false,
+  "annexDOption": null,
+  "reasonContractLawful": null
+ },
+ "createdByUser": "joe.beech@atamis.co.uk",
+ "createdDate": "2024-03-21T17:23:52Z",
+ "lastUpdatedbyUser": "joe.beech@atamis.co.uk",
+ "lastUpdatedDate": "2024-03-21T17:24:35Z",
+ "awards": [
+  {
+   "id": "656806",
+   "noticeId": "0f8a65b5-23a2-4294-abb1-a7fd8efb3ad0",
+   "parentId": null,
+   "value": 182242760,
+   "supplierName": "PALANTIR TECHNOLOGIES UK, LTD.",
+   "supplierAddress": "Birchin Court 5th Floor, 19-25 Birchin Lane EC3V 9DU",
+   "contact": null,
+   "dunsNumber": "216241882",
+   "supplierAwardedValue": null,
+   "referenceType": "NONE",
+   "reference": "",
+   "startDate": "2023-11-22T00:00:00Z",
+   "endDate": "2027-02-15T00:00:00Z",
+   "awardedDate": "2023-11-22T00:00:00Z",
+   "awardedProcedureType": "CompetitiveDialogueOJEU",
+   "awardedProcedureTypeOther": "",
+   "awardedProcedureAcceleratedJustification": "",
+   "annexDOptionType": "",
+   "reasonContractLawful": "null",
+   "additionalDetails": "",
+   "awardedToSME": false,
+   "awardedToVCSO": null,
+   "awardGuid": "null"
+  }
+ ],
+ "isPublished": true,
+ "isPreAwarded": true,
+ "organisation": {
+  "name": "NHS England"
+ },
+ "additionalDetails": [
+  {
+   "id": "0f8a65b5-23a2-4294-abb1-a7fd8efb3ad0",
+   "noticeId": "0f8a65b5-23a2-4294-abb1-a7fd8efb3ad0",
+   "description": "Additional Text",
+   "dataType": "AdditionalText",
+   "textData": "\nNHS England has undertaken a competitive procurement, using the competitive dialogue procedure, for the provision of a Federated Data Platform and Associated Services for NHS England and NHS bodies.\r\n\r\nThe procurement has been undertaken in accordance with the procurement documentation and process outlined.\r\n\r\nServices will be provided under the contract for FDP-AS to NHS bodies (as defined in the National Health Service Act 2006) and other providers of NHS-funded services (in relation to the provision of those services), as well as NHS England.\r\n\r\nThe data platform is a cloud-based Software as a Service (SaaS) Solution, which will enable the use and sharing of data using a safe and secure environment.\r\n\r\nAdditional information on the Federated Data Platform can be found here: https://www.england.nhs.uk/digitaltechnology/digitising-connecting-and-transforming-health-and-care/",
+   "mimeType": null,
+   "awardGuid": null
+  },
+  {
+   "id": "158e7e2a-8132-4b1e-a89c-16aede156cec",
+   "noticeId": "0f8a65b5-23a2-4294-abb1-a7fd8efb3ad0",
+   "description": "FDP-AS Contract 3 of 4",
+   "dataType": "Attachment",
+   "filename": "FDP-AS Contract 3 of 4.pdf",
+   "mimeType": "application/pdf",
+   "awardGuid": null
+  },
+  {
+   "id": "e3d2b70a-b57d-4771-a3de-c10d77253caa",
+   "noticeId": "0f8a65b5-23a2-4294-abb1-a7fd8efb3ad0",
+   "description": "FDP-AS Contract 2 of 4",
+   "dataType": "Attachment",
+   "filename": "FDP-AS Contract 2 of 4.pdf",
+   "mimeType": "application/pdf",
+   "awardGuid": null
+  },
+  {
+   "id": "dbd3c42f-2d7f-4419-8ec2-a5091015eadb",
+   "noticeId": "0f8a65b5-23a2-4294-abb1-a7fd8efb3ad0",
+   "description": "FDP-AS Contract 1 of 4",
+   "dataType": "Attachment",
+   "filename": "FDP-AS Contract 1 of 4.pdf",
+   "mimeType": "application/pdf",
+   "awardGuid": null
+  },
+  {
+   "id": "7676c1d8-95f4-4e40-93df-a34d90b3ca02",
+   "noticeId": "0f8a65b5-23a2-4294-abb1-a7fd8efb3ad0",
+   "description": "FDP-AS Contract 4 of 4",
+   "dataType": "Attachment",
+   "filename": "FDP-AS Contract 4 of 4.pdf",
+   "mimeType": "application/pdf",
+   "awardGuid": null
+  }
+ ],
+ "withdrawnDate": "",
+ "withdrawnReason": "",
+ "withdrawnByUser": null,
+ "cpvCodes": [
+  {
+   "code": "30211300",
+   "description": "Computer platforms",
+   "parentCode": "30211000",
+   "hasChildren": false
+  },
+  {
+   "code": "72260000",
+   "description": "Software-related services",
+   "parentCode": "72200000",
+   "hasChildren": true
+  },
+  {
+   "code": "72322000",
+   "description": "Data management services",
+   "parentCode": "72320000",
+   "hasChildren": false
+  }
+ ],
+ "publishedVersion": [
+  {
+   "changedByUser": "joe.beech@atamis.co.uk",
+   "dateChanged": "2024-03-21T17:24:35Z",
+   "id": "794333",
+   "noticeStatus": "Awarded",
+   "noticeType": "Contract",
+   "publishedNoticeId": "0f8a65b5-23a2-4294-abb1-a7fd8efb3ad0",
+   "versionNumber": 1,
+   "visibleToPublic": true
+  }
+ ],
+ "numberOfViews": "14850"
+}

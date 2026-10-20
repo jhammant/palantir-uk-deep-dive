@@ -1,0 +1,50 @@
+Docusign Envelope ID: OBOBA3CB-4BEB-8615-82F3-D21BD267B87E
+
+PALANTIR TECHNOLOGIES UK, LTD. ,
+
+NOTES TO THE FINANCIAL STATEMENTS
+
+FOR THE YEAR ENDED 31 DECEMBER 2025
+
+: Significant accounting judgments, estimates and assumptions
+In the application of the Company's accounting policies the directors are required to make judgments, estimates and
+assumptions about the carrying amounts of assets and liabilities that are not readily apparent from other sources. The
+estimates and associated assumptions are based on historical experience and other factors that are considered to be relevant.
+Actual results may differ from these estimates. :
+The estimates and underlying assumptions are reviewed on an ongoing basis. Revisions to accounting estimates are
+recognised in the period in which the estimate is revised if the revision affects only that period, or in the period of the
+revision and future periods if the revision affects both current and future periods.
+The following estimates are dependent upon assumptions which could change in the next financial year and could have a
+material effect on the carrying amount of assets and liabilities recognised at the balance sheet date.
+Taxation
+Management estimation is required to determine the amount of deferred tax assets that can be recognised, based upon likely
+timing and level of future taxable profits together with an assessment of the effect of future tax planning strategies.
+A judgment has been made to exclude from the estimate of future taxable profits the possible tax losses arising from share-
+based payment expenses incurred on exercise of the awards in excess of the related grant date fair value.
+Share-based payments
+The Company accounts for share based compensation expense in accordance with the fair value recognition and
+measurement provisions of FRS 102, which requires compensation cost for the grant-date fair of share based awards to be
+recognised over the requisite service period.
+The Ultimate Parent Company issues equity-settled share-based awards to certain Company employees and service
+providers. At each statement of financial position date, the cumulative expense is calculated, representing the extent to.
+which the vesting period has expired and management’s best estimate of the number of equity instruments that will
+ultimately vest. The movement in cumulative expense since the previous balance sheet date is recognised in the income
+statement, with a corresponding entry in equity.
+The Company is required to estimate the expected forfeiture rate and only recognise expense for those shares expected to
+vest. The Company estimates the forfeiture rate based on historical experience. To the extent the actual forfeiture rate is
+different from the estimate, share-based compensation expense is adjusted.
+Under the terms of the service agreement between the Company .and its Ultimate Parent Company, the Company
+reimburses the Ultimate Parent Company an amount equal to the expense recognised in the statement of comprehensive
+income.
+Service-based awards
+The Ultimate Parent Company grants restricted stock units (“RSUs’) and stock option awards that vest only based upon the
+satisfaction of a service condition. The Ultimate Parent Company determines the fair value of share-based awards granted
+or modified on the grant date or modification date using appropriate valuation techniques.
+Performance-based awards
+The Ultimate Parent Company also grants performance-based restricted stock units’ (“P-RSUs”) that vest upon the
+satisfaction of both a service condition and a performance condition. The Ultimate Parent Company determines the grant-
+date fair value of P-RSUs based on the fair value of the Ultimate Parent Company’s common stock on the grant date.
+Expense is recognised for the number of awards expected to vest, which the Ultimate Parent Company determines based on
+the level of achievement against certain performance conditions, over the requisite service period when it is probable that
+the performance condition will be achieved. :
+22

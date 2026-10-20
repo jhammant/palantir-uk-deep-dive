@@ -1,0 +1,15 @@
+: PALANTIR TECHNOLOGIES UK, LTD.
+STATEMENT OF COMPREHENSIVE INCOME
+FOR THE YEAR ENDED 31 DECEMBER 2022 :
+Notes 2022 2021
+£ £
+Turnover 2 236,288,274 185,908,560
+Operating expenses 3 (216,341,228) (174,119,340)
+Operating profit 19,947,046 11,789,220
+Interest receivable and similar income 898 7,520
+Profit before taxation 19,947,944 11,796,740
+Tax on profit 5 (803,017) (22,972,586)
+Profit / (loss) after taxation 19,144,927 (11,175,846)
+Other comprehensive income for the year _ —
+Total comprehensive income / (loss) for the year 19,144,927 (11,175,846)
+The accompanying Notes form an integral part of these financial statements.

@@ -1,0 +1,48 @@
+PALANTIR TECHNOLOGIES UK, LTD.
+NOTES TO THE FINANCIAL STATEMENTS
+FOR THE YEAR ENDED 31 DECEMBER 2014
+1.8 Foreign currency translation
+Monetary assets and liabilities denominated in foreign currencies are translated into sterling at the rates of
+exchange ruling at the balance sheet date. Transactions in foreign currencies are recorded at the rate ruling at
+the date of the transaction. All differences are taken to the Profit and Loss Account.
+1.9 Share-based payments
+The ultimate parent company, Palantir Technologies Inc. issues equity settled share based payments to certain
+Palantir Technologies UK, Ltd. employees. In accordance with FRS 20 ‘Share-based payment’ (IFRS 2), the
+Company reflects the economic cost of rewarding stock options to employees by recording an expense in
+respect of the services received from employees in the Profit and Loss Account at an amount equal to the fair
+value of the awarded stock option. Stock option awards granted under the plan are determined by the Black-
+Scholes option pricing model. Fair vatue measured using the Black-Scholes option pricing model takes into
+account the following inputs:
+e the exercise price of the option;
+e the fair value of the underlying common stock;
+e the expected life of the option;
+e the expected volatility of the share price;
+e the expected dividend yield;
+e the risk free interest rate
+The expected life used in the model has been adjusted, based on management's best estimate, for the effects
+of non-transferability, exercise restrictions and behavioural conditions.
+The expense is recognized on an accelerated basis over the period in which the services are received by the
+Company (“the vesting period”). An assessment of the number of stock option awards which are expected to
+vest is made at the end of each reporting period and any adjustments to the expected charge relating to those
+stock option awards are made in the current period.
+2 ~«*Fixed assets
+Property and equipment are stated at cost less accumulated depreciation and amortisation. Depreciation is
+provided using the straight-line method over estimated useful lives of the respective assets, generally three
+years. Leasehold improvements are amortised over the shorter of the estimated useful lives of the leased
+assets or the lease term. Construction in progress is not depreciated. Maintenance and repairs are charged to
+expense as incurred, and improvements are capitalised. When assets are retired or otherwise disposed of, the
+cost and accumulated depreciation and amortisation are removed from the accounts, and any resulting gain or
+loss is reflected in the Profit and Loss Account for the period realised.
+3 Turnover 2014 2013
+as restated
+United States of America 98% 99% ;
+98% of the Company's turnover (2013 restated — 99%) is attributable to geographical markets outside of the
+United Kingdom. .
+4 = Operating profit
+2014 2013
+as restated
+Operating profit is stated after charging/ (crediting): £ £
+Foreign exchange 316,581 (199,095)
+Auditors’ remuneration 21,000 19,000
+Depreciation 603,249 . 315,233
+-12-

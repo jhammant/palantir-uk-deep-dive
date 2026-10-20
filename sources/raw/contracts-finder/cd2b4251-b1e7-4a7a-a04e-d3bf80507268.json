@@ -1,0 +1,130 @@
+{
+ "id": "cd2b4251-b1e7-4a7a-a04e-d3bf80507268",
+ "notice": {
+  "id": "cd2b4251-b1e7-4a7a-a04e-d3bf80507268",
+  "parentId": null,
+  "parentIdentifier": null,
+  "linkReason": null,
+  "version": 1,
+  "contactDetails": {
+   "name": "Zahid Shaikh",
+   "email": "zahid.shaikh@coventry.gov.uk",
+   "address1": "Earl Street",
+   "address2": "",
+   "town": "COVENTRY",
+   "postcode": "CV15RR",
+   "country": "England",
+   "phone": "02476 972 742",
+   "webAddress": ""
+  },
+  "identifier": "COV - 21614",
+  "title": "COV - 21614 - Strategic AI Platform",
+  "description": "Development of Strategic AI Platform for the Council of the City of Coventry",
+  "cpvDescription": "Software programming and consultancy services",
+  "publishedDate": "2025-04-09T14:30:08+01:00",
+  "approachMarketDate": "",
+  "deadlineDate": "2025-01-29T16:00:00Z",
+  "valueLow": 500000,
+  "valueHigh": 0,
+  "postcode": null,
+  "region": "West Midlands",
+  "nationwide": false,
+  "location": {
+   "lat": 0,
+   "lon": 0
+  },
+  "start": "2025-02-03T00:00:00Z",
+  "end": "2030-02-02T00:00:00Z",
+  "type": "Contract",
+  "cpvCodes": [
+   "72200000"
+  ],
+  "spendProfile": null,
+  "status": "Awarded",
+  "isSuitableForSme": false,
+  "isSuitableForVco": false,
+  "supplyChain": false,
+  "lastNotifiableUpdate": "2025-04-09T14:30:08+01:00",
+  "organisationName": "COVENTRY CITY COUNCIL",
+  "sector": null,
+  "procedureType": null,
+  "procedureTypeOther": null,
+  "procedureAcceleratedJustification": null,
+  "ojeuContractType": "Services",
+  "isFrameworkAgreement": false,
+  "isExtensionPossible": false,
+  "annexDOption": null,
+  "reasonContractLawful": null
+ },
+ "createdByUser": "zahid.shaikh@coventry.gov.uk",
+ "createdDate": "2025-04-09T14:26:47+01:00",
+ "lastUpdatedbyUser": "zahid.shaikh@coventry.gov.uk",
+ "lastUpdatedDate": "2025-04-09T14:30:08+01:00",
+ "awards": [
+  {
+   "id": "764219",
+   "noticeId": "cd2b4251-b1e7-4a7a-a04e-d3bf80507268",
+   "parentId": null,
+   "value": 500000,
+   "supplierName": "Palantir technologies UK, Ltd.",
+   "supplierAddress": "Birchin Court, 5th Floor, 19-25 Birchin Lane, London\r\nEC3V 9DU",
+   "contact": null,
+   "dunsNumber": "",
+   "supplierAwardedValue": null,
+   "referenceType": "COMPANIES_HOUSE",
+   "reference": "07042994",
+   "startDate": "2025-02-03T00:00:00Z",
+   "endDate": "2030-02-02T00:00:00Z",
+   "awardedDate": "2025-01-30T00:00:00Z",
+   "awardedProcedureType": "CallOffFromFrameworkAgreement",
+   "awardedProcedureTypeOther": "",
+   "awardedProcedureAcceleratedJustification": "",
+   "annexDOptionType": "",
+   "reasonContractLawful": "",
+   "additionalDetails": "",
+   "awardedToSME": false,
+   "awardedToVCSO": false,
+   "awardGuid": "fad8bc6b-b4b9-4f2f-9410-60d7b864b624"
+  }
+ ],
+ "isPublished": true,
+ "isPreAwarded": true,
+ "organisation": {
+  "name": "COVENTRY CITY COUNCIL"
+ },
+ "additionalDetails": [
+  {
+   "id": "cd2b4251-b1e7-4a7a-a04e-d3bf80507268",
+   "noticeId": "cd2b4251-b1e7-4a7a-a04e-d3bf80507268",
+   "description": "Additional Text",
+   "dataType": "AdditionalText",
+   "textData": "",
+   "mimeType": null,
+   "awardGuid": null
+  }
+ ],
+ "withdrawnDate": "",
+ "withdrawnReason": null,
+ "withdrawnByUser": null,
+ "cpvCodes": [
+  {
+   "code": "72200000",
+   "description": "Software programming and consultancy services",
+   "parentCode": "72000000",
+   "hasChildren": true
+  }
+ ],
+ "publishedVersion": [
+  {
+   "changedByUser": "zahid.shaikh@coventry.gov.uk",
+   "dateChanged": "2025-04-09T14:30:08+01:00",
+   "id": "892987",
+   "noticeStatus": "Awarded",
+   "noticeType": "Contract",
+   "publishedNoticeId": "cd2b4251-b1e7-4a7a-a04e-d3bf80507268",
+   "versionNumber": 1,
+   "visibleToPublic": true
+  }
+ ],
+ "numberOfViews": "3944"
+}

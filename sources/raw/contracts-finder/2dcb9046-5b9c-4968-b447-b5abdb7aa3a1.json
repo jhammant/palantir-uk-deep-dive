@@ -1,0 +1,130 @@
+{
+ "id": "2dcb9046-5b9c-4968-b447-b5abdb7aa3a1",
+ "notice": {
+  "id": "2dcb9046-5b9c-4968-b447-b5abdb7aa3a1",
+  "parentId": "5b14c9a3-0280-417a-8de1-dd3f4ce5f396",
+  "parentIdentifier": null,
+  "linkReason": "",
+  "version": 1,
+  "contactDetails": {
+   "name": "",
+   "email": "necsu.company-secretary@nhs.net",
+   "address1": "John Snow House",
+   "address2": "",
+   "town": "Durham",
+   "postcode": "DH1 3YG",
+   "country": "England",
+   "phone": "",
+   "webAddress": ""
+  },
+  "identifier": "G-Cloud 13 - NECS",
+  "title": "Palantir Foundry implementation and engineering services",
+  "description": "Palantir Foundry Implementation and Engineering Services",
+  "cpvDescription": "Industry specific software development services",
+  "publishedDate": "2024-06-25T09:46:10+01:00",
+  "approachMarketDate": "",
+  "deadlineDate": "2023-01-03T17:00:00Z",
+  "valueLow": 825000,
+  "valueHigh": 0,
+  "postcode": null,
+  "region": "North East",
+  "nationwide": false,
+  "location": {
+   "lat": 0,
+   "lon": 0
+  },
+  "start": "2023-01-04T00:00:00Z",
+  "end": "2024-03-31T00:00:00Z",
+  "type": "Contract",
+  "cpvCodes": [
+   "72212100"
+  ],
+  "spendProfile": null,
+  "status": "Awarded",
+  "isSuitableForSme": false,
+  "isSuitableForVco": false,
+  "supplyChain": false,
+  "lastNotifiableUpdate": "2024-06-25T09:46:10+01:00",
+  "organisationName": "NORTH OF ENGLAND COMMISSIONING SUPPORT",
+  "sector": null,
+  "procedureType": null,
+  "procedureTypeOther": null,
+  "procedureAcceleratedJustification": null,
+  "ojeuContractType": "Services",
+  "isFrameworkAgreement": false,
+  "isExtensionPossible": false,
+  "annexDOption": null,
+  "reasonContractLawful": null
+ },
+ "createdByUser": "owen.nutt@nhs.net",
+ "createdDate": "2024-06-25T09:43:01+01:00",
+ "lastUpdatedbyUser": "owen.nutt@nhs.net",
+ "lastUpdatedDate": "2024-06-25T09:46:10+01:00",
+ "awards": [
+  {
+   "id": "682845",
+   "noticeId": "2dcb9046-5b9c-4968-b447-b5abdb7aa3a1",
+   "parentId": null,
+   "value": 825000,
+   "supplierName": "Palantir Technologies UK Limited",
+   "supplierAddress": "New Penderel House\r\nFourth Floor\r\n283 - 288 High Holburn\r\nLondon\r\nWC1V 7HP",
+   "contact": null,
+   "dunsNumber": "",
+   "supplierAwardedValue": 825000,
+   "referenceType": "COMPANIES_HOUSE",
+   "reference": "07042994",
+   "startDate": "2023-01-04T00:00:00Z",
+   "endDate": "2024-03-31T00:00:00Z",
+   "awardedDate": "2023-01-03T00:00:00Z",
+   "awardedProcedureType": "CallOffFromFrameworkAgreement",
+   "awardedProcedureTypeOther": "",
+   "awardedProcedureAcceleratedJustification": "",
+   "annexDOptionType": "",
+   "reasonContractLawful": "",
+   "additionalDetails": "",
+   "awardedToSME": false,
+   "awardedToVCSO": false,
+   "awardGuid": "f153ce0c-df11-4be0-8ba3-4c452452c5bf"
+  }
+ ],
+ "isPublished": true,
+ "isPreAwarded": true,
+ "organisation": {
+  "name": "NORTH OF ENGLAND COMMISSIONING SUPPORT"
+ },
+ "additionalDetails": [
+  {
+   "id": "2dcb9046-5b9c-4968-b447-b5abdb7aa3a1",
+   "noticeId": "2dcb9046-5b9c-4968-b447-b5abdb7aa3a1",
+   "description": "Additional Text",
+   "dataType": "AdditionalText",
+   "textData": "",
+   "mimeType": null,
+   "awardGuid": null
+  }
+ ],
+ "withdrawnDate": "",
+ "withdrawnReason": null,
+ "withdrawnByUser": null,
+ "cpvCodes": [
+  {
+   "code": "72212100",
+   "description": "Industry specific software development services",
+   "parentCode": "72212000",
+   "hasChildren": false
+  }
+ ],
+ "publishedVersion": [
+  {
+   "changedByUser": "owen.nutt@nhs.net",
+   "dateChanged": "2024-06-25T09:46:10+01:00",
+   "id": "819101",
+   "noticeStatus": "Awarded",
+   "noticeType": "Contract",
+   "publishedNoticeId": "2dcb9046-5b9c-4968-b447-b5abdb7aa3a1",
+   "versionNumber": 1,
+   "visibleToPublic": true
+  }
+ ],
+ "numberOfViews": "538"
+}

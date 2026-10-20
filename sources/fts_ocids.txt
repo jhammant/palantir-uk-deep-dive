@@ -1,0 +1,5 @@
+# Find a Tender procurements to read in full (OCID). Add new ones here, then rerun scripts/fetch_contracts.py.
+ocds-h6vhtk-05f7e9   # MoD Palantir Enterprise Agreement (Dec 2025, direct award)
+ocds-h6vhtk-06ed0c   # NESO Interim Capability (Aug 2026, direct award)
+ocds-h6vhtk-051018   # National Firearms Licensing Management System (2026, competitive)
+ocds-h6vhtk-0328ce   # NHS England Federated Data Platform (2023)

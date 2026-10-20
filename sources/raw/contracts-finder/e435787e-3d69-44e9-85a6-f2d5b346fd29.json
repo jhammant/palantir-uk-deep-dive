@@ -1,0 +1,291 @@
+{
+ "id": "e435787e-3d69-44e9-85a6-f2d5b346fd29",
+ "notice": {
+  "id": "e435787e-3d69-44e9-85a6-f2d5b346fd29",
+  "parentId": null,
+  "parentIdentifier": null,
+  "linkReason": null,
+  "version": 9,
+  "contactDetails": {
+   "name": "Crown Commercial Service on behalf of Cabinet Office : Cabinet Office",
+   "email": "supplier@crowncommercial.gov.uk",
+   "address1": "Floor 9, The Capital Building, Old Hall Street",
+   "address2": null,
+   "town": "Liverpool",
+   "postcode": "L3 9PP",
+   "country": "England",
+   "phone": "3450103503",
+   "webAddress": "https://www.gov.uk/government/organisations/crown-commercial-service"
+  },
+  "identifier": "CCSO20A80.",
+  "title": "Provision of  a Foundry Data Connector - Technical Feasibility Evaluation (TFE)",
+  "description": "Provision of a Foundry Data Connector -\r\nTechnical Feasibility Evaluation (TFE)",
+  "cpvDescription": "Data security software package",
+  "publishedDate": "2020-10-22T17:37:40+01:00",
+  "approachMarketDate": "",
+  "deadlineDate": "2020-08-28T00:00:00+01:00",
+  "valueLow": 26185733,
+  "valueHigh": 0,
+  "postcode": null,
+  "region": "North East,North West,Yorkshire and The Humber,East Midlands,West Midlands,East of England,London,South East,South West,Scotland,Wales,Northern Ireland,Isle of Man,Guernsey,Jersey",
+  "nationwide": false,
+  "location": {
+   "lat": 0,
+   "lon": 0
+  },
+  "start": "2020-08-31T00:00:00+01:00",
+  "end": "2024-08-31T00:00:00+01:00",
+  "type": "Contract",
+  "cpvCodes": [
+   "48732000"
+  ],
+  "spendProfile": null,
+  "status": "Awarded",
+  "isSuitableForSme": true,
+  "isSuitableForVco": false,
+  "supplyChain": false,
+  "lastNotifiableUpdate": "2024-06-12T12:09:40+01:00",
+  "organisationName": "Crown Commercial Service",
+  "sector": null,
+  "procedureType": "Open",
+  "procedureTypeOther": null,
+  "procedureAcceleratedJustification": null,
+  "ojeuContractType": "Services",
+  "isFrameworkAgreement": false,
+  "isExtensionPossible": true,
+  "annexDOption": null,
+  "reasonContractLawful": null
+ },
+ "createdByUser": "natasha.gowan@crowncommercial.gov.uk",
+ "createdDate": "2024-06-12T12:05:14+01:00",
+ "lastUpdatedbyUser": "christian.volf@crowncommercial.gov.uk",
+ "lastUpdatedDate": "2024-06-12T12:09:40+01:00",
+ "awards": [
+  {
+   "id": "351919",
+   "noticeId": "e435787e-3d69-44e9-85a6-f2d5b346fd29",
+   "parentId": null,
+   "value": 26185733,
+   "supplierName": "Palantir Technologies UK, Ltd.",
+   "supplierAddress": "8 Lincoln's Inn Fields WC2A 3BP London England",
+   "contact": null,
+   "dunsNumber": null,
+   "supplierAwardedValue": null,
+   "referenceType": "COMPANIES_HOUSE",
+   "reference": "07042994",
+   "startDate": "2020-08-31T00:00:00+01:00",
+   "endDate": "2024-03-31T00:00:00Z",
+   "awardedDate": "2020-08-31T00:00:00+01:00",
+   "awardedProcedureType": "CallOffFromFrameworkAgreement",
+   "awardedProcedureTypeOther": "",
+   "awardedProcedureAcceleratedJustification": "",
+   "annexDOptionType": null,
+   "reasonContractLawful": null,
+   "additionalDetails": null,
+   "awardedToSME": false,
+   "awardedToVCSO": false,
+   "awardGuid": "7092a424-91c6-4db3-be17-40bc5c881460"
+  }
+ ],
+ "isPublished": true,
+ "isPreAwarded": true,
+ "organisation": {
+  "name": "Crown Commercial Service"
+ },
+ "additionalDetails": [
+  {
+   "id": "e435787e-3d69-44e9-85a6-f2d5b346fd29",
+   "noticeId": "e435787e-3d69-44e9-85a6-f2d5b346fd29",
+   "description": "Additional Text",
+   "dataType": "AdditionalText",
+   "textData": "",
+   "mimeType": null,
+   "awardGuid": null
+  },
+  {
+   "id": "a7f9b73a-9415-4752-bc65-471800484599",
+   "noticeId": "e435787e-3d69-44e9-85a6-f2d5b346fd29",
+   "description": "",
+   "dataType": "Attachment",
+   "filename": "CLEAN CCSO20A80 Attachment 5-  RM1557.11-G-Cloud-11-Call-off-contract v2 Execution Version 23092020 REDACTED (4).pdf",
+   "mimeType": "application/pdf",
+   "awardGuid": null
+  },
+  {
+   "id": "2d555a42-dda9-46af-9f17-6f3fb90e60e2",
+   "noticeId": "e435787e-3d69-44e9-85a6-f2d5b346fd29",
+   "description": "",
+   "dataType": "Attachment",
+   "filename": "CCSO20A80 Attachment 3  - Statement of Requirements - 26082020.pdf",
+   "mimeType": "application/pdf",
+   "awardGuid": null
+  },
+  {
+   "id": "27a6cfce-8bbd-40f6-a7a6-067dd2c55cf9",
+   "noticeId": "e435787e-3d69-44e9-85a6-f2d5b346fd29",
+   "description": "",
+   "dataType": "Attachment",
+   "filename": "CCSO20A80 VARIATION FORM.docx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "awardGuid": null
+  },
+  {
+   "id": "5566077d-8609-45d4-97d5-afb82937521d",
+   "noticeId": "e435787e-3d69-44e9-85a6-f2d5b346fd29",
+   "description": "",
+   "dataType": "Attachment",
+   "filename": "Variation 5A to G-Cloud 11 Call-Off Contract (CCSO20A80) 2023.04.18 Cabinet Office (1).docx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "awardGuid": null
+  },
+  {
+   "id": "9058961e-93aa-4beb-9f7f-c653017989d6",
+   "noticeId": "e435787e-3d69-44e9-85a6-f2d5b346fd29",
+   "description": "",
+   "dataType": "Attachment",
+   "filename": "Variation Form - Call Off CCSO20A80 2023.03.31 - Cabinet Office (1) (1).docx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "awardGuid": null
+  },
+  {
+   "id": "b9578ab7-6b03-4689-b1b8-e2d18bef7e15",
+   "noticeId": "e435787e-3d69-44e9-85a6-f2d5b346fd29",
+   "description": "",
+   "dataType": "Attachment",
+   "filename": "CCSO20A80 Provision of a Foundry Data Connector - Variation 003 - REDACTED.pdf",
+   "mimeType": "application/pdf",
+   "awardGuid": null
+  },
+  {
+   "id": "79357fe6-5ac8-40ee-acf5-d293a465cb9b",
+   "noticeId": "e435787e-3d69-44e9-85a6-f2d5b346fd29",
+   "description": "",
+   "dataType": "Attachment",
+   "filename": "BFS Variation 004 - Year 3 Extension &amp; Engineering Services FINAL - REDACTED.pdf",
+   "mimeType": "application/pdf",
+   "awardGuid": null
+  },
+  {
+   "id": "410906b8-322c-4b58-a807-51c8a8b8aef0",
+   "noticeId": "e435787e-3d69-44e9-85a6-f2d5b346fd29",
+   "description": "",
+   "dataType": "Attachment",
+   "filename": "Amendment 1 to Variation 4 2022.12.13 Cabinet Office - REDACTED.pdf",
+   "mimeType": "application/pdf",
+   "awardGuid": null
+  },
+  {
+   "id": "eddc68d8-bc0c-45dd-be4b-2f485c93e8c4",
+   "noticeId": "e435787e-3d69-44e9-85a6-f2d5b346fd29",
+   "description": "",
+   "dataType": "Attachment",
+   "filename": "BFS Variation 007 - Transition v0.4 - REDACTED.pdf",
+   "mimeType": "application/pdf",
+   "awardGuid": null
+  }
+ ],
+ "withdrawnDate": "",
+ "withdrawnReason": null,
+ "withdrawnByUser": null,
+ "cpvCodes": [
+  {
+   "code": "48732000",
+   "description": "Data security software package",
+   "parentCode": "48730000",
+   "hasChildren": false
+  }
+ ],
+ "publishedVersion": [
+  {
+   "changedByUser": "natasha.gowan@crowncommercial.gov.uk",
+   "dateChanged": "2020-10-22T17:37:40+01:00",
+   "id": "442922",
+   "noticeStatus": "Awarded",
+   "noticeType": "Contract",
+   "publishedNoticeId": "e435787e-3d69-44e9-85a6-f2d5b346fd29",
+   "versionNumber": 1,
+   "visibleToPublic": true
+  },
+  {
+   "changedByUser": "natasha.gowan@crowncommercial.gov.uk",
+   "dateChanged": "2020-10-27T12:00:35Z",
+   "id": "443961",
+   "noticeStatus": "Awarded",
+   "noticeType": "Contract",
+   "publishedNoticeId": "e435787e-3d69-44e9-85a6-f2d5b346fd29",
+   "versionNumber": 2,
+   "visibleToPublic": true
+  },
+  {
+   "changedByUser": "natasha.gowan@crowncommercial.gov.uk",
+   "dateChanged": "2020-10-29T15:15:44Z",
+   "id": "444612",
+   "noticeStatus": "Awarded",
+   "noticeType": "Contract",
+   "publishedNoticeId": "e435787e-3d69-44e9-85a6-f2d5b346fd29",
+   "versionNumber": 3,
+   "visibleToPublic": true
+  },
+  {
+   "changedByUser": "natasha.gowan@crowncommercial.gov.uk",
+   "dateChanged": "2020-11-05T10:15:03Z",
+   "id": "446059",
+   "noticeStatus": "Awarded",
+   "noticeType": "Contract",
+   "publishedNoticeId": "e435787e-3d69-44e9-85a6-f2d5b346fd29",
+   "versionNumber": 4,
+   "visibleToPublic": true
+  },
+  {
+   "changedByUser": "gail.thomas@crowncommercial.gov.uk",
+   "dateChanged": "2022-01-06T10:23:30Z",
+   "id": "577562",
+   "noticeStatus": "Awarded",
+   "noticeType": "Contract",
+   "publishedNoticeId": "e435787e-3d69-44e9-85a6-f2d5b346fd29",
+   "versionNumber": 5,
+   "visibleToPublic": true
+  },
+  {
+   "changedByUser": "charlie.beresford@crowncommercial.gov.uk",
+   "dateChanged": "2022-11-11T15:20:57Z",
+   "id": "660258",
+   "noticeStatus": "Awarded",
+   "noticeType": "Contract",
+   "publishedNoticeId": "e435787e-3d69-44e9-85a6-f2d5b346fd29",
+   "versionNumber": 6,
+   "visibleToPublic": true
+  },
+  {
+   "changedByUser": "charlie.beresford@crowncommercial.gov.uk",
+   "dateChanged": "2022-12-13T10:42:18Z",
+   "id": "668760",
+   "noticeStatus": "Awarded",
+   "noticeType": "Contract",
+   "publishedNoticeId": "e435787e-3d69-44e9-85a6-f2d5b346fd29",
+   "versionNumber": 7,
+   "visibleToPublic": true
+  },
+  {
+   "changedByUser": "paul.caddick@crowncommercial.gov.uk",
+   "dateChanged": "2023-04-24T17:14:55+01:00",
+   "id": "704885",
+   "noticeStatus": "Awarded",
+   "noticeType": "Contract",
+   "publishedNoticeId": "e435787e-3d69-44e9-85a6-f2d5b346fd29",
+   "versionNumber": 8,
+   "visibleToPublic": true
+  },
+  {
+   "changedByUser": "christian.volf@crowncommercial.gov.uk",
+   "dateChanged": "2024-06-12T12:09:40+01:00",
+   "id": "816053",
+   "noticeStatus": "Awarded",
+   "noticeType": "Contract",
+   "publishedNoticeId": "e435787e-3d69-44e9-85a6-f2d5b346fd29",
+   "versionNumber": 9,
+   "visibleToPublic": true
+  }
+ ],
+ "numberOfViews": "5808"
+}

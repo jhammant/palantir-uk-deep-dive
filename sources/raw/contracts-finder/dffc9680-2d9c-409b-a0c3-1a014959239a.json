@@ -1,0 +1,137 @@
+{
+ "id": "dffc9680-2d9c-409b-a0c3-1a014959239a",
+ "notice": {
+  "id": "dffc9680-2d9c-409b-a0c3-1a014959239a",
+  "parentId": null,
+  "parentIdentifier": "",
+  "linkReason": "",
+  "version": 1,
+  "contactDetails": {
+   "name": "FCA Procurement",
+   "email": "fcaprocurement@fca.org.uk",
+   "address1": "12 Endeavour Square, Stratford Cross",
+   "address2": "",
+   "town": "london",
+   "postcode": "E20 1JN",
+   "country": "GB",
+   "phone": "0800 111 6768",
+   "webAddress": ""
+  },
+  "identifier": "CF-0038600D8d000009sg5IEAQ",
+  "title": "Enterprise Search Decision Intelligence PoC",
+  "description": "A proposal to Deliver a POC to prove a supplier can enable true enterprise search across all FCA datasets-structured, semi-structured, and unstructured-via a federated data or virtualisation layer in line with the Enterprise Search Blueprint and Decision.",
+  "cpvDescription": "IT services: consulting, software development, Internet and support and IT software package",
+  "publishedDate": "2026-02-10T13:01:32Z",
+  "approachMarketDate": "",
+  "deadlineDate": "2025-12-16T17:00:00Z",
+  "valueLow": 375001,
+  "valueHigh": 375001,
+  "postcode": "E20 1JN",
+  "region": "London",
+  "nationwide": false,
+  "location": {
+   "lat": 51.538611,
+   "lon": -0.016389
+  },
+  "start": "2026-01-30T00:00:00Z",
+  "end": "2026-05-29T00:00:00+01:00",
+  "type": "Contract",
+  "cpvCodes": [
+   "72000000",
+   "48517000"
+  ],
+  "spendProfile": null,
+  "status": "Awarded",
+  "isSuitableForSme": false,
+  "isSuitableForVco": false,
+  "supplyChain": false,
+  "lastNotifiableUpdate": "2026-02-10T13:01:32Z",
+  "organisationName": "Financial Conduct Authority",
+  "sector": "",
+  "procedureType": "CallOffFromFrameworkAgreement",
+  "procedureTypeOther": "",
+  "procedureAcceleratedJustification": "",
+  "ojeuContractType": "Services",
+  "isFrameworkAgreement": false,
+  "isExtensionPossible": false,
+  "annexDOption": null,
+  "reasonContractLawful": null
+ },
+ "createdByUser": "joe.beech@atamis.co.uk",
+ "createdDate": "2026-02-10T13:01:21Z",
+ "lastUpdatedbyUser": "joe.beech@atamis.co.uk",
+ "lastUpdatedDate": "2026-02-10T13:01:32Z",
+ "awards": [
+  {
+   "id": "816807",
+   "noticeId": "dffc9680-2d9c-409b-a0c3-1a014959239a",
+   "parentId": null,
+   "value": 375001,
+   "supplierName": "PALANTIR TECHNOLOGIES UK, LTD.",
+   "supplierAddress": "Birchin Court 5th Floor,19-25 Birchin Lane,, London, EC3V 9DU",
+   "contact": null,
+   "dunsNumber": "null",
+   "supplierAwardedValue": null,
+   "referenceType": "NONE",
+   "reference": "",
+   "startDate": "2026-01-30T00:00:00Z",
+   "endDate": "2026-05-29T00:00:00+01:00",
+   "awardedDate": "2026-01-30T00:00:00Z",
+   "awardedProcedureType": "CallOffFromFrameworkAgreement",
+   "awardedProcedureTypeOther": "",
+   "awardedProcedureAcceleratedJustification": "",
+   "annexDOptionType": "",
+   "reasonContractLawful": "null",
+   "additionalDetails": "",
+   "awardedToSME": null,
+   "awardedToVCSO": null,
+   "awardGuid": "null"
+  }
+ ],
+ "isPublished": true,
+ "isPreAwarded": true,
+ "organisation": {
+  "name": "Financial Conduct Authority"
+ },
+ "additionalDetails": [
+  {
+   "id": "dffc9680-2d9c-409b-a0c3-1a014959239a",
+   "noticeId": "dffc9680-2d9c-409b-a0c3-1a014959239a",
+   "description": "Additional Text",
+   "dataType": "AdditionalText",
+   "textData": "",
+   "mimeType": null,
+   "awardGuid": null
+  }
+ ],
+ "withdrawnDate": "",
+ "withdrawnReason": "",
+ "withdrawnByUser": null,
+ "cpvCodes": [
+  {
+   "code": "72000000",
+   "description": "IT services: consulting, software development, Internet and support",
+   "parentCode": "72000000",
+   "hasChildren": true
+  },
+  {
+   "code": "48517000",
+   "description": "IT software package",
+   "parentCode": "48510000",
+   "hasChildren": false
+  }
+ ],
+ "publishedVersion": [
+  {
+   "changedByUser": "joe.beech@atamis.co.uk",
+   "dateChanged": "2026-02-10T13:01:33Z",
+   "id": "932848",
+   "noticeStatus": "Awarded",
+   "noticeType": "Contract",
+   "publishedNoticeId": "dffc9680-2d9c-409b-a0c3-1a014959239a",
+   "versionNumber": 1,
+   "visibleToPublic": true
+  }
+ ],
+ "numberOfViews": "825"
+}

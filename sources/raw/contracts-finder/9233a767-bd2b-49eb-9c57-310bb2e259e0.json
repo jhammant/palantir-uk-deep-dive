@@ -1,0 +1,153 @@
+{
+ "id": "9233a767-bd2b-49eb-9c57-310bb2e259e0",
+ "notice": {
+  "id": "9233a767-bd2b-49eb-9c57-310bb2e259e0",
+  "parentId": null,
+  "parentIdentifier": null,
+  "linkReason": null,
+  "version": 1,
+  "contactDetails": {
+   "name": "",
+   "email": "David.Bailey1@nhs.net",
+   "address1": "National Health Service Commissioning Board and National Health Service Trust Development Authority",
+   "address2": "Skipton House, 80 London Road",
+   "town": "London",
+   "postcode": "SE1 6LH",
+   "country": "England",
+   "phone": "",
+   "webAddress": ""
+  },
+  "identifier": "AGEMCSU/TRANS/20/897",
+  "title": "National Health Service Commissioning Board and National Health Service Trust Development Authority: Provision of Data Management Platform Services",
+  "description": "Award of Contract under the Crown Commercial Services G-Cloud 11 Framework - Provision of Data Management Platform Services.",
+  "cpvDescription": "Platform interconnectivity software package and Business intelligence software package and IT software package",
+  "publishedDate": "2020-12-18T15:18:25Z",
+  "approachMarketDate": "",
+  "deadlineDate": "2020-12-11T17:00:00Z",
+  "valueLow": 0,
+  "valueHigh": 23500000,
+  "postcode": null,
+  "region": "North East,North West,Yorkshire and The Humber,East Midlands,West Midlands,East of England,London,South East,South West,Scotland,Wales,Northern Ireland",
+  "nationwide": false,
+  "location": {
+   "lat": 0,
+   "lon": 0
+  },
+  "start": "2020-12-12T00:00:00Z",
+  "end": "2022-12-11T00:00:00Z",
+  "type": "Contract",
+  "cpvCodes": [
+   "48211000",
+   "48482000",
+   "48517000"
+  ],
+  "spendProfile": null,
+  "status": "Awarded",
+  "isSuitableForSme": false,
+  "isSuitableForVco": false,
+  "supplyChain": false,
+  "lastNotifiableUpdate": "2020-12-18T15:18:25Z",
+  "organisationName": "NHS ARDEN AND GREATER EAST MIDLANDS COMMISSIONING SUPPORT UNIT",
+  "sector": null,
+  "procedureType": null,
+  "procedureTypeOther": null,
+  "procedureAcceleratedJustification": null,
+  "ojeuContractType": "Services",
+  "isFrameworkAgreement": false,
+  "isExtensionPossible": false,
+  "annexDOption": null,
+  "reasonContractLawful": null
+ },
+ "createdByUser": "david.bailey@ardengemcsu.nhs.uk",
+ "createdDate": "2020-12-17T16:56:37Z",
+ "lastUpdatedbyUser": "david.bailey@ardengemcsu.nhs.uk",
+ "lastUpdatedDate": "2020-12-18T15:18:25Z",
+ "awards": [
+  {
+   "id": "361760",
+   "noticeId": "9233a767-bd2b-49eb-9c57-310bb2e259e0",
+   "parentId": null,
+   "value": 23500000,
+   "supplierName": "PALANTIR TECHNOLOGIES UK, LTD.",
+   "supplierAddress": "New Penderel House, 4th Floor,High Holborn\nLONDON\nWC1V 7HP\nGB",
+   "contact": null,
+   "dunsNumber": "216241882",
+   "supplierAwardedValue": 23500000,
+   "referenceType": "COMPANIES_HOUSE",
+   "reference": "07042994",
+   "startDate": "2020-12-12T00:00:00Z",
+   "endDate": "2022-12-11T00:00:00Z",
+   "awardedDate": "2020-12-11T00:00:00Z",
+   "awardedProcedureType": "CallOffFromFrameworkAgreement",
+   "awardedProcedureTypeOther": "",
+   "awardedProcedureAcceleratedJustification": "",
+   "annexDOptionType": "",
+   "reasonContractLawful": "",
+   "additionalDetails": "",
+   "awardedToSME": false,
+   "awardedToVCSO": false,
+   "awardGuid": "990d6036-02d1-4f33-8d9c-20809e32bed5"
+  }
+ ],
+ "isPublished": true,
+ "isPreAwarded": true,
+ "organisation": {
+  "name": "NHS ARDEN AND GREATER EAST MIDLANDS COMMISSIONING SUPPORT UNIT"
+ },
+ "additionalDetails": [
+  {
+   "id": "9233a767-bd2b-49eb-9c57-310bb2e259e0",
+   "noticeId": "9233a767-bd2b-49eb-9c57-310bb2e259e0",
+   "description": "Additional Text",
+   "dataType": "AdditionalText",
+   "textData": "",
+   "mimeType": null,
+   "awardGuid": null
+  },
+  {
+   "id": "0e1e4c85-6d57-4fca-9cc8-88adcffb88a2",
+   "noticeId": "9233a767-bd2b-49eb-9c57-310bb2e259e0",
+   "description": "Redacted Contract",
+   "dataType": "Attachment",
+   "filename": "GCloud11 Call-Off December 2020 - publication.pdf",
+   "mimeType": "application/pdf",
+   "awardGuid": null
+  }
+ ],
+ "withdrawnDate": "",
+ "withdrawnReason": null,
+ "withdrawnByUser": null,
+ "cpvCodes": [
+  {
+   "code": "48211000",
+   "description": "Platform interconnectivity software package",
+   "parentCode": "48210000",
+   "hasChildren": false
+  },
+  {
+   "code": "48482000",
+   "description": "Business intelligence software package",
+   "parentCode": "48480000",
+   "hasChildren": false
+  },
+  {
+   "code": "48517000",
+   "description": "IT software package",
+   "parentCode": "48510000",
+   "hasChildren": false
+  }
+ ],
+ "publishedVersion": [
+  {
+   "changedByUser": "david.bailey@ardengemcsu.nhs.uk",
+   "dateChanged": "2020-12-18T15:18:25Z",
+   "id": "460453",
+   "noticeStatus": "Awarded",
+   "noticeType": "Contract",
+   "publishedNoticeId": "9233a767-bd2b-49eb-9c57-310bb2e259e0",
+   "versionNumber": 1,
+   "visibleToPublic": true
+  }
+ ],
+ "numberOfViews": "11072"
+}

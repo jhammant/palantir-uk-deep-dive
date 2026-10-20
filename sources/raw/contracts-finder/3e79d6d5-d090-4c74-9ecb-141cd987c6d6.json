@@ -1,0 +1,139 @@
+{
+ "id": "3e79d6d5-d090-4c74-9ecb-141cd987c6d6",
+ "notice": {
+  "id": "3e79d6d5-d090-4c74-9ecb-141cd987c6d6",
+  "parentId": null,
+  "parentIdentifier": null,
+  "linkReason": null,
+  "version": 1,
+  "contactDetails": {
+   "name": "Commercial Digital &amp; Innovation",
+   "email": "CommercialMailbox-.DDaT-.SolutionDelivery@met.police.uk",
+   "address1": "New Scotland Yard",
+   "address2": "Victoria Embankment",
+   "town": "LONDON",
+   "postcode": "SW1A 2JL",
+   "country": "England",
+   "phone": "",
+   "webAddress": "https://www.met.police.uk/"
+  },
+  "identifier": "11400612987",
+  "title": "Unified Data Platform Phase 1",
+  "description": "The MPS has purchased licencing and services to trial Palantir Foundry software to integrate diverse structured and unstructured datasets into a unified environment.  \r\nThe objectives are: \r\n - to bring together internal data we already hold from multiple standalone systems into a form which can be used without delay as part of our professional standards work; \r\n - to integrate back office datasets to provide enterprise reporting as part of its professional services function; and\r\n - to test if the tool can help us identify patterns, automate some analysis and reporting and support officer-led decisions.",
+  "cpvDescription": "Computer platforms",
+  "publishedDate": "2026-02-23T08:00:29Z",
+  "approachMarketDate": "",
+  "deadlineDate": "2026-01-13T12:00:00Z",
+  "valueLow": 489999,
+  "valueHigh": 0,
+  "postcode": null,
+  "region": "London",
+  "nationwide": false,
+  "location": {
+   "lat": 0,
+   "lon": 0
+  },
+  "start": "2026-02-01T00:00:00Z",
+  "end": "2026-04-30T00:00:00+01:00",
+  "type": "Contract",
+  "cpvCodes": [
+   "30211300"
+  ],
+  "spendProfile": null,
+  "status": "Awarded",
+  "isSuitableForSme": true,
+  "isSuitableForVco": false,
+  "supplyChain": false,
+  "lastNotifiableUpdate": "2026-02-23T08:00:29Z",
+  "organisationName": "METROPOLITAN POLICE SERVICE",
+  "sector": null,
+  "procedureType": null,
+  "procedureTypeOther": null,
+  "procedureAcceleratedJustification": null,
+  "ojeuContractType": "Services",
+  "isFrameworkAgreement": false,
+  "isExtensionPossible": false,
+  "annexDOption": null,
+  "reasonContractLawful": null
+ },
+ "createdByUser": "david.wild@met.police.uk",
+ "createdDate": "2026-02-18T14:01:21Z",
+ "lastUpdatedbyUser": "david.wild@met.police.uk",
+ "lastUpdatedDate": "2026-02-23T08:00:29Z",
+ "awards": [
+  {
+   "id": "818027",
+   "noticeId": "3e79d6d5-d090-4c74-9ecb-141cd987c6d6",
+   "parentId": null,
+   "value": 489999,
+   "supplierName": "Palantir Technologies UK Ltd",
+   "supplierAddress": "Birchin Court 5th Floor, 19-25 Birchin Lane EC3V 9DU",
+   "contact": null,
+   "dunsNumber": "",
+   "supplierAwardedValue": 489999,
+   "referenceType": "COMPANIES_HOUSE",
+   "reference": "07042994",
+   "startDate": "2026-02-01T00:00:00Z",
+   "endDate": "2026-04-30T00:00:00+01:00",
+   "awardedDate": "2026-01-30T00:00:00Z",
+   "awardedProcedureType": "CallOffFromFrameworkAgreement",
+   "awardedProcedureTypeOther": "",
+   "awardedProcedureAcceleratedJustification": "",
+   "annexDOptionType": "",
+   "reasonContractLawful": "",
+   "additionalDetails": "",
+   "awardedToSME": false,
+   "awardedToVCSO": false,
+   "awardGuid": "8a635480-f023-44aa-ab81-5c5e310847fe"
+  }
+ ],
+ "isPublished": true,
+ "isPreAwarded": true,
+ "organisation": {
+  "name": "METROPOLITAN POLICE SERVICE"
+ },
+ "additionalDetails": [
+  {
+   "id": "3e79d6d5-d090-4c74-9ecb-141cd987c6d6",
+   "noticeId": "3e79d6d5-d090-4c74-9ecb-141cd987c6d6",
+   "description": "Additional Text",
+   "dataType": "AdditionalText",
+   "textData": "",
+   "mimeType": null,
+   "awardGuid": null
+  },
+  {
+   "id": "55262f3f-b054-4f4a-ac4e-c199556b0719",
+   "noticeId": "3e79d6d5-d090-4c74-9ecb-141cd987c6d6",
+   "description": "Call-Off from G-Cloud 14 Framework",
+   "dataType": "Attachment",
+   "filename": "G-14 Call Off Contract 010226 to 300426 MPS Palantir.pdf",
+   "mimeType": "application/pdf",
+   "awardGuid": null
+  }
+ ],
+ "withdrawnDate": "",
+ "withdrawnReason": null,
+ "withdrawnByUser": null,
+ "cpvCodes": [
+  {
+   "code": "30211300",
+   "description": "Computer platforms",
+   "parentCode": "30211000",
+   "hasChildren": false
+  }
+ ],
+ "publishedVersion": [
+  {
+   "changedByUser": "david.wild@met.police.uk",
+   "dateChanged": "2026-02-23T08:00:29Z",
+   "id": "934420",
+   "noticeStatus": "Awarded",
+   "noticeType": "Contract",
+   "publishedNoticeId": "3e79d6d5-d090-4c74-9ecb-141cd987c6d6",
+   "versionNumber": 1,
+   "visibleToPublic": true
+  }
+ ],
+ "numberOfViews": "956"
+}

@@ -1,0 +1,130 @@
+{
+ "id": "e0897f5d-673c-4391-80e8-894faf6e187b",
+ "notice": {
+  "id": "e0897f5d-673c-4391-80e8-894faf6e187b",
+  "parentId": null,
+  "parentIdentifier": "",
+  "linkReason": "",
+  "version": 1,
+  "contactDetails": {
+   "name": "Paul Candler",
+   "email": "p.candler@nhs.net",
+   "address1": "220 Waterloo Road",
+   "address2": "",
+   "town": "London",
+   "postcode": "SE1 8SD",
+   "country": "UK",
+   "phone": "",
+   "webAddress": ""
+  },
+  "identifier": "CF-1445800D0O000000rwimUAA",
+  "title": "Palantir Foundry Support",
+  "description": "G-Cloud call-off for support to set up Foundry platform",
+  "cpvDescription": "Industry specific software development services",
+  "publishedDate": "2023-03-27T12:32:33+01:00",
+  "approachMarketDate": "",
+  "deadlineDate": "2023-03-24T12:00:00Z",
+  "valueLow": 83500,
+  "valueHigh": 83500,
+  "postcode": "",
+  "region": "London",
+  "nationwide": false,
+  "location": {
+   "lat": 0,
+   "lon": 0
+  },
+  "start": "2023-04-01T00:00:00+01:00",
+  "end": "2023-05-13T00:00:00+01:00",
+  "type": "Contract",
+  "cpvCodes": [
+   "72212100"
+  ],
+  "spendProfile": null,
+  "status": "Awarded",
+  "isSuitableForSme": false,
+  "isSuitableForVco": false,
+  "supplyChain": false,
+  "lastNotifiableUpdate": "2023-03-27T12:32:33+01:00",
+  "organisationName": "London Ambulance Service NHS Trust",
+  "sector": "",
+  "procedureType": "CallOffFromFrameworkAgreement",
+  "procedureTypeOther": "",
+  "procedureAcceleratedJustification": "",
+  "ojeuContractType": "Services",
+  "isFrameworkAgreement": false,
+  "isExtensionPossible": true,
+  "annexDOption": null,
+  "reasonContractLawful": null
+ },
+ "createdByUser": "joe.beech@atamis.co.uk",
+ "createdDate": "2023-03-27T12:32:25+01:00",
+ "lastUpdatedbyUser": "joe.beech@atamis.co.uk",
+ "lastUpdatedDate": "2023-03-27T12:32:33+01:00",
+ "awards": [
+  {
+   "id": "559163",
+   "noticeId": "e0897f5d-673c-4391-80e8-894faf6e187b",
+   "parentId": null,
+   "value": 83500,
+   "supplierName": "PALANTIR TECHNOLOGIES UK LTD",
+   "supplierAddress": "NEW PENDEREL HOUSE | 4TH FLOOR | 283 TO 288 HIGH HOLBORN | LONDON WC1V 7HP",
+   "contact": null,
+   "dunsNumber": "216241882",
+   "supplierAwardedValue": null,
+   "referenceType": "NONE",
+   "reference": "",
+   "startDate": "2023-04-01T00:00:00+01:00",
+   "endDate": "2023-05-13T00:00:00+01:00",
+   "awardedDate": "2023-03-27T00:00:00+01:00",
+   "awardedProcedureType": "CallOffFromFrameworkAgreement",
+   "awardedProcedureTypeOther": "",
+   "awardedProcedureAcceleratedJustification": "",
+   "annexDOptionType": "",
+   "reasonContractLawful": "null",
+   "additionalDetails": "",
+   "awardedToSME": false,
+   "awardedToVCSO": null,
+   "awardGuid": "null"
+  }
+ ],
+ "isPublished": true,
+ "isPreAwarded": true,
+ "organisation": {
+  "name": "London Ambulance Service NHS Trust"
+ },
+ "additionalDetails": [
+  {
+   "id": "e0897f5d-673c-4391-80e8-894faf6e187b",
+   "noticeId": "e0897f5d-673c-4391-80e8-894faf6e187b",
+   "description": "Additional Text",
+   "dataType": "AdditionalText",
+   "textData": "",
+   "mimeType": null,
+   "awardGuid": null
+  }
+ ],
+ "withdrawnDate": "",
+ "withdrawnReason": "",
+ "withdrawnByUser": null,
+ "cpvCodes": [
+  {
+   "code": "72212100",
+   "description": "Industry specific software development services",
+   "parentCode": "72212000",
+   "hasChildren": false
+  }
+ ],
+ "publishedVersion": [
+  {
+   "changedByUser": "joe.beech@atamis.co.uk",
+   "dateChanged": "2023-03-27T12:32:33+01:00",
+   "id": "695812",
+   "noticeStatus": "Awarded",
+   "noticeType": "Contract",
+   "publishedNoticeId": "e0897f5d-673c-4391-80e8-894faf6e187b",
+   "versionNumber": 1,
+   "visibleToPublic": true
+  }
+ ],
+ "numberOfViews": "1003"
+}

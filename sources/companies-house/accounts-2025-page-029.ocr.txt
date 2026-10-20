@@ -1,0 +1,41 @@
+Docusign Envelope ID: OBOBA3CB-4BEB-8615-82F3-D21BD267B87E .
+, PALANTIR TECHNOLOGIES UK, LTD. ,
+NOTES TO THE FINANCIAL STATEMENTS
+FOR THE YEAR ENDED 31 DECEMBER 2025
+3 OPERATING EXPENSES
+; 2025 2024
+£ £
+Wages & staff related expenses 122,304,115 106,344,604
+Research & development expenses 28,861,071 18,773,988
+Share-based payments (Note 14) 48,790,477 61,851,343 ‘
+Office expenses 20,684,573 18,471,210
+Rental under operating leases 6,318,507 6,214,400
+Legal and professional fees 6,191,891 6,555,144
+Depreciation of tangible assets (Note 6) 2,770,657 2,799,681
+Other operational expenses 1,588,684 1,491,995
+Auditors’ remuneration - audit services 187,000 ; 175,000
+Foreign exchange differences 476,352 383,804
+238,173,327 223,061,169
+Included in audit fee above pertains to fees payable to company's auditor for audit services of other group companies
+amounting to £6,000 (2024: £6,000)
+4 STAFF COSTS AND DIRECTORS' REMUNERATION
+The average monthly number of employees was:
+2025 2024
+Number Number
+Customer support 135 133
+Sales and marketing 500 474
+General and administrative : 136 142
+| aT 89
+Customer Support and Sales and Marketing encompass roles involved in business development, customer deployments
+and related platform development, including Forward Deployed Engineers, Deployment Strategists and Software
+Engineers.
+Their aggregate remuneration comprised:
+2025 2024
+£ £
+Wages and salaries 96,441,915 90,929,500
+Social security costs , 18,420,420 14,065,724
+Pension costs 6,365,931 6,106,181
+Share-based payment expense (Note 3) 48,790,477 61,851,343
+27
+
+[Verification note, added after OCR: OCR garbled the employee total line. Checked against the page image at 300 dpi: total average monthly employees 771 (2025) and 749 (2024); 135+500+136=771, 133+474+142=749.]

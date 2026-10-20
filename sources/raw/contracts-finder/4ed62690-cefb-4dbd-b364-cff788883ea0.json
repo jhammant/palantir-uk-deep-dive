@@ -1,0 +1,139 @@
+{
+ "id": "4ed62690-cefb-4dbd-b364-cff788883ea0",
+ "notice": {
+  "id": "4ed62690-cefb-4dbd-b364-cff788883ea0",
+  "parentId": null,
+  "parentIdentifier": null,
+  "linkReason": null,
+  "version": 1,
+  "contactDetails": {
+   "name": "Andy Kimber",
+   "email": "defcomrclcc-navy14@mod.uk",
+   "address1": "Main Building,Horse Guards Avenue Whitehall",
+   "address2": "",
+   "town": "LONDON",
+   "postcode": "SW1A2HB",
+   "country": "England",
+   "phone": "02392 727626",
+   "webAddress": ""
+  },
+  "identifier": "FLEET/00709",
+  "title": "Software Licence PT-SOL-LEV2",
+  "description": "Procurement of Data Science Services Pilot for Decision Support to Naval Personnel Management.",
+  "cpvDescription": "Public security services",
+  "publishedDate": "2018-06-12T15:44:37+01:00",
+  "approachMarketDate": "",
+  "deadlineDate": "2018-05-11T00:00:00+01:00",
+  "valueLow": 1666000,
+  "valueHigh": 0,
+  "postcode": null,
+  "region": "South East",
+  "nationwide": false,
+  "location": {
+   "lat": 0,
+   "lon": 0
+  },
+  "start": "2018-05-14T00:00:00+01:00",
+  "end": "2020-05-13T00:00:00+01:00",
+  "type": "Contract",
+  "cpvCodes": [
+   "75241000"
+  ],
+  "spendProfile": null,
+  "status": "Awarded",
+  "isSuitableForSme": true,
+  "isSuitableForVco": false,
+  "supplyChain": false,
+  "lastNotifiableUpdate": "2018-06-12T15:44:37+01:00",
+  "organisationName": "MINISTRY OF DEFENCE",
+  "sector": null,
+  "procedureType": null,
+  "procedureTypeOther": null,
+  "procedureAcceleratedJustification": null,
+  "ojeuContractType": "Products",
+  "isFrameworkAgreement": false,
+  "isExtensionPossible": false,
+  "annexDOption": null,
+  "reasonContractLawful": null
+ },
+ "createdByUser": "defcomrclcc-navy14@mod.uk",
+ "createdDate": "2018-06-12T15:10:42+01:00",
+ "lastUpdatedbyUser": "defcomrclcc-navy14@mod.uk",
+ "lastUpdatedDate": "2018-06-12T15:44:37+01:00",
+ "awards": [
+  {
+   "id": "162136",
+   "noticeId": "4ed62690-cefb-4dbd-b364-cff788883ea0",
+   "parentId": null,
+   "value": 1666000,
+   "supplierName": "PALANTIR TECHNOLOGIES UK, LTD.",
+   "supplierAddress": "27 Soho Square Floor 3\nW1D 3QR\nGB",
+   "contact": null,
+   "dunsNumber": "216241882",
+   "supplierAwardedValue": null,
+   "referenceType": "COMPANIES_HOUSE",
+   "reference": "07042994",
+   "startDate": "2018-05-14T00:00:00+01:00",
+   "endDate": "2020-05-13T00:00:00+01:00",
+   "awardedDate": "2018-05-11T00:00:00+01:00",
+   "awardedProcedureType": "CallOffFromFrameworkAgreement",
+   "awardedProcedureTypeOther": "",
+   "awardedProcedureAcceleratedJustification": "",
+   "annexDOptionType": "",
+   "reasonContractLawful": "",
+   "additionalDetails": "",
+   "awardedToSME": false,
+   "awardedToVCSO": false,
+   "awardGuid": "59d8e22f-070a-4589-9c65-6249520de419"
+  }
+ ],
+ "isPublished": true,
+ "isPreAwarded": true,
+ "organisation": {
+  "name": "MINISTRY OF DEFENCE"
+ },
+ "additionalDetails": [
+  {
+   "id": "4ed62690-cefb-4dbd-b364-cff788883ea0",
+   "noticeId": "4ed62690-cefb-4dbd-b364-cff788883ea0",
+   "description": "Additional Text",
+   "dataType": "AdditionalText",
+   "textData": "",
+   "mimeType": null,
+   "awardGuid": null
+  },
+  {
+   "id": "5adcd5c2-44dd-4cc0-b49c-927ec7157955",
+   "noticeId": "4ed62690-cefb-4dbd-b364-cff788883ea0",
+   "description": "G Cloud Call Off",
+   "dataType": "Attachment",
+   "filename": "20180503-g-cloud-9-call-off-contract-Final Redac.pdf",
+   "mimeType": "application/pdf",
+   "awardGuid": null
+  }
+ ],
+ "withdrawnDate": "",
+ "withdrawnReason": null,
+ "withdrawnByUser": null,
+ "cpvCodes": [
+  {
+   "code": "75241000",
+   "description": "Public security services",
+   "parentCode": "75240000",
+   "hasChildren": true
+  }
+ ],
+ "publishedVersion": [
+  {
+   "changedByUser": "defcomrclcc-navy14@mod.uk",
+   "dateChanged": "2018-06-12T15:44:37+01:00",
+   "id": "237762",
+   "noticeStatus": "Awarded",
+   "noticeType": "Contract",
+   "publishedNoticeId": "4ed62690-cefb-4dbd-b364-cff788883ea0",
+   "versionNumber": 1,
+   "visibleToPublic": true
+  }
+ ],
+ "numberOfViews": "1789"
+}

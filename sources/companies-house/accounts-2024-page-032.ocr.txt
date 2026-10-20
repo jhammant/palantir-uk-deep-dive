@@ -1,0 +1,38 @@
+Docusign Envelope ID: A46AE5D2-3384-4D72-8974-2C0953C 165486
+PALANTIR TECHNOLOGIES UK, LTD.
+NOTES TO THE FINANCIAL STATEMENTS
+FOR THE YEAR ENDED 31 DECEMBER 2024
+5 TAX ON PROFIT /(LOSS) ON ORDINARY ACTIVITIES
+a) The tax (charge) / credit is based on the profit for the year and comprises:
+2024 2023
+. £ £
+Current tax:
+UK corporation tax at 25.00% (2023: 23.52%) (1,352,787) (663,932)
+Adjustment for prior years (685,558) (138,473)
+Foreign tax suffered (17,750) (37,890)
+Foreign tax relief — (61,534)
+UK Multinational Top-up Tax : (23,147) —
+(2,079,242) (901,829)
+Deferred tax charge:
+Changes in tax rates —_ : _—
+Origination and reversal of temporary differences — —_—
+Adjustment in respect of previous periods —_— —
+Tax (charge) / credit on profit (2,079,242) (901,829)
+Lb) The tax assessed for the year is higher than the standard rate of coi puration tax in the 25% (2023; 23.52%). The
+differences are explained below:
+2024 2023
+£ £
+Profit before taxation 25,314,204 19,117,779
+Tax at standard rate of 25.00% (FY23: 23.52%) " (6,328,551) (4,496,606)
+Effects of:
+Expenses not deductible for tax purposes (186,702) (402,278)
+Deferred tax not recognised (87,743,106) (18,090,317)
+Forex on Fixed assets . 2,686 (6,911)
+Income not taxable 722,088 193,177
+Adjustments in respect of previous periods (685,558) (138,473)
+Share option timing differences 92,157,651 22,139,004
+Withholding tax (61,534)
+Effects of overseas tax rates (17,750) (37,891)
+Changes in tax rates —
+Total tax expense for the year (Note 5(a)) (2,079,242) (901,829)
+/ 30

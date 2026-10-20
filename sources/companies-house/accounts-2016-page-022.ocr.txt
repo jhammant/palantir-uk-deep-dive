@@ -1,0 +1,34 @@
+PALANTIR TECHNOLOGIES UK, LTD.
+NOTES TO THE FINANCIAL STATEMENTS
+FOR THE YEAR ENDED 31 DECEMBER 2016
+S TAX ON PROFIT ON ORDINARY ACTIVITIES
+a) The tax credit / (charge) ts based on the profit for the current and prior year and comprises:
+2016 2015
+£ £
+Current tax:
+UK corporation tax at 20.00% (2015: 20.25%) (1,095,610) (2,341,305)
+Adjustment for prior years (2,476) (27,754)
+Foreign tax (suffered) (6,081) (25,257)
+Foreign tax (relief) 93,965 13,136
+(1,010,202) (2,381,180)
+Deferred tax charge:
+Changes in tax rates (625,203) (290,368)
+Origination and reversal of temporary differences 3,274,624 1,833,785
+Adjustment in respect of previous periods (139). (113,175)
+2,649,282 1,430,242
+Tax credit / (charge) on loss / profit on ordinary activities 1,639,080 (950,938)
+b) The tax assessed for the year is higher than the standard rate of corporation tax in the UK of 20.00% (2015: 20.25%). The
+differences are explained below:
+2016 2015
+£ £
+(Loss) / Profit from continuing operations before taxation (5,873,466) 2,189,957
+Tax at standard rate of 20.00% (2015: 20.25%) 1,174,693 (443,391)
+Effects of:
+Expenses not deductible for tax purposes (137,235) (85,920)
+Lower / (Higher) tax rates on overseas earnings 87,884 (12,121)
+Income not taxable 3,034 —
+Adjustments in respect of previous periods (2,614) (140,929)
+Share option timing differences 1,138,521 21,791
+Changes in tax rates (625,203) (290,368)
+Total tax expense for the year (Note 5(a)) 1,639,080 (950,938)
+20

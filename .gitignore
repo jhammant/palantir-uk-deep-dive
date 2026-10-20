@@ -1,0 +1,10 @@
+drafts/
+.DS_Store
+__pycache__/
+# Kept locally, not published:
+# - copies of press pages and captions used to verify quotes (third-party copyright)
+sources/quotes-evidence/
+# - full accounts PDFs (linked to Companies House instead; cited pages are kept as OCR text)
+sources/companies-house/*.pdf
+# - bulk spending files (large; payments.csv cites each file's official URL)
+sources/raw/payments/

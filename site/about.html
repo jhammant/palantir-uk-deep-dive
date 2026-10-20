@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Method · Palantir UK Deep Dive</title>
+<meta name="description" content="How this dataset is built, what it leaves out, and how to correct it.">
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/bundle.js" defer></script>
+<script src="assets/app.js" defer></script>
+</head>
+<body data-page="about">
+<main><div class="wrap">
+<div class="eyebrow">How this works</div>
+<h1>Method, gaps and corrections</h1>
+<div class="prose">
+<h2>The rule</h2>
+<p>If it isn't in a public record we can link to, it isn't in the data. Opinion belongs in commentary, never in the dataset.</p>
+<h2>Sources</h2>
+<ul>
+<li><b>Contracts:</b> <a href="https://www.contractsfinder.service.gov.uk">Contracts Finder</a> (keyword search for awarded notices naming Palantir, then each notice read in full) and <a href="https://www.find-tender.service.gov.uk">Find a Tender</a> (each procurement read as an OCDS record). Only awards where Palantir is the sole named supplier are counted.</li>
+<li><b>Tax:</b> Palantir Technologies UK, Ltd.'s full accounts at <a href="https://find-and-update.company-information.service.gov.uk/company/07042994/filing-history">Companies House</a>. The filings are scanned images, so figures are read by OCR and the text of every page used is kept in the repository.</li>
+<li><b>Payments:</b> departmental, NHS, police and council spending files, and Freedom of Information answers.</li>
+<li><b>Influence:</b> GOV.UK transparency releases, ACOBA advice, the lobbying register, Hansard and the registers of interests.</li>
+<li><b>Quotes:</b> primary sources where possible (essays, recordings, transcripts, filings); secondary reports are marked as such.</li>
+</ul>
+<h2>Known gaps</h2>
+<ul>
+<li>Values are what each buyer published. Some are ex-VAT and some include VAT; an award value is a ceiling or estimate, not a payment.</li>
+<li>Find a Tender has no keyword search API, so procurements that appear only there are added by hand.</li>
+<li>Police pilots bought through other routes may not appear in notices at all. Payments data is where they show up.</li>
+<li>Press reports put the UK total close to £1bn. The difference is partly notices outside these two services and partly how extensions are counted.</li>
+</ul>
+<h2>Corrections</h2>
+<p>If something here is wrong, open an issue on <a href="https://github.com/jhammant/palantir-uk-deep-dive/issues">GitHub</a> with the source. It will be fixed and the fix noted. Palantir and every public body named are welcome to send corrections the same way.</p>
+<h2>Rebuild it yourself</h2>
+<p><code>python3 scripts/fetch_contracts.py</code> refetches the contracts from the government APIs. <code>python3 scripts/build_site.py</code> bundles <code>data/</code> into the site. Open <code>site/index.html</code> in a browser; no server needed.</p>
+<h2>Disclosure</h2>
+<p>Compiled by Jon Hammant, CEO of Orbital, a UK data integration company that works in the same market as Palantir. That is why everything here is public record: so nobody has to take anyone's word for it.</p>
+<h2>Licence</h2>
+<p>Public sector information under the Open Government Licence v3.0. The compilation is CC BY 4.0 and the code is MIT.</p>
+</div>
+</div></main>
+</body>
+</html>

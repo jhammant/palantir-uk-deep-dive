@@ -1,0 +1,139 @@
+{
+ "id": "6d586696-365e-43f0-af63-1e3c0af32e41",
+ "notice": {
+  "id": "6d586696-365e-43f0-af63-1e3c0af32e41",
+  "parentId": null,
+  "parentIdentifier": "",
+  "linkReason": "",
+  "version": 1,
+  "contactDetails": {
+   "name": "Procurement Operations",
+   "email": "Procurement.Operations@dhsc.gov.uk",
+   "address1": "39 Victoria Street",
+   "address2": "",
+   "town": "London",
+   "postcode": "SW1H 0EU",
+   "country": "GB",
+   "phone": "",
+   "webAddress": ""
+  },
+  "identifier": "CF-0028000D0O000000rwimUAA1",
+  "title": "Provision of Palantir Foundry Services",
+  "description": "Provision of data management platform services",
+  "cpvDescription": "Data analysis services",
+  "publishedDate": "2020-11-26T16:19:34Z",
+  "approachMarketDate": "",
+  "deadlineDate": "2020-06-12T00:00:00+01:00",
+  "valueLow": 908333.33,
+  "valueHigh": 908333.33,
+  "postcode": "SW1H 0EU",
+  "region": "North East,North West,Yorkshire and The Humber,East Midlands,West Midlands,East of England,London,South East,South West,Scotland,Wales,Northern Ireland",
+  "nationwide": false,
+  "location": {
+   "lat": 51.498,
+   "lon": -0.133
+  },
+  "start": "2020-06-12T00:00:00+01:00",
+  "end": "2020-09-30T00:00:00+01:00",
+  "type": "Contract",
+  "cpvCodes": [
+   "72316000"
+  ],
+  "spendProfile": null,
+  "status": "Awarded",
+  "isSuitableForSme": false,
+  "isSuitableForVco": false,
+  "supplyChain": false,
+  "lastNotifiableUpdate": "2020-11-26T16:19:34Z",
+  "organisationName": "Department of Health and Social Care",
+  "sector": "",
+  "procedureType": "CallOffFromFrameworkAgreement",
+  "procedureTypeOther": "",
+  "procedureAcceleratedJustification": "",
+  "ojeuContractType": "Services",
+  "isFrameworkAgreement": false,
+  "isExtensionPossible": false,
+  "annexDOption": null,
+  "reasonContractLawful": null
+ },
+ "createdByUser": "joe.beech@atamis.co.uk",
+ "createdDate": "2020-11-26T16:19:32Z",
+ "lastUpdatedbyUser": "joe.beech@atamis.co.uk",
+ "lastUpdatedDate": "2020-11-26T16:19:34Z",
+ "awards": [
+  {
+   "id": "357429",
+   "noticeId": "6d586696-365e-43f0-af63-1e3c0af32e41",
+   "parentId": null,
+   "value": 908333.33,
+   "supplierName": "Palantir Technologies UK, Ltd.",
+   "supplierAddress": "New Penderel House, 4th Floor, 282-288 High Holborn, London, WC1V 7HP",
+   "contact": null,
+   "dunsNumber": "null",
+   "supplierAwardedValue": null,
+   "referenceType": "NONE",
+   "reference": "",
+   "startDate": "2020-06-12T00:00:00+01:00",
+   "endDate": "2020-09-30T00:00:00+01:00",
+   "awardedDate": "2020-06-12T00:00:00+01:00",
+   "awardedProcedureType": "CallOffFromFrameworkAgreement",
+   "awardedProcedureTypeOther": "",
+   "awardedProcedureAcceleratedJustification": "",
+   "annexDOptionType": "",
+   "reasonContractLawful": "null",
+   "additionalDetails": "",
+   "awardedToSME": false,
+   "awardedToVCSO": false,
+   "awardGuid": "null"
+  }
+ ],
+ "isPublished": true,
+ "isPreAwarded": true,
+ "organisation": {
+  "name": "Department of Health and Social Care"
+ },
+ "additionalDetails": [
+  {
+   "id": "6d586696-365e-43f0-af63-1e3c0af32e41",
+   "noticeId": "6d586696-365e-43f0-af63-1e3c0af32e41",
+   "description": "Additional Text",
+   "dataType": "AdditionalText",
+   "textData": "",
+   "mimeType": null,
+   "awardGuid": null
+  },
+  {
+   "id": "b69e1be7-e532-4855-b209-dbdf079f0b9e",
+   "noticeId": "6d586696-365e-43f0-af63-1e3c0af32e41",
+   "description": "Updated PT Signed G-Cloud-11 Call-Off-Contract 2020.06.11 NHS14_Redacted",
+   "dataType": "Link",
+   "link": "https://atamis-1928.cloudforce.com/sfc/p/0O000000rwim/a/4J000000kEO9/cU0s9UwrgZVGjiSPEk5RAsmcsteWlMNkBO.Mse47jq8",
+   "mimeType": null,
+   "awardGuid": null
+  }
+ ],
+ "withdrawnDate": "",
+ "withdrawnReason": "",
+ "withdrawnByUser": null,
+ "cpvCodes": [
+  {
+   "code": "72316000",
+   "description": "Data analysis services",
+   "parentCode": "72310000",
+   "hasChildren": false
+  }
+ ],
+ "publishedVersion": [
+  {
+   "changedByUser": "joe.beech@atamis.co.uk",
+   "dateChanged": "2020-11-26T16:19:34Z",
+   "id": "452888",
+   "noticeStatus": "Awarded",
+   "noticeType": "Contract",
+   "publishedNoticeId": "6d586696-365e-43f0-af63-1e3c0af32e41",
+   "versionNumber": 1,
+   "visibleToPublic": true
+  }
+ ],
+ "numberOfViews": "2303"
+}

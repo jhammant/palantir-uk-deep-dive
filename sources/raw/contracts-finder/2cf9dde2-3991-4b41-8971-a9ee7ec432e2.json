@@ -1,0 +1,139 @@
+{
+ "id": "2cf9dde2-3991-4b41-8971-a9ee7ec432e2",
+ "notice": {
+  "id": "2cf9dde2-3991-4b41-8971-a9ee7ec432e2",
+  "parentId": null,
+  "parentIdentifier": "",
+  "linkReason": "",
+  "version": 1,
+  "contactDetails": {
+   "name": "Leigh Parker",
+   "email": "leigh.parker1@nhs.net",
+   "address1": "Quarry Hill",
+   "address2": "",
+   "town": "Leeds",
+   "postcode": "LS2 7UE",
+   "country": "GB",
+   "phone": "",
+   "webAddress": ""
+  },
+  "identifier": "CF-1234300D0O000000rwimUAA",
+  "title": "Contract Extension of the Data Platform Services",
+  "description": "This contract is to extend the Data Platform Service for the provision of the Foundry platform until 11th June 2023 to support the procurement of the new NHS Federated Data Platform.\r\n\r\nThe NHS Federated Data platform procurement project is a large and complex project which will deliver a replacement for the current service. \r\n\r\nThere are a number of reasons why a new procurement process has not been possible until now. NHS England is committed to procuring the future provision and requires adequate time to do so. The new NHS Federated Data Platform is a large and complex project which we expect will deliver a transformed service when compared to the current service. A change of contractor at this stage would cause significant inconvenience and have substantial duplication of cost implications as in order to compliantly replace the contractor now would require two concurrent procurement processes to be run for the same service. It would therefore be both impractical and uneconomic. The total value of this modification does not exceed 50% of the original contract value.\r\n\r\nThis was procured through G-Cloud.",
+  "cpvDescription": "Data management services",
+  "publishedDate": "2023-01-03T17:41:22Z",
+  "approachMarketDate": "",
+  "deadlineDate": "2022-08-24T12:00:00+01:00",
+  "valueLow": 11500000,
+  "valueHigh": 11500000,
+  "postcode": "LS2 7UE",
+  "region": "North East,North West,Yorkshire and The Humber,East Midlands,West Midlands,East of England,London,South East,South West",
+  "nationwide": false,
+  "location": {
+   "lat": 53.80295,
+   "lon": -1.547347
+  },
+  "start": "2022-12-12T00:00:00Z",
+  "end": "2023-06-11T00:00:00+01:00",
+  "type": "Contract",
+  "cpvCodes": [
+   "72322000"
+  ],
+  "spendProfile": null,
+  "status": "Awarded",
+  "isSuitableForSme": true,
+  "isSuitableForVco": false,
+  "supplyChain": false,
+  "lastNotifiableUpdate": "2023-01-03T17:41:22Z",
+  "organisationName": "NHS England",
+  "sector": "",
+  "procedureType": "Other",
+  "procedureTypeOther": "",
+  "procedureAcceleratedJustification": "",
+  "ojeuContractType": "Services",
+  "isFrameworkAgreement": true,
+  "isExtensionPossible": true,
+  "annexDOption": null,
+  "reasonContractLawful": null
+ },
+ "createdByUser": "joe.beech@atamis.co.uk",
+ "createdDate": "2023-01-03T17:41:08Z",
+ "lastUpdatedbyUser": "joe.beech@atamis.co.uk",
+ "lastUpdatedDate": "2023-01-03T17:41:22Z",
+ "awards": [
+  {
+   "id": "537360",
+   "noticeId": "2cf9dde2-3991-4b41-8971-a9ee7ec432e2",
+   "parentId": null,
+   "value": 11500000,
+   "supplierName": "Palantir Technologies UK Ltd",
+   "supplierAddress": "20 Soho Square, London W1D 3QW",
+   "contact": null,
+   "dunsNumber": "216241882",
+   "supplierAwardedValue": null,
+   "referenceType": "NONE",
+   "reference": "",
+   "startDate": "2022-12-12T00:00:00Z",
+   "endDate": "2023-06-11T00:00:00+01:00",
+   "awardedDate": "2022-08-25T00:00:00+01:00",
+   "awardedProcedureType": "Other",
+   "awardedProcedureTypeOther": "",
+   "awardedProcedureAcceleratedJustification": "",
+   "annexDOptionType": "",
+   "reasonContractLawful": "null",
+   "additionalDetails": "",
+   "awardedToSME": null,
+   "awardedToVCSO": null,
+   "awardGuid": "null"
+  }
+ ],
+ "isPublished": true,
+ "isPreAwarded": true,
+ "organisation": {
+  "name": "NHS England"
+ },
+ "additionalDetails": [
+  {
+   "id": "2cf9dde2-3991-4b41-8971-a9ee7ec432e2",
+   "noticeId": "2cf9dde2-3991-4b41-8971-a9ee7ec432e2",
+   "description": "Additional Text",
+   "dataType": "AdditionalText",
+   "textData": "",
+   "mimeType": null,
+   "awardGuid": null
+  },
+  {
+   "id": "bf7eb680-ceaf-4e63-8b0b-ba31de89e469",
+   "noticeId": "2cf9dde2-3991-4b41-8971-a9ee7ec432e2",
+   "description": "Extension to ASO1_Redacted",
+   "dataType": "Attachment",
+   "filename": "Extension to ASO1_Redacted.pdf",
+   "mimeType": "application/pdf",
+   "awardGuid": null
+  }
+ ],
+ "withdrawnDate": "",
+ "withdrawnReason": "",
+ "withdrawnByUser": null,
+ "cpvCodes": [
+  {
+   "code": "72322000",
+   "description": "Data management services",
+   "parentCode": "72320000",
+   "hasChildren": false
+  }
+ ],
+ "publishedVersion": [
+  {
+   "changedByUser": "joe.beech@atamis.co.uk",
+   "dateChanged": "2023-01-03T17:41:22Z",
+   "id": "672868",
+   "noticeStatus": "Awarded",
+   "noticeType": "Contract",
+   "publishedNoticeId": "2cf9dde2-3991-4b41-8971-a9ee7ec432e2",
+   "versionNumber": 1,
+   "visibleToPublic": true
+  }
+ ],
+ "numberOfViews": "4761"
+}

@@ -1,0 +1,55 @@
+Docusign Envelope ID: OBOBA3CB-4BEB-8615-82F3-D21BD267887E
+
+PALANTIR TECHNOLOGIES UK, LTD.
+
+NOTES TO THE FINANCIAL STATEMENTS
+
+FOR THE YEAR ENDED 31 DECEMBER 2025
+
+b) The standard rate of corporation tax in the UK is 25% (2024: 25%). The differences between the total tax charge and the
+accounting profit multiplied by the standard rate are evaluated below:
+
+2025 2024
+£ £
+Profit before taxation 25,133,656 25,314,204
+Tax at standard rate of 25.00% (2024: 25.00%) (6,283,414) (6,328,551)
+Effects of:
+Expenses not deductible for tax purposes (127,639) (186,702)
+Deferred tax not recognised (140,931,917) (87,743,106)
+Forex on Fixed assets (5,099) 2,686
+Income not taxable 138,245 722,088
+Adjustments in respect of previous periods (130,528) (685,558)
+Share option timing differences 145,814,123 92,157,651
+Withholding tax 341,180) =
+Effects of overseas tax rates (33,204) (17,750)
+Changes in tax rates = _
+Total tax expense for the year (Note 5(a)) (1,900,613) (2,079,242)
+
+c) Deferred tax asset
+
+A net deferred tax asset is recognised only if it can be regarded as more likely than not that there will be suitable taxable
+profits from which the future reversal of the underlying timing differences can be deducted. The Company is currently not
+recognising a deferred tax asset as it is more likely than not that a future benefit on such deferred tax assets will not be
+realised.
+
+d) Factors which may affect future tax charges
+
+The main rate of corporation tax is 25% for companies with profits over £250,000 for the financial year beginning 1 April
+2025 (previously 25% in the financial year beginning 1 April 2024). A 19% small profits rate applies to those with
+augmented profits of £50,000 or less. Companies with profits between £50,000 and £250,000 pay the main rate, but this is
+reduced by a marginal rate.
+
+e) Pillar Two rules
+
+The Group is subject to Pillar Two income taxes arising from the OECD’s global anti-base erosion (GIoBE) rules. The
+UK enacted legislation through the Finance (No. 2) Act 2023 to implement these rules, including a Multinational Top-
+up Tax (MTT) and a Domestic Top-up Tax (DTT) for accounting periods beginning on or after 31 December 2023,
+together with an Undertaxed Profits Rule effective for accounting periods beginning on or after 31 December 2024.
+These rules establish a minimum effective tax rate of 15% for large multinational enterprise groups and large-scale
+domestic groups with consolidated annual revenues exceeding €750 million in at least two of the preceding four
+accounting periods.
+
+The Group applies the exception under the amendments to FRS 102 Section 29, issued in July 2023, from recognising
+and disclosing information about deferred tax assets and liabilities arising from Pillar Two income taxes. The Group has
+
+29

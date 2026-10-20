@@ -1,0 +1,130 @@
+{
+ "id": "2a6bbfed-b207-45c7-9f51-3d2bcce5ad9a",
+ "notice": {
+  "id": "2a6bbfed-b207-45c7-9f51-3d2bcce5ad9a",
+  "parentId": null,
+  "parentIdentifier": null,
+  "linkReason": null,
+  "version": 1,
+  "contactDetails": {
+   "name": "James Nugent",
+   "email": "james.nugent104@mod.gov.uk",
+   "address1": "Holderness House,51-61 Clifton Street",
+   "address2": "",
+   "town": "LONDON",
+   "postcode": "EC2A4DW",
+   "country": "England",
+   "phone": "01543 434 723",
+   "webAddress": ""
+  },
+  "identifier": "704344451",
+  "title": "Project Marconi",
+  "description": "Call-Off Contract description:\tMP&amp;T Operations Cell lacked a unified, accurate and reliable IT system, to provide timely and accurate training progress and deployment records&quot;. The solution is to take the form of a Proof-of-Concept application, building on the previously successful two-week sprint trial, conducted with Palantir through Pj KRAKEN to deliver the outcomes below.\r\n\r\nThe overall outcome of the proof of concept is to support the user through the delivery of a decision-making support application. This will include the following capabilities demonstrated operationally via a single, integrated platform:\r\n\r\n\u2022\tA user centric solution which enables the creation of an integrated data capability that serves as a single source of truth.\r\n\u2022\tA solution comprising of a comprehensive collection of applications, processes and tools that allow users to conduct the collection, analysis, investigation, and  reporting/visualisation/ exploitation of data workflows at scale and produce actionable intelligence from their full range. Specifically front-end dashboards to be rolled out for use by MOD personnel in a self-service fashion.\r\n\u2022\tA solution that allows the user to view the total DMS medical workforce, and how this breaks down under the command of DMS Gp and the sS including workforce economics, personal data fields such as total numbers, rank, relevant health data (eg JMES, FHP details), unit employed, establishment lines, career employment group (CEG), JPA competencies. \r\n\u2022\tA solution that allows the user to understand the Force Generation (FGen) status of personnel against required single service and Joint standards for clinical, military and Force Health Protection (FHP) competencies/requirements.\r\n\u2022\tA solution that allows use of historic and predicted DMS workforce demand to inform workforce planning and placement negotiations.\r\n\u2022\tA solution that facilitates the creation, management, automisation and assurance of Force Establishment Tables (FET) and medical capability staffing. The &quot;tables&quot; must be able to:",
+  "cpvDescription": "Industry specific software package",
+  "publishedDate": "2022-08-02T16:26:06+01:00",
+  "approachMarketDate": "",
+  "deadlineDate": "2022-05-31T12:00:00+01:00",
+  "valueLow": 250000,
+  "valueHigh": 0,
+  "postcode": null,
+  "region": "North East,North West,Yorkshire and The Humber,East Midlands,West Midlands,East of England,London,South East,South West,Scotland,Wales,Northern Ireland",
+  "nationwide": false,
+  "location": {
+   "lat": 0,
+   "lon": 0
+  },
+  "start": "2022-06-01T00:00:00+01:00",
+  "end": "2022-11-01T00:00:00Z",
+  "type": "Contract",
+  "cpvCodes": [
+   "48100000"
+  ],
+  "spendProfile": null,
+  "status": "Awarded",
+  "isSuitableForSme": false,
+  "isSuitableForVco": false,
+  "supplyChain": false,
+  "lastNotifiableUpdate": "2022-08-02T16:26:06+01:00",
+  "organisationName": "MINISTRY OF DEFENCE",
+  "sector": null,
+  "procedureType": null,
+  "procedureTypeOther": null,
+  "procedureAcceleratedJustification": null,
+  "ojeuContractType": "Services",
+  "isFrameworkAgreement": false,
+  "isExtensionPossible": false,
+  "annexDOption": null,
+  "reasonContractLawful": null
+ },
+ "createdByUser": "james.nugent104@mod.gov.uk",
+ "createdDate": "2022-08-02T16:23:42+01:00",
+ "lastUpdatedbyUser": "james.nugent104@mod.gov.uk",
+ "lastUpdatedDate": "2022-08-02T16:26:06+01:00",
+ "awards": [
+  {
+   "id": "501718",
+   "noticeId": "2a6bbfed-b207-45c7-9f51-3d2bcce5ad9a",
+   "parentId": null,
+   "value": 250000,
+   "supplierName": "PALANTIR UK LIMITED",
+   "supplierAddress": "33 CANNON STREET\nLONDON\nEC4M 5SB\nGB",
+   "contact": null,
+   "dunsNumber": "733383850",
+   "supplierAwardedValue": null,
+   "referenceType": "COMPANIES_HOUSE",
+   "reference": "04612415",
+   "startDate": "2022-06-01T00:00:00+01:00",
+   "endDate": "2022-11-01T00:00:00Z",
+   "awardedDate": "2022-05-31T00:00:00+01:00",
+   "awardedProcedureType": "CallOffFromFrameworkAgreement",
+   "awardedProcedureTypeOther": "",
+   "awardedProcedureAcceleratedJustification": "",
+   "annexDOptionType": "",
+   "reasonContractLawful": "",
+   "additionalDetails": "",
+   "awardedToSME": false,
+   "awardedToVCSO": false,
+   "awardGuid": "53883e4b-ee4d-42e9-a4e0-9431293e7106"
+  }
+ ],
+ "isPublished": true,
+ "isPreAwarded": true,
+ "organisation": {
+  "name": "MINISTRY OF DEFENCE"
+ },
+ "additionalDetails": [
+  {
+   "id": "2a6bbfed-b207-45c7-9f51-3d2bcce5ad9a",
+   "noticeId": "2a6bbfed-b207-45c7-9f51-3d2bcce5ad9a",
+   "description": "Additional Text",
+   "dataType": "AdditionalText",
+   "textData": "",
+   "mimeType": null,
+   "awardGuid": null
+  }
+ ],
+ "withdrawnDate": "",
+ "withdrawnReason": null,
+ "withdrawnByUser": null,
+ "cpvCodes": [
+  {
+   "code": "48100000",
+   "description": "Industry specific software package",
+   "parentCode": "48000000",
+   "hasChildren": true
+  }
+ ],
+ "publishedVersion": [
+  {
+   "changedByUser": "james.nugent104@mod.gov.uk",
+   "dateChanged": "2022-08-02T16:26:06+01:00",
+   "id": "632977",
+   "noticeStatus": "Awarded",
+   "noticeType": "Contract",
+   "publishedNoticeId": "2a6bbfed-b207-45c7-9f51-3d2bcce5ad9a",
+   "versionNumber": 1,
+   "visibleToPublic": true
+  }
+ ],
+ "numberOfViews": "938"
+}

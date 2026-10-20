@@ -1,0 +1,139 @@
+{
+ "id": "a032c7f6-2840-4155-8c0a-48accdfb4210",
+ "notice": {
+  "id": "a032c7f6-2840-4155-8c0a-48accdfb4210",
+  "parentId": null,
+  "parentIdentifier": null,
+  "linkReason": null,
+  "version": 1,
+  "contactDetails": {
+   "name": "Lauren Terry",
+   "email": "Lauren.Terry103@mod.gov.uk",
+   "address1": "4 Deck",
+   "address2": "NCHQ, Whale Island",
+   "town": "Portsmouth",
+   "postcode": "PO2 8BY",
+   "country": "England",
+   "phone": "",
+   "webAddress": ""
+  },
+  "identifier": "700550369",
+  "title": "Provision of Data Integration Services",
+  "description": "FOR TRANSPARENCY PURPOSES ONLY - Contract awarded via G Cloud 12 Framework",
+  "cpvDescription": "IT software development services",
+  "publishedDate": "2021-12-01T16:21:19Z",
+  "approachMarketDate": "",
+  "deadlineDate": "2020-04-22T23:59:00+01:00",
+  "valueLow": 5973750,
+  "valueHigh": 0,
+  "postcode": null,
+  "region": "South East",
+  "nationwide": false,
+  "location": {
+   "lat": 0,
+   "lon": 0
+  },
+  "start": "2020-04-23T00:00:00+01:00",
+  "end": "2021-10-22T00:00:00+01:00",
+  "type": "Contract",
+  "cpvCodes": [
+   "72212517"
+  ],
+  "spendProfile": null,
+  "status": "Awarded",
+  "isSuitableForSme": false,
+  "isSuitableForVco": false,
+  "supplyChain": false,
+  "lastNotifiableUpdate": "2021-12-01T16:21:19Z",
+  "organisationName": "MINISTRY OF DEFENCE",
+  "sector": null,
+  "procedureType": null,
+  "procedureTypeOther": null,
+  "procedureAcceleratedJustification": null,
+  "ojeuContractType": "Services",
+  "isFrameworkAgreement": false,
+  "isExtensionPossible": false,
+  "annexDOption": null,
+  "reasonContractLawful": null
+ },
+ "createdByUser": "Lauren.Terry103@mod.gov.uk",
+ "createdDate": "2021-12-01T16:13:30Z",
+ "lastUpdatedbyUser": "Lauren.Terry103@mod.gov.uk",
+ "lastUpdatedDate": "2021-12-01T16:21:19Z",
+ "awards": [
+  {
+   "id": "438412",
+   "noticeId": "a032c7f6-2840-4155-8c0a-48accdfb4210",
+   "parentId": null,
+   "value": 5973750,
+   "supplierName": "PALANTIR TECHNOLOGIES UK, LTD.",
+   "supplierAddress": "New Penderel House, 4th Floor,High Holborn\nLONDON\nWC1V 7HP\nGB",
+   "contact": null,
+   "dunsNumber": "216241882",
+   "supplierAwardedValue": 5973750,
+   "referenceType": "COMPANIES_HOUSE",
+   "reference": "07042994",
+   "startDate": "2020-04-23T00:00:00+01:00",
+   "endDate": "2021-10-22T00:00:00+01:00",
+   "awardedDate": "2020-04-23T00:00:00+01:00",
+   "awardedProcedureType": "CallOffFromFrameworkAgreement",
+   "awardedProcedureTypeOther": "",
+   "awardedProcedureAcceleratedJustification": "",
+   "annexDOptionType": "",
+   "reasonContractLawful": "",
+   "additionalDetails": "",
+   "awardedToSME": false,
+   "awardedToVCSO": false,
+   "awardGuid": "a26a5073-4955-46c0-b08b-6d63a979c1d3"
+  }
+ ],
+ "isPublished": true,
+ "isPreAwarded": true,
+ "organisation": {
+  "name": "MINISTRY OF DEFENCE"
+ },
+ "additionalDetails": [
+  {
+   "id": "a032c7f6-2840-4155-8c0a-48accdfb4210",
+   "noticeId": "a032c7f6-2840-4155-8c0a-48accdfb4210",
+   "description": "Additional Text",
+   "dataType": "AdditionalText",
+   "textData": "",
+   "mimeType": null,
+   "awardGuid": null
+  },
+  {
+   "id": "2943b188-0909-4252-ad43-3c1f658bf316",
+   "noticeId": "a032c7f6-2840-4155-8c0a-48accdfb4210",
+   "description": "",
+   "dataType": "Attachment",
+   "filename": "700550369-Redacted.pdf",
+   "mimeType": "application/pdf",
+   "awardGuid": null
+  }
+ ],
+ "withdrawnDate": "",
+ "withdrawnReason": null,
+ "withdrawnByUser": null,
+ "cpvCodes": [
+  {
+   "code": "72212517",
+   "description": "IT software development services",
+   "parentCode": "72212000",
+   "hasChildren": false
+  }
+ ],
+ "publishedVersion": [
+  {
+   "changedByUser": "Lauren.Terry103@mod.gov.uk",
+   "dateChanged": "2021-12-01T16:21:19Z",
+   "id": "570020",
+   "noticeStatus": "Awarded",
+   "noticeType": "Contract",
+   "publishedNoticeId": "a032c7f6-2840-4155-8c0a-48accdfb4210",
+   "versionNumber": 1,
+   "visibleToPublic": true
+  }
+ ],
+ "numberOfViews": "1472"
+}

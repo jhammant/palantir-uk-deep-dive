@@ -1,0 +1,35 @@
+PALANTIR TECHNOLOGIES UK, LTD. ,
+NOTES TO THE FINANCIAL STATEMENTS ,
+FOR THE YEAR ENDED 31 DECEMBER 2017
+Significant accounting policies (continued)
+Assets held for sale
+Tangible assets and associated liabilities are classified as held for sale when their carrying amount will be recovered principally
+through a sale transaction rather than continuing use and a sale is expected in the shori (eri. Assels desigualed as held for sale are
+held at the lower of carrying amount at designation and fair value less costs to sell. Depreciation is not charged against tangible fixed
+assets classified as held for sale.
+The fair values of assets held for sale were determined considering contract value and third-party valuations which considered
+comparable sales and the age and conditions of the assets at acquisition. Assets are classified as held for sale if their carrying
+amounts will be recovered principally through a sale rather than through continuing use and when they have met all of the held for
+sale criteria: ,
+* management commits to a plan to sell the asset,
+¢ the asset is available for immediate sale in its present condition,
+* the asset is being actively marketed for sale at or near its current fair value,
+* — significant changes to the plan of sale are not likely, and
+* the sale is probable within the short term.
+If, due to unanticipated circumstances, such assets are not sold within the one year after being classified as held for sale, then held for
+sale classification will continue as long as the above criteria are still met. Upon classification as held for sale, long-lived assets are not
+depreciated and the Company evaluates them for impairment whenever events or changes in circumstances indicate that the carrying
+amount may not be recoverable or the fair value less costs to sell are less than carrying amount. If such assets are considered to be
+impaired, the Company will record a loss for the amount of the excess within its Consolidated Statements of Operations.
+In 2017, the Company recorded an impairment charge of £3,916,902, to write-down the carrying value of the assets held for sale to
+closely reflect the fair market value.
+2 TURNOVER
+Turnover, which is stated net of value added tax, represents the amount derived from the Company's principal activities.
+2017 2016
+£ £
+UK 10,365,282 4,218,431
+Non-UK 119,285,433 78,345,740
+129,650,715 82,564,171
+Tumover from sources in the UK relates to external sales of products and services. 92% of the Company's turnover (2016:
+95%) is attributable to geographical markets outside of the United Kingdom for rendering of services to the Ultimate Parent.
+18

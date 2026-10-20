@@ -1,0 +1,23 @@
+DocuSign Envelope ID: D0330D70-F02B-4C35-9333-D04912E8683C
+PALANTIR TECHNOLOGIES UK, LTD.
+NOTES TO THE FINANCIAL STATEMENTS
+FOR THE YEAR ENDED 31 DECEMBER 2021
+5 TAX ON PROFIT ON ORDINARY ACTIVITIES (continued)
+c) Deferred tax asset
+The movement in the deferred tax asset during the year is as follows:
+2021 2020
+£ £
+At | January 31,998,981 17,557,239
+(Charge) / Credited to the statement of comprehensive income (31,998,981) 14,441,742
+At 31 December — 31,998,981
+Analysed as follows:
+Accelerated capital allowances _— 817,572
+Employee share acquisition relief _ _ 26,098,913
+Pension contributions deductible on paid basis — 148.457
+Net Operating Loss _ 4,934,039
+_— 31,998,981
+d) Factors which may affect future tax charges
+The rate of corporation tax will increase from April 2023 to 25% on profits over £250,000. The rate for small profits under
+£50,000 will remain at 19% and there will be taper relief for businesses with profits between £50,000 and £250,000, so
+that their average is less than the main rate.
+30

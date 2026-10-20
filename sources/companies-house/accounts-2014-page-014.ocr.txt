@@ -1,0 +1,43 @@
+PALANTIR TECHNOLOGIES UK, LTD.
+NOTES TO THE FINANCIAL STATEMENTS
+FOR THE YEAR ENDED 31 DECEMBER 2014
+1 Accounting policies
+1.1 Basis of preparation
+The financial statements have been prepared on the going concern basis as the Company's parent company
+has indicated their continued financial support of the Company. Should this support be withdrawn, then all the
+Company's assets would have to be restated at their net realisable values and its liabilities would have to be
+treated as falling due on demand.
+1.2 Accounting convention
+The financial statements are prepared under the historical cost convention and in accordance with the
+applicable United Kingdom Accounting Standards.
+1.3 Changes in accounting policies
+In preparing the financial statements for the current year the Company has adopted FRS 20 ‘Share-based
+payment (IFRS 2).
+FRS 20 ‘Share-based payment’ (IFRS 2) requires the recognition of expenses for equity-settled share-based
+payments based on the estimated fair value on the grant date for awards to employees. Prior to the adoption of
+FRS 20, the Company did not recognise the financial effect of share-based payments until such payments .
+were settled.
+In accordance with the transitional provisions of FRS 20, the Standard has been applied retrospectively to all
+grants of equity instruments after 7 November 2002 that were unvested as of 1 January 2006.
+1.4 Turnover
+Turnover represents commission income earned in the year from the parent company for providing sales and
+marketing services. Turnover is recognised on a cost plus 7% basis. Turnover from external sales is
+recognised to the extent that the group obtains the right to consideration in exchange for its performance.
+Turnover is measured at the fair value of the consideration received, excluding discounts, rebates, VAT and
+other sales taxes or duty. Turnover from software license fees and post-contract technical support is
+recognised over the relevant license or service period. .
+1.5 Leasing
+Rentals payable under operating leases are charged against income on a straight line basis over the lease
+term.
+1.6 Pensions
+The Company operates a defined contribution pension scheme. The assets of the scheme are held separately
+from those of the Company in an independently administered fund. Contributions payable for the period are
+charged in the Profit and Loss Account.
+1.7 Deferred taxation
+Full provision is made for deferred tax assets and liabilities arising from all timing differences between the
+recognition of gains and losses in the financial statements and recognition in the tax computation. A net
+deferred tax asset is recognised only if it can be regarded as more likely than not that there will be suitable
+taxable profits from which the future reversal of the underlying timing differences can be deducted. Deferred
+tax assets and liabilities are calculated at the tax rates expected to be effective at the time the timing
+differences are expected to reverse. Deferred tax assets and liabilities are not discounted.
+-11-

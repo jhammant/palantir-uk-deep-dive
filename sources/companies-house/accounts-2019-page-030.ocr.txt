@@ -1,0 +1,35 @@
+PALANTIR TECHNOLOGIES UK, LTD.
+NOTES TO THE FINANCIAL STATEMENTS
+FOR THE YEAR ENDED 31 DECEMBER 2019
+5 TAX ON PROFIT / (LOSS) ON ORDINARY ACTIVITIES
+a) The tax (charge) / credit is based on the profit / (loss) for the year and comprises:
+: 2019 2018
+£ £
+Current tax:
+UK corporation tax at 19.00% (2018: 19.00%) (9,548,726) (7,724,801)
+Adjustment for prior years (46,635) 202,973
+Foreign tax suffered (22,642) —_—
+Foreign tax relief (41,372) _—
+(9,659,375) (7,521,828) *
+Deferred tax charge:
+Changes in tax rates . (551,597) (593,651)
+Origination and reversal of temporary differences 5,240,166 5,639,684
+Adjustment in respect of previous periods 1,690 (1,876)
+4,690,259 5,044,157
+Tax (charge) / credit on profit / (loss) (4,969,116) (2,477,671)
+b) The tax assessed for the year is higher than the standard rate of corporation tax in the UK of 19.00% (2018: 19.00%). The
+differences are explained below:
+2019 2018
+£ £
+Profit / (Loss) before taxation 2,493,753 (12,796,192)
+Tax at standard rate of 19.00% (2018: 19.00%) (473,814) 2,431,276
+Effects of:
+Expenses not deductible for tax purposes (3,646,331) (3,873,942)
+(Higher) / lower tax rates on overseas earnings (64,014) —
+Fixed asset differences 1,405
+Income not taxable 83,042 —_
+Adjustments in respect of previous periods (44,946) 201,096
+Share option timing differences (272,861) (642,448)
+Changes in tax rates (551,597) (593,653)
+Total tax expense for the year (Note 5(a)) (4,969,116) (2,477,671)
+28

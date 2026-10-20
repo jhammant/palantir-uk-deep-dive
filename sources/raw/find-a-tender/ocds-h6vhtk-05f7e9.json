@@ -1,0 +1,2804 @@
+{
+ "uri": "https://www.find-tender.service.gov.uk/api/1.0/ocdsRecordPackages/ocds-h6vhtk-05f7e9",
+ "publisher": {
+  "name": "Cabinet Office",
+  "scheme": "GB-GOR",
+  "uid": "D2",
+  "uri": "https://www.gov.uk/government/organisations/cabinet-office"
+ },
+ "publishedDate": "2026-01-23T16:17:06Z",
+ "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+ "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+ "version": "1.1",
+ "extensions": [
+  "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+  "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+  "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+  "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+  "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+  "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+  "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+  "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+  "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json"
+ ],
+ "packages": [
+  "https://www.find-tender.service.gov.uk/api/1.0/ocdsRecordPackages/ocds-h6vhtk-05f7e9"
+ ],
+ "records": [
+  {
+   "ocid": "ocds-h6vhtk-05f7e9",
+   "releases": [
+    {
+     "ocid": "ocds-h6vhtk-05f7e9",
+     "id": "083858-2025",
+     "tag": [
+      "award",
+      "contract"
+     ],
+     "date": "2025-12-17T13:39:21Z",
+     "initiationType": "tender",
+     "parties": [
+      {
+       "name": "Ministry of Defence",
+       "id": "GB-PPON-PHVX-4316-ZVGZ",
+       "identifier": {
+        "scheme": "GB-PPON",
+        "id": "PHVX-4316-ZVGZ"
+       },
+       "address": {
+        "streetAddress": "Ministry of Defence, Whitehall",
+        "locality": "London",
+        "postalCode": "SW1A 2HB",
+        "country": "GB",
+        "countryName": "United Kingdom",
+        "region": "UKI32"
+       },
+       "contactPoint": {
+        "email": "joe.lloyd167@mod.gov.uk"
+       },
+       "roles": [
+        "buyer"
+       ],
+       "details": {
+        "url": "https://www.gov.uk/government/organisations/ministry-of-defence",
+        "classifications": [
+         {
+          "scheme": "UK_CA_TYPE",
+          "id": "publicAuthorityCentralGovernment",
+          "description": "Public authority - central government"
+         }
+        ]
+       }
+      },
+      {
+       "name": "PALANTIR TECHNOLOGIES UK, LTD.",
+       "id": "GB-COH-07042994",
+       "identifier": {
+        "scheme": "GB-COH",
+        "id": "07042994"
+       },
+       "address": {
+        "streetAddress": "Birchin Court 5th Floor, 19-25 Birchin Lane",
+        "locality": "London",
+        "postalCode": "EC3V 9DU",
+        "country": "GB",
+        "countryName": "United Kingdom",
+        "region": "UKI31"
+       },
+       "contactPoint": {
+        "email": "media@palantir.com"
+       },
+       "roles": [
+        "supplier"
+       ],
+       "details": {
+        "scale": "large",
+        "vcse": false
+       }
+      }
+     ],
+     "buyer": {
+      "id": "GB-PPON-PHVX-4316-ZVGZ",
+      "name": "Ministry of Defence"
+     },
+     "tender": {
+      "id": "ocds-h6vhtk-05f7e9",
+      "legalBasis": {
+       "id": "2023/54",
+       "scheme": "UKPGA",
+       "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+      },
+      "title": "UK5 - Transparency Notice",
+      "description": "United Kingdom Ministry of Defence (MoD), intends to award a follow on enterprise agreement to Palantir Technologies UK Limited (Palantir) for continued licencing and support to data analytics capabilities supporting critical strategic, tactical and live operational decision making across classifications across defence and interoperable with NATO and other allied nations Palantir systems.",
+      "status": "complete",
+      "procurementMethod": "direct",
+      "procurementMethodDetails": "Direct award",
+      "procurementMethodRationale": "It is considered that the contract can be awarded directly in accordance Section 41 of the Procurement Act 2023 together with paragraph 6 (absence of competition for technical reasons) and paragraph 7 (existing services where a change of supplier would result in disproportionate technical difficulties) of Schedule 5.\nThis is because MoD\u2019s data analytics capabilities use Palantir data analytics architecture that only Palantir is able licence, and which only Palantir has the design familiarity and technical expertise to fully support. Changing supplier for this requirement would involve rebuild of the underlying data analytics architecture needing support; reaccreditation of the new solutions at the required security levels; and retraining of MoD personnel; at significant cost (including to the current of level capability and interoperability with NATO and allied partners), diversion of resource, and disruption to in-train military operations and planning.",
+      "specialRegime": [
+       "defenceSecurity"
+      ],
+      "lots": [
+       {
+        "id": "1",
+        "status": "complete"
+       }
+      ],
+      "documents": [
+       {
+        "id": "conflictOfInterest",
+        "documentType": "conflictOfInterest",
+        "description": "Not published"
+       }
+      ],
+      "procurementMethodRationaleClassifications": [
+       {
+        "id": "singleSuppliersTechnicalReasons"
+       }
+      ]
+     },
+     "awards": [
+      {
+       "id": "1",
+       "title": "MOD Palantir Enterprise Agreement",
+       "status": "pending",
+       "value": {
+        "amountGross": 240600000,
+        "amount": 240600000,
+        "currency": "GBP"
+       },
+       "mainProcurementCategory": "goods",
+       "aboveThreshold": true,
+       "suppliers": [
+        {
+         "id": "GB-COH-07042994",
+         "name": "PALANTIR TECHNOLOGIES UK, LTD."
+        }
+       ],
+       "items": [
+        {
+         "id": "1",
+         "additionalClassifications": [
+          {
+           "scheme": "CPV",
+           "id": "48000000",
+           "description": "Software package and information systems"
+          }
+         ],
+         "deliveryAddresses": [
+          {
+           "region": "UK",
+           "country": "GB",
+           "countryName": "United Kingdom"
+          }
+         ],
+         "relatedLot": "1"
+        }
+       ],
+       "contractPeriod": {
+        "startDate": "2026-04-01T00:00:00+01:00",
+        "endDate": "2029-03-31T23:59:59+01:00"
+       },
+       "relatedLots": [
+        "1"
+       ],
+       "documents": [
+        {
+         "id": "083858-2025",
+         "documentType": "awardNotice",
+         "noticeType": "UK5",
+         "description": "Transparency notice on Find a Tender",
+         "url": "https://www.find-tender.service.gov.uk/Notice/083858-2025",
+         "datePublished": "2025-12-17T13:39:21Z",
+         "format": "text/html"
+        }
+       ],
+       "milestones": [
+        {
+         "id": "1",
+         "type": "futureSignatureDate",
+         "dueDate": "2025-12-30T23:59:59+00:00",
+         "status": "scheduled"
+        }
+       ]
+      }
+     ],
+     "language": "en",
+     "extensions": [
+      "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+      "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+      "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json"
+     ]
+    },
+    {
+     "id": "083874-2025",
+     "tag": [
+      "award",
+      "contract"
+     ],
+     "date": "2025-12-17T13:53:32Z",
+     "initiationType": "tender",
+     "ocid": "ocds-h6vhtk-05f7e9",
+     "parties": [
+      {
+       "name": "Ministry of Defence",
+       "id": "GB-PPON-PHVX-4316-ZVGZ",
+       "identifier": {
+        "scheme": "GB-PPON",
+        "id": "PHVX-4316-ZVGZ"
+       },
+       "address": {
+        "streetAddress": "MOD Whitehall",
+        "locality": "London",
+        "postalCode": "SW1A 2HB",
+        "country": "GB",
+        "countryName": "United Kingdom",
+        "region": "UKI32"
+       },
+       "contactPoint": {
+        "email": "joe.lloyd167@mod.gov.uk"
+       },
+       "roles": [
+        "buyer"
+       ],
+       "details": {
+        "url": "https://www.gov.uk/government/organisations/ministry-of-defence",
+        "classifications": [
+         {
+          "scheme": "UK_CA_TYPE",
+          "id": "publicAuthorityCentralGovernment",
+          "description": "Public authority - central government"
+         }
+        ]
+       }
+      },
+      {
+       "name": "PALANTIR TECHNOLOGIES UK, LTD.",
+       "id": "GB-COH-07042994",
+       "identifier": {
+        "scheme": "GB-COH",
+        "id": "07042994"
+       },
+       "address": {
+        "streetAddress": "Birchin Court 5th Floor, 19-25 Birchin Lane",
+        "locality": "London",
+        "postalCode": "EC3V 9DU",
+        "country": "GB",
+        "countryName": "United Kingdom",
+        "region": "UKI31"
+       },
+       "contactPoint": {
+        "email": "media@palantir.com"
+       },
+       "roles": [
+        "supplier"
+       ],
+       "details": {
+        "scale": "large",
+        "vcse": false,
+        "publicServiceMissionOrganization": false,
+        "shelteredWorkshop": false
+       }
+      }
+     ],
+     "buyer": {
+      "id": "GB-PPON-PHVX-4316-ZVGZ",
+      "name": "Ministry of Defence"
+     },
+     "tender": {
+      "id": "ocds-h6vhtk-05f7e9",
+      "legalBasis": {
+       "id": "2023/54",
+       "scheme": "UKPGA",
+       "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+      },
+      "title": "MOD Palantir Enterprise Agreement",
+      "description": "United Kingdom Ministry of Defence (MoD), intends to award a follow on enterprise agreement to Palantir Technologies UK Limited (Palantir) for continued licencing and support to data analytics capabilities supporting critical strategic, tactical and live operational decision making across classifications across defence and interoperable with NATO and other allied nations Palantir systems.",
+      "status": "complete",
+      "procurementMethod": "direct",
+      "procurementMethodDetails": "Direct award",
+      "specialRegime": [
+       "defenceSecurity"
+      ],
+      "lots": [
+       {
+        "id": "1",
+        "status": "complete"
+       }
+      ]
+     },
+     "awards": [
+      {
+       "id": "1",
+       "title": "MOD Palantir Enterprise Agreement",
+       "status": "pending",
+       "date": "2025-12-17T00:00:00+00:00",
+       "value": {
+        "amountGross": 240600000,
+        "amount": 240600000,
+        "currency": "GBP"
+       },
+       "mainProcurementCategory": "goods",
+       "aboveThreshold": true,
+       "suppliers": [
+        {
+         "id": "GB-COH-07042994",
+         "name": "PALANTIR TECHNOLOGIES UK, LTD."
+        }
+       ],
+       "items": [
+        {
+         "id": "1",
+         "additionalClassifications": [
+          {
+           "scheme": "CPV",
+           "id": "48000000",
+           "description": "Software package and information systems"
+          }
+         ],
+         "deliveryAddresses": [
+          {
+           "region": "UK",
+           "country": "GB",
+           "countryName": "United Kingdom"
+          }
+         ],
+         "relatedLot": "1"
+        }
+       ],
+       "standstillPeriod": {
+        "endDate": "2025-12-30T23:59:59+00:00"
+       },
+       "contractPeriod": {
+        "startDate": "2026-04-01T00:00:00+01:00",
+        "endDate": "2029-03-31T23:59:59+01:00"
+       },
+       "relatedLots": [
+        "1"
+       ],
+       "documents": [
+        {
+         "id": "083874-2025",
+         "documentType": "awardNotice",
+         "noticeType": "UK6",
+         "description": "Contract award notice on Find a Tender",
+         "url": "https://www.find-tender.service.gov.uk/Notice/083874-2025",
+         "datePublished": "2025-12-17T13:53:32Z",
+         "format": "text/html"
+        }
+       ],
+       "milestones": [
+        {
+         "id": "1",
+         "type": "futureSignatureDate",
+         "dueDate": "2025-12-30T23:59:59+00:00",
+         "status": "scheduled"
+        }
+       ]
+      }
+     ],
+     "language": "en",
+     "extensions": [
+      "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+      "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+      "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json"
+     ]
+    },
+    {
+     "id": "006088-2026",
+     "tag": [
+      "award",
+      "contract"
+     ],
+     "date": "2026-01-23T11:00:52Z",
+     "initiationType": "tender",
+     "ocid": "ocds-h6vhtk-05f7e9",
+     "parties": [
+      {
+       "name": "Ministry of Defence",
+       "id": "GB-PPON-PHVX-4316-ZVGZ",
+       "identifier": {
+        "scheme": "GB-PPON",
+        "id": "PHVX-4316-ZVGZ"
+       },
+       "address": {
+        "streetAddress": "MOD, Whitehall",
+        "locality": "London",
+        "postalCode": "SW1A 2HB",
+        "country": "GB",
+        "countryName": "United Kingdom",
+        "region": "UKI32"
+       },
+       "contactPoint": {
+        "email": "joe.lloyd167@mod.gov.uk"
+       },
+       "roles": [
+        "buyer"
+       ],
+       "details": {
+        "url": "https://www.gov.uk/government/organisations/ministry-of-defence",
+        "classifications": [
+         {
+          "scheme": "UK_CA_TYPE",
+          "id": "publicAuthorityCentralGovernment",
+          "description": "Public authority - central government"
+         }
+        ]
+       }
+      },
+      {
+       "name": "PALANTIR TECHNOLOGIES UK, LTD.",
+       "id": "GB-COH-07042994",
+       "identifier": {
+        "scheme": "GB-COH",
+        "id": "07042994"
+       },
+       "address": {
+        "streetAddress": "Birchin Court 5th Floor, 19-25 Birchin Lane",
+        "locality": "London",
+        "postalCode": "EC3V 9DU",
+        "country": "GB",
+        "countryName": "United Kingdom",
+        "region": "UKI31"
+       },
+       "contactPoint": {
+        "email": "media@palantir.com"
+       },
+       "roles": [
+        "supplier"
+       ],
+       "details": {
+        "scale": "large",
+        "vcse": false,
+        "publicServiceMissionOrganization": false,
+        "shelteredWorkshop": false
+       }
+      }
+     ],
+     "buyer": {
+      "id": "GB-PPON-PHVX-4316-ZVGZ",
+      "name": "Ministry of Defence"
+     },
+     "tender": {
+      "id": "ocds-h6vhtk-05f7e9",
+      "legalBasis": {
+       "id": "2023/54",
+       "scheme": "UKPGA",
+       "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+      },
+      "title": "MOD Palantir Enterprise Agreement",
+      "description": "United Kingdom Ministry of Defence (MoD), intends to award a follow on enterprise agreement to Palantir Technologies UK Limited (Palantir) for continued licencing and support to data analytics capabilities supporting critical strategic, tactical and live operational decision making across classifications across defence and interoperable with NATO and other allied nations Palantir systems.\nA redacted copy of the contract can be made available upon request 90 days after the contract award date, in line with the Procurement Act 2023.",
+      "status": "complete",
+      "procurementMethod": "direct",
+      "procurementMethodDetails": "Direct award",
+      "procurementMethodRationale": "As outlined within the Transparency Notice.",
+      "specialRegime": [
+       "defenceSecurity"
+      ],
+      "lots": [
+       {
+        "id": "1",
+        "status": "complete"
+       }
+      ],
+      "documents": [
+       {
+        "id": "conflictOfInterest",
+        "documentType": "conflictOfInterest",
+        "description": "Not published"
+       }
+      ],
+      "procurementMethodRationaleClassifications": [
+       {
+        "id": "defenceSecurityQualifyingNewAward"
+       }
+      ]
+     },
+     "awards": [
+      {
+       "id": "1",
+       "status": "active",
+       "mainProcurementCategory": "goods",
+       "suppliers": [
+        {
+         "id": "GB-COH-07042994",
+         "name": "PALANTIR TECHNOLOGIES UK, LTD."
+        }
+       ],
+       "items": [
+        {
+         "id": "1",
+         "additionalClassifications": [
+          {
+           "scheme": "CPV",
+           "id": "48000000",
+           "description": "Software package and information systems"
+          }
+         ],
+         "relatedLot": "1"
+        }
+       ],
+       "relatedLots": [
+        "1"
+       ]
+      }
+     ],
+     "contracts": [
+      {
+       "id": "1",
+       "awardID": "1",
+       "title": "MOD Palantir Enterprise Agreement",
+       "status": "active",
+       "period": {
+        "startDate": "2026-04-01T00:00:00+01:00",
+        "endDate": "2029-03-31T23:59:59+01:00"
+       },
+       "value": {
+        "amountGross": 240600000,
+        "amount": 240600000,
+        "currency": "GBP"
+       },
+       "aboveThreshold": true,
+       "dateSigned": "2025-12-30T00:00:00+00:00",
+       "agreedMetrics": [
+        {
+         "id": "1",
+         "title": "Contract KPI\u2019s",
+         "description": "The Ministry of Defence will monitor and report on the suppliers performance against the following commitments: Providing required platform availability, providing required platform support, meeting necessary programme requirements and delivering the contractual social value requirements.",
+         "observations": [
+          {
+           "period": {
+            "durationInMonths": 3
+           },
+           "id": "frequency"
+          }
+         ]
+        },
+        {
+         "id": "2",
+         "title": "Platform availability",
+         "description": "The supplier must ensure that the platform has the availability to meet the MOD\u2019s requirements, under the terms specified within the contract.",
+         "observations": [
+          {
+           "period": {
+            "durationInMonths": 3
+           },
+           "id": "frequency"
+          }
+         ]
+        },
+        {
+         "id": "3",
+         "title": "Platform support",
+         "description": "The supplier must meet the issue response times required by the MOD depending on the criticality of the issue, under the terms specified within the contract.",
+         "observations": [
+          {
+           "period": {
+            "durationInMonths": 3
+           },
+           "id": "frequency"
+          }
+         ]
+        },
+        {
+         "id": "4",
+         "title": "Meeting programme requirements",
+         "description": "The supplier must ensure programme specific requirements are met to the required timeframe by a specific programme, under the terms specified within the contract.",
+         "observations": [
+          {
+           "period": {
+            "durationInMonths": 3
+           },
+           "id": "frequency"
+          }
+         ]
+        },
+        {
+         "id": "5",
+         "title": "Social Value",
+         "description": "Palantir must comply with the social value commitments outlined within the contract, which are to:\n- Create and Retain High Quality Jobs\n- Identifying and Managing the Risks of Modern Slavery\n- Learning and Skills Development Opportunities to Address Skills Gaps\n- Create a Diverse Supply Chain Including New Businesses, Entrepreneurs, Start-ups, SMEs, VCSEs and Mutuals\n- Deliver Additional Environmental Benefits in the Performance of the Contract\n- Remove Barriers to Entry for Young People and Under-represented Groups\n- Creating a Pipeline of Opportunities for the Future Contract Workforce\n- Support health and wellbeing in the contract workforce, including physical and mental health",
+         "observations": [
+          {
+           "period": {
+            "durationInMonths": 3
+           },
+           "id": "frequency"
+          }
+         ]
+        }
+       ],
+       "documents": [
+        {
+         "id": "006088-2026",
+         "documentType": "contractNotice",
+         "noticeType": "UK7",
+         "description": "Contract details notice on Find a Tender",
+         "url": "https://www.find-tender.service.gov.uk/Notice/006088-2026",
+         "datePublished": "2026-01-23T11:00:52Z",
+         "format": "text/html"
+        }
+       ]
+      }
+     ],
+     "language": "en",
+     "extensions": [
+      "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+      "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+      "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json"
+     ]
+    },
+    {
+     "id": "006344-2026",
+     "tag": [
+      "awardUpdate",
+      "contractUpdate"
+     ],
+     "date": "2026-01-23T16:17:06Z",
+     "initiationType": "tender",
+     "ocid": "ocds-h6vhtk-05f7e9",
+     "parties": [
+      {
+       "name": "Ministry of Defence",
+       "id": "GB-PPON-PHVX-4316-ZVGZ",
+       "identifier": {
+        "scheme": "GB-PPON",
+        "id": "PHVX-4316-ZVGZ"
+       },
+       "address": {
+        "streetAddress": "MOD, Whitehall",
+        "locality": "London",
+        "postalCode": "SW1A 2HB",
+        "country": "GB",
+        "countryName": "United Kingdom",
+        "region": "UKI32"
+       },
+       "contactPoint": {
+        "email": "joe.lloyd167@mod.gov.uk"
+       },
+       "roles": [
+        "buyer"
+       ],
+       "details": {
+        "url": "https://www.gov.uk/government/organisations/ministry-of-defence",
+        "classifications": [
+         {
+          "scheme": "UK_CA_TYPE",
+          "id": "publicAuthorityCentralGovernment",
+          "description": "Public authority - central government"
+         }
+        ]
+       }
+      },
+      {
+       "name": "PALANTIR TECHNOLOGIES UK, LTD.",
+       "id": "GB-COH-07042994",
+       "identifier": {
+        "scheme": "GB-COH",
+        "id": "07042994"
+       },
+       "address": {
+        "streetAddress": "Birchin Court 5th Floor, 19-25 Birchin Lane",
+        "locality": "London",
+        "postalCode": "EC3V 9DU",
+        "country": "GB",
+        "countryName": "United Kingdom",
+        "region": "UKI31"
+       },
+       "contactPoint": {
+        "email": "media@palantir.com"
+       },
+       "roles": [
+        "supplier"
+       ],
+       "details": {
+        "scale": "large",
+        "vcse": false,
+        "publicServiceMissionOrganization": false,
+        "shelteredWorkshop": false
+       }
+      }
+     ],
+     "buyer": {
+      "id": "GB-PPON-PHVX-4316-ZVGZ",
+      "name": "Ministry of Defence"
+     },
+     "tender": {
+      "id": "ocds-h6vhtk-05f7e9",
+      "legalBasis": {
+       "id": "2023/54",
+       "scheme": "UKPGA",
+       "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+      },
+      "title": "MOD Palantir Enterprise Agreement",
+      "description": "United Kingdom Ministry of Defence (MoD), has awarded a follow on enterprise agreement to Palantir Technologies UK Limited (Palantir) for continued licencing and support to data analytics capabilities supporting critical strategic, tactical and live operational decision making across classifications across defence and interoperable with NATO and other allied nations Palantir systems.\nA redacted copy of the contract can be made available upon request 90 days after the contract award date, in line with the Procurement Act 2023.",
+      "status": "complete",
+      "procurementMethod": "direct",
+      "procurementMethodDetails": "Direct award",
+      "procurementMethodRationale": "As outlined within the Transparency Notice.",
+      "specialRegime": [
+       "defenceSecurity"
+      ],
+      "lots": [
+       {
+        "id": "1",
+        "status": "complete"
+       }
+      ],
+      "documents": [
+       {
+        "id": "conflictOfInterest",
+        "documentType": "conflictOfInterest",
+        "description": "Not published"
+       }
+      ],
+      "procurementMethodRationaleClassifications": [
+       {
+        "id": "defenceSecurityQualifyingNewAward"
+       }
+      ]
+     },
+     "awards": [
+      {
+       "id": "1",
+       "status": "active",
+       "mainProcurementCategory": "goods",
+       "suppliers": [
+        {
+         "id": "GB-COH-07042994",
+         "name": "PALANTIR TECHNOLOGIES UK, LTD."
+        }
+       ],
+       "items": [
+        {
+         "id": "1",
+         "additionalClassifications": [
+          {
+           "scheme": "CPV",
+           "id": "48000000",
+           "description": "Software package and information systems"
+          }
+         ],
+         "relatedLot": "1"
+        }
+       ],
+       "relatedLots": [
+        "1"
+       ]
+      }
+     ],
+     "contracts": [
+      {
+       "id": "1",
+       "awardID": "1",
+       "title": "MOD Palantir Enterprise Agreement",
+       "status": "active",
+       "period": {
+        "startDate": "2026-04-01T00:00:00+01:00",
+        "endDate": "2029-03-31T23:59:59+01:00"
+       },
+       "value": {
+        "amountGross": 240600000,
+        "amount": 240600000,
+        "currency": "GBP"
+       },
+       "aboveThreshold": true,
+       "dateSigned": "2025-12-30T00:00:00+00:00",
+       "agreedMetrics": [
+        {
+         "id": "1",
+         "title": "Contract KPI\u2019s",
+         "description": "The Ministry of Defence will monitor and report on the suppliers performance against the following commitments: Providing required platform availability, providing required platform support, meeting necessary programme requirements and delivering the contractual social value requirements.",
+         "observations": [
+          {
+           "period": {
+            "durationInMonths": 3
+           },
+           "id": "frequency"
+          }
+         ]
+        },
+        {
+         "id": "2",
+         "title": "Platform availability",
+         "description": "The supplier must ensure that the platform has the availability to meet the MOD\u2019s requirements, under the terms specified within the contract.",
+         "observations": [
+          {
+           "period": {
+            "durationInMonths": 3
+           },
+           "id": "frequency"
+          }
+         ]
+        },
+        {
+         "id": "3",
+         "title": "Platform support",
+         "description": "The supplier must meet the issue response times required by the MOD depending on the criticality of the issue, under the terms specified within the contract.",
+         "observations": [
+          {
+           "period": {
+            "durationInMonths": 3
+           },
+           "id": "frequency"
+          }
+         ]
+        },
+        {
+         "id": "4",
+         "title": "Meeting programme requirements",
+         "description": "The supplier must ensure programme specific requirements are met to the required timeframe by a specific programme, under the terms specified within the contract.",
+         "observations": [
+          {
+           "period": {
+            "durationInMonths": 3
+           },
+           "id": "frequency"
+          }
+         ]
+        },
+        {
+         "id": "5",
+         "title": "Social Value",
+         "description": "Palantir must comply with the social value commitments outlined within the contract, which are to:\n- Create and Retain High Quality Jobs\n- Identifying and Managing the Risks of Modern Slavery\n- Learning and Skills Development Opportunities to Address Skills Gaps\n- Create a Diverse Supply Chain Including New Businesses, Entrepreneurs, Start-ups, SMEs, VCSEs and Mutuals\n- Deliver Additional Environmental Benefits in the Performance of the Contract\n- Remove Barriers to Entry for Young People and Under-represented Groups\n- Creating a Pipeline of Opportunities for the Future Contract Workforce\n- Support health and wellbeing in the contract workforce, including physical and mental health",
+         "observations": [
+          {
+           "period": {
+            "durationInMonths": 3
+           },
+           "id": "frequency"
+          }
+         ]
+        }
+       ],
+       "documents": [
+        {
+         "id": "006344-2026",
+         "documentType": "contractNotice",
+         "noticeType": "UK7",
+         "description": "Contract details notice on Find a Tender",
+         "url": "https://www.find-tender.service.gov.uk/Notice/006344-2026",
+         "datePublished": "2026-01-23T16:17:06Z",
+         "format": "text/html"
+        }
+       ]
+      }
+     ],
+     "language": "en",
+     "extensions": [
+      "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+      "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+      "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json"
+     ]
+    }
+   ],
+   "compiledRelease": {
+    "tag": [
+     "compiled"
+    ],
+    "id": "ocds-h6vhtk-05f7e9-2026-01-23T16:17:06Z",
+    "date": "2026-01-23T16:17:06Z",
+    "ocid": "ocds-h6vhtk-05f7e9",
+    "initiationType": "tender",
+    "parties": [
+     {
+      "id": "GB-PPON-PHVX-4316-ZVGZ",
+      "name": "Ministry of Defence",
+      "identifier": {
+       "scheme": "GB-PPON",
+       "id": "PHVX-4316-ZVGZ"
+      },
+      "address": {
+       "streetAddress": "MOD, Whitehall",
+       "locality": "London",
+       "postalCode": "SW1A 2HB",
+       "country": "GB",
+       "countryName": "United Kingdom",
+       "region": "UKI32"
+      },
+      "contactPoint": {
+       "email": "joe.lloyd167@mod.gov.uk"
+      },
+      "roles": [
+       "buyer"
+      ],
+      "details": {
+       "url": "https://www.gov.uk/government/organisations/ministry-of-defence",
+       "classifications": [
+        {
+         "scheme": "UK_CA_TYPE",
+         "id": "publicAuthorityCentralGovernment",
+         "description": "Public authority - central government"
+        }
+       ]
+      }
+     },
+     {
+      "id": "GB-COH-07042994",
+      "name": "PALANTIR TECHNOLOGIES UK, LTD.",
+      "identifier": {
+       "scheme": "GB-COH",
+       "id": "07042994"
+      },
+      "address": {
+       "streetAddress": "Birchin Court 5th Floor, 19-25 Birchin Lane",
+       "locality": "London",
+       "postalCode": "EC3V 9DU",
+       "country": "GB",
+       "countryName": "United Kingdom",
+       "region": "UKI31"
+      },
+      "contactPoint": {
+       "email": "media@palantir.com"
+      },
+      "roles": [
+       "supplier"
+      ],
+      "details": {
+       "scale": "large",
+       "vcse": false,
+       "publicServiceMissionOrganization": false,
+       "shelteredWorkshop": false
+      }
+     }
+    ],
+    "buyer": {
+     "id": "GB-PPON-PHVX-4316-ZVGZ",
+     "name": "Ministry of Defence"
+    },
+    "tender": {
+     "id": "ocds-h6vhtk-05f7e9",
+     "legalBasis": {
+      "id": "2023/54",
+      "scheme": "UKPGA",
+      "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+     },
+     "title": "MOD Palantir Enterprise Agreement",
+     "description": "United Kingdom Ministry of Defence (MoD), has awarded a follow on enterprise agreement to Palantir Technologies UK Limited (Palantir) for continued licencing and support to data analytics capabilities supporting critical strategic, tactical and live operational decision making across classifications across defence and interoperable with NATO and other allied nations Palantir systems.\nA redacted copy of the contract can be made available upon request 90 days after the contract award date, in line with the Procurement Act 2023.",
+     "status": "complete",
+     "procurementMethod": "direct",
+     "procurementMethodDetails": "Direct award",
+     "procurementMethodRationale": "As outlined within the Transparency Notice.",
+     "specialRegime": [
+      "defenceSecurity"
+     ],
+     "lots": [
+      {
+       "id": "1",
+       "status": "complete"
+      }
+     ],
+     "documents": [
+      {
+       "id": "conflictOfInterest",
+       "documentType": "conflictOfInterest",
+       "description": "Not published"
+      }
+     ],
+     "procurementMethodRationaleClassifications": [
+      {
+       "id": "defenceSecurityQualifyingNewAward"
+      }
+     ]
+    },
+    "awards": [
+     {
+      "id": "1",
+      "title": "MOD Palantir Enterprise Agreement",
+      "status": "active",
+      "value": {
+       "amountGross": 240600000,
+       "amount": 240600000,
+       "currency": "GBP"
+      },
+      "mainProcurementCategory": "goods",
+      "aboveThreshold": true,
+      "suppliers": [
+       {
+        "id": "GB-COH-07042994",
+        "name": "PALANTIR TECHNOLOGIES UK, LTD."
+       }
+      ],
+      "items": [
+       {
+        "id": "1",
+        "additionalClassifications": [
+         {
+          "scheme": "CPV",
+          "id": "48000000",
+          "description": "Software package and information systems"
+         }
+        ],
+        "deliveryAddresses": [
+         {
+          "region": "UK",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         },
+         {
+          "region": "UK",
+          "country": "GB",
+          "countryName": "United Kingdom"
+         }
+        ],
+        "relatedLot": "1"
+       }
+      ],
+      "contractPeriod": {
+       "startDate": "2026-04-01T00:00:00+01:00",
+       "endDate": "2029-03-31T23:59:59+01:00"
+      },
+      "relatedLots": [
+       "1"
+      ],
+      "documents": [
+       {
+        "id": "083858-2025",
+        "documentType": "awardNotice",
+        "noticeType": "UK5",
+        "description": "Transparency notice on Find a Tender",
+        "url": "https://www.find-tender.service.gov.uk/Notice/083858-2025",
+        "datePublished": "2025-12-17T13:39:21Z",
+        "format": "text/html"
+       },
+       {
+        "id": "083874-2025",
+        "documentType": "awardNotice",
+        "noticeType": "UK6",
+        "description": "Contract award notice on Find a Tender",
+        "url": "https://www.find-tender.service.gov.uk/Notice/083874-2025",
+        "datePublished": "2025-12-17T13:53:32Z",
+        "format": "text/html"
+       }
+      ],
+      "milestones": [
+       {
+        "id": "1",
+        "type": "futureSignatureDate",
+        "dueDate": "2025-12-30T23:59:59+00:00",
+        "status": "scheduled"
+       }
+      ],
+      "date": "2025-12-17T00:00:00+00:00",
+      "standstillPeriod": {
+       "endDate": "2025-12-30T23:59:59+00:00"
+      }
+     }
+    ],
+    "language": "en",
+    "extensions": [
+     "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+     "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+     "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+     "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+     "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+     "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+     "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+     "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+     "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json"
+    ],
+    "contracts": [
+     {
+      "id": "1",
+      "awardID": "1",
+      "title": "MOD Palantir Enterprise Agreement",
+      "status": "active",
+      "period": {
+       "startDate": "2026-04-01T00:00:00+01:00",
+       "endDate": "2029-03-31T23:59:59+01:00"
+      },
+      "value": {
+       "amountGross": 240600000,
+       "amount": 240600000,
+       "currency": "GBP"
+      },
+      "aboveThreshold": true,
+      "dateSigned": "2025-12-30T00:00:00+00:00",
+      "agreedMetrics": [
+       {
+        "id": "1",
+        "title": "Contract KPI\u2019s",
+        "description": "The Ministry of Defence will monitor and report on the suppliers performance against the following commitments: Providing required platform availability, providing required platform support, meeting necessary programme requirements and delivering the contractual social value requirements.",
+        "observations": [
+         {
+          "id": "frequency",
+          "period": {
+           "durationInMonths": 3
+          }
+         }
+        ]
+       },
+       {
+        "id": "2",
+        "title": "Platform availability",
+        "description": "The supplier must ensure that the platform has the availability to meet the MOD\u2019s requirements, under the terms specified within the contract.",
+        "observations": [
+         {
+          "id": "frequency",
+          "period": {
+           "durationInMonths": 3
+          }
+         }
+        ]
+       },
+       {
+        "id": "3",
+        "title": "Platform support",
+        "description": "The supplier must meet the issue response times required by the MOD depending on the criticality of the issue, under the terms specified within the contract.",
+        "observations": [
+         {
+          "id": "frequency",
+          "period": {
+           "durationInMonths": 3
+          }
+         }
+        ]
+       },
+       {
+        "id": "4",
+        "title": "Meeting programme requirements",
+        "description": "The supplier must ensure programme specific requirements are met to the required timeframe by a specific programme, under the terms specified within the contract.",
+        "observations": [
+         {
+          "id": "frequency",
+          "period": {
+           "durationInMonths": 3
+          }
+         }
+        ]
+       },
+       {
+        "id": "5",
+        "title": "Social Value",
+        "description": "Palantir must comply with the social value commitments outlined within the contract, which are to:\n- Create and Retain High Quality Jobs\n- Identifying and Managing the Risks of Modern Slavery\n- Learning and Skills Development Opportunities to Address Skills Gaps\n- Create a Diverse Supply Chain Including New Businesses, Entrepreneurs, Start-ups, SMEs, VCSEs and Mutuals\n- Deliver Additional Environmental Benefits in the Performance of the Contract\n- Remove Barriers to Entry for Young People and Under-represented Groups\n- Creating a Pipeline of Opportunities for the Future Contract Workforce\n- Support health and wellbeing in the contract workforce, including physical and mental health",
+        "observations": [
+         {
+          "id": "frequency",
+          "period": {
+           "durationInMonths": 3
+          }
+         }
+        ]
+       }
+      ],
+      "documents": [
+       {
+        "id": "006088-2026",
+        "documentType": "contractNotice",
+        "noticeType": "UK7",
+        "description": "Contract details notice on Find a Tender",
+        "url": "https://www.find-tender.service.gov.uk/Notice/006088-2026",
+        "datePublished": "2026-01-23T11:00:52Z",
+        "format": "text/html"
+       },
+       {
+        "id": "006344-2026",
+        "documentType": "contractNotice",
+        "noticeType": "UK7",
+        "description": "Contract details notice on Find a Tender",
+        "url": "https://www.find-tender.service.gov.uk/Notice/006344-2026",
+        "datePublished": "2026-01-23T16:17:06Z",
+        "format": "text/html"
+       }
+      ]
+     }
+    ]
+   },
+   "versionedRelease": {
+    "ocid": "ocds-h6vhtk-05f7e9",
+    "initiationType": [
+     {
+      "releaseID": "083858-2025",
+      "releaseDate": "2025-12-17T13:39:21Z",
+      "releaseTag": [
+       "award",
+       "contract"
+      ],
+      "value": "tender"
+     }
+    ],
+    "parties": [
+     {
+      "id": "GB-PPON-PHVX-4316-ZVGZ",
+      "name": [
+       {
+        "releaseID": "083858-2025",
+        "releaseDate": "2025-12-17T13:39:21Z",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "Ministry of Defence"
+       }
+      ],
+      "identifier": {
+       "scheme": [
+        {
+         "releaseID": "083858-2025",
+         "releaseDate": "2025-12-17T13:39:21Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "GB-PPON"
+        }
+       ],
+       "id": [
+        {
+         "releaseID": "083858-2025",
+         "releaseDate": "2025-12-17T13:39:21Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "PHVX-4316-ZVGZ"
+        }
+       ]
+      },
+      "address": {
+       "streetAddress": [
+        {
+         "releaseID": "083858-2025",
+         "releaseDate": "2025-12-17T13:39:21Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "Ministry of Defence, Whitehall"
+        },
+        {
+         "releaseID": "083874-2025",
+         "releaseDate": "2025-12-17T13:53:32Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "MOD Whitehall"
+        },
+        {
+         "releaseID": "006088-2026",
+         "releaseDate": "2026-01-23T11:00:52Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "MOD, Whitehall"
+        }
+       ],
+       "locality": [
+        {
+         "releaseID": "083858-2025",
+         "releaseDate": "2025-12-17T13:39:21Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "London"
+        }
+       ],
+       "postalCode": [
+        {
+         "releaseID": "083858-2025",
+         "releaseDate": "2025-12-17T13:39:21Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "SW1A 2HB"
+        }
+       ],
+       "country": [
+        {
+         "releaseID": "083858-2025",
+         "releaseDate": "2025-12-17T13:39:21Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "GB"
+        }
+       ],
+       "countryName": [
+        {
+         "releaseID": "083858-2025",
+         "releaseDate": "2025-12-17T13:39:21Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "United Kingdom"
+        }
+       ],
+       "region": [
+        {
+         "releaseID": "083858-2025",
+         "releaseDate": "2025-12-17T13:39:21Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "UKI32"
+        }
+       ]
+      },
+      "contactPoint": {
+       "email": [
+        {
+         "releaseID": "083858-2025",
+         "releaseDate": "2025-12-17T13:39:21Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "joe.lloyd167@mod.gov.uk"
+        }
+       ]
+      },
+      "roles": [
+       {
+        "releaseID": "083858-2025",
+        "releaseDate": "2025-12-17T13:39:21Z",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": [
+         "buyer"
+        ]
+       }
+      ],
+      "details": {
+       "url": [
+        {
+         "releaseID": "083858-2025",
+         "releaseDate": "2025-12-17T13:39:21Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "https://www.gov.uk/government/organisations/ministry-of-defence"
+        }
+       ],
+       "classifications": [
+        {
+         "releaseID": "083858-2025",
+         "releaseDate": "2025-12-17T13:39:21Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": [
+          {
+           "scheme": "UK_CA_TYPE",
+           "id": "publicAuthorityCentralGovernment",
+           "description": "Public authority - central government"
+          }
+         ]
+        }
+       ]
+      }
+     },
+     {
+      "id": "GB-COH-07042994",
+      "name": [
+       {
+        "releaseID": "083858-2025",
+        "releaseDate": "2025-12-17T13:39:21Z",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "PALANTIR TECHNOLOGIES UK, LTD."
+       }
+      ],
+      "identifier": {
+       "scheme": [
+        {
+         "releaseID": "083858-2025",
+         "releaseDate": "2025-12-17T13:39:21Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "GB-COH"
+        }
+       ],
+       "id": [
+        {
+         "releaseID": "083858-2025",
+         "releaseDate": "2025-12-17T13:39:21Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "07042994"
+        }
+       ]
+      },
+      "address": {
+       "streetAddress": [
+        {
+         "releaseID": "083858-2025",
+         "releaseDate": "2025-12-17T13:39:21Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "Birchin Court 5th Floor, 19-25 Birchin Lane"
+        }
+       ],
+       "locality": [
+        {
+         "releaseID": "083858-2025",
+         "releaseDate": "2025-12-17T13:39:21Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "London"
+        }
+       ],
+       "postalCode": [
+        {
+         "releaseID": "083858-2025",
+         "releaseDate": "2025-12-17T13:39:21Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "EC3V 9DU"
+        }
+       ],
+       "country": [
+        {
+         "releaseID": "083858-2025",
+         "releaseDate": "2025-12-17T13:39:21Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "GB"
+        }
+       ],
+       "countryName": [
+        {
+         "releaseID": "083858-2025",
+         "releaseDate": "2025-12-17T13:39:21Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "United Kingdom"
+        }
+       ],
+       "region": [
+        {
+         "releaseID": "083858-2025",
+         "releaseDate": "2025-12-17T13:39:21Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "UKI31"
+        }
+       ]
+      },
+      "contactPoint": {
+       "email": [
+        {
+         "releaseID": "083858-2025",
+         "releaseDate": "2025-12-17T13:39:21Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "media@palantir.com"
+        }
+       ]
+      },
+      "roles": [
+       {
+        "releaseID": "083858-2025",
+        "releaseDate": "2025-12-17T13:39:21Z",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": [
+         "supplier"
+        ]
+       }
+      ],
+      "details": {
+       "scale": [
+        {
+         "releaseID": "083858-2025",
+         "releaseDate": "2025-12-17T13:39:21Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "large"
+        }
+       ],
+       "vcse": [
+        {
+         "releaseID": "083858-2025",
+         "releaseDate": "2025-12-17T13:39:21Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": false
+        }
+       ],
+       "publicServiceMissionOrganization": [
+        {
+         "releaseID": "083874-2025",
+         "releaseDate": "2025-12-17T13:53:32Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": false
+        }
+       ],
+       "shelteredWorkshop": [
+        {
+         "releaseID": "083874-2025",
+         "releaseDate": "2025-12-17T13:53:32Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": false
+        }
+       ]
+      }
+     }
+    ],
+    "buyer": {
+     "id": [
+      {
+       "releaseID": "083858-2025",
+       "releaseDate": "2025-12-17T13:39:21Z",
+       "releaseTag": [
+        "award",
+        "contract"
+       ],
+       "value": "GB-PPON-PHVX-4316-ZVGZ"
+      }
+     ],
+     "name": [
+      {
+       "releaseID": "083858-2025",
+       "releaseDate": "2025-12-17T13:39:21Z",
+       "releaseTag": [
+        "award",
+        "contract"
+       ],
+       "value": "Ministry of Defence"
+      }
+     ]
+    },
+    "tender": {
+     "id": [
+      {
+       "releaseID": "083858-2025",
+       "releaseDate": "2025-12-17T13:39:21Z",
+       "releaseTag": [
+        "award",
+        "contract"
+       ],
+       "value": "ocds-h6vhtk-05f7e9"
+      }
+     ],
+     "legalBasis": {
+      "id": [
+       {
+        "releaseID": "083858-2025",
+        "releaseDate": "2025-12-17T13:39:21Z",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "2023/54"
+       }
+      ],
+      "scheme": [
+       {
+        "releaseID": "083858-2025",
+        "releaseDate": "2025-12-17T13:39:21Z",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "UKPGA"
+       }
+      ],
+      "uri": [
+       {
+        "releaseID": "083858-2025",
+        "releaseDate": "2025-12-17T13:39:21Z",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+       }
+      ]
+     },
+     "title": [
+      {
+       "releaseID": "083858-2025",
+       "releaseDate": "2025-12-17T13:39:21Z",
+       "releaseTag": [
+        "award",
+        "contract"
+       ],
+       "value": "UK5 - Transparency Notice"
+      },
+      {
+       "releaseID": "083874-2025",
+       "releaseDate": "2025-12-17T13:53:32Z",
+       "releaseTag": [
+        "award",
+        "contract"
+       ],
+       "value": "MOD Palantir Enterprise Agreement"
+      }
+     ],
+     "description": [
+      {
+       "releaseID": "083858-2025",
+       "releaseDate": "2025-12-17T13:39:21Z",
+       "releaseTag": [
+        "award",
+        "contract"
+       ],
+       "value": "United Kingdom Ministry of Defence (MoD), intends to award a follow on enterprise agreement to Palantir Technologies UK Limited (Palantir) for continued licencing and support to data analytics capabilities supporting critical strategic, tactical and live operational decision making across classifications across defence and interoperable with NATO and other allied nations Palantir systems."
+      },
+      {
+       "releaseID": "006088-2026",
+       "releaseDate": "2026-01-23T11:00:52Z",
+       "releaseTag": [
+        "award",
+        "contract"
+       ],
+       "value": "United Kingdom Ministry of Defence (MoD), intends to award a follow on enterprise agreement to Palantir Technologies UK Limited (Palantir) for continued licencing and support to data analytics capabilities supporting critical strategic, tactical and live operational decision making across classifications across defence and interoperable with NATO and other allied nations Palantir systems.\nA redacted copy of the contract can be made available upon request 90 days after the contract award date, in line with the Procurement Act 2023."
+      },
+      {
+       "releaseID": "006344-2026",
+       "releaseDate": "2026-01-23T16:17:06Z",
+       "releaseTag": [
+        "awardUpdate",
+        "contractUpdate"
+       ],
+       "value": "United Kingdom Ministry of Defence (MoD), has awarded a follow on enterprise agreement to Palantir Technologies UK Limited (Palantir) for continued licencing and support to data analytics capabilities supporting critical strategic, tactical and live operational decision making across classifications across defence and interoperable with NATO and other allied nations Palantir systems.\nA redacted copy of the contract can be made available upon request 90 days after the contract award date, in line with the Procurement Act 2023."
+      }
+     ],
+     "status": [
+      {
+       "releaseID": "083858-2025",
+       "releaseDate": "2025-12-17T13:39:21Z",
+       "releaseTag": [
+        "award",
+        "contract"
+       ],
+       "value": "complete"
+      }
+     ],
+     "procurementMethod": [
+      {
+       "releaseID": "083858-2025",
+       "releaseDate": "2025-12-17T13:39:21Z",
+       "releaseTag": [
+        "award",
+        "contract"
+       ],
+       "value": "direct"
+      }
+     ],
+     "procurementMethodDetails": [
+      {
+       "releaseID": "083858-2025",
+       "releaseDate": "2025-12-17T13:39:21Z",
+       "releaseTag": [
+        "award",
+        "contract"
+       ],
+       "value": "Direct award"
+      }
+     ],
+     "procurementMethodRationale": [
+      {
+       "releaseID": "083858-2025",
+       "releaseDate": "2025-12-17T13:39:21Z",
+       "releaseTag": [
+        "award",
+        "contract"
+       ],
+       "value": "It is considered that the contract can be awarded directly in accordance Section 41 of the Procurement Act 2023 together with paragraph 6 (absence of competition for technical reasons) and paragraph 7 (existing services where a change of supplier would result in disproportionate technical difficulties) of Schedule 5.\nThis is because MoD\u2019s data analytics capabilities use Palantir data analytics architecture that only Palantir is able licence, and which only Palantir has the design familiarity and technical expertise to fully support. Changing supplier for this requirement would involve rebuild of the underlying data analytics architecture needing support; reaccreditation of the new solutions at the required security levels; and retraining of MoD personnel; at significant cost (including to the current of level capability and interoperability with NATO and allied partners), diversion of resource, and disruption to in-train military operations and planning."
+      },
+      {
+       "releaseID": "006088-2026",
+       "releaseDate": "2026-01-23T11:00:52Z",
+       "releaseTag": [
+        "award",
+        "contract"
+       ],
+       "value": "As outlined within the Transparency Notice."
+      }
+     ],
+     "specialRegime": [
+      {
+       "releaseID": "083858-2025",
+       "releaseDate": "2025-12-17T13:39:21Z",
+       "releaseTag": [
+        "award",
+        "contract"
+       ],
+       "value": [
+        "defenceSecurity"
+       ]
+      }
+     ],
+     "lots": [
+      {
+       "id": "1",
+       "status": [
+        {
+         "releaseID": "083858-2025",
+         "releaseDate": "2025-12-17T13:39:21Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "complete"
+        }
+       ]
+      }
+     ],
+     "documents": [
+      {
+       "id": "conflictOfInterest",
+       "documentType": [
+        {
+         "releaseID": "083858-2025",
+         "releaseDate": "2025-12-17T13:39:21Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "conflictOfInterest"
+        }
+       ],
+       "description": [
+        {
+         "releaseID": "083858-2025",
+         "releaseDate": "2025-12-17T13:39:21Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "Not published"
+        }
+       ]
+      }
+     ],
+     "procurementMethodRationaleClassifications": [
+      {
+       "releaseID": "083858-2025",
+       "releaseDate": "2025-12-17T13:39:21Z",
+       "releaseTag": [
+        "award",
+        "contract"
+       ],
+       "value": [
+        {
+         "id": "singleSuppliersTechnicalReasons"
+        }
+       ]
+      },
+      {
+       "releaseID": "006088-2026",
+       "releaseDate": "2026-01-23T11:00:52Z",
+       "releaseTag": [
+        "award",
+        "contract"
+       ],
+       "value": [
+        {
+         "id": "defenceSecurityQualifyingNewAward"
+        }
+       ]
+      }
+     ]
+    },
+    "awards": [
+     {
+      "id": "1",
+      "title": [
+       {
+        "releaseID": "083858-2025",
+        "releaseDate": "2025-12-17T13:39:21Z",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "MOD Palantir Enterprise Agreement"
+       }
+      ],
+      "status": [
+       {
+        "releaseID": "083858-2025",
+        "releaseDate": "2025-12-17T13:39:21Z",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "pending"
+       },
+       {
+        "releaseID": "006088-2026",
+        "releaseDate": "2026-01-23T11:00:52Z",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "active"
+       }
+      ],
+      "value": {
+       "amountGross": [
+        {
+         "releaseID": "083858-2025",
+         "releaseDate": "2025-12-17T13:39:21Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": 240600000
+        }
+       ],
+       "amount": [
+        {
+         "releaseID": "083858-2025",
+         "releaseDate": "2025-12-17T13:39:21Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": 240600000
+        }
+       ],
+       "currency": [
+        {
+         "releaseID": "083858-2025",
+         "releaseDate": "2025-12-17T13:39:21Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "GBP"
+        }
+       ]
+      },
+      "mainProcurementCategory": [
+       {
+        "releaseID": "083858-2025",
+        "releaseDate": "2025-12-17T13:39:21Z",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "goods"
+       }
+      ],
+      "aboveThreshold": [
+       {
+        "releaseID": "083858-2025",
+        "releaseDate": "2025-12-17T13:39:21Z",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": true
+       }
+      ],
+      "suppliers": [
+       {
+        "id": "GB-COH-07042994",
+        "name": [
+         {
+          "releaseID": "083858-2025",
+          "releaseDate": "2025-12-17T13:39:21Z",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "PALANTIR TECHNOLOGIES UK, LTD."
+         }
+        ]
+       }
+      ],
+      "items": [
+       {
+        "id": "1",
+        "additionalClassifications": [
+         {
+          "releaseID": "083858-2025",
+          "releaseDate": "2025-12-17T13:39:21Z",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": [
+           {
+            "scheme": "CPV",
+            "id": "48000000",
+            "description": "Software package and information systems"
+           }
+          ]
+         }
+        ],
+        "deliveryAddresses": [
+         {
+          "region": [
+           {
+            "releaseID": "083858-2025",
+            "releaseDate": "2025-12-17T13:39:21Z",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "UK"
+           }
+          ],
+          "country": [
+           {
+            "releaseID": "083858-2025",
+            "releaseDate": "2025-12-17T13:39:21Z",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "GB"
+           }
+          ],
+          "countryName": [
+           {
+            "releaseID": "083858-2025",
+            "releaseDate": "2025-12-17T13:39:21Z",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "United Kingdom"
+           }
+          ]
+         },
+         {
+          "region": [
+           {
+            "releaseID": "083874-2025",
+            "releaseDate": "2025-12-17T13:53:32Z",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "UK"
+           }
+          ],
+          "country": [
+           {
+            "releaseID": "083874-2025",
+            "releaseDate": "2025-12-17T13:53:32Z",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "GB"
+           }
+          ],
+          "countryName": [
+           {
+            "releaseID": "083874-2025",
+            "releaseDate": "2025-12-17T13:53:32Z",
+            "releaseTag": [
+             "award",
+             "contract"
+            ],
+            "value": "United Kingdom"
+           }
+          ]
+         }
+        ],
+        "relatedLot": [
+         {
+          "releaseID": "083858-2025",
+          "releaseDate": "2025-12-17T13:39:21Z",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "1"
+         }
+        ]
+       }
+      ],
+      "contractPeriod": {
+       "startDate": [
+        {
+         "releaseID": "083858-2025",
+         "releaseDate": "2025-12-17T13:39:21Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "2026-04-01T00:00:00+01:00"
+        }
+       ],
+       "endDate": [
+        {
+         "releaseID": "083858-2025",
+         "releaseDate": "2025-12-17T13:39:21Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "2029-03-31T23:59:59+01:00"
+        }
+       ]
+      },
+      "relatedLots": [
+       {
+        "releaseID": "083858-2025",
+        "releaseDate": "2025-12-17T13:39:21Z",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": [
+         "1"
+        ]
+       }
+      ],
+      "documents": [
+       {
+        "id": "083858-2025",
+        "documentType": [
+         {
+          "releaseID": "083858-2025",
+          "releaseDate": "2025-12-17T13:39:21Z",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "awardNotice"
+         }
+        ],
+        "noticeType": [
+         {
+          "releaseID": "083858-2025",
+          "releaseDate": "2025-12-17T13:39:21Z",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "UK5"
+         }
+        ],
+        "description": [
+         {
+          "releaseID": "083858-2025",
+          "releaseDate": "2025-12-17T13:39:21Z",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "Transparency notice on Find a Tender"
+         }
+        ],
+        "url": [
+         {
+          "releaseID": "083858-2025",
+          "releaseDate": "2025-12-17T13:39:21Z",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "https://www.find-tender.service.gov.uk/Notice/083858-2025"
+         }
+        ],
+        "datePublished": [
+         {
+          "releaseID": "083858-2025",
+          "releaseDate": "2025-12-17T13:39:21Z",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "2025-12-17T13:39:21Z"
+         }
+        ],
+        "format": [
+         {
+          "releaseID": "083858-2025",
+          "releaseDate": "2025-12-17T13:39:21Z",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "text/html"
+         }
+        ]
+       },
+       {
+        "id": "083874-2025",
+        "documentType": [
+         {
+          "releaseID": "083874-2025",
+          "releaseDate": "2025-12-17T13:53:32Z",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "awardNotice"
+         }
+        ],
+        "noticeType": [
+         {
+          "releaseID": "083874-2025",
+          "releaseDate": "2025-12-17T13:53:32Z",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "UK6"
+         }
+        ],
+        "description": [
+         {
+          "releaseID": "083874-2025",
+          "releaseDate": "2025-12-17T13:53:32Z",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "Contract award notice on Find a Tender"
+         }
+        ],
+        "url": [
+         {
+          "releaseID": "083874-2025",
+          "releaseDate": "2025-12-17T13:53:32Z",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "https://www.find-tender.service.gov.uk/Notice/083874-2025"
+         }
+        ],
+        "datePublished": [
+         {
+          "releaseID": "083874-2025",
+          "releaseDate": "2025-12-17T13:53:32Z",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "2025-12-17T13:53:32Z"
+         }
+        ],
+        "format": [
+         {
+          "releaseID": "083874-2025",
+          "releaseDate": "2025-12-17T13:53:32Z",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "text/html"
+         }
+        ]
+       }
+      ],
+      "milestones": [
+       {
+        "id": "1",
+        "type": [
+         {
+          "releaseID": "083858-2025",
+          "releaseDate": "2025-12-17T13:39:21Z",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "futureSignatureDate"
+         }
+        ],
+        "dueDate": [
+         {
+          "releaseID": "083858-2025",
+          "releaseDate": "2025-12-17T13:39:21Z",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "2025-12-30T23:59:59+00:00"
+         }
+        ],
+        "status": [
+         {
+          "releaseID": "083858-2025",
+          "releaseDate": "2025-12-17T13:39:21Z",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "scheduled"
+         }
+        ]
+       }
+      ],
+      "date": [
+       {
+        "releaseID": "083874-2025",
+        "releaseDate": "2025-12-17T13:53:32Z",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "2025-12-17T00:00:00+00:00"
+       }
+      ],
+      "standstillPeriod": {
+       "endDate": [
+        {
+         "releaseID": "083874-2025",
+         "releaseDate": "2025-12-17T13:53:32Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "2025-12-30T23:59:59+00:00"
+        }
+       ]
+      }
+     }
+    ],
+    "language": [
+     {
+      "releaseID": "083858-2025",
+      "releaseDate": "2025-12-17T13:39:21Z",
+      "releaseTag": [
+       "award",
+       "contract"
+      ],
+      "value": "en"
+     }
+    ],
+    "extensions": [
+     {
+      "releaseID": "083858-2025",
+      "releaseDate": "2025-12-17T13:39:21Z",
+      "releaseTag": [
+       "award",
+       "contract"
+      ],
+      "value": [
+       "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+       "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+       "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+       "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+       "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+       "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+       "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+       "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+       "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json"
+      ]
+     }
+    ],
+    "contracts": [
+     {
+      "id": "1",
+      "awardID": [
+       {
+        "releaseID": "006088-2026",
+        "releaseDate": "2026-01-23T11:00:52Z",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "1"
+       }
+      ],
+      "title": [
+       {
+        "releaseID": "006088-2026",
+        "releaseDate": "2026-01-23T11:00:52Z",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "MOD Palantir Enterprise Agreement"
+       }
+      ],
+      "status": [
+       {
+        "releaseID": "006088-2026",
+        "releaseDate": "2026-01-23T11:00:52Z",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "active"
+       }
+      ],
+      "period": {
+       "startDate": [
+        {
+         "releaseID": "006088-2026",
+         "releaseDate": "2026-01-23T11:00:52Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "2026-04-01T00:00:00+01:00"
+        }
+       ],
+       "endDate": [
+        {
+         "releaseID": "006088-2026",
+         "releaseDate": "2026-01-23T11:00:52Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "2029-03-31T23:59:59+01:00"
+        }
+       ]
+      },
+      "value": {
+       "amountGross": [
+        {
+         "releaseID": "006088-2026",
+         "releaseDate": "2026-01-23T11:00:52Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": 240600000
+        }
+       ],
+       "amount": [
+        {
+         "releaseID": "006088-2026",
+         "releaseDate": "2026-01-23T11:00:52Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": 240600000
+        }
+       ],
+       "currency": [
+        {
+         "releaseID": "006088-2026",
+         "releaseDate": "2026-01-23T11:00:52Z",
+         "releaseTag": [
+          "award",
+          "contract"
+         ],
+         "value": "GBP"
+        }
+       ]
+      },
+      "aboveThreshold": [
+       {
+        "releaseID": "006088-2026",
+        "releaseDate": "2026-01-23T11:00:52Z",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": true
+       }
+      ],
+      "dateSigned": [
+       {
+        "releaseID": "006088-2026",
+        "releaseDate": "2026-01-23T11:00:52Z",
+        "releaseTag": [
+         "award",
+         "contract"
+        ],
+        "value": "2025-12-30T00:00:00+00:00"
+       }
+      ],
+      "agreedMetrics": [
+       {
+        "id": "1",
+        "title": [
+         {
+          "releaseID": "006088-2026",
+          "releaseDate": "2026-01-23T11:00:52Z",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "Contract KPI\u2019s"
+         }
+        ],
+        "description": [
+         {
+          "releaseID": "006088-2026",
+          "releaseDate": "2026-01-23T11:00:52Z",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "The Ministry of Defence will monitor and report on the suppliers performance against the following commitments: Providing required platform availability, providing required platform support, meeting necessary programme requirements and delivering the contractual social value requirements."
+         }
+        ],
+        "observations": [
+         {
+          "id": "frequency",
+          "period": {
+           "durationInMonths": [
+            {
+             "releaseID": "006088-2026",
+             "releaseDate": "2026-01-23T11:00:52Z",
+             "releaseTag": [
+              "award",
+              "contract"
+             ],
+             "value": 3
+            }
+           ]
+          }
+         }
+        ]
+       },
+       {
+        "id": "2",
+        "title": [
+         {
+          "releaseID": "006088-2026",
+          "releaseDate": "2026-01-23T11:00:52Z",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "Platform availability"
+         }
+        ],
+        "description": [
+         {
+          "releaseID": "006088-2026",
+          "releaseDate": "2026-01-23T11:00:52Z",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "The supplier must ensure that the platform has the availability to meet the MOD\u2019s requirements, under the terms specified within the contract."
+         }
+        ],
+        "observations": [
+         {
+          "id": "frequency",
+          "period": {
+           "durationInMonths": [
+            {
+             "releaseID": "006088-2026",
+             "releaseDate": "2026-01-23T11:00:52Z",
+             "releaseTag": [
+              "award",
+              "contract"
+             ],
+             "value": 3
+            }
+           ]
+          }
+         }
+        ]
+       },
+       {
+        "id": "3",
+        "title": [
+         {
+          "releaseID": "006088-2026",
+          "releaseDate": "2026-01-23T11:00:52Z",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "Platform support"
+         }
+        ],
+        "description": [
+         {
+          "releaseID": "006088-2026",
+          "releaseDate": "2026-01-23T11:00:52Z",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "The supplier must meet the issue response times required by the MOD depending on the criticality of the issue, under the terms specified within the contract."
+         }
+        ],
+        "observations": [
+         {
+          "id": "frequency",
+          "period": {
+           "durationInMonths": [
+            {
+             "releaseID": "006088-2026",
+             "releaseDate": "2026-01-23T11:00:52Z",
+             "releaseTag": [
+              "award",
+              "contract"
+             ],
+             "value": 3
+            }
+           ]
+          }
+         }
+        ]
+       },
+       {
+        "id": "4",
+        "title": [
+         {
+          "releaseID": "006088-2026",
+          "releaseDate": "2026-01-23T11:00:52Z",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "Meeting programme requirements"
+         }
+        ],
+        "description": [
+         {
+          "releaseID": "006088-2026",
+          "releaseDate": "2026-01-23T11:00:52Z",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "The supplier must ensure programme specific requirements are met to the required timeframe by a specific programme, under the terms specified within the contract."
+         }
+        ],
+        "observations": [
+         {
+          "id": "frequency",
+          "period": {
+           "durationInMonths": [
+            {
+             "releaseID": "006088-2026",
+             "releaseDate": "2026-01-23T11:00:52Z",
+             "releaseTag": [
+              "award",
+              "contract"
+             ],
+             "value": 3
+            }
+           ]
+          }
+         }
+        ]
+       },
+       {
+        "id": "5",
+        "title": [
+         {
+          "releaseID": "006088-2026",
+          "releaseDate": "2026-01-23T11:00:52Z",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "Social Value"
+         }
+        ],
+        "description": [
+         {
+          "releaseID": "006088-2026",
+          "releaseDate": "2026-01-23T11:00:52Z",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "Palantir must comply with the social value commitments outlined within the contract, which are to:\n- Create and Retain High Quality Jobs\n- Identifying and Managing the Risks of Modern Slavery\n- Learning and Skills Development Opportunities to Address Skills Gaps\n- Create a Diverse Supply Chain Including New Businesses, Entrepreneurs, Start-ups, SMEs, VCSEs and Mutuals\n- Deliver Additional Environmental Benefits in the Performance of the Contract\n- Remove Barriers to Entry for Young People and Under-represented Groups\n- Creating a Pipeline of Opportunities for the Future Contract Workforce\n- Support health and wellbeing in the contract workforce, including physical and mental health"
+         }
+        ],
+        "observations": [
+         {
+          "id": "frequency",
+          "period": {
+           "durationInMonths": [
+            {
+             "releaseID": "006088-2026",
+             "releaseDate": "2026-01-23T11:00:52Z",
+             "releaseTag": [
+              "award",
+              "contract"
+             ],
+             "value": 3
+            }
+           ]
+          }
+         }
+        ]
+       }
+      ],
+      "documents": [
+       {
+        "id": "006088-2026",
+        "documentType": [
+         {
+          "releaseID": "006088-2026",
+          "releaseDate": "2026-01-23T11:00:52Z",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "contractNotice"
+         }
+        ],
+        "noticeType": [
+         {
+          "releaseID": "006088-2026",
+          "releaseDate": "2026-01-23T11:00:52Z",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "UK7"
+         }
+        ],
+        "description": [
+         {
+          "releaseID": "006088-2026",
+          "releaseDate": "2026-01-23T11:00:52Z",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "Contract details notice on Find a Tender"
+         }
+        ],
+        "url": [
+         {
+          "releaseID": "006088-2026",
+          "releaseDate": "2026-01-23T11:00:52Z",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "https://www.find-tender.service.gov.uk/Notice/006088-2026"
+         }
+        ],
+        "datePublished": [
+         {
+          "releaseID": "006088-2026",
+          "releaseDate": "2026-01-23T11:00:52Z",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "2026-01-23T11:00:52Z"
+         }
+        ],
+        "format": [
+         {
+          "releaseID": "006088-2026",
+          "releaseDate": "2026-01-23T11:00:52Z",
+          "releaseTag": [
+           "award",
+           "contract"
+          ],
+          "value": "text/html"
+         }
+        ]
+       },
+       {
+        "id": "006344-2026",
+        "documentType": [
+         {
+          "releaseID": "006344-2026",
+          "releaseDate": "2026-01-23T16:17:06Z",
+          "releaseTag": [
+           "awardUpdate",
+           "contractUpdate"
+          ],
+          "value": "contractNotice"
+         }
+        ],
+        "noticeType": [
+         {
+          "releaseID": "006344-2026",
+          "releaseDate": "2026-01-23T16:17:06Z",
+          "releaseTag": [
+           "awardUpdate",
+           "contractUpdate"
+          ],
+          "value": "UK7"
+         }
+        ],
+        "description": [
+         {
+          "releaseID": "006344-2026",
+          "releaseDate": "2026-01-23T16:17:06Z",
+          "releaseTag": [
+           "awardUpdate",
+           "contractUpdate"
+          ],
+          "value": "Contract details notice on Find a Tender"
+         }
+        ],
+        "url": [
+         {
+          "releaseID": "006344-2026",
+          "releaseDate": "2026-01-23T16:17:06Z",
+          "releaseTag": [
+           "awardUpdate",
+           "contractUpdate"
+          ],
+          "value": "https://www.find-tender.service.gov.uk/Notice/006344-2026"
+         }
+        ],
+        "datePublished": [
+         {
+          "releaseID": "006344-2026",
+          "releaseDate": "2026-01-23T16:17:06Z",
+          "releaseTag": [
+           "awardUpdate",
+           "contractUpdate"
+          ],
+          "value": "2026-01-23T16:17:06Z"
+         }
+        ],
+        "format": [
+         {
+          "releaseID": "006344-2026",
+          "releaseDate": "2026-01-23T16:17:06Z",
+          "releaseTag": [
+           "awardUpdate",
+           "contractUpdate"
+          ],
+          "value": "text/html"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

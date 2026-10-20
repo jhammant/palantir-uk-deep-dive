@@ -1,0 +1,36 @@
+PALANTIR TECHNOLOGIES UK, LTD.
+NOTES TO THE FINANCIAL STATEMEN IS
+FOR THE YEAR ENDED 31 DECEMBER 2023
+§ TAX ON PROFIT /(LOSS) ON ORDINARY ACTIVITIES
+a) The tax (charge) / credit is based on the profit for the year and comprises:
+2023 2022
+£ £
+Current tax:
+UK corporation tax at 19.00% (2021: 19.00%) (663,932) (389,779)
+Adjustment for prior years (138.473) (225,857)
+Foreign tax suffered (37.890) (187,381)
+Foreign tax relief (61,534) _—
+(901,829) (803.017)
+Deterred tax charge:
+Changes in tax rates — —
+Origination and reversal of temporary differences _— —
+Adjustment in respect of previous periods —_ —_—
+Tax (charge) / credit on profit (901,829) (803,017)
+b) The tax assessed for the ) ear is higher than the standard rate of corporation tax in the UK of 23.52% (2022: 19.00%). ‘The
+differences are explained below:
+2023 2022
+£ £
+Profit before taxation 19.117.779 19.947.944
+Tax at standard rate of 23.52% (FY22: 19%) (4.496.606) (3.790.109)
+Eftects of:
+Expenses not deductible for tax purposes (402.278) (598,143)
+Deferred tax not recognised (18.090.317) (330,835)
+Forex on Fixed assets (6.911) (7.564)
+Income not taxable 193.177 263.031
+Adjustments in respect of previous periods (138.473) 1.572
+Share option timing differences 22.139.004 3.846.412
+Withholding tax (61,534) —
+Effects of overseas tax rates (37.891) —
+Changes in tax rates — (187,381)
+Total tax expense for the year (Note 5(a)) (901,829) (803,017)
+29

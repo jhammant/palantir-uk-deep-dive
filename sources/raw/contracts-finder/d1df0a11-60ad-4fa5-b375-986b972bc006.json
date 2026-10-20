@@ -1,0 +1,146 @@
+{
+ "id": "d1df0a11-60ad-4fa5-b375-986b972bc006",
+ "notice": {
+  "id": "d1df0a11-60ad-4fa5-b375-986b972bc006",
+  "parentId": "94e3bcb5-d82c-4bbf-a2aa-5fbb3ea9ca09",
+  "parentIdentifier": "",
+  "linkReason": "",
+  "version": 1,
+  "contactDetails": {
+   "name": "Kate Cassidy",
+   "email": "kate.cassidy2@nhs.net",
+   "address1": "Quarry House, Quarry Hill",
+   "address2": "",
+   "town": "Leeds",
+   "postcode": "LS2 7UE",
+   "country": "United Kingdom",
+   "phone": "",
+   "webAddress": ""
+  },
+  "identifier": "CF-1632400D0O000000rwimUAA",
+  "title": "Palantir Foundry Transition &amp; Exit Contract",
+  "description": "NHS England has put in place a new 12 month contract for the transition from the Palantir Foundry platform to the new Federated Data Platform &amp; Associate Services (FDP-AS) supplier. This is to provide the smooth transition and exit service of critical products that were developed to respond to the Covid-19 pandemic (for Covid-19 and elective recovery purposes), to alternative provisions including the transition of products to the new FDP-AS supplier following completion of the procurement process and award to the FDP-AS supplier.  This 12 month transition contract with Palantir will support the safe transition and exit from the incumbent supplier to the new FDP-AS supplier when it is awarded and established. \r\n\r\nThis contract notice references the future Federated Data Platform &amp; Associated Services (FDP-AS) contract for context,  however it should be noted it is a separate contract and procurement process.",
+  "cpvDescription": "Data management services and Computer platforms",
+  "publishedDate": "2023-07-05T17:52:50+01:00",
+  "approachMarketDate": "",
+  "deadlineDate": "2023-06-09T12:00:00+01:00",
+  "valueLow": 24925000,
+  "valueHigh": 24925000,
+  "postcode": "LS2 7UE",
+  "region": "North East,North West,Yorkshire and The Humber,East Midlands,West Midlands,East of England,London,South East,South West",
+  "nationwide": false,
+  "location": {
+   "lat": 53.80295,
+   "lon": -1.547347
+  },
+  "start": "2023-06-12T00:00:00+01:00",
+  "end": "2024-06-11T00:00:00+01:00",
+  "type": "Contract",
+  "cpvCodes": [
+   "72322000",
+   "30211300"
+  ],
+  "spendProfile": null,
+  "status": "Awarded",
+  "isSuitableForSme": false,
+  "isSuitableForVco": false,
+  "supplyChain": false,
+  "lastNotifiableUpdate": "2023-07-05T17:52:50+01:00",
+  "organisationName": "NHS England",
+  "sector": "",
+  "procedureType": "CallOffFromFrameworkAgreement",
+  "procedureTypeOther": "",
+  "procedureAcceleratedJustification": "",
+  "ojeuContractType": "Services",
+  "isFrameworkAgreement": false,
+  "isExtensionPossible": false,
+  "annexDOption": null,
+  "reasonContractLawful": null
+ },
+ "createdByUser": "joe.beech@atamis.co.uk",
+ "createdDate": "2023-07-05T17:52:25+01:00",
+ "lastUpdatedbyUser": "joe.beech@atamis.co.uk",
+ "lastUpdatedDate": "2023-07-05T17:52:50+01:00",
+ "awards": [
+  {
+   "id": "589026",
+   "noticeId": "d1df0a11-60ad-4fa5-b375-986b972bc006",
+   "parentId": null,
+   "value": 24925000,
+   "supplierName": "PALANTIR TECHNOLOGIES UK LTD",
+   "supplierAddress": "NEW PENDEREL HOUSE | 4TH FLOOR | 283 TO 288 HIGH HOLBORN | LONDON WC1V 7HP",
+   "contact": null,
+   "dunsNumber": "216241882",
+   "supplierAwardedValue": null,
+   "referenceType": "NONE",
+   "reference": "",
+   "startDate": "2023-06-12T00:00:00+01:00",
+   "endDate": "2024-06-11T00:00:00+01:00",
+   "awardedDate": "2023-06-09T00:00:00+01:00",
+   "awardedProcedureType": "CallOffFromFrameworkAgreement",
+   "awardedProcedureTypeOther": "",
+   "awardedProcedureAcceleratedJustification": "",
+   "annexDOptionType": "",
+   "reasonContractLawful": "null",
+   "additionalDetails": "",
+   "awardedToSME": false,
+   "awardedToVCSO": null,
+   "awardGuid": "null"
+  }
+ ],
+ "isPublished": true,
+ "isPreAwarded": true,
+ "organisation": {
+  "name": "NHS England"
+ },
+ "additionalDetails": [
+  {
+   "id": "d1df0a11-60ad-4fa5-b375-986b972bc006",
+   "noticeId": "d1df0a11-60ad-4fa5-b375-986b972bc006",
+   "description": "Additional Text",
+   "dataType": "AdditionalText",
+   "textData": "",
+   "mimeType": null,
+   "awardGuid": null
+  },
+  {
+   "id": "1c61f72d-b498-4b2c-8915-4292cf12daff",
+   "noticeId": "d1df0a11-60ad-4fa5-b375-986b972bc006",
+   "description": "Redacted Palantir Foundry Transition &amp; Exit Contract.pdf",
+   "dataType": "Attachment",
+   "filename": "Redacted Palantir Foundry Transition &amp; Exit Contract.pdf.pdf",
+   "mimeType": "application/pdf",
+   "awardGuid": null
+  }
+ ],
+ "withdrawnDate": "",
+ "withdrawnReason": "",
+ "withdrawnByUser": null,
+ "cpvCodes": [
+  {
+   "code": "72322000",
+   "description": "Data management services",
+   "parentCode": "72320000",
+   "hasChildren": false
+  },
+  {
+   "code": "30211300",
+   "description": "Computer platforms",
+   "parentCode": "30211000",
+   "hasChildren": false
+  }
+ ],
+ "publishedVersion": [
+  {
+   "changedByUser": "joe.beech@atamis.co.uk",
+   "dateChanged": "2023-07-05T17:52:50+01:00",
+   "id": "724144",
+   "noticeStatus": "Awarded",
+   "noticeType": "Contract",
+   "publishedNoticeId": "d1df0a11-60ad-4fa5-b375-986b972bc006",
+   "versionNumber": 1,
+   "visibleToPublic": true
+  }
+ ],
+ "numberOfViews": "3821"
+}

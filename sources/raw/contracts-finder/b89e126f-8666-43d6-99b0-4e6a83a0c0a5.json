@@ -1,0 +1,139 @@
+{
+ "id": "b89e126f-8666-43d6-99b0-4e6a83a0c0a5",
+ "notice": {
+  "id": "b89e126f-8666-43d6-99b0-4e6a83a0c0a5",
+  "parentId": null,
+  "parentIdentifier": null,
+  "linkReason": null,
+  "version": 1,
+  "contactDetails": {
+   "name": "",
+   "email": "commercial@levellingup.gov.uk",
+   "address1": "Fry Building",
+   "address2": "2 Marsham Street",
+   "town": "London",
+   "postcode": "SW1P4DF",
+   "country": "England",
+   "phone": "03034440000",
+   "webAddress": "gov.uk/DLUHC"
+  },
+  "identifier": "CPD4124104",
+  "title": "Palantir Foundry Enterprise",
+  "description": "This contract has already been awarded and is being published for transparency purposes.\r\n\r\nProvision of Palantir Foundry Software-as-a-service, a data management platform and implementation.",
+  "cpvDescription": "Database and operating software package",
+  "publishedDate": "2022-10-14T13:30:08+01:00",
+  "approachMarketDate": "",
+  "deadlineDate": "2022-09-21T00:00:00+01:00",
+  "valueLow": 4500000,
+  "valueHigh": 0,
+  "postcode": null,
+  "region": "North East,North West,Yorkshire and The Humber,East Midlands,West Midlands,East of England,London,South East,South West,Scotland,Wales,Northern Ireland",
+  "nationwide": false,
+  "location": {
+   "lat": 0,
+   "lon": 0
+  },
+  "start": "2022-09-22T00:00:00+01:00",
+  "end": "2023-09-21T00:00:00+01:00",
+  "type": "Contract",
+  "cpvCodes": [
+   "48600000"
+  ],
+  "spendProfile": null,
+  "status": "Awarded",
+  "isSuitableForSme": false,
+  "isSuitableForVco": false,
+  "supplyChain": false,
+  "lastNotifiableUpdate": "2022-10-14T13:30:08+01:00",
+  "organisationName": "DEPARTMENT FOR LEVELLING UP, HOUSING AND COMMUNITIES",
+  "sector": null,
+  "procedureType": null,
+  "procedureTypeOther": null,
+  "procedureAcceleratedJustification": null,
+  "ojeuContractType": "Products",
+  "isFrameworkAgreement": false,
+  "isExtensionPossible": false,
+  "annexDOption": null,
+  "reasonContractLawful": null
+ },
+ "createdByUser": "chris.sibbald@levellingup.gov.uk",
+ "createdDate": "2022-10-14T13:19:43+01:00",
+ "lastUpdatedbyUser": "chris.sibbald@levellingup.gov.uk",
+ "lastUpdatedDate": "2022-10-14T13:30:08+01:00",
+ "awards": [
+  {
+   "id": "520454",
+   "noticeId": "b89e126f-8666-43d6-99b0-4e6a83a0c0a5",
+   "parentId": null,
+   "value": 4500000,
+   "supplierName": "Palantir Technologies UK Limited",
+   "supplierAddress": "New Penderel House\r\nFourth Floor\r\n283 - 288 High Holburn\r\nLondon\r\nWC1V 7HP",
+   "contact": null,
+   "dunsNumber": "",
+   "supplierAwardedValue": 4500000,
+   "referenceType": "COMPANIES_HOUSE",
+   "reference": "07042994",
+   "startDate": "2022-09-22T00:00:00+01:00",
+   "endDate": "2023-09-21T00:00:00+01:00",
+   "awardedDate": "2022-09-22T00:00:00+01:00",
+   "awardedProcedureType": "CallOffFromFrameworkAgreement",
+   "awardedProcedureTypeOther": "",
+   "awardedProcedureAcceleratedJustification": "",
+   "annexDOptionType": "",
+   "reasonContractLawful": "",
+   "additionalDetails": "",
+   "awardedToSME": false,
+   "awardedToVCSO": false,
+   "awardGuid": "da95f413-df6c-40d9-8556-dd83bfdf62da"
+  }
+ ],
+ "isPublished": true,
+ "isPreAwarded": true,
+ "organisation": {
+  "name": "DEPARTMENT FOR LEVELLING UP, HOUSING AND COMMUNITIES"
+ },
+ "additionalDetails": [
+  {
+   "id": "b89e126f-8666-43d6-99b0-4e6a83a0c0a5",
+   "noticeId": "b89e126f-8666-43d6-99b0-4e6a83a0c0a5",
+   "description": "Additional Text",
+   "dataType": "AdditionalText",
+   "textData": "",
+   "mimeType": null,
+   "awardGuid": null
+  },
+  {
+   "id": "0d35e9bc-9416-4c49-a141-5e75cfc3c932",
+   "noticeId": "b89e126f-8666-43d6-99b0-4e6a83a0c0a5",
+   "description": "Redacted version of signed contract",
+   "dataType": "Attachment",
+   "filename": "CPD4124104 Redacted.pdf",
+   "mimeType": "application/pdf",
+   "awardGuid": null
+  }
+ ],
+ "withdrawnDate": "",
+ "withdrawnReason": null,
+ "withdrawnByUser": null,
+ "cpvCodes": [
+  {
+   "code": "48600000",
+   "description": "Database and operating software package",
+   "parentCode": "48000000",
+   "hasChildren": true
+  }
+ ],
+ "publishedVersion": [
+  {
+   "changedByUser": "chris.sibbald@levellingup.gov.uk",
+   "dateChanged": "2022-10-14T13:30:08+01:00",
+   "id": "652004",
+   "noticeStatus": "Awarded",
+   "noticeType": "Contract",
+   "publishedNoticeId": "b89e126f-8666-43d6-99b0-4e6a83a0c0a5",
+   "versionNumber": 1,
+   "visibleToPublic": true
+  }
+ ],
+ "numberOfViews": "3923"
+}

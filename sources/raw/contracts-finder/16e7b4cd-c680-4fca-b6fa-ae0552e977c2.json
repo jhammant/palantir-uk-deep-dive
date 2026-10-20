@@ -1,0 +1,130 @@
+{
+ "id": "16e7b4cd-c680-4fca-b6fa-ae0552e977c2",
+ "notice": {
+  "id": "16e7b4cd-c680-4fca-b6fa-ae0552e977c2",
+  "parentId": null,
+  "parentIdentifier": "",
+  "linkReason": "",
+  "version": 1,
+  "contactDetails": {
+   "name": "Eleanor Ross",
+   "email": "support@multiquote.com",
+   "address1": "John Snow House",
+   "address2": "",
+   "town": "Durham",
+   "postcode": "DH1 3YG",
+   "country": "England",
+   "phone": "0151 482 9230",
+   "webAddress": "https://suppliers.multiquote.com"
+  },
+  "identifier": "RA319101",
+  "title": "RA319101 - Palantir Foundry Engineering Support",
+  "description": "Please submit your project pricing in line with GCloud 12 and return the attached bidder response document - To access this competition: login to https://suppliers.multiquote.com and view the opportunity RA319101. Not registered on MultiQuote - visit https://suppliers.multiquote.com then register and quote RA319101 as the reason for registration. Any queries please contact MultiQuote on 0151 482 9230.",
+  "cpvDescription": "IT services: consulting, software development, Internet and support",
+  "publishedDate": "2022-06-20T14:22:54+01:00",
+  "approachMarketDate": "",
+  "deadlineDate": "2022-06-20T13:22:44+01:00",
+  "valueLow": 0,
+  "valueHigh": 0,
+  "postcode": "DH1 3YG",
+  "region": "Any region",
+  "nationwide": false,
+  "location": {
+   "lat": 54.777922,
+   "lon": -1.55439
+  },
+  "start": "2022-06-20T13:22:44+01:00",
+  "end": "2022-06-20T13:22:44+01:00",
+  "type": "Contract",
+  "cpvCodes": [
+   "72000000"
+  ],
+  "spendProfile": null,
+  "status": "Awarded",
+  "isSuitableForSme": true,
+  "isSuitableForVco": false,
+  "supplyChain": false,
+  "lastNotifiableUpdate": "2022-06-20T14:22:54+01:00",
+  "organisationName": "NHS North of England CSU",
+  "sector": "",
+  "procedureType": "Open",
+  "procedureTypeOther": "",
+  "procedureAcceleratedJustification": "",
+  "ojeuContractType": "Products",
+  "isFrameworkAgreement": false,
+  "isExtensionPossible": false,
+  "annexDOption": null,
+  "reasonContractLawful": null
+ },
+ "createdByUser": "contractsfinder@multiquote.com",
+ "createdDate": "2022-06-20T14:22:44+01:00",
+ "lastUpdatedbyUser": "contractsfinder@multiquote.com",
+ "lastUpdatedDate": "2022-06-20T14:22:54+01:00",
+ "awards": [
+  {
+   "id": "486807",
+   "noticeId": "16e7b4cd-c680-4fca-b6fa-ae0552e977c2",
+   "parentId": null,
+   "value": 125000,
+   "supplierName": "Palantir Technologies UK, Ltd.",
+   "supplierAddress": "20 Soho Square, London, London, W1D 3QW",
+   "contact": null,
+   "dunsNumber": "216241882",
+   "supplierAwardedValue": null,
+   "referenceType": "NONE",
+   "reference": "",
+   "startDate": "2022-06-21T00:00:00+01:00",
+   "endDate": "2022-06-22T00:00:00+01:00",
+   "awardedDate": "2022-06-20T00:00:00+01:00",
+   "awardedProcedureType": "Open",
+   "awardedProcedureTypeOther": "",
+   "awardedProcedureAcceleratedJustification": "",
+   "annexDOptionType": "",
+   "reasonContractLawful": "N.A.",
+   "additionalDetails": "",
+   "awardedToSME": false,
+   "awardedToVCSO": false,
+   "awardGuid": "6410e664-0511-481a-888f-ef0c6a1fdaee"
+  }
+ ],
+ "isPublished": true,
+ "isPreAwarded": true,
+ "organisation": {
+  "name": "NHS North of England CSU"
+ },
+ "additionalDetails": [
+  {
+   "id": "16e7b4cd-c680-4fca-b6fa-ae0552e977c2",
+   "noticeId": "16e7b4cd-c680-4fca-b6fa-ae0552e977c2",
+   "description": "Additional Text",
+   "dataType": "AdditionalText",
+   "textData": "",
+   "mimeType": null,
+   "awardGuid": null
+  }
+ ],
+ "withdrawnDate": "",
+ "withdrawnReason": "",
+ "withdrawnByUser": null,
+ "cpvCodes": [
+  {
+   "code": "72000000",
+   "description": "IT services: consulting, software development, Internet and support",
+   "parentCode": "72000000",
+   "hasChildren": true
+  }
+ ],
+ "publishedVersion": [
+  {
+   "changedByUser": "contractsfinder@multiquote.com",
+   "dateChanged": "2022-06-20T14:22:54+01:00",
+   "id": "621268",
+   "noticeStatus": "Awarded",
+   "noticeType": "Contract",
+   "publishedNoticeId": "16e7b4cd-c680-4fca-b6fa-ae0552e977c2",
+   "versionNumber": 1,
+   "visibleToPublic": true
+  }
+ ],
+ "numberOfViews": "1253"
+}

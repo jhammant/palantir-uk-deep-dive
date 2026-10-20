@@ -1,0 +1,139 @@
+{
+ "id": "78e732b3-a8e6-40df-97e1-ee0c8eec6934",
+ "notice": {
+  "id": "78e732b3-a8e6-40df-97e1-ee0c8eec6934",
+  "parentId": null,
+  "parentIdentifier": "",
+  "linkReason": "",
+  "version": 1,
+  "contactDetails": {
+   "name": "Iain McLean",
+   "email": "iain.mclean118@mod.gov.uk",
+   "address1": "Kentigern House",
+   "address2": "",
+   "town": "Glasgow",
+   "postcode": "G2 8EX",
+   "country": "Scotland",
+   "phone": "",
+   "webAddress": ""
+  },
+  "identifier": "tender_314863/1099344",
+  "title": "FOR TRANSPARENCY PURPOSES ONLY - Workforce Baselining and Benchmarking Discovery Report",
+  "description": "Workforce Baselining and Benchmarking Discovery Report",
+  "cpvDescription": "Software package and information systems",
+  "publishedDate": "2022-08-18T16:03:46+01:00",
+  "approachMarketDate": "",
+  "deadlineDate": "2022-07-28T23:59:00+01:00",
+  "valueLow": 250000,
+  "valueHigh": 0,
+  "postcode": "",
+  "region": "London",
+  "nationwide": false,
+  "location": {
+   "lat": 0,
+   "lon": 0
+  },
+  "start": "2022-07-29T00:00:00+01:00",
+  "end": "2023-07-27T00:00:00+01:00",
+  "type": "Contract",
+  "cpvCodes": [
+   "48000000"
+  ],
+  "spendProfile": null,
+  "status": "Awarded",
+  "isSuitableForSme": true,
+  "isSuitableForVco": false,
+  "supplyChain": false,
+  "lastNotifiableUpdate": "2022-08-18T16:03:46+01:00",
+  "organisationName": "Ministry of Defence",
+  "sector": "",
+  "procedureType": "CallOffFromFrameworkAgreement",
+  "procedureTypeOther": "",
+  "procedureAcceleratedJustification": "",
+  "ojeuContractType": "Services",
+  "isFrameworkAgreement": false,
+  "isExtensionPossible": false,
+  "annexDOption": null,
+  "reasonContractLawful": null
+ },
+ "createdByUser": "i.dawson@bravosolution.com",
+ "createdDate": "2022-08-18T16:03:34+01:00",
+ "lastUpdatedbyUser": "i.dawson@bravosolution.com",
+ "lastUpdatedDate": "2022-08-18T16:03:46+01:00",
+ "awards": [
+  {
+   "id": "506127",
+   "noticeId": "78e732b3-a8e6-40df-97e1-ee0c8eec6934",
+   "parentId": null,
+   "value": 250000,
+   "supplierName": "Palantir Technologies UK Ltd",
+   "supplierAddress": "New Penderel House, 4th Floor, 283 - 288 High Holborn, London, WC1V 7HP",
+   "contact": null,
+   "dunsNumber": "",
+   "supplierAwardedValue": null,
+   "referenceType": "NONE_OTHER",
+   "reference": "",
+   "startDate": "2022-07-29T00:00:00+01:00",
+   "endDate": "2023-07-27T00:00:00+01:00",
+   "awardedDate": "2022-07-28T00:00:00+01:00",
+   "awardedProcedureType": "CallOffFromFrameworkAgreement",
+   "awardedProcedureTypeOther": "",
+   "awardedProcedureAcceleratedJustification": "",
+   "annexDOptionType": "",
+   "reasonContractLawful": "",
+   "additionalDetails": "",
+   "awardedToSME": false,
+   "awardedToVCSO": false,
+   "awardGuid": "4595445e-f9ec-4e86-b938-bde4d36b5ffb"
+  }
+ ],
+ "isPublished": true,
+ "isPreAwarded": true,
+ "organisation": {
+  "name": "Ministry of Defence"
+ },
+ "additionalDetails": [
+  {
+   "id": "78e732b3-a8e6-40df-97e1-ee0c8eec6934",
+   "noticeId": "78e732b3-a8e6-40df-97e1-ee0c8eec6934",
+   "description": "Additional Text",
+   "dataType": "AdditionalText",
+   "textData": "",
+   "mimeType": null,
+   "awardGuid": null
+  },
+  {
+   "id": "7853ef94-0324-4757-9dec-b6cf496669d2",
+   "noticeId": "78e732b3-a8e6-40df-97e1-ee0c8eec6934",
+   "description": "n/a",
+   "dataType": "Attachment",
+   "filename": "704284450 G-Cloud-12-Call-Off-Contract-v161 Transparency.pdf",
+   "mimeType": "application/pdf",
+   "awardGuid": null
+  }
+ ],
+ "withdrawnDate": "",
+ "withdrawnReason": "",
+ "withdrawnByUser": null,
+ "cpvCodes": [
+  {
+   "code": "48000000",
+   "description": "Software package and information systems",
+   "parentCode": "48000000",
+   "hasChildren": true
+  }
+ ],
+ "publishedVersion": [
+  {
+   "changedByUser": "i.dawson@bravosolution.com",
+   "dateChanged": "2022-08-18T16:03:46+01:00",
+   "id": "637389",
+   "noticeStatus": "Awarded",
+   "noticeType": "Contract",
+   "publishedNoticeId": "78e732b3-a8e6-40df-97e1-ee0c8eec6934",
+   "versionNumber": 1,
+   "visibleToPublic": true
+  }
+ ],
+ "numberOfViews": "565"
+}

@@ -1,0 +1,139 @@
+{
+ "id": "c66036ee-a63e-4452-bafe-2410e9b51587",
+ "notice": {
+  "id": "c66036ee-a63e-4452-bafe-2410e9b51587",
+  "parentId": null,
+  "parentIdentifier": null,
+  "linkReason": null,
+  "version": 1,
+  "contactDetails": {
+   "name": "David Bailey",
+   "email": "david.bailey1@nhs.net",
+   "address1": "St John&#039;s House,30 East Street",
+   "address2": "",
+   "town": "LEICESTER",
+   "postcode": "LE16NB",
+   "country": "England",
+   "phone": "01332 888023",
+   "webAddress": ""
+  },
+  "identifier": "AGEMCSU/TRANS/20/872",
+  "title": "Provision of Data Management Platform",
+  "description": "Purchase of Palantir Foundry Data Management Platform under G-Cloud 11 Digital Marketplace on a 4 month with the option to extend for an additional 2 months trial period under the G-Cloud Terms to support the Covid-19 response management.\r\n\r\nThis purchase is for a Trial Period under the G-Cloud Terms only with a full procurement to be undertaken for the provision of long term support.",
+  "cpvDescription": "Software package and information systems",
+  "publishedDate": "2020-08-26T11:01:17+01:00",
+  "approachMarketDate": "",
+  "deadlineDate": "2020-06-11T00:00:00+01:00",
+  "valueLow": 1000000,
+  "valueHigh": 1500000,
+  "postcode": null,
+  "region": "East Midlands",
+  "nationwide": false,
+  "location": {
+   "lat": 0,
+   "lon": 0
+  },
+  "start": "2020-06-12T00:00:00+01:00",
+  "end": "2020-12-11T00:00:00Z",
+  "type": "Contract",
+  "cpvCodes": [
+   "48000000"
+  ],
+  "spendProfile": null,
+  "status": "Awarded",
+  "isSuitableForSme": true,
+  "isSuitableForVco": false,
+  "supplyChain": false,
+  "lastNotifiableUpdate": "2020-08-26T11:01:17+01:00",
+  "organisationName": "NHS ARDEN AND GREATER EAST MIDLANDS COMMISSIONING SUPPORT UNIT",
+  "sector": null,
+  "procedureType": null,
+  "procedureTypeOther": null,
+  "procedureAcceleratedJustification": null,
+  "ojeuContractType": "Products",
+  "isFrameworkAgreement": false,
+  "isExtensionPossible": false,
+  "annexDOption": null,
+  "reasonContractLawful": null
+ },
+ "createdByUser": "david.bailey@ardengemcsu.nhs.uk",
+ "createdDate": "2020-06-12T09:16:37+01:00",
+ "lastUpdatedbyUser": "david.bailey@ardengemcsu.nhs.uk",
+ "lastUpdatedDate": "2020-08-26T11:01:17+01:00",
+ "awards": [
+  {
+   "id": "310518",
+   "noticeId": "c66036ee-a63e-4452-bafe-2410e9b51587",
+   "parentId": null,
+   "value": 1500000,
+   "supplierName": "Palantir Technologies UK, Ltd.",
+   "supplierAddress": "New Penderel House\r\n4th Floor\r\n283 - 288 High Holborn\r\nLondon\r\nWC1V 7HP\r\nCompany number: \r\n07042994",
+   "contact": null,
+   "dunsNumber": "",
+   "supplierAwardedValue": null,
+   "referenceType": "COMPANIES_HOUSE",
+   "reference": "07042994",
+   "startDate": "2020-06-12T00:00:00+01:00",
+   "endDate": "2020-12-11T00:00:00Z",
+   "awardedDate": "2020-06-12T00:00:00+01:00",
+   "awardedProcedureType": "CallOffFromFrameworkAgreement",
+   "awardedProcedureTypeOther": "",
+   "awardedProcedureAcceleratedJustification": "",
+   "annexDOptionType": "",
+   "reasonContractLawful": "",
+   "additionalDetails": "",
+   "awardedToSME": false,
+   "awardedToVCSO": false,
+   "awardGuid": "b72627af-05f4-47ba-9f21-284c44ff0a7d"
+  }
+ ],
+ "isPublished": true,
+ "isPreAwarded": true,
+ "organisation": {
+  "name": "NHS ARDEN AND GREATER EAST MIDLANDS COMMISSIONING SUPPORT UNIT"
+ },
+ "additionalDetails": [
+  {
+   "id": "c66036ee-a63e-4452-bafe-2410e9b51587",
+   "noticeId": "c66036ee-a63e-4452-bafe-2410e9b51587",
+   "description": "Additional Text",
+   "dataType": "AdditionalText",
+   "textData": "",
+   "mimeType": null,
+   "awardGuid": null
+  },
+  {
+   "id": "1c327f6b-4373-4550-9ed5-11101531480c",
+   "noticeId": "c66036ee-a63e-4452-bafe-2410e9b51587",
+   "description": "",
+   "dataType": "Attachment",
+   "filename": "REDACTED Short-term contract - PT Signed G-Cloud-11 Call-Off (RM1557.11) 2020.06.12 NHS2.PDF",
+   "mimeType": "application/pdf",
+   "awardGuid": null
+  }
+ ],
+ "withdrawnDate": "",
+ "withdrawnReason": null,
+ "withdrawnByUser": null,
+ "cpvCodes": [
+  {
+   "code": "48000000",
+   "description": "Software package and information systems",
+   "parentCode": "48000000",
+   "hasChildren": true
+  }
+ ],
+ "publishedVersion": [
+  {
+   "changedByUser": "david.bailey@ardengemcsu.nhs.uk",
+   "dateChanged": "2020-08-26T11:01:17+01:00",
+   "id": "428404",
+   "noticeStatus": "Awarded",
+   "noticeType": "Contract",
+   "publishedNoticeId": "c66036ee-a63e-4452-bafe-2410e9b51587",
+   "versionNumber": 1,
+   "visibleToPublic": true
+  }
+ ],
+ "numberOfViews": "2820"
+}

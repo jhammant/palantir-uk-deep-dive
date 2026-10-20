@@ -1,0 +1,139 @@
+{
+ "id": "ac82a048-4e00-46f0-8a8f-be81beeddcca",
+ "notice": {
+  "id": "ac82a048-4e00-46f0-8a8f-be81beeddcca",
+  "parentId": null,
+  "parentIdentifier": null,
+  "linkReason": null,
+  "version": 1,
+  "contactDetails": {
+   "name": "",
+   "email": "rob.allan111@mod.gov.uk",
+   "address1": "MAIN BUILDING WHITEHALL",
+   "address2": "",
+   "town": "LONDON",
+   "postcode": "SW1A2HB",
+   "country": "England",
+   "phone": "",
+   "webAddress": ""
+  },
+  "identifier": "DF/054",
+  "title": "Palantir Technologies UK Ltd / UK MoD  Enterprise Agreement",
+  "description": "An Enterprise Agreement for the provision of the Palantir software tool-set to accommodate the UK MoD&#039;s demand, at all security classifications, for the next three years in line with data strategies.",
+  "cpvDescription": "Software package and information systems",
+  "publishedDate": "2023-04-13T14:41:50+01:00",
+  "approachMarketDate": "",
+  "deadlineDate": "2022-11-30T23:59:00Z",
+  "valueLow": 75215711.11,
+  "valueHigh": 0,
+  "postcode": null,
+  "region": "North East,North West,Yorkshire and The Humber,East Midlands,West Midlands,East of England,London,South East,South West,Scotland,Wales,Northern Ireland",
+  "nationwide": false,
+  "location": {
+   "lat": 0,
+   "lon": 0
+  },
+  "start": "2022-12-01T00:00:00Z",
+  "end": "2025-11-30T00:00:00Z",
+  "type": "Contract",
+  "cpvCodes": [
+   "48000000"
+  ],
+  "spendProfile": null,
+  "status": "Awarded",
+  "isSuitableForSme": false,
+  "isSuitableForVco": false,
+  "supplyChain": false,
+  "lastNotifiableUpdate": "2023-04-13T14:41:50+01:00",
+  "organisationName": "MINISTRY OF DEFENCE",
+  "sector": null,
+  "procedureType": null,
+  "procedureTypeOther": null,
+  "procedureAcceleratedJustification": null,
+  "ojeuContractType": "Products",
+  "isFrameworkAgreement": false,
+  "isExtensionPossible": false,
+  "annexDOption": null,
+  "reasonContractLawful": null
+ },
+ "createdByUser": "hannah.boreham100@mod.gov.uk",
+ "createdDate": "2023-03-31T10:52:18+01:00",
+ "lastUpdatedbyUser": "hannah.boreham100@mod.gov.uk",
+ "lastUpdatedDate": "2023-04-13T14:41:50+01:00",
+ "awards": [
+  {
+   "id": "566321",
+   "noticeId": "ac82a048-4e00-46f0-8a8f-be81beeddcca",
+   "parentId": null,
+   "value": 75215711.11,
+   "supplierName": "PALANTIR TECHNOLOGIES UK, LTD.",
+   "supplierAddress": "New Penderel House, 4th Floor,High Holborn\r\nLONDON\r\nWC1V 7HP\r\nGB",
+   "contact": null,
+   "dunsNumber": "216241882",
+   "supplierAwardedValue": null,
+   "referenceType": "COMPANIES_HOUSE",
+   "reference": "07042994",
+   "startDate": "2022-12-01T00:00:00Z",
+   "endDate": "2025-11-30T00:00:00Z",
+   "awardedDate": "2022-11-25T00:00:00Z",
+   "awardedProcedureType": "NegotiatedProcedureWithoutPriorPublicationOJEU",
+   "awardedProcedureTypeOther": "",
+   "awardedProcedureAcceleratedJustification": "",
+   "annexDOptionType": "",
+   "reasonContractLawful": "",
+   "additionalDetails": "",
+   "awardedToSME": false,
+   "awardedToVCSO": false,
+   "awardGuid": "2259d657-e2ba-4b6c-80a0-f2a855801b9d"
+  }
+ ],
+ "isPublished": true,
+ "isPreAwarded": true,
+ "organisation": {
+  "name": "MINISTRY OF DEFENCE"
+ },
+ "additionalDetails": [
+  {
+   "id": "ac82a048-4e00-46f0-8a8f-be81beeddcca",
+   "noticeId": "ac82a048-4e00-46f0-8a8f-be81beeddcca",
+   "description": "Additional Text",
+   "dataType": "AdditionalText",
+   "textData": "",
+   "mimeType": null,
+   "awardGuid": null
+  },
+  {
+   "id": "45095dea-c937-42db-ab83-df63e0501fdd",
+   "noticeId": "ac82a048-4e00-46f0-8a8f-be81beeddcca",
+   "description": "",
+   "dataType": "Attachment",
+   "filename": "Palantir EA_Master Contract_FINAL_v1.0_OSC REDACTED.pdf",
+   "mimeType": "application/pdf",
+   "awardGuid": null
+  }
+ ],
+ "withdrawnDate": "",
+ "withdrawnReason": null,
+ "withdrawnByUser": null,
+ "cpvCodes": [
+  {
+   "code": "48000000",
+   "description": "Software package and information systems",
+   "parentCode": "48000000",
+   "hasChildren": true
+  }
+ ],
+ "publishedVersion": [
+  {
+   "changedByUser": "hannah.boreham100@mod.gov.uk",
+   "dateChanged": "2023-04-13T14:41:50+01:00",
+   "id": "701357",
+   "noticeStatus": "Awarded",
+   "noticeType": "Contract",
+   "publishedNoticeId": "ac82a048-4e00-46f0-8a8f-be81beeddcca",
+   "versionNumber": 1,
+   "visibleToPublic": true
+  }
+ ],
+ "numberOfViews": "9931"
+}

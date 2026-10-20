@@ -1,0 +1,157 @@
+{
+ "id": "0c8c0123-5ab9-4c02-8b90-554d1e2093fc",
+ "notice": {
+  "id": "0c8c0123-5ab9-4c02-8b90-554d1e2093fc",
+  "parentId": null,
+  "parentIdentifier": null,
+  "linkReason": null,
+  "version": 1,
+  "contactDetails": {
+   "name": "",
+   "email": "Commercial@communities.gov.uk",
+   "address1": "2 Marsham Street",
+   "address2": "",
+   "town": "LONDON",
+   "postcode": "SW1P4DF",
+   "country": "England",
+   "phone": "",
+   "webAddress": ""
+  },
+  "identifier": "CPD/004/122/271",
+  "title": "Ukrainian Humanitarian Relief Case Management System",
+  "description": "This contract has been awarded and is being published for transparency purposes.\r\n\r\nThis contract is for the provision of a case management system to assist with management of the departments relief efforts.",
+  "cpvDescription": "Software package and information systems",
+  "publishedDate": "2022-04-08T16:30:07+01:00",
+  "approachMarketDate": "",
+  "deadlineDate": "2022-03-04T12:00:00Z",
+  "valueLow": 0,
+  "valueHigh": 0,
+  "postcode": null,
+  "region": "North East,North West,Yorkshire and The Humber,East Midlands,West Midlands,East of England,London,South East,South West",
+  "nationwide": false,
+  "location": {
+   "lat": 0,
+   "lon": 0
+  },
+  "start": "2022-03-08T00:00:00Z",
+  "end": "2022-09-08T00:00:00+01:00",
+  "type": "Contract",
+  "cpvCodes": [
+   "48000000"
+  ],
+  "spendProfile": null,
+  "status": "Awarded",
+  "isSuitableForSme": true,
+  "isSuitableForVco": true,
+  "supplyChain": false,
+  "lastNotifiableUpdate": "2022-04-08T16:30:07+01:00",
+  "organisationName": "DEPARTMENT FOR LEVELLING UP, HOUSING AND COMMUNITIES",
+  "sector": null,
+  "procedureType": null,
+  "procedureTypeOther": null,
+  "procedureAcceleratedJustification": null,
+  "ojeuContractType": "Services",
+  "isFrameworkAgreement": false,
+  "isExtensionPossible": false,
+  "annexDOption": null,
+  "reasonContractLawful": null
+ },
+ "createdByUser": "liyani.paskaran@communities.gov.uk",
+ "createdDate": "2022-04-08T14:07:50+01:00",
+ "lastUpdatedbyUser": "liyani.paskaran@communities.gov.uk",
+ "lastUpdatedDate": "2022-04-08T16:30:07+01:00",
+ "awards": [
+  {
+   "id": "469473",
+   "noticeId": "0c8c0123-5ab9-4c02-8b90-554d1e2093fc",
+   "parentId": null,
+   "value": 0,
+   "supplierName": "PALANTIR TECHNOLOGIES UK, LTD.",
+   "supplierAddress": "New Penderel House, 4th Floor,High Holborn\nLONDON\nWC1V 7HP\nGB",
+   "contact": null,
+   "dunsNumber": "216241882",
+   "supplierAwardedValue": null,
+   "referenceType": "COMPANIES_HOUSE",
+   "reference": "07042994",
+   "startDate": "2022-03-08T00:00:00Z",
+   "endDate": "2022-09-08T00:00:00+01:00",
+   "awardedDate": "2022-03-08T00:00:00Z",
+   "awardedProcedureType": "SingleTenderActionNonOJEU",
+   "awardedProcedureTypeOther": "",
+   "awardedProcedureAcceleratedJustification": "",
+   "annexDOptionType": "",
+   "reasonContractLawful": "",
+   "additionalDetails": "",
+   "awardedToSME": false,
+   "awardedToVCSO": false,
+   "awardGuid": "53f7b6ed-8a93-4ad3-af0f-228067a47c50"
+  }
+ ],
+ "isPublished": true,
+ "isPreAwarded": true,
+ "organisation": {
+  "name": "DEPARTMENT FOR LEVELLING UP, HOUSING AND COMMUNITIES"
+ },
+ "additionalDetails": [
+  {
+   "id": "0c8c0123-5ab9-4c02-8b90-554d1e2093fc",
+   "noticeId": "0c8c0123-5ab9-4c02-8b90-554d1e2093fc",
+   "description": "Additional Text",
+   "dataType": "AdditionalText",
+   "textData": "",
+   "mimeType": null,
+   "awardGuid": null
+  },
+  {
+   "id": "795a9350-d734-43a4-93ce-2ce6632c87ed",
+   "noticeId": "0c8c0123-5ab9-4c02-8b90-554d1e2093fc",
+   "description": "CPD4122271 - Redacted Signed Order Form",
+   "dataType": "Attachment",
+   "filename": "[Redacted] Order Form 1 2022.03.08 The Department of Levelling Up, Housing &amp; Communities (DLUHC).pdf",
+   "mimeType": "application/pdf",
+   "awardGuid": null
+  },
+  {
+   "id": "077bd04c-d0f0-4215-9c70-0a7fe35e310f",
+   "noticeId": "0c8c0123-5ab9-4c02-8b90-554d1e2093fc",
+   "description": "CPD4122271 - Redacted Terms &amp; Conditions",
+   "dataType": "Attachment",
+   "filename": "[Redacted] Appendix A (T&amp;Cs).pdf",
+   "mimeType": "application/pdf",
+   "awardGuid": null
+  },
+  {
+   "id": "00d5c330-0ee0-438d-9bac-fe13a43ff692",
+   "noticeId": "0c8c0123-5ab9-4c02-8b90-554d1e2093fc",
+   "description": "CPD4122271 - Redacted Data Protection Addendum",
+   "dataType": "Attachment",
+   "filename": "[Redacted] Appendix B (DPA + SCCs).pdf",
+   "mimeType": "application/pdf",
+   "awardGuid": null
+  }
+ ],
+ "withdrawnDate": "",
+ "withdrawnReason": null,
+ "withdrawnByUser": null,
+ "cpvCodes": [
+  {
+   "code": "48000000",
+   "description": "Software package and information systems",
+   "parentCode": "48000000",
+   "hasChildren": true
+  }
+ ],
+ "publishedVersion": [
+  {
+   "changedByUser": "liyani.paskaran@communities.gov.uk",
+   "dateChanged": "2022-04-08T16:30:07+01:00",
+   "id": "604328",
+   "noticeStatus": "Awarded",
+   "noticeType": "Contract",
+   "publishedNoticeId": "0c8c0123-5ab9-4c02-8b90-554d1e2093fc",
+   "versionNumber": 1,
+   "visibleToPublic": true
+  }
+ ],
+ "numberOfViews": "1946"
+}

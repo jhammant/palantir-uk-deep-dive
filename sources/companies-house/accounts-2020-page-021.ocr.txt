@@ -1,0 +1,40 @@
+PALANTIR TECHNOLOGIES UK, LTD.
+NOTES TO THE FINANCIAL STATEMENTS
+FOR THE YEAR ENDED 31 DECEMBER 2020
+Significant accounting judgments, estimates and assumptions (continued)
+The following estimates are dependent upon assumptions which could change in the next financial year and could have a
+material effect on the carrying amount of assets and liabilities recognised at the balance sheet date.
+Operating lease commitments - Company as a lessee
+As of 31 December 2020 and 2019, all of the Company's facility leases were classified as operating leases. The classification of
+such lease as an operating or finance lease requires the Company to determine, based on an evaluation of the terms and
+conditions of the arrangements, such as:
+¢ the lease term not constituting a substantial portion of the economic life of the asset;
+* the present value of the minimum lease payments not amounting to substantially all of the fair value of the asset;
+¢ whether it retains or acquires the significant risks and rewards of ownership of these assets; and
+* whether the lease requires an asset and liability to be recognised in the balance sheet.
+Taxation .
+Management estimation is required to determine the amount of deferred tax assets that can be recognised, based upon likely
+timing and level of future taxable profits together with an assessment of the effect of future tax planning strategies.
+A judgement has been made to exclude from the estimate of future taxable profits the possible tax losses arising from share-
+based payment expenses incurred on exercise of the awards in excess of the related grant date fair value.
+Share-based payments
+Share-based payments
+The Company accounts for share based compensation expense in accordance with the fair value recognition and measurement
+provisions of FRS 102, which requires compensation cost for the grant-date fair of share based awards to be recognized over the
+requisite service period.
+Service-based vesting
+The Uitimate Parent granted certain equity awards, primarily stock options, that vest based upon the satisfaction of a service
+condition. The Company has elected to use the Black Scholes option pricing model to determine the fair value of the options at
+grant date. The Black Scholes option pricing model requires the input of highly subjective assumptions, including:
+* exercise price of the option;
+¢ fair value of the underlying common stock;
+¢ expected life of the option;
+« expected volatility of the share price;
+¢ expected dividend yield; and
+* risk free interest rate.
+The expected useful life used in the model has been adjusted, based on management’s best estimate, for the effects of non-
+transferability, exercise restrictions and behavioral conditions. The risk-free interest rate is based on U.S. treasury yield curves in
+effect on the grant date. The expected dividend yield is zero percent as the Ultimate Parent has not paid and does not anticipate
+paying dividend on its current stock. An assessment of the number of stock option awards which are expected to vest is made at
+the end of each reporting period.
+19

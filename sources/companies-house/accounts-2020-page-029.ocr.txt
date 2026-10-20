@@ -1,0 +1,24 @@
+PALANTIR TECHNOLOGIES UK, LTD.
+NOTES TO THE FINANCIAL STATEMENTS
+FOR THE YEAR ENDED 31 DECEMBER 2020
+5 TAX ON PROFIT ON ORDINARY ACTIVITIES (continued)
+c) Deferred tax asset
+The movement in the deferred tax asset during the year is as follows:
+2020 2019
+£ £
+At | January 17,557,239 12,866,980
+Credited to the statement of comprehensive income 14,441,742 4,690,258
+At 31 December 31,998,981 17,557,238
+Analysed as follows:
+Accelerated capital allowances 817,572 140,910
+Employee share acquisition relief 26,098,913 17,416,328
+Pension contributions deductible on paid basis 148,457 —_
+Net Operating Loss 4,934,039 —_
+31,998,981 17,557,238
+d) Factors which may affect future tax charges
+In the Spring Budget 2021, the Government announced that from 1 April 2023 the corporation tax rate will increase from
+the current rate of 19% to 25%. At the balance sheet date, the proposal to increase the rate to 25% had not been
+substantively enacted (substantive enactment occurred on 24 May 2021). The effects of the rate increase are therefore not
+included in these financial statements. Had it been substantively enacted by the balance sheet date, and if the deferred tax
+balance was recognised in full at 25%, the effect of this change would be to increase the deferred tax asset by £10,104,941
+27

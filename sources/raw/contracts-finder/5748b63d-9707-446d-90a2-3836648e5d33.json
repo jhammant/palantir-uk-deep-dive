@@ -1,0 +1,139 @@
+{
+ "id": "5748b63d-9707-446d-90a2-3836648e5d33",
+ "notice": {
+  "id": "5748b63d-9707-446d-90a2-3836648e5d33",
+  "parentId": null,
+  "parentIdentifier": "",
+  "linkReason": "",
+  "version": 1,
+  "contactDetails": {
+   "name": "",
+   "email": "lauren.terry103@mod.gov.uk",
+   "address1": "4 Deck, NCHQ, Whale Island",
+   "address2": "",
+   "town": "Portsmouth",
+   "postcode": "PO2 8BY",
+   "country": "England",
+   "phone": "",
+   "webAddress": ""
+  },
+  "identifier": "tender_293564/1020795",
+  "title": "701883454 Extension of Data Integration Services",
+  "description": "FOR TRANSPARENCY PURPOSES ONLY - CONTRACT HAS BEEN AWARDED VIA G CLOUD 12 FRAMEWORK",
+  "cpvDescription": "IT services: consulting, software development, Internet and support",
+  "publishedDate": "2021-12-07T10:33:21Z",
+  "approachMarketDate": "",
+  "deadlineDate": "2021-10-22T23:59:00+01:00",
+  "valueLow": 1666666.66,
+  "valueHigh": 0,
+  "postcode": "",
+  "region": "South East",
+  "nationwide": false,
+  "location": {
+   "lat": 0,
+   "lon": 0
+  },
+  "start": "2021-10-23T00:00:00+01:00",
+  "end": "2021-12-22T00:00:00Z",
+  "type": "Contract",
+  "cpvCodes": [
+   "72000000"
+  ],
+  "spendProfile": null,
+  "status": "Awarded",
+  "isSuitableForSme": false,
+  "isSuitableForVco": false,
+  "supplyChain": false,
+  "lastNotifiableUpdate": "2021-12-07T10:33:21Z",
+  "organisationName": "Ministry of Defence",
+  "sector": "",
+  "procedureType": "CallOffFromFrameworkAgreement",
+  "procedureTypeOther": "",
+  "procedureAcceleratedJustification": "",
+  "ojeuContractType": "Services",
+  "isFrameworkAgreement": false,
+  "isExtensionPossible": false,
+  "annexDOption": null,
+  "reasonContractLawful": null
+ },
+ "createdByUser": "i.dawson@bravosolution.com",
+ "createdDate": "2021-12-07T10:33:10Z",
+ "lastUpdatedbyUser": "i.dawson@bravosolution.com",
+ "lastUpdatedDate": "2021-12-07T10:33:21Z",
+ "awards": [
+  {
+   "id": "439908",
+   "noticeId": "5748b63d-9707-446d-90a2-3836648e5d33",
+   "parentId": null,
+   "value": 1666666.66,
+   "supplierName": "Palantir Technologies UK Ltd",
+   "supplierAddress": "4th Floor, New Penderel House, 283-288 High Holborn, London, WC1V 7HP",
+   "contact": null,
+   "dunsNumber": "",
+   "supplierAwardedValue": null,
+   "referenceType": "COMPANIES_HOUSE",
+   "reference": "07042994",
+   "startDate": "2021-10-23T00:00:00+01:00",
+   "endDate": "2021-12-22T00:00:00Z",
+   "awardedDate": "2021-10-23T00:00:00+01:00",
+   "awardedProcedureType": "CallOffFromFrameworkAgreement",
+   "awardedProcedureTypeOther": "",
+   "awardedProcedureAcceleratedJustification": "",
+   "annexDOptionType": "",
+   "reasonContractLawful": "",
+   "additionalDetails": "",
+   "awardedToSME": false,
+   "awardedToVCSO": false,
+   "awardGuid": "ee1bf260-1579-40f5-86ec-dd94947b9c81"
+  }
+ ],
+ "isPublished": true,
+ "isPreAwarded": true,
+ "organisation": {
+  "name": "Ministry of Defence"
+ },
+ "additionalDetails": [
+  {
+   "id": "5748b63d-9707-446d-90a2-3836648e5d33",
+   "noticeId": "5748b63d-9707-446d-90a2-3836648e5d33",
+   "description": "Additional Text",
+   "dataType": "AdditionalText",
+   "textData": "",
+   "mimeType": null,
+   "awardGuid": null
+  },
+  {
+   "id": "afcbf9b0-d49f-4e13-a48d-6bd948f6da07",
+   "noticeId": "5748b63d-9707-446d-90a2-3836648e5d33",
+   "description": "n/a",
+   "dataType": "Attachment",
+   "filename": "701883454-Extension of Data Integration Services-Redacted.pdf",
+   "mimeType": "application/pdf",
+   "awardGuid": null
+  }
+ ],
+ "withdrawnDate": "",
+ "withdrawnReason": "",
+ "withdrawnByUser": null,
+ "cpvCodes": [
+  {
+   "code": "72000000",
+   "description": "IT services: consulting, software development, Internet and support",
+   "parentCode": "72000000",
+   "hasChildren": true
+  }
+ ],
+ "publishedVersion": [
+  {
+   "changedByUser": "i.dawson@bravosolution.com",
+   "dateChanged": "2021-12-07T10:33:21Z",
+   "id": "571346",
+   "noticeStatus": "Awarded",
+   "noticeType": "Contract",
+   "publishedNoticeId": "5748b63d-9707-446d-90a2-3836648e5d33",
+   "versionNumber": 1,
+   "visibleToPublic": true
+  }
+ ],
+ "numberOfViews": "817"
+}

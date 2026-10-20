@@ -11,7 +11,13 @@
     "studio": "remotion studio",
     "render": "remotion render PalantirBill-4x5 out/palantir-uk-bill-4x5.mp4 --codec=h264 --crf=18 --pixel-format=yuv420p --concurrency=5",
     "stills": "tsx scripts/stills.ts",
-    "build": "npm run data && npm run check && npm run typecheck && npm run render && npm run stills"
+    "build": "npm run data && npm run check && npm run typecheck && npm run render && npm run stills",
+    "punch:audio": "tsx scripts/punch-audio.ts",
+    "punch:render": "remotion render PalantirPunch-4x5 out/palantir-uk-punch-4x5.mp4 --codec=h264 --crf=18 --pixel-format=yuv420p --audio-codec=aac --audio-bitrate=192k --concurrency=5",
+    "punch:stills": "tsx scripts/stills.ts punch",
+    "punch:cutaways": "tsx scripts/punch-cutaways.ts",
+    "punch:loudness": "ffmpeg -hide_banner -nostats -i out/palantir-uk-punch-4x5.mp4 -af ebur128=peak=true -f null - 2>&1 | sed -n '/Summary/,$p'",
+    "punch": "npm run data && npm run check && npm run typecheck && npm run punch:audio && npm run punch:render && npm run punch:stills && npm run punch:loudness"
   },
   "dependencies": {
     "@remotion/cli": "4.0.537",

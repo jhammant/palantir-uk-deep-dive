@@ -54,6 +54,10 @@ const NUMBER_WORDS = ["Zero", "One", "Two", "Three", "Four", "Five", "Six", "Sev
 
 /** £240.6m */
 export const gbpM = (v: number) => `£${(v / 1e6).toFixed(1)}m`;
+/** £647m (whole millions, for the punch cut) */
+export const gbpM0 = (v: number) => `£${Math.round(v / 1e6)}m`;
+/** $427m */
+export const usdM0 = (v: number) => `$${Math.round(v / 1e6)}m`;
 /** $427.4m */
 export const usdM = (v: number) => `$${(v / 1e6).toFixed(1)}m`;
 /** An upper bound, rounded up so "under $X" stays true: 1,084,300 -> "$1.1m". */
@@ -76,13 +80,13 @@ const tidyQuote = (q: string) => {
 
 // Short labels for the largest awards. Each matcher must hit exactly one of the
 // top awards; the year and value always come from the contract itself.
-const RECEIPT_LABELS: { match: (c: Contract) => boolean; label: string }[] = [
-  { match: (c) => /enterprise agreement/i.test(c.title) && /defence/i.test(c.buyer), label: "MoD enterprise agreement" },
-  { match: (c) => /federated data platform/i.test(c.title), label: "NHS Federated Data Platform" },
-  { match: (c) => /crown commercial service/i.test(c.buyer), label: "Crown Commercial Service" },
-  { match: (c) => /transition & exit/i.test(c.title), label: "NHS “Transition & Exit” from Palantir" },
-  { match: (c) => /commissioning board/i.test(c.title), label: "NHS Covid data platform" },
-  { match: (c) => /energy system operator/i.test(c.buyer), label: "NESO, the grid operator" },
+const RECEIPT_LABELS: { match: (c: Contract) => boolean; label: string; short: string }[] = [
+  { match: (c) => /enterprise agreement/i.test(c.title) && /defence/i.test(c.buyer), label: "MoD enterprise agreement", short: "MoD" },
+  { match: (c) => /federated data platform/i.test(c.title), label: "NHS Federated Data Platform", short: "NHS data platform" },
+  { match: (c) => /crown commercial service/i.test(c.buyer), label: "Crown Commercial Service", short: "Crown Commercial" },
+  { match: (c) => /transition & exit/i.test(c.title), label: "NHS “Transition & Exit” from Palantir", short: "NHS exit contract" },
+  { match: (c) => /commissioning board/i.test(c.title), label: "NHS Covid data platform", short: "NHS Covid platform" },
+  { match: (c) => /energy system operator/i.test(c.buyer), label: "NESO, the grid operator", short: "NESO" },
 ];
 const RECEIPT_LINES = 7;
 
@@ -124,7 +128,12 @@ export function computeFigures(puk: Puk) {
   const receiptLines = byValue.slice(0, RECEIPT_LINES).map((c) => {
     const hits = RECEIPT_LABELS.filter((l) => l.match(c));
     need(hits.length === 1, `top award "${c.title}" (${gbpM(c.value)}) needs exactly one receipt label`);
-    return { label: `${hits[0].label}, ${c.year}`, value: c.value, noCompetition: c.route === "Direct award" };
+    return {
+      label: `${hits[0].label}, ${c.year}`,
+      short: `${hits[0].short} ${c.year}`,
+      value: c.value,
+      noCompetition: c.route === "Direct award",
+    };
   });
   const rest = byValue.slice(RECEIPT_LINES);
   const restValue = rest.reduce((s, c) => s + c.value, 0);
@@ -235,6 +244,16 @@ export function computeFigures(puk: Puk) {
 
   const genDate = `${Number(generatedIso.slice(8, 10))} ${monthYear(generatedIso)}`;
 
+  /* Punch cut: whole-million rounding must still add up on the receipt. */
+  const roundedLines = [...receiptLines.map((l) => l.value), restValue].map((v) => Math.round(v / 1e6));
+  need(roundedLines.reduce((a, b) => a + b, 0) === Math.round(total / 1e6),
+    "receipt lines rounded to whole millions no longer add up to the rounded total");
+  const lowestCountry = countries[countries.length - 1];
+  // Income tax per $100 of UK revenue, rounded up so "under N¢" stays true.
+  const centsPer100 = Math.ceil((ukUpper.amount / ukRevenue.amount) * 100 * 100);
+  need(centsPer100 > 0 && centsPer100 < 100, "UK income tax per $100 of revenue is no longer under $1");
+  const leadRole = need(roles[0], "no roles");
+
   return {
     generated: genDate,
     contracts: {
@@ -284,6 +303,11 @@ export function computeFigures(puk: Puk) {
       count: people.length,
       roles,
       meetings: { count: Number(mm[1]), from: mm[3], to: mm[5] },
+    },
+    punch: {
+      lowestCountry: { name: lowestCountry.jurisdiction, value: lowestCountry.amount },
+      centsPer100,
+      leadRole: leadRole.label,
     },
     quotes: {
       mosley: {

@@ -3,7 +3,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { createRequire } from "node:module";
-import { computeFigures, gbpM, usdM, usdMCeil, pct0, pct1, type Puk } from "../src/data/figures";
+import { computeFigures, gbpM, gbpM0, usdM, usdM0, usdMCeil, pct0, pct1, type Puk } from "../src/data/figures";
 
 const require = createRequire(import.meta.url);
 const { parsePukBundle } = require("./puk-bundle-loader.cjs");
@@ -46,6 +46,14 @@ const expected: [string, string, string][] = [
   ["Thiel NHS", `${F.quotes.thielSick.text} ${F.quotes.thielSick.year}`, "The NHS makes people sick. 2023"],
   ["Thiel democracy", `${F.quotes.thielDemocracy.text} ${F.quotes.thielDemocracy.year}`,
     "I no longer believe that freedom and democracy are compatible. 2009"],
+  // Punch cut (PalantirPunch-4x5)
+  ["Punch: total", gbpM0(F.contracts.total), "£647m"],
+  ["Punch: UK revenue", usdM0(F.tax.ukRevenue), "$427m"],
+  ["Punch: country beating UK", `${F.punch.lowestCountry.name} ${usdM(F.punch.lowestCountry.value)}`, "Germany $1.7m"],
+  ["Punch: per $100 of revenue", `under ${F.punch.centsPer100}¢`, "under 26¢"],
+  ["Punch: receipt (rounded)", F.receipt.lines.map((l) => `${l.short} ${gbpM0(l.value)}`).join(", "),
+    "MoD 2025 £241m, NHS data platform 2023 £182m, MoD 2022 £75m, Crown Commercial 2020 £26m, NHS exit contract 2023 £25m, NHS Covid platform 2020 £24m, NESO 2026 £21m"],
+  ["Punch: lead role", F.punch.leadRole, "Former Armed Forces Minister"],
 ];
 
 let failed = 0;

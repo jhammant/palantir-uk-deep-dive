@@ -198,3 +198,5 @@ td.nw, th.nw, td .num { white-space: nowrap; }
 .lookup { margin: 0 0 20px; }
 .lookup-hit h3 { margin: 10px 0 4px; }
 .lookup-hit ul { margin: 0 0 8px; padding-left: 20px; }
+.payer-link { color: inherit; text-decoration: underline; text-decoration-color: var(--rule); text-underline-offset: 3px; }
+.payer-link:hover { text-decoration-color: currentColor; }

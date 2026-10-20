@@ -264,6 +264,10 @@
     });
   }
 
+  // "Laurence Lee CMG (former Director General…)" -> "Laurence Lee": the part of a name worth searching for.
+  const personKey = (n) => String(n || "").split(/ \(|;|,/)[0]
+    .replace(/\b(The Rt Hon|Rt Hon|Lieutenant General|Major General|Brigadier|General|Air Marshal|Admiral|Sir|Dame|Lord|Baroness|Lady|MP|CBE|OBE|MBE|KCB|KCMG|CMG|CB|KC|QC)\b/g, "")
+    .replace(/\bof .*$/, "").replace(/\s+/g, " ").trim();
   // "Damian Parmenter CBE" -> "Parmenter"; "Lord Watson of Wyre Forest (Tom Watson)" -> "Watson"
   const surname = (n) => {
     const words = String(n || "").split(" (")[0].replace(/\b(Sir|Lord|Lady|Baroness|Dame|Major|General|Maj|Gen|Brigadier|Air|Marshal|Admiral|Rt|Hon|MP)\b\.?/g, "")
@@ -448,29 +452,51 @@
           <div class="tile"><div class="label">Published contract awards, for comparison</div><div class="value">${money(total)}</div><div class="foot">award values, which are ceilings or estimates</div></div>
         </div>
         <div class="grid-2"><section><h2 style="margin-top:0">Who paid</h2><div id="payers"></div></section><section><h2 style="margin-top:0">By year paid</h2><div id="years"></div></section></div>
-        <div class="filters"><label>Search<input type="search" id="q" placeholder="Payer, description…"></label>
+        <div class="filters" id="pay-filters"><label>Search<input type="search" id="q" placeholder="Payer, description…"></label>
+        <label>Payer<select id="payer"><option value="">All payers</option>${payers.map((p) => `<option>${esc(p.label)}</option>`).join("")}</select></label>
         <label>Payer type<select id="type"><option value="">All</option>${uniq(P.map((p) => p.payer_type)).sort().map((t) => `<option>${esc(t)}</option>`).join("")}</select></label>
+        <label>Year<select id="year"><option value="">Any year</option>${uniq(ALL.map((p) => (p.period || "").slice(0, 4))).sort().map((yv) => `<option>${esc(yv)}</option>`).join("")}</select></label>
+        <button class="btn" id="reset" type="button">Clear</button>
         <button class="btn" id="dl" type="button">Download these rows (CSV)</button></div>
         <p class="summary" id="summary"></p><div id="table"></div>
         ${D.notes["payments-notes"] ? `<h2>Notes</h2><div class="prose">${D.notes["payments-notes"]}</div>` : ""}`;
-      hbars($("#payers"), payers.slice(0, 15));
-      hbars($("#years"), uniq(P.map((p) => (p.period || "").slice(0, 4))).sort().map((yv) => { const xs = P.filter((p) => (p.period || "").startsWith(yv)); return { label: yv, value: sum(xs, (p) => p.amount), n: xs.length }; }));
-      const filtered = () => { const q = $("#q").value.toLowerCase(), t = $("#type").value; return ALL.filter((p) => (!t || p.payer_type === t) && (!q || [p.payer, p.description_as_published, p.notes].join(" ").toLowerCase().includes(q))); };
+      hbars($("#payers"), payers.slice(0, 15), { hrefOf: (i) => `#payer=${encodeURIComponent(i.label)}` });
+      hbars($("#years"), uniq(P.map((p) => (p.period || "").slice(0, 4))).sort().map((yv) => { const xs = P.filter((p) => (p.period || "").startsWith(yv)); return { label: yv, value: sum(xs, (p) => p.amount), n: xs.length }; }), { hrefOf: (i) => `#year=${encodeURIComponent(i.label)}` });
+      const filtered = () => {
+        const q = $("#q").value.toLowerCase(), t = $("#type").value, py = $("#payer").value, yv = $("#year").value;
+        return ALL.filter((p) => (!t || p.payer_type === t) && (!py || p.payer === py) && (!yv || (p.period || "").startsWith(yv))
+          && (!q || [p.payer, p.description_as_published, p.notes].join(" ").toLowerCase().includes(q)));
+      };
       const table = dataTable($("#table"), {
         rows: filtered, sort: { key: "period", dir: "desc" },
         cols: [
           { key: "period", label: "When", render: (r) => `<span class="num">${esc(fmtDate(r.period))}</span>` },
-          { key: "payer", label: "Payer" },
+          { key: "payer", label: "Payer", render: (r) => `<a href="#payer=${encodeURIComponent(r.payer)}" class="payer-link">${esc(r.payer)}</a>` },
           { key: "description_as_published", label: "Description as published" },
           { key: "amount", label: "Amount", right: true, render: (r) => money(r.amount, { exact: true }) + (r.counted ? "" : `<div class="muted small">${r.repeat_of_invoice ? "repeat of an invoice already listed" : "not counted in totals"}</div>`) },
           { key: "source_file_url", label: "Source", sortable: false, render: (r) => link(r.source_file_url || r.source_page_url, "File") },
         ],
         detail: (r) => `<dl><dt>Supplier as published</dt><dd>${esc(r.supplier_name_as_published)}</dd><dt>Notes</dt><dd>${esc(r.notes)}</dd><dt>Source page</dt><dd>${link(r.source_page_url, r.source_page_url)}</dd></dl>`,
       });
-      const update = () => { const rows = filtered(), c = rows.filter((r) => r.counted); $("#summary").innerHTML = `<b>${rows.length}</b> lines · <b>${money(sum(c, (r) => r.amount))}</b> counted${rows.length > c.length ? ` · ${rows.length - c.length} not counted (an FOI aggregate, a repeated invoice, or not a Palantir supplier line; click for why)` : ""}`; table.render(); };
+      const update = () => {
+        const rows = filtered(), c = rows.filter((r) => r.counted), py = $("#payer").value;
+        const recon = py && (D.reconciliation || []).find((r) => r.payer === py);
+        $("#summary").innerHTML = `${py ? `<b>${esc(py)}</b>: ` : ""}<b>${rows.length}</b> lines · <b>${money(sum(c, (r) => r.amount))}</b> counted${rows.length > c.length ? ` · ${rows.length - c.length} not counted (an FOI aggregate, a repeated invoice, or not a Palantir supplier line; click for why)` : ""}`
+          + (recon ? `<br><span class="muted">Palantir contract notices found for this body: ${recon.no_notice_found ? "none" : `${recon.notices}, worth ${money(recon.notice_total)}`}. <a href="competition.html">Compare payments with notices</a> · <a href="contracts.html#q=${encodeURIComponent(py.slice(0, 30))}">See its contracts</a></span>` : "");
+        setHash({ q: $("#q").value.trim(), payer: py, type: $("#type").value, year: $("#year").value });
+        table.render();
+      };
+      const fromHash = () => {
+        const st = hashState();
+        $("#q").value = st.q || ""; $("#payer").value = st.payer || ""; $("#type").value = st.type || ""; $("#year").value = st.year || "";
+        update();
+        if (st.payer || st.year) $("#pay-filters").scrollIntoView({ block: "start" });
+      };
+      window.addEventListener("hashchange", fromHash);
+      $("#reset").addEventListener("click", () => { ["#q", "#payer", "#type", "#year"].forEach((sel) => ($(sel).value = "")); update(); });
       $("#content").addEventListener("input", update);
       $("#dl").addEventListener("click", () => downloadCsv("palantir-uk-payments.csv", filtered(), ["period", "payer", "payer_type", "amount_gbp", "supplier_name_as_published", "description_as_published", "source_file_url", "source_page_url", "notes"]));
-      update();
+      fromHash();
     },
 
     tax() {
@@ -554,15 +580,24 @@
         cols: [
           { key: "date", label: "Date", render: (r) => `<span class="num">${esc(fmtDate(r.date))}</span>` },
           { key: "category", label: "Kind", render: (r) => `<span class="pill">${esc(r.category)}</span>` },
-          { key: "who", label: "Who", render: (r) => `${esc(r.who)}<div class="muted small">${esc(r.organisation)}</div>` },
+          { key: "who", label: "Who", render: (r) => `<a href="#q=${encodeURIComponent(personKey(r.who))}" class="payer-link">${esc(r.who)}</a><div class="muted small">${esc(r.organisation)}</div>` },
           { key: "summary", label: "What the record says" },
           { key: "source_url", label: "Source", sortable: false, render: (r) => link(r.source_url, r.source_type || "source") },
         ],
         detail: (r) => (r.notes ? `<dl><dt>Notes</dt><dd>${esc(r.notes)}</dd></dl>` : `<span class="muted">No further notes.</span>`),
       });
-      const update = () => { $("#summary").innerHTML = `<b>${filtered().length}</b> of ${I.length} records`; table.render(); };
+      const update = () => {
+        const q = $("#q").value.trim(), n = filtered().length;
+        const moved = q && D.revolving.filter((m) => personKey(m.person).toLowerCase().includes(q.toLowerCase()));
+        $("#summary").innerHTML = `<b>${n}</b> of ${I.length} records${q ? ` matching “${esc(q)}”` : ""}`
+          + (moved && moved.length ? `<br><span class="muted">Also on the <a href="revolving-door.html#q=${encodeURIComponent(q)}">revolving door</a> page: ${esc(moved.map((m) => m.person).join(", "))}.</span>` : "");
+        setHash({ q, cat: $("#cat").value });
+        table.render();
+      };
+      const fromHash = () => { const st = hashState(); $("#q").value = st.q || ""; $("#cat").value = st.cat || ""; update(); };
+      window.addEventListener("hashchange", fromHash);
       $("#content").addEventListener("input", update);
-      update();
+      fromHash();
     },
 
     timeline() {
@@ -685,9 +720,10 @@
       $("#strip-note").innerHTML = `${awards.length} contract awards from ${esc(name)} (red: no competition; size: value) and ${moves.length} people who moved from ${esc(name)} to Palantir.`;
     };
     sel.addEventListener("change", draw); draw();
-    $("#people").innerHTML = [...M].sort((p, q) => String(q.joined_palantir || "").localeCompare(String(p.joined_palantir || ""))).map((m) => `<article class="quote">
+    const pq = (hashState().q || "").toLowerCase();
+    $("#people").innerHTML = [...M].filter((m) => !pq || personKey(m.person).toLowerCase().includes(pq) || String(m.person).toLowerCase().includes(pq)).sort((p, q) => String(q.joined_palantir || "").localeCompare(String(p.joined_palantir || ""))).map((m) => `<article class="quote">
         <div class="meta"><b>${esc(/^\d{4}/.test(m.joined_palantir || "") ? fmtDate(m.joined_palantir) : m.direction === "concurrent" ? "Concurrent role" : "Date not stated")}</b> · ${esc(m.approval_route || "")}${m.source_type ? ` <span class="pill">${esc(m.source_type)}</span>` : ""}</div>
-        <h3 style="margin:6px 0 4px">${esc(m.person)}</h3>
+        <h3 style="margin:6px 0 4px"><a href="influence.html#q=${encodeURIComponent(personKey(m.person))}" class="payer-link" title="Every meeting, hospitality and register record for this person">${esc(m.person)}</a></h3>
         <div>${esc([m.former_role, m.former_org].filter(Boolean).join(", "))}${m.palantir_role ? ` → <b>${esc(m.palantir_role)}</b>, Palantir` : ""}</div>
         ${m.summary ? `<div class="ctx">${esc(m.summary)}</div>` : ""}${m.notes ? `<div class="ctx muted">${esc(m.notes)}</div>` : ""}
         ${m.conditions ? `<div class="ctx"><b>Conditions:</b> ${esc(m.conditions)}${m.conditions_until ? ` (until ${esc(fmtDate(m.conditions_until))})` : ""}</div>` : ""}

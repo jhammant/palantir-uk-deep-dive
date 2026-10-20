@@ -781,25 +781,44 @@
   page.market = function () {
     const Mk = D.market, top = D.marketTop;
     if (!Mk.length) { $("#content").innerHTML = pending("We are measuring Palantir's share of each public body's IT, software and data spending from the published spend files."); return; }
-    const whole = Mk.filter((r) => /all|20\d\d.?[-–].?20\d\d/i.test(r.period) || r.period === "all");
-    const payers = uniq(Mk.map((r) => r.payer));
-    $("#content").innerHTML = payers.map((p, i) => `<section class="card market-card"><h2 style="margin-top:0">${esc(p)}</h2><div class="grid-2"><div id="mk-d-${i}"></div><div><h3 style="margin-top:0">Palantir's share of IT, software and data spending by year</h3><div id="mk-y-${i}"></div><p class="small muted" id="mk-n-${i}"></p></div></div></section>`).join("")
+    const pct = (v) => (v == null ? "–" : (v * 100 < 0.1 && v > 0 ? (v * 100).toFixed(2) : (v * 100).toFixed(1)) + "%");
+    const tidy = (n) => (n === n.toUpperCase() ? n.toLowerCase().replace(/\b([a-z])/g, (c) => c.toUpperCase()).replace(/\b(Uk|Nhs|Ibm|Aws|Emea|Dvla|Xma|Ltd|Llp|Plc)\b/g, (w) => w.toUpperCase()) : n);
+    const whole = Mk.filter((r) => r.period === "all" && num(r.palantir_gbp) > 0)
+      .map((r) => ({ ...r, it: num(r.it_total_gbp), share: num(r.palantir_share_of_it), shareAll: num(r.palantir_share_of_all) }))
+      .sort((x, y) => (y.share ?? -1) - (x.share ?? -1) || (y.shareAll ?? 0) - (x.shareAll ?? 0));
+    const itWindow = (note) => { const m = /IT figures cover ([^;]+?) only/.exec(note || ""); return m ? m[1] : ""; };
+    const rankOf = (payer) => { const r = top.filter((t) => t.payer === payer && t.period === "all").find((t) => /palantir/i.test(t.supplier)); return r ? +r.rank : null; };
+    const ord = (n) => n + (["th", "st", "nd", "rd"][(n % 100 > 10 && n % 100 < 14) ? 0 : n % 10] || "th");
+    const best = whole.filter((r) => r.share != null);
+    const bestYear = (payer) => Mk.filter((r) => r.payer === payer && /^\d{4}$/.test(r.period) && num(r.palantir_share_of_it) > 0).sort((x, y) => num(y.palantir_share_of_it) - num(x.palantir_share_of_it))[0];
+    const peakOf = (r) => Math.max(r.share || 0, num((bestYear(r.payer) || {}).palantir_share_of_it) || 0);
+    $("#content").innerHTML = `<div class="tiles">${[...best].sort((x, y) => peakOf(y) - peakOf(x)).slice(0, 3).map((r) => {
+        const w = itWindow(r.coverage_note), rk = rankOf(r.payer), by = bestYear(r.payer);
+        const usePeak = !w && by && num(by.palantir_share_of_it) > (r.share || 0) * 1.5;
+        return `<div class="tile"><div class="label">${esc(r.payer)}: Palantir's share of IT spending${w ? `, ${esc(w)}` : usePeak ? ` in ${esc(by.period)}` : ""}</div><div class="value hit">${pct(usePeak ? num(by.palantir_share_of_it) : r.share)}</div><div class="foot">${usePeak ? `${pct(r.share)} over the whole period` : ""}${rk ? `${usePeak ? "; " : ""}its ${ord(rk)}-largest IT supplier ${w ? "in those months" : "overall"}` : ""}</div></div>`;
+      }).join("")}</div>`
+      + whole.map((r, i) => `<section class="card market-card"><h2 style="margin-top:0">${esc(r.payer)}${itWindow(r.coverage_note) ? ` <span class="pill">IT figures: ${esc(itWindow(r.coverage_note))}</span>` : ""}</h2><div class="grid-2"><div id="mk-d-${i}"></div><div><h3 style="margin-top:0">Palantir's share of IT, software and data spending by year</h3><div id="mk-y-${i}"></div></div></div><p class="small muted" style="margin:12px 0 0">${esc(r.coverage_note || "")}</p></section>`).join("")
       + (D.notes["market-notes"] ? `<h2>Method and caveats</h2><div class="prose">${D.notes["market-notes"]}</div>` : "");
-    payers.forEach((p, i) => {
-      const rows = Mk.filter((r) => r.payer === p);
-      const all = rows.find((r) => !/^\d{4}$/.test(r.period)) || rows[0];
-      const it = num(all.it_total_gbp), pal = num(all.palantir_gbp);
-      const t5 = top.filter((r) => r.payer === p && r.period === all.period && !/palantir/i.test(r.supplier)).sort((x, y) => +x.rank - +y.rank).slice(0, 4);
-      if (it) {
-        const named = t5.map((r) => ({ label: r.supplier, value: num(r.amount_gbp) }));
-        const rest = it - pal - sum(named, (x) => x.value);
-        donut($(`#mk-d-${i}`), [{ label: "Palantir", value: pal, emphasis: true }, ...named, ...(rest > 0 ? [{ label: "Everyone else", value: rest }] : [])],
-          { label: `${p}: IT, software and data spending by supplier`, centre: ((pal / it) * 100).toFixed(1) + "%", centreSub: "to Palantir" });
-      } else $(`#mk-d-${i}`).innerHTML = `<div class="empty">This body's files have no spending categories, so its IT share can't be measured.</div>`;
-      const years = rows.filter((r) => /^\d{4}$/.test(r.period)).sort((x, y) => (x.period < y.period ? -1 : 1));
-      hbars($(`#mk-y-${i}`), years.map((r) => ({ label: r.period, value: num(r.palantir_share_of_it) || 0, n: money(num(r.palantir_gbp)) })), { colour: () => "var(--stamp)" });
-      $(`#mk-y-${i}`).querySelectorAll(".hbar .num b").forEach((b, j) => (b.textContent = ((num(years[j].palantir_share_of_it) || 0) * (num(years[j].palantir_share_of_it) > 1 ? 1 : 100)).toFixed(1) + "%"));
-      $(`#mk-n-${i}`).textContent = all.coverage_note || "";
+    whole.forEach((r, i) => {
+      const host = $(`#mk-d-${i}`), w = itWindow(r.coverage_note);
+      if (r.share != null && r.it && r.share >= 0.005) {
+        const pal = r.share * r.it;
+        const named = top.filter((t) => t.payer === r.payer && t.period === "all" && !/palantir/i.test(t.supplier)).sort((x, y) => +x.rank - +y.rank).slice(0, 4)
+          .map((t) => ({ label: tidy(t.supplier.replace(/\b(LIMITED|LTD|PLC|SARL|LLP)\b\.?/gi, "").replace(/\s+/g, " ").trim()), value: num(t.amount_gbp) }));
+        const rest = r.it - pal - sum(named, (x) => x.value);
+        donut(host, [{ label: "Palantir", value: pal, emphasis: true }, ...named, ...(rest > 0 ? [{ label: "Everyone else", value: rest }] : [])],
+          { label: `${r.payer}: IT spending by supplier`, centre: pct(r.share), centreSub: "of IT spending" });
+      } else if (r.share != null && r.it) {
+        host.innerHTML = `<div class="tile"><div class="label">Share of IT, software and data spending${w ? `, ${esc(w)}` : ""}</div><div class="value">${pct(r.share)}</div><div class="foot">${money(r.share * r.it)} of ${money(r.it)}. Palantir was also paid ${money(num(r.palantir_gbp))} in total, mostly under non-IT spending labels.</div></div>`;
+      } else {
+        host.innerHTML = `<div class="tile"><div class="label">Share of all published spending</div><div class="value hit">${pct(r.shareAll)}</div><div class="foot">${money(num(r.palantir_gbp))} to Palantir. This body's files don't separate IT spending, so an IT share can't be measured.</div></div>`;
+      }
+      const years = Mk.filter((x) => x.payer === r.payer && /^\d{4}$/.test(x.period) && x.palantir_share_of_it !== "" && num(x.it_total_gbp)).sort((x, y) => (x.period < y.period ? -1 : 1));
+      const yh = $(`#mk-y-${i}`);
+      if (years.length) {
+        hbars(yh, years.map((x) => ({ label: x.period, value: num(x.palantir_share_of_it) || 0, n: `${money((num(x.palantir_share_of_it) || 0) * num(x.it_total_gbp))} of ${money(num(x.it_total_gbp))}` })), { colour: () => "var(--stamp)" });
+        yh.querySelectorAll(".hbar .num b").forEach((b, j) => (b.textContent = pct(num(years[j].palantir_share_of_it))));
+      } else yh.innerHTML = `<p class="muted small">No year has spending categories that separate IT.</p>`;
     });
   };
   function num(v) { const n = parseFloat(String(v ?? "").replace(/[£,]/g, "")); return isNaN(n) ? null : n; }

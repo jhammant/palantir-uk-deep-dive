@@ -1,0 +1,456 @@
+payer,label,included,reason,category_column,rows,amount_gbp
+Ministry of Defence,Assets under Construction,no,intangible or capital asset additions; the label does not say software or IT,expense type,10439,13005486337.64
+Ministry of Defence,Telecomms + IT non capital,yes,"names IT, ICT, computing or software; includes Palantir lines (£2,599,600.00)",expense type,26093,2873582461.61
+Ministry of Defence,Design services and minor equipment purchases,no,"design services and minor equipment; not named as IT; Palantir's lines carry this label (£4,816,500.00)",expense type,10637,2392503620.99
+Ministry of Defence,Intangibles SUME,no,single-use military equipment intangible assets,expense type,977,1250775136.54
+Ministry of Defence,IT and communication services,yes,"names IT, ICT, computing or software",expense type,9136,596593828.58
+Ministry of Defence,Intangibles Non SUME,no,"intangible assets other than military equipment; the label does not say software; Palantir's lines carry this label (£250,000.00)",expense type,764,274845112.96
+Ministry of Defence,IT+Comms Equipment,yes,"names IT, ICT, computing or software",expense type,146,151302527.00
+Ministry of Defence,Intangible ICT Non SUME,yes,"names IT, ICT, computing or software",expense type,46,37600895.30
+Ministry of Defence,Computer maintenance & hire,yes,"names IT, ICT, computing or software",expense type,252,31528105.56
+Ministry of Defence,Purchase of information and communications technology,yes,"names IT, ICT, computing or software",expense type,83,16511573.60
+Ministry of Defence,IS Costs,yes,information systems (IS),expense type,63,14617629.48
+Ministry of Defence,IS Support Service,yes,information systems (IS),expense type,40,14099934.43
+Ministry of Defence,IT Hardware,yes,"names IT, ICT, computing or software",expense type,45,12390636.96
+Ministry of Defence,Computer software non-capital,yes,"names IT, ICT, computing or software",expense type,34,5769255.92
+Ministry of Defence,IS Development,yes,information systems (IS),expense type,44,3634179.29
+Ministry of Defence,"Computers, peripherals, software",yes,"names IT, ICT, computing or software",expense type,20,3597018.41
+Ministry of Defence,NNA002 - IT Services - Internal Costs,yes,"names IT, ICT, computing or software",expense type,2,1937433.60
+Ministry of Defence,Intangible ICT SUME,yes,"names IT, ICT, computing or software",expense type,1,1239461.76
+Ministry of Defence,Cloud Hosting,yes,hosting or cloud services,expense type,7,1061777.71
+Ministry of Defence,Telecommunications - direct,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,20,952090.50
+Ministry of Defence,PSS Other Tech Support Exc R+D,no,"technical support, not named as IT",expense type,13,883692.72
+Ministry of Defence,Software Licences,yes,"names IT, ICT, computing or software",expense type,4,264418.24
+Ministry of Defence,ERP Project,yes,enterprise resource planning (ERP) system,expense type,3,179849.86
+Ministry of Defence,Intangible single use military equipment asset - in year capital addition,no,intangible or capital asset additions; the label does not say software or IT,expense type,2,169228.00
+Ministry of Defence,Purchased Services Data Capture / Infill,no,"field data collection (surveys, monitoring), not IT or data platform services",expense type,2,86185.00
+Ministry of Defence,Computer Contracts,yes,"names IT, ICT, computing or software",expense type,1,75053.20
+Ministry of Defence,Computer Service Subscription,yes,"names IT, ICT, computing or software",expense type,1,68798.77
+Ministry of Defence,IT Costs,yes,"names IT, ICT, computing or software",expense type,1,57024.00
+Ministry of Defence,IT Software,yes,"names IT, ICT, computing or software",expense type,6,55516.56
+Ministry of Defence,Software Development,yes,"names IT, ICT, computing or software",expense type,1,54510.00
+Ministry of Defence,Sotware subscription,yes,"names IT, ICT, computing or software",expense type,1,50292.00
+Ministry of Defence,Website Development,yes,web services or websites,expense type,1,40534.25
+Ministry of Defence,Telecommunications - corporate,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,1,33865.19
+Ministry of Defence,Intangible,no,intangible or capital asset additions; the label does not say software or IT,expense type,1,30050.00
+Ministry of Defence,IS Infrastructure,yes,information systems (IS),expense type,1,487.00
+Department of Health and Social Care,Outsourcing Contract,no,"outsourcing not named as ICT; Palantir's lines carry this label (£1,090,000.01)",expense type,7394,4781030457.79
+Department of Health and Social Care,Service charge - ICT,yes,"names IT, ICT, computing or software",expense type,2549,656497377.75
+Department of Health and Social Care,Telephone costs,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,1358,413552045.70
+Department of Health and Social Care,Additions-SW LIC,yes,"software licences (SW LIC); includes Palantir lines (£900,000.00)",expense type,340,227890216.11
+Department of Health and Social Care,Professional fees,no,"not named as IT; Palantir's lines carry this label (£817,500.01)",expense type,342,105759228.24
+Department of Health and Social Care,Addition Clearing - SW LIC,yes,software licences (SW LIC),expense type,46,97352613.79
+Department of Health and Social Care,Additions-IT,yes,"names IT, ICT, computing or software",expense type,521,94975645.95
+Department of Health and Social Care,IT minor costs non capital,yes,"names IT, ICT, computing or software",expense type,363,83776701.60
+Department of Health and Social Care,Agency staff (temp admin),no,"not named as IT; Palantir's lines carry this label (£272,500.00)",expense type,2301,67571955.28
+Department of Health and Social Care,Additions - IT_IDS,yes,"names IT, ICT, computing or software",expense type,41,22147313.92
+Department of Health and Social Care,Additions-POA & AUC,no,intangible or capital asset additions; the label does not say software or IT,expense type,20,5644868.67
+Department of Health and Social Care,Addition Clearing - IT,yes,"names IT, ICT, computing or software",expense type,37,5486881.04
+Department of Health and Social Care,CIP Addition Clearing - SW LIC,yes,software licences (SW LIC),expense type,10,5422482.08
+Department of Health and Social Care,Outsource Contract,no,outsourcing not named as ICT,expense type,14,1936547.39
+Department of Health and Social Care,Telephone installation & maintenance,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,65,1913903.32
+Department of Health and Social Care,Outsourcing,no,outsourcing not named as ICT,expense type,4,831687.69
+Department of Health and Social Care,Commercial market data for food and drink,yes,names data services,expense type,1,468306.00
+Department of Health and Social Care,Current Depn - IT_IDS,yes,"names IT, ICT, computing or software",expense type,1,247860.00
+Department of Health and Social Care,ICT system support,yes,"names IT, ICT, computing or software",expense type,1,92599.00
+Cabinet Office,PPE - AUC Additions,no,building and plant assets under construction (top payees are construction firms),expense type,2463,370534981.27
+Cabinet Office,EXP - PURCHASE OF GOODS/SERVICES - OTHER ICT COSTS,yes,"names IT, ICT, computing or software",expense type,1610,324658648.48
+Cabinet Office,EXP - PURCHASE OF GOODS/SERVICES - OTHER ICT COSTS - COMPUTER SOFTWARE,yes,"names IT, ICT, computing or software; includes Palantir lines (£18,886,662.50)",expense type,1496,219822282.72
+Cabinet Office,EXP - PURCHASE OF GOODS/SERVICES - TELECOMS - DATA COMMUNICATIONS,no,"telecoms; top payees are SMS and mobile messaging firms (MMG Mobile Marketing Group, Firetext)",expense type,101,85712936.10
+Cabinet Office,EXP - PURCHASE OF GOODS/SERVICES - GEOSPATIAL DATA SERVICES - CAPITAL,yes,"geospatial data services; top payees Ordnance Survey, Getmapping, Bluesky",expense type,134,84509558.34
+Cabinet Office,EXP - PURCHASE OF GOODS/SERVICES - TELECOMS - TELECOM RENTALS,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,330,80755495.60
+Cabinet Office,EXP - PURCHASE OF GOODS/SERVICES - RECORDS AND DATA STORAGE AND ARCHIVING,no,mainly a recharge to the Home Office and physical records storage,expense type,38,50539748.01
+Cabinet Office,IT Development Costs,yes,"names IT, ICT, computing or software",expense type,368,48392252.46
+Cabinet Office,EXP - PURCHASE OF GOODS/SERVICES - SHARED SERVICES OUTSOURCING,no,outsourcing not named as ICT,expense type,303,38385626.82
+Cabinet Office,IA - INFORMATION TECHNOLOGY - COST - ADDITIONS - SOFTWARE ADDITIONS,yes,"names IT, ICT, computing or software; includes Palantir lines (£13,020,000.00)",expense type,186,36692892.42
+Cabinet Office,IA - POA & AUC - COST - ADDITIONS,no,"intangible assets under construction; top payees are consultancies (Deloitte, PA Consulting); the label does not say software",expense type,165,35791168.44
+Cabinet Office,Licence Costs,yes,"licences; the largest payees are software licence vendors and resellers (BravoSolution, Softcat, Workday, Mercato, Dun & Bradstreet) and NHS England/DHSC",expense type,148,35708684.97
+Cabinet Office,PPE - INFORMATION TECHNOLOGY (OWNED) - COST - ADDITIONS - IT CONSULTANCY ADDITIONS,yes,"names IT, ICT, computing or software",expense type,234,29336055.35
+Cabinet Office,IT Licence,yes,"names IT, ICT, computing or software",expense type,24,18697059.93
+Cabinet Office,ICT Expenditure,yes,"names IT, ICT, computing or software",expense type,124,15289906.20
+Cabinet Office,PPE - INFORMATION TECHNOLOGY (OWNED) - COST - ADDITIONS - IT HARDWARE ADDITIONS,yes,"names IT, ICT, computing or software",expense type,54,12140678.77
+Cabinet Office,Intangible Assets - AUC Additions,no,intangible or capital asset additions; the label does not say software or IT,expense type,166,11403442.53
+Cabinet Office,EXP - PURCHASE OF GOODS/SERVICES - CONSULTANCY - IT,yes,"names IT, ICT, computing or software",expense type,115,10449419.33
+Cabinet Office,IT,yes,"names IT, ICT, computing or software",expense type,108,10125469.80
+Cabinet Office,MOU Commission Share - Technology,no,commission shared with other buying bodies under a memorandum of understanding; not a purchase,expense type,46,8223740.12
+Cabinet Office,EXP - PURCHASE OF GOODS/SERVICES - END USER SOFTWARE AND HARDWARE,yes,"names IT, ICT, computing or software",expense type,102,7470482.18
+Cabinet Office,Digital and Technology Services Expenditure - CR,yes,names digital services,expense type,137,7405396.48
+Cabinet Office,EXP - PURCHASE OF GOODS/SERVICES - CONSULTANCY - TECHNICAL,no,"technical consultancy, not named as IT",expense type,85,7247172.65
+Cabinet Office,IT Services,yes,"names IT, ICT, computing or software",expense type,40,7068252.26
+Cabinet Office,IT - Salesforce Licences,yes,"names IT, ICT, computing or software",expense type,5,5991202.51
+Cabinet Office,Digital and Technology Services Expenditure - Standard,yes,names digital services,expense type,68,5807754.19
+Cabinet Office,Digital & Tech Services Client,yes,names digital services,expense type,38,5115355.74
+Cabinet Office,IT - E-Sourcing Licences,yes,"names IT, ICT, computing or software",expense type,7,4879813.65
+Cabinet Office,Cloud & Web_Hosting Costs,yes,hosting or cloud services,expense type,65,4451528.36
+Cabinet Office,Whitehall Systems Expenditure,no,"Whitehall district heating and building systems, not IT",expense type,27,4126060.72
+Cabinet Office,Digital Transformation Partners,yes,names digital services,expense type,26,3720759.76
+Cabinet Office,EXP - PURCHASE OF GOODS/SERVICES - OTHER ICT COSTS - COMPUTER HARDWARE,yes,"names IT, ICT, computing or software",expense type,49,3677799.40
+Cabinet Office,Digital and Technology Services - GovPrint Expenditure,no,printing (GovPrint) under a digital heading,expense type,26,2971987.83
+Cabinet Office,IT Development,yes,"names IT, ICT, computing or software",expense type,35,2913502.49
+Cabinet Office,Whitehall Systems Heating,no,"Whitehall district heating and building systems, not IT",expense type,20,2141676.16
+Cabinet Office,IT - Workday Licences,yes,"names IT, ICT, computing or software",expense type,5,2064494.00
+Cabinet Office,Purchases IT Software,yes,"names IT, ICT, computing or software",expense type,26,1754019.86
+Cabinet Office,IT Consumables,yes,"names IT, ICT, computing or software",expense type,14,1629804.56
+Cabinet Office,ICT Services,yes,"names IT, ICT, computing or software",expense type,28,1468850.80
+Cabinet Office,Workplace ICT Services,yes,"names IT, ICT, computing or software",expense type,23,1411752.27
+Cabinet Office,IA - WEBSITES - COST - ADDITIONS,yes,web services or websites,expense type,7,1136200.20
+Cabinet Office,EXP - PURCHASE OF GOODS/SERVICES - ICT OUTSOURCING & MAINT/SUPPORT,yes,"names IT, ICT, computing or software",expense type,18,821929.44
+Cabinet Office,IT - Annual Estate Wide Security PEN Testing,yes,"names IT, ICT, computing or software",expense type,14,762670.80
+Cabinet Office,IT - Spotlight Licences,yes,"names IT, ICT, computing or software",expense type,2,760213.20
+Cabinet Office,Technology & Digital Portfolio,yes,names digital services,expense type,7,709223.78
+Cabinet Office,IA - SOFTWARE LICENCES - COST - ADDITIONS,yes,"names IT, ICT, computing or software",expense type,10,637764.65
+Cabinet Office,Data Management,yes,names data services,expense type,1,611999.99
+Cabinet Office,Property Costs - Digital and T,no,property costs,expense type,16,587517.20
+Cabinet Office,Digital & Technology Services,yes,names digital services,expense type,8,507856.23
+Cabinet Office,IT Service,yes,"names IT, ICT, computing or software",expense type,7,490675.80
+Cabinet Office,Product Hosting costs,yes,hosting or cloud services,expense type,8,451449.60
+Cabinet Office,Crown Hosting Services,yes,hosting or cloud services,expense type,14,417480.00
+Cabinet Office,Data Purchase,yes,names data services,expense type,2,392011.80
+Cabinet Office,Web Ongoing Support,yes,web services or websites,expense type,3,382200.00
+Cabinet Office,Information Assurance,yes,IT security,expense type,6,335812.80
+Cabinet Office,EXP - PURCHASE OF GOODS/SERVICES - TELECOMS - TELECOM SECURITY SERVICES,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,5,333977.38
+Cabinet Office,IT - AWS,yes,"names IT, ICT, computing or software",expense type,5,299611.72
+Cabinet Office,IT Development Costs Intangible,yes,"names IT, ICT, computing or software",expense type,4,289200.00
+Cabinet Office,IT - Contracts Finder Hosting & Support,yes,"names IT, ICT, computing or software",expense type,4,260419.49
+Cabinet Office,Digital Transformation Costs,yes,names digital services,expense type,4,255564.89
+Cabinet Office,EXP - PURCHASE OF GOODS/SERVICES - TELECOMS - CALL CHARGES,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,8,246185.93
+Cabinet Office,IT - Digital Marketplace,yes,"names IT, ICT, computing or software",expense type,1,222000.00
+Cabinet Office,IT - Dun & Bradstreet Licences,yes,"names IT, ICT, computing or software",expense type,1,196006.22
+Cabinet Office,IT - DPS LICENCES,yes,"names IT, ICT, computing or software",expense type,1,180191.15
+Cabinet Office,Workplace ICT Exp - FBR,yes,"names IT, ICT, computing or software",expense type,4,179415.13
+Cabinet Office,Voice & Data charges,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,3,164438.44
+Cabinet Office,Investment Projects Digital and Data,yes,names digital services,expense type,1,162871.88
+Cabinet Office,ICT Hardware,yes,"names IT, ICT, computing or software",expense type,2,153897.14
+Cabinet Office,VOICE AND DATA CHARGES,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,1,151352.35
+Cabinet Office,Technology Products & Services,yes,names technology services,expense type,1,151200.00
+Cabinet Office,"Property , Plant & EquipmentAdditions - IT Hardware (Owned) Additions",yes,"names IT, ICT, computing or software",expense type,1,129411.68
+Cabinet Office,PPE - IT Hardware (Owned) Additions,yes,"names IT, ICT, computing or software",expense type,2,128677.56
+Cabinet Office,EXP - PURCHASE OF GOODS/SERVICES - TELECOMS - TELECOM PURCHASES,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,1,113437.74
+Cabinet Office,IT Developmnt,yes,"names IT, ICT, computing or software",expense type,1,109596.00
+Cabinet Office,ICT MAINTENANCE AND SUPPORT,yes,"names IT, ICT, computing or software",expense type,2,94447.29
+Cabinet Office,Software and Cyber Security,yes,"names IT, ICT, computing or software",expense type,1,73624.73
+Cabinet Office,Network Services,yes,data networks,expense type,2,70560.00
+Cabinet Office,ICT MAINTENANCE & SUPPORT,yes,"names IT, ICT, computing or software",expense type,1,66340.20
+Cabinet Office,Technology COO,yes,names technology services,expense type,1,66000.00
+Cabinet Office,IT - Service,yes,"names IT, ICT, computing or software",expense type,1,58320.00
+Cabinet Office,IT - Bravo Spend Analytics,yes,"names IT, ICT, computing or software",expense type,2,58060.80
+Cabinet Office,Telecommunications,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,1,57906.00
+Cabinet Office,ICT Software,yes,"names IT, ICT, computing or software",expense type,2,54095.00
+Cabinet Office,ICT Licences,yes,"names IT, ICT, computing or software",expense type,1,51916.52
+Cabinet Office,IT Purchases,yes,"names IT, ICT, computing or software",expense type,1,49758.00
+Cabinet Office,IT PEN Testting,yes,"names IT, ICT, computing or software",expense type,1,46607.40
+Cabinet Office,IT Contract,yes,"names IT, ICT, computing or software",expense type,1,45480.00
+Cabinet Office,Information Security and Assurance,yes,IT security,expense type,1,43200.00
+Cabinet Office,CLOUD AND WEB HOSTING COSTS,yes,hosting or cloud services,expense type,1,37076.17
+Cabinet Office,PPE - POA & AUC (OWNED) - COST - ADDITIONS - PLANT & MACHINERY - IT HARDWARE AUC ADDITIONS,yes,"names IT, ICT, computing or software",expense type,1,33394.63
+Cabinet Office,Property Plant & Equipment - IT Hardware (Owned) Additions,yes,"names IT, ICT, computing or software",expense type,1,33375.98
+Cabinet Office,Purchases IT Software Intangible,yes,"names IT, ICT, computing or software",expense type,1,31150.94
+Cabinet Office,Client Digital & Tech Services,yes,names digital services,expense type,1,29628.00
+Cabinet Office,Cloud and Hosting,yes,hosting or cloud services,expense type,1,28800.00
+Cabinet Office,Licence fee,no,licence of an unspecified kind,expense type,1,25025.25
+"Ministry of Housing, Communities and Local Government (DLUHC Sep 2021 to Jul 2024)",IT - Service Contracts,yes,"names IT, ICT, computing or software; includes Palantir lines (£3,525,000.00)",expense type,5115,233945359.12
+"Ministry of Housing, Communities and Local Government (DLUHC Sep 2021 to Jul 2024)",Software Licences,yes,"names IT, ICT, computing or software; includes Palantir lines (£7,250,000.00)",expense type,1083,57682005.95
+"Ministry of Housing, Communities and Local Government (DLUHC Sep 2021 to Jul 2024)",IT Consultancy,yes,"names IT, ICT, computing or software",expense type,374,23292478.58
+"Ministry of Housing, Communities and Local Government (DLUHC Sep 2021 to Jul 2024)",IT - Software Maintenance,yes,"names IT, ICT, computing or software",expense type,809,21781102.36
+"Ministry of Housing, Communities and Local Government (DLUHC Sep 2021 to Jul 2024)","IT - PC, Network & Hardware",yes,"names IT, ICT, computing or software",expense type,621,9751168.44
+"Ministry of Housing, Communities and Local Government (DLUHC Sep 2021 to Jul 2024)",IT SUPPORT,yes,"names IT, ICT, computing or software; includes Palantir lines (£4,225,000.00)",expense type,223,8626804.82
+"Ministry of Housing, Communities and Local Government (DLUHC Sep 2021 to Jul 2024)",Web Services,yes,web services or websites,expense type,364,2697873.93
+"Ministry of Housing, Communities and Local Government (DLUHC Sep 2021 to Jul 2024)",End User Software and Hardware,yes,"names IT, ICT, computing or software",expense type,13,1011915.87
+"Ministry of Housing, Communities and Local Government (DLUHC Sep 2021 to Jul 2024)",Telecoms equipment (non-capitalised),no,"telecoms or telephony; left out because the question is IT, software and data",expense type,116,768158.22
+"Ministry of Housing, Communities and Local Government (DLUHC Sep 2021 to Jul 2024)",IT Maintenance,yes,"names IT, ICT, computing or software",expense type,100,605481.94
+"Ministry of Housing, Communities and Local Government (DLUHC Sep 2021 to Jul 2024)",Online Database Information Retrieval,yes,names data services,expense type,45,565774.33
+"Ministry of Housing, Communities and Local Government (DLUHC Sep 2021 to Jul 2024)",Mobile phone costs,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,74,472410.92
+"Ministry of Housing, Communities and Local Government (DLUHC Sep 2021 to Jul 2024)",Communication Telecom Costs,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,41,424897.39
+"Ministry of Housing, Communities and Local Government (DLUHC Sep 2021 to Jul 2024)",Electronic Data Storage,yes,names data services,expense type,58,332855.15
+"Ministry of Housing, Communities and Local Government (DLUHC Sep 2021 to Jul 2024)",Copyright Licences,no,a licence that is not a software licence,expense type,13,139794.82
+"Ministry of Housing, Communities and Local Government (DLUHC Sep 2021 to Jul 2024)",Licence Fees/Levies,no,a licence that is not a software licence,expense type,17,105743.98
+"Ministry of Housing, Communities and Local Government (DLUHC Sep 2021 to Jul 2024)",IT Consumables,yes,"names IT, ICT, computing or software",expense type,5,6925.06
+"Ministry of Housing, Communities and Local Government (DLUHC Sep 2021 to Jul 2024)",Telephone call costs,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,8,4767.67
+"Ministry of Housing, Communities and Local Government (DLUHC Sep 2021 to Jul 2024)",(files without a usable IT category),no,the file has no category column: files for Feb 2025 to Apr 2025; only the all-spend total is computed for these months,,,
+"Department for Environment, Food and Rural Affairs",EXP - PURCHASE OF GOODS/SERVICES - ICT OUTSOURCING & MAINT/SUPPORT,yes,"names IT, ICT, computing or software",expense type,4971,1031263194.51
+"Department for Environment, Food and Rural Affairs",EXP - PURCHASE OF GOODS/SERVICES - END USER SOFTWARE AND HARDWARE,yes,"names IT, ICT, computing or software",expense type,2136,486517919.86
+"Department for Environment, Food and Rural Affairs",EXP - PURCHASE OF GOODS/SERVICES - CONSULTANCY - TECHNICAL,no,"technical services, not named as IT",expense type,3488,305032997.14
+"Department for Environment, Food and Rural Affairs",EXP - PURCHASE OF GOODS/SERVICES - SUPPORT - CIS CAPGEMINI CONTRACT,yes,"support contract paid entirely to Capgemini UK PLC, Defra's IT services supplier",expense type,247,256384469.36
+"Department for Environment, Food and Rural Affairs",IA - POA & AUC - COST - ADDITIONS,no,"intangible assets under construction; the label does not say software, although the largest payees are IT firms (Capgemini, Equal Experts, Risual, Node 4, Kainos); Palantir's Defra lines are here; Palantir's lines carry this label (£346,875.00)",expense type,684,205341442.96
+"Department for Environment, Food and Rural Affairs",EXP - PURCHASE OF GOODS/SERVICES - HOSTING,yes,hosting or cloud services,expense type,177,55905806.98
+"Department for Environment, Food and Rural Affairs",EXP - PURCHASE OF G&S - ICT OUTSOURCING & MAINT/SUPPORT - IBM BASE SERVS CONTROL,yes,"names IT, ICT, computing or software",expense type,40,51469424.37
+"Department for Environment, Food and Rural Affairs",EXP - PURCHASE OF GOODS/SERV -ICT OUTSOURC & MAINT/SUPP -NETWORK SERV INC ASSETS,yes,"names IT, ICT, computing or software",expense type,249,43467871.41
+"Department for Environment, Food and Rural Affairs",Data Collection Services,no,field data collection; top payees are universities and survey firms,expense type,401,25523442.93
+"Department for Environment, Food and Rural Affairs",EXP - PURCHASE OF GOODS/SERVICES - TELECOMS,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,428,24250955.84
+"Department for Environment, Food and Rural Affairs",EXP - PURCHASE OF GOODS/SERVICES - ICT OUTSOURCING & MAINT/SUPPORT - CONTRACTORS (IT),yes,"names IT, ICT, computing or software",expense type,64,14099408.58
+"Department for Environment, Food and Rural Affairs",EXP - PURCHASE OF GOODS/SERVICES - OTHER ICT COSTS - COMPUTER SOFTWARE,yes,"names IT, ICT, computing or software",expense type,106,13755157.96
+"Department for Environment, Food and Rural Affairs",Cartographic & Digitising,yes,geospatial data (mapping and imagery),expense type,87,12888629.78
+"Department for Environment, Food and Rural Affairs",EXP - PURCHASE OF G&S - ICT OUTSOURCING & MAINT/SUPPORT - COMPUTER & IT SERVICES,yes,"names IT, ICT, computing or software",expense type,55,11237907.68
+"Department for Environment, Food and Rural Affairs",IA - INFORMATION TECHNOLOGY - COST - ADDITIONS,yes,"names IT, ICT, computing or software",expense type,38,11044515.19
+"Department for Environment, Food and Rural Affairs",EXP - PURCHASE OF GOODS/SERVICES - TELECOMS - TELEPHONE,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,102,9873273.71
+"Department for Environment, Food and Rural Affairs",EXP - PURCHASE OF GOODS/SERVICES - OTHER ICT COSTS,yes,"names IT, ICT, computing or software",expense type,60,9601185.63
+"Department for Environment, Food and Rural Affairs",EXP - PURCHASE OF GOODS/SERVICES - ACCOMMODATION & BLDNG MANAGEMENT - SECURITY SYSTEMS & MONITORING COSTS,no,a system that is not named as IT,expense type,132,9470928.98
+"Department for Environment, Food and Rural Affairs",EXP - PURCHASE OF GOODS/SERVICES - NETWORKING,yes,data networks,expense type,91,8933072.61
+"Department for Environment, Food and Rural Affairs",Technical Services,no,technical and scientific services; top payees are research bodies,expense type,135,8201001.49
+"Department for Environment, Food and Rural Affairs",ICT,yes,"names IT, ICT, computing or software",expense type,153,7885918.78
+"Department for Environment, Food and Rural Affairs",Software (including licences),yes,"names IT, ICT, computing or software",expense type,139,7806386.44
+"Department for Environment, Food and Rural Affairs",EXP - PURCHASE OF GOODS/SERVICES - SUPPORT - COMPUTER SOFTWARE,yes,"names IT, ICT, computing or software",expense type,80,6230774.45
+"Department for Environment, Food and Rural Affairs",EXP - PURCHASE OF GOODS/SERV - ICT OUTSOURC & MAINT/SUPP - APPLICATION SUPPORT,yes,"names IT, ICT, computing or software",expense type,7,5808495.22
+"Department for Environment, Food and Rural Affairs",EXP - PURCHASE OF GOODS/SERVICES - OTHER PROFESSIONAL SERVICES - CARTOGRAPHIC,yes,geospatial data (mapping and imagery),expense type,35,5552362.36
+"Department for Environment, Food and Rural Affairs",Assets Under Construction,no,intangible or capital asset additions; the label does not say software or IT,expense type,56,4774330.40
+"Department for Environment, Food and Rural Affairs",IT Developers,yes,"names IT, ICT, computing or software",expense type,33,4630526.78
+"Department for Environment, Food and Rural Affairs",EXP - PURCHASE OF GOODS/SERVICES - OTHER ICT COSTS - COMPUTER HARDWARE,yes,"names IT, ICT, computing or software",expense type,20,4367958.29
+"Department for Environment, Food and Rural Affairs",EXP - PURCH OF G&S - ICT OUTSOURC/MAINT/SUPP - NON STD SOFTWARE SERVICES,yes,"names IT, ICT, computing or software",expense type,20,3801975.67
+"Department for Environment, Food and Rural Affairs",IT - Maintenance,yes,"names IT, ICT, computing or software",expense type,38,3025423.14
+"Department for Environment, Food and Rural Affairs",EXP - PURCHASE OF GOODS/SERVICES - TELECOMS - MOBILE PHONES,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,34,2512080.30
+"Department for Environment, Food and Rural Affairs",EXP - PURCHASE OF GOODS/SERVICES - NETWORKING - VOICE COMMUNICATIONS,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,59,2368400.25
+"Department for Environment, Food and Rural Affairs",EXP - PURCHASE OF GOODS/SERVICES - ICT OUTSOURCING & MAINT./SUPPORT - HELP DESK,yes,"names IT, ICT, computing or software",expense type,18,2075673.16
+"Department for Environment, Food and Rural Affairs",EXP - PURCHASE OF GOODS/SERVICES - OTHER - LICENCES AND CONSENTS,no,a licence that is not a software licence,expense type,36,1768602.83
+"Department for Environment, Food and Rural Affairs",EXP - PURCHASE OF GOODS/SERVICES - SHARED SERVICES OUTSOURCING,no,outsourcing not named as ICT,expense type,17,1554023.36
+"Department for Environment, Food and Rural Affairs",INC - RECEIPT OF FEES AND CHARGES - ROD LICENCES,no,a licence that is not a software licence,expense type,1,1497247.00
+"Department for Environment, Food and Rural Affairs",IT - Consultancy/Contractors,yes,"names IT, ICT, computing or software",expense type,17,1318573.08
+"Department for Environment, Food and Rural Affairs",EXP - PURCHASE OF GOODS/SERVICES - VEHICLE MAINTENANCE - ROAD FUND LICENCES,no,a licence that is not a software licence,expense type,18,1273166.08
+"Department for Environment, Food and Rural Affairs",EXP - PURCHASE OF G&S - ICT OUTSOURCING & MAINT/SUPP - IT THIRD PARTY CONTRACTS,yes,"names IT, ICT, computing or software",expense type,15,1263962.42
+"Department for Environment, Food and Rural Affairs",IA - POA & AUC - COST - O/BAL,no,intangible or capital asset additions; the label does not say software or IT,expense type,19,1257645.52
+"Department for Environment, Food and Rural Affairs",EXP - PURCH OF G & S - ICT OUTSOURCING & MAINT/SUPP - FIXED STEADY STATE SERVICE,yes,"names IT, ICT, computing or software",expense type,11,1216061.28
+"Department for Environment, Food and Rural Affairs",EXP - PURCH OF G & S - ICT OUTSOURCING & MAINT/SUPP - APP HOSTING 2 - BUS APPS,yes,"names IT, ICT, computing or software",expense type,7,1021611.31
+"Department for Environment, Food and Rural Affairs",COMPUTER EQUIPMENT (H&S/WARE),yes,"names IT, ICT, computing or software",expense type,15,1000229.75
+"Department for Environment, Food and Rural Affairs",EXP - PURCH OF G & S - ICT OUTSOURCING - BUSINESS & TECH/CONSULT ASSIGNMENTS,yes,"names IT, ICT, computing or software",expense type,8,996741.07
+"Department for Environment, Food and Rural Affairs",ICT Maintenance & Support,yes,"names IT, ICT, computing or software",expense type,18,833809.45
+"Department for Environment, Food and Rural Affairs",ICT Lease Service Charge,yes,"names IT, ICT, computing or software",expense type,16,727193.45
+"Department for Environment, Food and Rural Affairs",EXP - PURCHASE OF GOODS/SERV - ICT OUTSOURC & MAINT/SUPP - HARDWARE,yes,"names IT, ICT, computing or software",expense type,8,644891.48
+"Department for Environment, Food and Rural Affairs",EXP - PURCHASE OF GOODS/SERVICES - ICT OUTSOURCING & MAINT/SUPPORT - FACILITIES MANAGEMENT COSTS,yes,"names IT, ICT, computing or software",expense type,14,614307.95
+"Department for Environment, Food and Rural Affairs",EXP - PURCHASE OF GOODS/SERV - ICT OUTSOURC & MAINT/SUPP - SOFTWARE,yes,"names IT, ICT, computing or software",expense type,11,551902.22
+"Department for Environment, Food and Rural Affairs",IT MANAGEMENT SERVICES,yes,"names IT, ICT, computing or software",expense type,7,526142.54
+"Department for Environment, Food and Rural Affairs",IT Application Support & Maintenance,yes,"names IT, ICT, computing or software",expense type,6,408040.80
+"Department for Environment, Food and Rural Affairs",FA Additions: IT Software,yes,"names IT, ICT, computing or software",expense type,2,289030.90
+"Department for Environment, Food and Rural Affairs",EXP - PURCHASE OF GOODS/SERVICES - ICT OUTSOURCING & MAINT/SUPPORT - VOICE COMMUNICATIONS,yes,"names IT, ICT, computing or software",expense type,4,226330.89
+"Department for Environment, Food and Rural Affairs",EXP - PURCH OF G&S - ICT OUTSOURCE & MAINT/SUPP - APP HOST 3 BUS APPS INFRA SERV,yes,"names IT, ICT, computing or software",expense type,5,203348.19
+"Department for Environment, Food and Rural Affairs",IA - SOFTWARE LICENCES - COST - ADDITIONS,yes,"names IT, ICT, computing or software",expense type,2,202434.22
+"Department for Environment, Food and Rural Affairs",IT Consultancy – Implementation,yes,"names IT, ICT, computing or software",expense type,2,191616.09
+"Department for Environment, Food and Rural Affairs",Other ICT Services,yes,"names IT, ICT, computing or software",expense type,5,191127.29
+"Department for Environment, Food and Rural Affairs",PPE - INFORMATION TECHNOLOGY (OWNED) - COST - ADDITIONS,yes,"names IT, ICT, computing or software",expense type,3,168392.58
+"Department for Environment, Food and Rural Affairs",IT - Non capital IT,yes,"names IT, ICT, computing or software",expense type,4,123166.65
+"Department for Environment, Food and Rural Affairs",IT Equipment (Non Dep'n Set),yes,"names IT, ICT, computing or software",expense type,3,112645.38
+"Department for Environment, Food and Rural Affairs",Software,yes,"names IT, ICT, computing or software",expense type,3,102935.13
+"Department for Environment, Food and Rural Affairs",Digital and Data solutions team,yes,names digital services,expense type,2,85634.88
+"Department for Environment, Food and Rural Affairs",IA - POA & AUC - COST - SYSTEM COST,no,intangible or capital asset additions; the label does not say software or IT,expense type,3,85110.00
+"Department for Environment, Food and Rural Affairs",IT,yes,"names IT, ICT, computing or software",expense type,2,84646.93
+"Department for Environment, Food and Rural Affairs",EXP - PURCHASE OF GOODS/SERVICES - CONSULTANCY - IT,yes,"names IT, ICT, computing or software",expense type,2,71427.90
+"Department for Environment, Food and Rural Affairs",Software - Licenses - Renewal and Support,yes,"names IT, ICT, computing or software",expense type,2,70839.00
+"Department for Environment, Food and Rural Affairs",Data Access Licences,yes,names data services,expense type,1,64680.00
+"Department for Environment, Food and Rural Affairs",EXP - PURCHASE OF GOODS/SERVICES - SPECIALIST SOFTWARE AND HARDWARE,yes,"names IT, ICT, computing or software",expense type,1,60787.20
+"Department for Environment, Food and Rural Affairs",EXP - PURCHASE OF GOODS/SERVICES - OTHER - DATA AND EVIDENCE,yes,names data services,expense type,1,59313.82
+"Department for Environment, Food and Rural Affairs",Specialist Software,yes,"names IT, ICT, computing or software",expense type,2,59279.00
+"Department for Environment, Food and Rural Affairs",IT - Non capital COST,yes,"names IT, ICT, computing or software",expense type,1,54000.00
+"Department for Environment, Food and Rural Affairs",EXP - PURCHASE OF GOODS/SERVICES - MARKETING&MEDIA- PURCHASE OF STATISTICAL DATA,no,"marketing, advertising, publications or press distribution",expense type,1,50000.00
+"Department for Environment, Food and Rural Affairs",Telecommunications,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,1,42600.00
+"Department for Environment, Food and Rural Affairs",IT Consumables,yes,"names IT, ICT, computing or software",expense type,1,40574.40
+"Department for Environment, Food and Rural Affairs",Networks,yes,data networks,expense type,1,38330.40
+"Department for Environment, Food and Rural Affairs",IT Subscription Licences,yes,"names IT, ICT, computing or software",expense type,1,32280.00
+"Department for Environment, Food and Rural Affairs",WEBSITE DEVELOPMENT,yes,web services or websites,expense type,1,32000.00
+"Department for Environment, Food and Rural Affairs",Telecoms,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,1,31752.00
+"Department for Environment, Food and Rural Affairs",EXP - PURCHASE OF GOODS/SERVICES - SUPPORT - COMPUTER CONSUMABLES,yes,"names IT, ICT, computing or software",expense type,1,29720.40
+"Department for Environment, Food and Rural Affairs",COMPUTER EQUIPMENT,yes,"names IT, ICT, computing or software",expense type,1,27717.54
+"Department for Environment, Food and Rural Affairs",Computer Equipment & Software,yes,"names IT, ICT, computing or software",expense type,1,26334.72
+"Department for Environment, Food and Rural Affairs",Media database and dist. serv.,no,"marketing, advertising, publications or press distribution",expense type,4,16460.89
+HM Treasury,IT Software Services & Maintenance Non VAT Recoverable,yes,"names IT, ICT, computing or software",account code description,590,55875325.23
+HM Treasury,IT Software services and maintenance Rec,yes,"names IT, ICT, computing or software",account code description,277,38197701.78
+HM Treasury,IT Hardware Services & Maintenance VAT Recoverable,yes,"names IT, ICT, computing or software",account code description,216,17464257.24
+HM Treasury,IT Hardware Services & Maintenance Non VAT Recoverable,yes,"names IT, ICT, computing or software",account code description,94,7465586.19
+HM Treasury,Corp. Subscriptions and Other Information Services,yes,"information services; top payees are data and software providers (Phoenix Software, Bloomberg, Sayari Analytics, S&P Global Market Intelligence) alongside publications (OECD, Financial Times)",account code description,117,6527172.43
+HM Treasury,IT/OFFICE EQUIPMENT PURCHASE - OVER £5K,yes,"names IT, ICT, computing or software",account code description,22,4187116.49
+HM Treasury,DMO Market Data Services - 587067,yes,names data services,account code description,41,4006399.25
+HM Treasury,IT/OFFICE EQUIPMENT HIRE AND PURCHASE,yes,"names IT, ICT, computing or software",account code description,31,3758166.47
+HM Treasury,Software Licences - over £5k,yes,"names IT, ICT, computing or software",account code description,28,3044821.82
+HM Treasury,TELEPHONY,no,"telecoms or telephony; left out because the question is IT, software and data",account code description,24,1642419.69
+HM Treasury,Hire and Purchase (<£5k) Of IT Equipment,yes,"names IT, ICT, computing or software",account code description,1,1199300.00
+HM Treasury,TELECOMS EQUIPMENT INC. MOBILES,no,"telecoms or telephony; left out because the question is IT, software and data",account code description,8,933010.20
+HM Treasury,IT/Office equipment hire and purchase under £5k,yes,"names IT, ICT, computing or software",account code description,14,860863.66
+HM Treasury,Software hire and purchase under £5K,yes,"names IT, ICT, computing or software",account code description,9,494779.07
+HM Treasury,Telecoms equipment Inc. Mobiles under £5k,no,"telecoms or telephony; left out because the question is IT, software and data",account code description,6,400289.90
+HM Treasury,SOFTWARE HIRE AND PURCHASE,yes,"names IT, ICT, computing or software",account code description,7,341909.12
+HM Treasury,DMO MARKET DATA SERVICES,yes,names data services,account code description,2,217674.35
+HM Treasury,COST ADDITIONS - IT INFRASTRUCTURE,yes,"names IT, ICT, computing or software",account code description,2,119118.95
+HM Treasury,SOFTWARE LICENSING & SUPPORT,yes,"names IT, ICT, computing or software",account code description,1,111874.80
+HM Treasury,Asset Clearing Account - Software Licences,yes,"names IT, ICT, computing or software",expense type,2,64367.15
+HM Treasury,Internally Generated Software - over £5k,yes,"names IT, ICT, computing or software",expense type,1,42210.00
+HM Treasury,IT Consultancy - Rechargeable,yes,"names IT, ICT, computing or software",account code description,1,40719.00
+HM Treasury,ASSETS UNDER CONSTRUCTION IT INFRASTRUCTURE RESTRICTED - OVER £5K,yes,"names IT, ICT, computing or software",account code description,1,32160.00
+HM Treasury,(files without a usable IT category),no,the file has no category column: files for Apr 2023 to Jun 2023; only the all-spend total is computed for these months,,,
+Home Office,IT RUN COST,yes,"names IT, ICT, computing or software",expense type,20044,5819936761.77
+Home Office,SYSTEM CLEARING,no,accounting clearing account for capital projects of every kind (top payees include IBM and Galliford Try Construction),expense type,10861,2535632347.14
+Home Office,OTHER ICT COSTS,yes,"names IT, ICT, computing or software",expense type,4790,980176388.48
+Home Office,END USER COMPUTER SOFTWARE,yes,"names IT, ICT, computing or software",expense type,917,425754067.20
+Home Office,HOSTING,yes,hosting or cloud services,expense type,633,280399869.95
+Home Office,SPECIALIST USER SOFTWARE & HARDWARE,yes,"names IT, ICT, computing or software",expense type,584,151931595.86
+Home Office,IT,yes,"names IT, ICT, computing or software",expense type,491,111128569.27
+Home Office,END USER COMPUTER HARDWARE,yes,"names IT, ICT, computing or software",expense type,438,84395060.64
+Home Office,TELEPHONE,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,507,78621961.40
+Home Office,CURFEW & ELECTRONIC MONITORING,no,"offender tagging service, paid to the Ministry of Justice",expense type,65,45928907.48
+Home Office,END USER SOFTWARE & HARDWARE,yes,"names IT, ICT, computing or software",expense type,101,30676177.53
+Home Office,NETWORKING,yes,data networks,expense type,81,19892283.70
+Home Office,IT LICENCES (PFI),yes,"names IT, ICT, computing or software",expense type,124,17996940.33
+Home Office,MOBILE PHONES,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,313,10479704.09
+Home Office,SHARED SERVICES OUTSOURCING,no,outsourcing not named as ICT,expense type,12,2157015.79
+Home Office,TELECOMS,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,2,86410.37
+Home Office,IT RUN COST CONSUMABLES,yes,"names IT, ICT, computing or software",expense type,1,43724.40
+Home Office,SYSTEM COST,no,a system that is not named as IT,expense type,1,21740.00
+UK Health Security Agency (Public Health England before October 2021),IT,yes,"names IT, ICT, computing or software",subjective level 4,806,209244620.39
+UK Health Security Agency (Public Health England before October 2021),Outsourced Services : Other,no,outsourcing not named as ICT,expense type,290,171711176.31
+UK Health Security Agency (Public Health England before October 2021),Other Outsourced Services,no,outsourcing not named as ICT,expense type,1234,129120397.35
+UK Health Security Agency (Public Health England before October 2021),Telecommunication Charges,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,142,55501902.25
+UK Health Security Agency (Public Health England before October 2021),Computer Services : Specialized,yes,"names IT, ICT, computing or software",expense type,132,52475048.77
+UK Health Security Agency (Public Health England before October 2021),IT Licences,yes,"names IT, ICT, computing or software",expense type,435,42444457.07
+UK Health Security Agency (Public Health England before October 2021),Software Maint & Support Costs,yes,"names IT, ICT, computing or software",expense type,358,14307889.07
+UK Health Security Agency (Public Health England before October 2021),Social Marketing - Digital,no,"marketing, advertising, publications or press distribution",expense type,242,12005195.76
+UK Health Security Agency (Public Health England before October 2021),Computer Software,yes,"names IT, ICT, computing or software",expense type,32,9264501.66
+UK Health Security Agency (Public Health England before October 2021),Software Maintenance & Support,yes,"names IT, ICT, computing or software",expense type,43,6710175.16
+UK Health Security Agency (Public Health England before October 2021),Telecoms,no,"telecoms or telephony; left out because the question is IT, software and data",subjective level 4,25,4091341.39
+UK Health Security Agency (Public Health England before October 2021),Minor Computer Leasing Costs,yes,"names IT, ICT, computing or software",expense type,29,1683801.86
+UK Health Security Agency (Public Health England before October 2021),Computer Services : Specialized >£5k (AUC),yes,"names IT, ICT, computing or software",expense type,14,1560406.63
+UK Health Security Agency (Public Health England before October 2021),Computer Hardware : Maintenance & Support,yes,"names IT, ICT, computing or software",expense type,4,1129668.42
+UK Health Security Agency (Public Health England before October 2021),Mobile Phone Charges,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,4,793841.64
+UK Health Security Agency (Public Health England before October 2021),Computer Hardware : Rental or Leasing,yes,"names IT, ICT, computing or software",expense type,1,684930.00
+UK Health Security Agency (Public Health England before October 2021),Computer Repairs & Maintenance,yes,"names IT, ICT, computing or software",expense type,12,573560.05
+UK Health Security Agency (Public Health England before October 2021),AUC - IT Equipment,yes,"names IT, ICT, computing or software",expense type,23,489224.34
+UK Health Security Agency (Public Health England before October 2021),Telephones & Communications Equipment <£5k,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,4,469981.38
+UK Health Security Agency (Public Health England before October 2021),Minor Computer Software,yes,"names IT, ICT, computing or software",expense type,12,389911.84
+UK Health Security Agency (Public Health England before October 2021),Computer Equipment >£5K (AUC),yes,"names IT, ICT, computing or software",expense type,2,349544.76
+UK Health Security Agency (Public Health England before October 2021),Computer Equipment <£5K,yes,"names IT, ICT, computing or software",expense type,2,227479.22
+UK Health Security Agency (Public Health England before October 2021),Computer Accessories (Office),yes,"names IT, ICT, computing or software",expense type,1,154738.95
+UK Health Security Agency (Public Health England before October 2021),Operating Licences (Non-IT) & Accreditation Fees,no,says non-IT,expense type,8,119484.00
+UK Health Security Agency (Public Health England before October 2021),Minor Telephone Equip,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,3,104689.64
+UK Health Security Agency (Public Health England before October 2021),Social Marketing - Website,no,"marketing, advertising, publications or press distribution",expense type,2,26400.00
+UK Health Security Agency (Public Health England before October 2021),(files without a usable IT category),no,the file has no category column: files for Mar 2025 to Aug 2026; only the all-spend total is computed for these months,,,
+Department for Business and Trade,Other ICT Costs,yes,"names IT, ICT, computing or software",expense type,950,97758291.69
+Department for Business and Trade,IT Software Licences and Software Maintenance,yes,"names IT, ICT, computing or software",expense type,156,25704785.17
+Department for Business and Trade,Clearing Account - Cost - Computer Equipment,yes,"names IT, ICT, computing or software",expense type,79,12067139.54
+Department for Business and Trade,Other Technical Professional Services,no,"technical professional services, not named as IT",expense type,39,3322297.51
+Department for Business and Trade,IT Management and Change - Application Development,yes,"names IT, ICT, computing or software",expense type,1,2813495.75
+Department for Business and Trade,IT Hosting Services,yes,"names IT, ICT, computing or software",expense type,7,2537449.28
+Department for Business and Trade,On-Line Databases,yes,names data services,expense type,31,2410385.39
+Department for Business and Trade,ICT Outsourcing & Maintenance/Support,yes,"names IT, ICT, computing or software",expense type,14,2317390.58
+Department for Business and Trade,Technical Advice / Services & Support,no,technical advice; not named as IT (largest payee Public Digital),expense type,25,1919543.77
+Department for Business and Trade,R & D IT Services,yes,"names IT, ICT, computing or software",expense type,20,1284237.54
+Department for Business and Trade,Other IT Consultancy,yes,"names IT, ICT, computing or software",expense type,19,1253573.23
+Department for Business and Trade,R & D Other ICT Costs,yes,"names IT, ICT, computing or software",expense type,10,1019605.39
+Department for Business and Trade,IT Services,yes,"names IT, ICT, computing or software",expense type,13,984301.80
+Department for Business and Trade,Purchase of Intangible Software,yes,"names IT, ICT, computing or software",expense type,8,691211.36
+Department for Business and Trade,IT Infrastructure Support,yes,"names IT, ICT, computing or software",expense type,7,417831.43
+Department for Business and Trade,Additions - Cost - Information Technology,yes,"names IT, ICT, computing or software",expense type,3,219254.87
+Department for Business and Trade,Clearing - Cost - Assets Under Construction - Internally Developed Websites,yes,web services or websites,expense type,3,215226.12
+Department for Business and Trade,Telecoms,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,5,190645.80
+Department for Business and Trade,Clearing - Cost - Assets Under Construction - Internally Developed Software,yes,"names IT, ICT, computing or software",expense type,2,149113.37
+Department for Business and Trade,O/Bal - Cost - Information Technology,yes,"names IT, ICT, computing or software",expense type,3,122554.00
+Department for Business and Trade,Maintenance of IT Equipment,yes,"names IT, ICT, computing or software",expense type,3,119658.00
+Department for Business and Trade,Mobile Call Charges,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,2,85059.33
+Department for Business and Trade,Computer Equipment,yes,"names IT, ICT, computing or software",expense type,1,81479.86
+Department for Business and Trade,Information & Records Management,no,"information services, not named as IT or data",expense type,2,64153.72
+Department for Business and Trade,Additions - System Clearing - Websites,yes,web services or websites,expense type,1,51446.00
+Department for Business and Trade,Central Telecommunications Services,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,1,35568.00
+Department for Business and Trade,Outsourced Technical Support,no,outsourcing not named as ICT,expense type,1,26501.27
+Department for Business and Trade,ICT Business Specific Application Services,yes,"names IT, ICT, computing or software",expense type,1,25000.00
+Department for Business and Trade,ICT Maintenance & Upkeep,yes,"names IT, ICT, computing or software",expense type,1,21600.00
+NHS England,Purchase of healthcare from non-NHS bodies,no,"not named as IT; Palantir's lines carry this label (£6,952,999.26)",expense type,29184,8551833997.65
+NHS England,Supplies and services – general,no,"not named as IT; Palantir's lines carry this label (£300,000.00)",expense type,19865,5005342087.23
+NHS England,Establishment,no,"broad NHS expense group for administration costs; before April 2025 it held most IT spend (its lines fell from about 200 a month to about 20 when 'Digital Procurement and Services' began), but it also holds other costs, so it cannot stand in for IT; Palantir's lines carry this label (£131,582,700.73)",expense type,10054,2353346815.60
+NHS England,Capital,no,"not named as IT; Palantir's lines carry this label (£20,290,528.42)",expense type,5258,1508994889.89
+NHS England,Other professional fees,no,"not named as IT; Palantir's lines carry this label (£8,945,360.01)",expense type,3500,733929050.57
+NHS England,Digital Procurement and Services,yes,"NHS England's IT and digital expense group, used in its files from April 2025; includes Palantir lines (£45,716,107.05)",expense type for report,1422,429548152.38
+NHS England,(files without a usable IT category),no,the file uses broad NHS expense groups with no IT group: files for Jan 2020 to Mar 2025; only the all-spend total is computed for these months,,,
+Monitor and NHS Trust Development Authority (NHS Improvement),Computer Network Costs,yes,"names IT, ICT, computing or software",expense type,10,1683277.64
+Monitor and NHS Trust Development Authority (NHS Improvement),Computer Software/License,yes,"names IT, ICT, computing or software",expense type,12,978246.32
+Monitor and NHS Trust Development Authority (NHS Improvement),Computer Hardware Purch,yes,"names IT, ICT, computing or software",expense type,3,248683.16
+Monitor and NHS Trust Development Authority (NHS Improvement),Computer Maintenance,yes,"names IT, ICT, computing or software",expense type,5,226115.60
+Monitor and NHS Trust Development Authority (NHS Improvement),External Data Contracts,yes,names data services,expense type,4,159663.00
+Monitor and NHS Trust Development Authority (NHS Improvement),Telecoms-Mobile Phones,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,5,157903.70
+Monitor and NHS Trust Development Authority (NHS Improvement),Computer Hardware,yes,"names IT, ICT, computing or software",expense type,1,41040.00
+Monitor and NHS Trust Development Authority (NHS Improvement),Telecoms-Phone Rental and Calls,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,1,27000.00
+Monitor and NHS Trust Development Authority (NHS Improvement),(files without a usable IT category),no,the file uses broad NHS expense groups with no IT group: files for Apr 2021 to Jun 2022; only the all-spend total is computed for these months,,,
+Chelsea and Westminster Hospital NHS Foundation Trust,I.T. Expenditure,yes,"names IT, ICT, computing or software",expense type,102,14827854.32
+Chelsea and Westminster Hospital NHS Foundation Trust,General Computer Software,yes,"names IT, ICT, computing or software",expense type,146,11811233.26
+Chelsea and Westminster Hospital NHS Foundation Trust,Computer Maintenance Contracts,yes,"names IT, ICT, computing or software",expense type,92,10112948.89
+Chelsea and Westminster Hospital NHS Foundation Trust,It Shared Service,yes,"names IT, ICT, computing or software; includes Palantir lines (£1,560,000.00)",expense type,63,7792946.86
+Chelsea and Westminster Hospital NHS Foundation Trust,Managed Service Contract,no,medical equipment managed service (Medtronic),expense type,45,5768681.23
+Chelsea and Westminster Hospital NHS Foundation Trust,Telephones - Private Circuits,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,57,3878106.04
+Chelsea and Westminster Hospital NHS Foundation Trust,Telephone Rental-Computer,yes,"names IT, ICT, computing or software",expense type,50,2270953.51
+Chelsea and Westminster Hospital NHS Foundation Trust,General Computer Hardware,yes,"names IT, ICT, computing or software",expense type,46,2245240.45
+Chelsea and Westminster Hospital NHS Foundation Trust,Intangible Expenditure,no,"intangible assets; the label does not say software, although payees include Softcat and Sectra",expense type,31,2028564.04
+Chelsea and Westminster Hospital NHS Foundation Trust,Computer & I.T. - Other,yes,"names IT, ICT, computing or software",expense type,6,1170095.86
+Chelsea and Westminster Hospital NHS Foundation Trust,Efinancial & Eproc Maintenance,yes,maintenance of a named software system,expense type,4,1042530.57
+Chelsea and Westminster Hospital NHS Foundation Trust,Software,yes,"names IT, ICT, computing or software; includes Palantir lines (£750,000.00)",expense type,1,750000.00
+Chelsea and Westminster Hospital NHS Foundation Trust,Choose & Book Maintenance,yes,maintenance of a named software system,expense type,3,575773.00
+Chelsea and Westminster Hospital NHS Foundation Trust,Infrastructure Upgrade,no,engineering works (JCA Engineering),expense type,2,525503.48
+Chelsea and Westminster Hospital NHS Foundation Trust,IT Software,yes,"names IT, ICT, computing or software",expense type,3,306400.68
+Chelsea and Westminster Hospital NHS Foundation Trust,LV1 Infrastructure Upgrade Phase 2,no,engineering works,expense type,2,253752.00
+Chelsea and Westminster Hospital NHS Foundation Trust,It Equipment - Cost,yes,"names IT, ICT, computing or software",expense type,4,249327.90
+Chelsea and Westminster Hospital NHS Foundation Trust,Data Network Maintenance,yes,data networks,expense type,1,231763.32
+Chelsea and Westminster Hospital NHS Foundation Trust,Oracle Software Licences,yes,"names IT, ICT, computing or software",expense type,2,142636.25
+Chelsea and Westminster Hospital NHS Foundation Trust,LV1 InfrastructureUpgrade Phase 2,no,engineering works,expense type,1,122918.40
+Chelsea and Westminster Hospital NHS Foundation Trust,Telephone Rental-Switchboard,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,3,115243.18
+Chelsea and Westminster Hospital NHS Foundation Trust,Provision of Healthcare System,no,healthcare service from another NHS trust,expense type,2,111197.57
+Chelsea and Westminster Hospital NHS Foundation Trust,Tomcat Support,yes,support for a cardiology software system,expense type,4,110400.00
+Chelsea and Westminster Hospital NHS Foundation Trust,I.T Management,yes,"names IT, ICT, computing or software",expense type,2,98034.52
+Chelsea and Westminster Hospital NHS Foundation Trust,Blood Management System,no,clinical system; the label does not say software,expense type,1,97675.20
+Chelsea and Westminster Hospital NHS Foundation Trust,BMS AND MECHANICAL SYSTEMS UPGRADE,no,building management and mechanical systems,expense type,1,92682.00
+Chelsea and Westminster Hospital NHS Foundation Trust,License Fee,yes,"single payee ICNH Ltd (DrDoctor), a patient-messaging software licence",expense type,1,80125.20
+Chelsea and Westminster Hospital NHS Foundation Trust,Data Warehouse Support & Maint,yes,names data services,expense type,1,64969.00
+Chelsea and Westminster Hospital NHS Foundation Trust,Software License,yes,"names IT, ICT, computing or software",expense type,2,58716.63
+Chelsea and Westminster Hospital NHS Foundation Trust,IT Expenditure,yes,"names IT, ICT, computing or software",expense type,1,55570.80
+Chelsea and Westminster Hospital NHS Foundation Trust,Telephone Network Hosting,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,1,55234.32
+Chelsea and Westminster Hospital NHS Foundation Trust,Desktop User Experience - Technology transition,yes,names technology services,expense type,1,36000.00
+Chelsea and Westminster Hospital NHS Foundation Trust,Chilled Water System,no,building system,expense type,1,29946.00
+Chelsea and Westminster Hospital NHS Foundation Trust,IT Hardware,yes,"names IT, ICT, computing or software",expense type,1,25200.00
+London Ambulance Service NHS Trust,Computer Software,yes,"names IT, ICT, computing or software",expense type,270,37430249.98
+London Ambulance Service NHS Trust,Professional Fees & Services,no,"not named as IT; Palantir's lines carry this label (£100,200.00)",expense type,342,28557597.61
+London Ambulance Service NHS Trust,Computer Hardware,yes,"names IT, ICT, computing or software",expense type,230,23262771.76
+London Ambulance Service NHS Trust,Computer Software Maintenance,yes,"names IT, ICT, computing or software",expense type,155,14544369.59
+London Ambulance Service NHS Trust,Capitalised Software,yes,"names IT, ICT, computing or software",expense type,41,9702212.48
+London Ambulance Service NHS Trust,Phone & Fax Line Rental,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,100,7619862.10
+London Ambulance Service NHS Trust,Technical Support - Contract,no,"technical support of mixed kinds (Department of Health, Telent, Capita, BT)",expense type,46,6855135.33
+London Ambulance Service NHS Trust,Data Network Rental,yes,data networks,expense type,83,5273519.91
+London Ambulance Service NHS Trust,Cad Tools Maintenance,yes,"computer-aided dispatch software; payees include Priority Dispatch, Northrop Grumman Information Technology, NEC Software Solutions",expense type,45,4402733.52
+London Ambulance Service NHS Trust,Mobile Phone Rental,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,51,4361082.55
+London Ambulance Service NHS Trust,Consultancy/Professional Sw,no,SW here is not software: the main payee is a vehicle converter,expense type,41,3485036.26
+London Ambulance Service NHS Trust,Network Equipment & Services,yes,data networks,expense type,59,3023321.21
+London Ambulance Service NHS Trust,Pts Control Maintenance,yes,"patient transport control system; payees are IT suppliers (Boxxe, Dell, CDW, Microsoft)",expense type,21,2589181.39
+London Ambulance Service NHS Trust,Data Comms Maintenance,yes,data networks,expense type,25,2348531.85
+London Ambulance Service NHS Trust,Mobile Display Unit,no,vehicle telematics units (Traffilog),expense type,8,2119140.50
+London Ambulance Service NHS Trust,Computer Hardware Maintenance,yes,"names IT, ICT, computing or software",expense type,22,1778794.94
+London Ambulance Service NHS Trust,Network & Route & Setup,yes,data networks,expense type,29,1693836.50
+London Ambulance Service NHS Trust,Mobile Phone Calls,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,26,1298279.83
+London Ambulance Service NHS Trust,Computer Periphs & Accessories,yes,"names IT, ICT, computing or software",expense type,27,1174005.26
+London Ambulance Service NHS Trust,It Technical Support,yes,"names IT, ICT, computing or software",expense type,9,1008681.20
+London Ambulance Service NHS Trust,Computer Peripherals & Access,yes,"names IT, ICT, computing or software",expense type,16,878510.21
+London Ambulance Service NHS Trust,Finance System Maintenance,yes,maintenance of a named software system,expense type,25,705974.10
+London Ambulance Service NHS Trust,Cloud Based Services,yes,hosting or cloud services,expense type,6,583142.25
+London Ambulance Service NHS Trust,Phone & Fax Equipment,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,6,240904.32
+London Ambulance Service NHS Trust,Mobile Phone Purchase,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,4,229172.16
+London Ambulance Service NHS Trust,Ip Telephony,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,4,225672.89
+London Ambulance Service NHS Trust,Voice Rec Maintenance,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,1,174576.56
+London Ambulance Service NHS Trust,Technology Fund,yes,names technology services,expense type,1,144923.52
+London Ambulance Service NHS Trust,Phone & Fax Calls,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,2,132414.19
+London Ambulance Service NHS Trust,Mobile Phone Accessories,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,3,115217.17
+London Ambulance Service NHS Trust,Mobile Data Usage,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,2,109407.92
+London Ambulance Service NHS Trust,Extra Microsoft Licences,yes,names a software product,expense type,1,104423.97
+London Ambulance Service NHS Trust,Crew Safety Mobile Rental,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,1,85638.06
+London Ambulance Service NHS Trust,Data Hosting Rental,yes,names data services,expense type,3,72756.44
+London Ambulance Service NHS Trust,Clinical Decision System,yes,maintenance of a named software system,expense type,1,56700.00
+London Ambulance Service NHS Trust,Managed Telephony Services,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,1,41639.86
+London Ambulance Service NHS Trust,Mobile Data Maintenance,no,"telecoms or telephony; left out because the question is IT, software and data",expense type,1,36652.67
+London Ambulance Service NHS Trust,Computer Licences Additions,yes,"names IT, ICT, computing or software",expense type,1,31500.00
+London Ambulance Service NHS Trust,Tv & Music Licences,no,a licence that is not a software licence,expense type,1,26880.00
+Bedfordshire Police,PROVISION OF GOODS & SERVICE,no,"supplier-type code, not a spend category; Palantir's lines carry this label (£2,694,000.00)",category description,5579,41460509.65
+Bedfordshire Police,TELEPHONE PROVIDER,no,"supplier-type code, not a spend category",category description,541,2484971.15
+Bedfordshire Police,(every label),no,"the Category Description column classifies the supplier by type (for example 'PROVISION OF SERVICE', 'TELEPHONE PROVIDER', 'CONSULTANCY'), not the purpose of the spend; no label means IT or software",category description,,
+Cambridgeshire Constabulary,PROVISION OF GOODS & SERVICE,no,"supplier-type code, not a spend category; Palantir's lines carry this label (£11,998.80)",category description,4674,27049401.71
+Cambridgeshire Constabulary,TELEPHONE PROVIDER,no,"supplier-type code, not a spend category",category description,753,11595388.13
+Cambridgeshire Constabulary,(every label),no,"the Category Description column classifies the supplier by type (for example 'PROVISION OF GOODS & SERVICE', 'UTILITIES'), not the purpose of the spend; no label means IT or software",category description,,
+Police and Crime Commissioner for Hertfordshire,Network Services,no,"paid mostly to Hertfordshire County Council, another PCC, and advertising and film companies; not IT networking",purpose of expenditure,31,252784.44
+Police and Crime Commissioner for Hertfordshire,Hardware - Purchase,yes,"hardware bought from IT resellers (Computacenter, SCC)",purpose of expenditure,4,6290.20
+Police and Crime Commissioner for Hertfordshire,Mobile Phone,no,"telecoms or telephony; left out because the question is IT, software and data",purpose of expenditure,1,339.00
+Coventry City Council,Computing - Software,yes,"names IT, ICT, computing or software; includes Palantir lines (£1,250,000.00)",account code(t),589,16574577.67
+Coventry City Council,Computing - IT Hardware,yes,"names IT, ICT, computing or software",account code(t),325,3929448.82
+Coventry City Council,Computing - Infrastructure,yes,"names IT, ICT, computing or software",account code(t),92,1315799.64
+Coventry City Council,IT Hardware,yes,"names IT, ICT, computing or software",account code(t),30,1232434.66
+Coventry City Council,"Books, Publications and Digital Media",no,"marketing, advertising, publications or press distribution",account code(t),349,923212.81
+Coventry City Council,Comms - Telephone,no,"telecoms or telephony; left out because the question is IT, software and data",account code(t),94,466601.89
+Coventry City Council,Services - Licences,no,"licences of mixed kinds (software, copyright, education programmes)",account code(t),69,440066.27
+Coventry City Council,IT Software,yes,"names IT, ICT, computing or software",account code(t),57,333229.19
+Coventry City Council,Network Installation,yes,data networks,account code(t),24,282195.45

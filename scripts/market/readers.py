@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """File readers for the market-share pipeline.
 
-CSV, XLSX and PDF files are read with rows_from() from scripts/payments/fetch_scan.py.
+CSV and XLSX files are read with rows_from() from scripts/payments/fetch_scan.py.
 ODS files are read here with a streaming parser (zipfile + xml iterparse, standard
 library only), because odfpy is not installed and pandas loads a whole ODS file at once.
+PDF reports are read by pdf_tables.py.
 
 All paths are relative to the project root.
 """

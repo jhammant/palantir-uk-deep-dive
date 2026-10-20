@@ -187,3 +187,8 @@ The files do not consistently say whether amounts include VAT. Contract values i
   - Northumbria Healthcare £412,500
   - NHS Shared Business Services £137,500
   - Crown Commercial Service £26,185,733 (published files are not available as Crown Commercial Service spend; see the Cabinet Office comparison above)
+
+## How the site counts these
+
+- The site's total is **£278,588,531.78 across 231 lines**, £1,090,000.01 lower than the table above. Four DHSC invoices (INV-003633, INV-003686, INV-003723 and INVE00100771) appear in their original month and again in the December 2020 file. The site counts each invoice once, so the total stays a floor.
+- Comparing payments with contract notices needs care with VAT. Notices are often published without VAT, while spend files usually show the gross amount paid. For example, London Ambulance Service's £100,200 payment is exactly its £83,500 notice plus 20% VAT. The Competition page adds 20% to notice values before reporting anything as paid beyond them, and ignores differences under 5%.

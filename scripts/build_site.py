@@ -156,6 +156,62 @@ def md_to_html(md):
     return "\n".join(out)
 
 
+# Which contract buyers belong to each payer in the spend files. Agencies are grouped with their parent
+# department only where the relationship is formal (e.g. Crown Commercial Service is a Cabinet Office agency).
+PAYER_BUYERS = {
+    "NHS England": [r"NHS England", r"ARDEN AND GREATER EAST MIDLANDS", r"NORTH OF ENGLAND COMMISSIONING", r"North of England CSU"],
+    "Cabinet Office": [r"Cabinet Office", r"Crown Commercial Service"],
+    "Ministry of Housing": [r"LEVELLING UP", r"Housing"],
+    "Ministry of Defence": [r"Ministry of Defence", r"^MOD\b"],
+    "Department of Health and Social Care": [r"Department of Health and Social Care"],
+    "Coventry City Council": [r"COVENTRY"],
+    "Department for Environment": [r"Defra", r"Environment, Food"],
+    "London Ambulance Service": [r"London Ambulance"],
+}
+VAT = 1.2       # notices may be published ex-VAT while spend files often show the gross amount
+GRACE_DAYS = 92  # invoices can arrive up to a quarter after a contract term ends
+
+
+def reconcile(payments, contracts):
+    """Per payer: what was paid, which notices we found, and what falls outside them."""
+    out = []
+    counted = [p for p in payments if p.get("counted")]
+    for payer in sorted({p["payer"] for p in counted}):
+        rows = [p for p in counted if p["payer"] == payer]
+        key = next((k for k in PAYER_BUYERS if payer.lower().startswith(k.lower())), None)
+        pats = PAYER_BUYERS.get(key, [])
+        notices = [c for c in contracts if any(re.search(pt, c.get("buyer") or "", re.I) for pt in pats)]
+        notice_total = sum(c["value"] or 0 for c in notices)
+
+        def in_term(p):
+            d = (p.get("period") or "")[:10]
+            for c in notices:
+                start, end = c.get("start") or c.get("awarded"), c.get("end")
+                if not (start and end and d):
+                    continue
+                end_g = (dt.date.fromisoformat(end) + dt.timedelta(days=GRACE_DAYS)).isoformat()
+                if start <= d <= end_g:
+                    return True
+            return False
+
+        paid = sum(p["amount"] or 0 for p in rows)
+        outside = [p for p in rows if notices and not in_term(p)]
+        out.append({
+            "payer": payer,
+            "paid": paid,
+            "lines": len(rows),
+            "first": min((p.get("period") or "")[:10] for p in rows),
+            "last": max((p.get("period") or "")[:10] for p in rows),
+            "notices": len(notices),
+            "notice_total": notice_total,
+            "beyond_notices_plus_vat": max(0.0, paid - notice_total * VAT) if notices else None,
+            "no_notice_found": not notices,
+            "paid_outside_terms": sum(p["amount"] or 0 for p in outside),
+            "lines_outside_terms": len(outside),
+        })
+    return sorted(out, key=lambda r: -r["paid"])
+
+
 def build():
     contracts = []
     for r in read_csv("contracts.csv"):
@@ -181,10 +237,22 @@ def build():
         return "palantir" in (r.get("supplier_name_as_published") or "").lower() \
             and "supplier is not palantir" not in notes and "aggregate figure" not in notes
 
-    payments = [{**r, "amount": num(r.get("amount_gbp")), "counted": counted(r)} for r in read_csv("payments.csv")]
+    payments, seen_invoices = [], set()
+    for r in read_csv("payments.csv"):
+        row = {**r, "amount": num(r.get("amount_gbp")), "counted": counted(r), "repeat_of_invoice": False}
+        # Some files republish an invoice already listed in an earlier month. Count each invoice once.
+        ref = re.search(r"invoice/transaction ref ([^;]+);", r.get("notes") or "")
+        inv = (r.get("payer"), ref.group(1).strip(), r.get("amount_gbp")) if ref else None
+        if row["counted"] and inv:
+            if inv in seen_invoices:
+                row["counted"], row["repeat_of_invoice"] = False, True
+            seen_invoices.add(inv)
+        payments.append(row)
+
+    reconciliation = reconcile(payments, contracts)
 
     notes = {}
-    for name in ("tax-notes", "payments-notes", "influence-notes", "sovereignty-notes"):
+    for name in ("tax-notes", "payments-notes", "influence-notes", "sovereignty-notes", "revolving-door-notes", "market-notes"):
         path = DATA / f"{name}.md"
         if path.exists():
             notes[name] = md_to_html(path.read_text())
@@ -198,6 +266,10 @@ def build():
         "influence": sorted(read_csv("influence.csv"), key=lambda r: r.get("date", ""), reverse=True),
         "timeline": sorted(read_csv("timeline.csv"), key=lambda r: r.get("date", "")),
         "quotes": sorted(read_json("quotes.json"), key=lambda r: r.get("date", "")),
+        "revolving": sorted(read_csv("revolving-door.csv"), key=lambda r: r.get("joined_palantir") or r.get("left_public_office") or ""),
+        "market": read_csv("market-share.csv"),
+        "marketTop": read_csv("market-top-suppliers.csv"),
+        "reconciliation": reconciliation,
         "notes": notes,
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)

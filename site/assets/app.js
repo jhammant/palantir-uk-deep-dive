@@ -3,9 +3,10 @@
   "use strict";
   const D = window.PUK || { contracts: [], tax: [], payments: [], influence: [], timeline: [], quotes: [], notes: {}, sectors: [] };
   const PAGES = [
-    ["index.html", "Overview"], ["contracts.html", "Contracts"], ["payments.html", "Payments"],
-    ["tax.html", "Tax"], ["lock-in.html", "Lock-in"], ["people.html", "People"],
-    ["influence.html", "Influence"], ["timeline.html", "Timeline"], ["about.html", "Method"],
+    ["index.html", "Overview"], ["contracts.html", "Contracts"], ["competition.html", "Competition"],
+    ["payments.html", "Payments"], ["market.html", "Market share"], ["revolving-door.html", "Revolving door"],
+    ["influence.html", "Influence"], ["tax.html", "Tax"], ["lock-in.html", "Lock-in"], ["people.html", "People"],
+    ["timeline.html", "Timeline"], ["about.html", "Method"],
   ];
   const REPO = "https://github.com/jhammant/palantir-uk-deep-dive";
 
@@ -219,6 +220,85 @@
     }).join("");
   }
 
+  /* Donut for part-to-whole at a glance (<= 6 slices). The story slice wears the accent; the rest are greys. */
+  const GREYS = ["var(--g1)", "var(--g2)", "var(--g3)", "var(--g4)", "var(--g5)"];
+  function donut(host, slices, { label = "", centre = "", centreSub = "" } = {}) {
+    const total = sum(slices, (x) => x.value);
+    if (!total) { host.innerHTML = `<div class="empty">No data</div>`; return; }
+    let grey = 0;
+    const parts = slices.map((x) => ({ ...x, colour: x.colour || (x.emphasis ? "var(--stamp)" : GREYS[Math.min(grey++, GREYS.length - 1)]) }));
+    const R = 110, r = 68, C = 120;
+    const pt = (a, rad) => [C + rad * Math.cos(a), C + rad * Math.sin(a)];
+    let a0 = -Math.PI / 2, paths = "", labels = "";
+    parts.forEach((p, i) => {
+      const frac = p.value / total, a1 = a0 + frac * 2 * Math.PI, large = a1 - a0 > Math.PI ? 1 : 0;
+      const [x0, y0] = pt(a0, R), [x1, y1] = pt(a1, R), [x2, y2] = pt(a1, r), [x3, y3] = pt(a0, r);
+      const d = frac >= 0.9999
+        ? `M${C},${C - R}A${R},${R} 0 1 1 ${C - 0.01},${C - R}L${C - 0.01},${C - r}A${r},${r} 0 1 0 ${C},${C - r}Z`
+        : `M${x0},${y0}A${R},${R} 0 ${large} 1 ${x1},${y1}L${x2},${y2}A${r},${r} 0 ${large} 0 ${x3},${y3}Z`;
+      paths += `<path class="seg slice" d="${d}" fill="${p.colour}" stroke="var(--surface)" stroke-width="2" data-i="${i}" tabindex="0" aria-label="${esc(`${p.label}: ${money(p.value)}, ${(frac * 100).toFixed(1)}%`)}"/>`;
+      if (frac >= 0.06) {
+        const [lx, ly] = pt((a0 + a1) / 2, (R + r) / 2);
+        labels += `<text x="${lx}" y="${ly + 4}" text-anchor="middle" class="slice-label${p.emphasis ? " on-accent" : ""}">${Math.round(frac * 100)}%</text>`;
+      }
+      a0 = a1;
+    });
+    const legend = parts.map((p) => `<li><span class="sw" style="background:${p.colour}"></span><span class="name">${esc(p.label)}</span><span class="num"><b>${money(p.value)}</b> <span class="muted">${((p.value / total) * 100).toFixed(1)}%</span></span></li>`).join("");
+    host.classList.add("chart", "donut");
+    host.innerHTML = `<svg viewBox="0 0 240 240" role="img" aria-label="${esc(label)}">${paths}${labels}
+        <text x="120" y="118" text-anchor="middle" class="centre">${esc(centre)}</text>
+        <text x="120" y="138" text-anchor="middle" class="centre-sub">${esc(centreSub)}</text></svg>
+      <ul class="donut-legend">${legend}</ul>`;
+    const tip = tooltip(host);
+    host.querySelectorAll(".slice").forEach((el) => {
+      const p = parts[+el.dataset.i];
+      const show = (e) => { const hr = host.getBoundingClientRect(), r2 = el.getBoundingClientRect(); tip.show(`${esc(p.label)}<br><b>${money(p.value)}</b> · ${((p.value / total) * 100).toFixed(1)}%`, r2.left - hr.left + r2.width / 2, r2.top - hr.top); };
+      el.addEventListener("mouseenter", show); el.addEventListener("focus", show);
+      el.addEventListener("mouseleave", () => tip.hide()); el.addEventListener("blur", () => tip.hide());
+    });
+  }
+
+  // "Damian Parmenter CBE" -> "Parmenter"; "Lord Watson of Wyre Forest (Tom Watson)" -> "Watson"
+  const surname = (n) => {
+    const words = String(n || "").split(" (")[0].replace(/\b(Sir|Lord|Lady|Baroness|Dame|Major|General|Maj|Gen|Brigadier|Air|Marshal|Admiral|Rt|Hon|MP)\b\.?/g, "")
+      .replace(/\b(of|de)\b.*$/, "").replace(/\b(CBE|OBE|MBE|KCB|KCMG|KBE|CB|CMG|KC|QC)\b/g, "").trim().split(/\s+/);
+    return words[words.length - 1] || "";
+  };
+
+  /* Timing strip: awards by a department (dots sized by value) above, people moving to Palantir below. */
+  function timingStrip(host, awards, moves, { from, to }) {
+    const W = 900, H = 230, m = { l: 20, r: 20 }, laneA = 70, laneB = 170;
+    const t = (d) => new Date(d.length === 4 ? d + "-07-01" : d.length === 7 ? d + "-15" : d).getTime();
+    const t0 = t(from + "-01-01"), t1 = t(to + "-12-31");
+    const x = (d) => m.l + ((t(d) - t0) / (t1 - t0)) * (W - m.l - m.r);
+    const maxV = Math.max(...awards.map((c) => c.value || 0), 1);
+    let g = `<line class="baseline" x1="${m.l}" x2="${W - m.r}" y1="${laneA + 40}" y2="${laneA + 40}"/><line class="baseline" x1="${m.l}" x2="${W - m.r}" y1="${laneB - 30}" y2="${laneB - 30}"/>`;
+    for (let yv = +from; yv <= +to; yv++) g += `<text class="tick" x="${x(yv + "-01-01")}" y="${laneB - 36}" text-anchor="start">${yv}</text><line class="gridline" x1="${x(yv + "-01-01")}" x2="${x(yv + "-01-01")}" y1="12" y2="${H - 8}"/>`;
+    g += `<text class="tick" x="${m.l}" y="12">Contracts awarded to Palantir</text><text class="tick" x="${m.l}" y="${H - 6}">People moving to Palantir</text>`;
+    awards.forEach((c, i) => {
+      const rr = 4 + 22 * Math.sqrt((c.value || 0) / maxV);
+      g += `<circle class="seg dot" cx="${x(c.awarded)}" cy="${laneA}" r="${rr}" fill="${c.route === "Direct award" ? "var(--stamp)" : "var(--g2)"}" fill-opacity=".85" stroke="var(--surface)" stroke-width="2" data-k="a${i}" tabindex="0" aria-label="${esc(`${c.title}, ${money(c.value)}, ${fmtDate(c.awarded)}`)}"/>`;
+    });
+    moves.forEach((mv, i) => {
+      const d = mv.joined_palantir || mv.left_public_office || mv.date;
+      if (!d) return;
+      const xx = x(d);
+      g += `<path class="seg mark" d="M${xx},${laneB - 22} l7,12 h-14 z" fill="var(--ink-2)" data-k="m${i}" tabindex="0" aria-label="${esc(`${mv.person || mv.who}, ${fmtDate(d)}`)}"/>`;
+      g += `<text class="tick" x="${xx}" y="${laneB + 6 + (i % 3) * 14}" text-anchor="middle">${esc(surname(mv.person || mv.who))}</text>`;
+    });
+    host.classList.add("chart");
+    host.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Timing of contracts and moves">${g}</svg>`;
+    const tip = tooltip(host);
+    host.querySelectorAll(".dot,.mark").forEach((el) => {
+      const k = el.dataset.k, isA = k[0] === "a", item = isA ? awards[+k.slice(1)] : moves[+k.slice(1)];
+      const html = isA ? `${esc(fmtDate(item.awarded))}<br><b>${money(item.value)}</b> ${esc(item.title)}<br>${esc(item.route)}`
+        : `${esc(fmtDate(item.joined_palantir || item.left_public_office || item.date))}<br><b>${esc(item.person || item.who)}</b><br>${esc(item.former_role || item.organisation || "")}`;
+      const show = () => { const hr = host.getBoundingClientRect(), r2 = el.getBoundingClientRect(); tip.show(html, r2.left - hr.left + r2.width / 2, r2.top - hr.top); };
+      el.addEventListener("mouseenter", show); el.addEventListener("focus", show);
+      el.addEventListener("mouseleave", () => tip.hide()); el.addEventListener("blur", () => tip.hide());
+    });
+  }
+
   /* ---------- sortable, filterable table ---------- */
   function dataTable(host, { rows, cols, sort, detail, empty = "Nothing matches these filters." }) {
     let key = sort.key, dir = sort.dir, open = new Set();
@@ -371,12 +451,12 @@
           { key: "period", label: "When", render: (r) => `<span class="num">${esc(fmtDate(r.period))}</span>` },
           { key: "payer", label: "Payer" },
           { key: "description_as_published", label: "Description as published" },
-          { key: "amount", label: "Amount", right: true, render: (r) => money(r.amount, { exact: true }) + (r.counted ? "" : `<div class="muted small">not counted in totals</div>`) },
+          { key: "amount", label: "Amount", right: true, render: (r) => money(r.amount, { exact: true }) + (r.counted ? "" : `<div class="muted small">${r.repeat_of_invoice ? "repeat of an invoice already listed" : "not counted in totals"}</div>`) },
           { key: "source_file_url", label: "Source", sortable: false, render: (r) => link(r.source_file_url || r.source_page_url, "File") },
         ],
         detail: (r) => `<dl><dt>Supplier as published</dt><dd>${esc(r.supplier_name_as_published)}</dd><dt>Notes</dt><dd>${esc(r.notes)}</dd><dt>Source page</dt><dd>${link(r.source_page_url, r.source_page_url)}</dd></dl>`,
       });
-      const update = () => { const rows = filtered(), c = rows.filter((r) => r.counted); $("#summary").innerHTML = `<b>${rows.length}</b> lines · <b>${money(sum(c, (r) => r.amount))}</b> counted${rows.length > c.length ? ` · ${rows.length - c.length} not counted (FOI aggregate or not a Palantir supplier line; click for why)` : ""}`; table.render(); };
+      const update = () => { const rows = filtered(), c = rows.filter((r) => r.counted); $("#summary").innerHTML = `<b>${rows.length}</b> lines · <b>${money(sum(c, (r) => r.amount))}</b> counted${rows.length > c.length ? ` · ${rows.length - c.length} not counted (an FOI aggregate, a repeated invoice, or not a Palantir supplier line; click for why)` : ""}`; table.render(); };
       $("#content").addEventListener("input", update);
       $("#dl").addEventListener("click", () => downloadCsv("palantir-uk-payments.csv", filtered(), ["period", "payer", "payer_type", "amount_gbp", "supplier_name_as_published", "description_as_published", "source_file_url", "source_page_url", "notes"]));
       update();
@@ -487,6 +567,109 @@
       render();
     },
   };
+
+  /* ---------- competition, revolving door, market share ---------- */
+  const DEPTS = [
+    ["Ministry of Defence", /defence|\bMOD\b/i],
+    ["NHS England", /NHS England|ARDEN|NORTH OF ENGLAND COMM|North of England CSU|Health and Social Care/i],
+    ["Cabinet Office", /Cabinet Office|Crown Commercial|special adviser/i],
+    ["Metropolitan Police", /METROPOLITAN POLICE/i],
+    ["NESO", /ENERGY SYSTEM/i],
+  ];
+  const ROUTES = ["Direct award", "Framework call-off", "Competitive", "Other", "Not stated"];
+  const routeNote = {
+    "Direct award": "No competition: the buyer published its reasons for going to Palantir alone.",
+    "Framework call-off": "Bought from a pre-approved supplier list; the notice doesn't say whether there was a further competition.",
+    "Competitive": "An open or competitive procedure.",
+    "Other": "The notice gives another procedure.",
+    "Not stated": "The notice doesn't say how it was awarded.",
+  };
+
+  page.competition = function () {
+    const byRoute = ROUTES.map((rt) => { const xs = C.filter((c) => c.route === rt); return { label: rt, value: sum(xs, (c) => c.value), n: xs.length, emphasis: rt === "Direct award" }; }).filter((x) => x.n);
+    const R = D.reconciliation || [];
+    const noNotice = R.filter((r) => r.no_notice_found);
+    const beyond = R.filter((r) => r.beyond_notices_plus_vat > 0.05 * r.notice_total * 1.2 && r.beyond_notices_plus_vat > 50000);
+    const direct = byRoute.find((x) => x.label === "Direct award") || { value: 0, n: 0 };
+    $("#tiles").innerHTML = `
+      <div class="tile"><div class="label">Awarded with no competition</div><div class="value hit">${money(direct.value)}</div><div class="foot">${direct.n} direct awards · ${((direct.value / total) * 100).toFixed(0)}% of all award value</div></div>
+      <div class="tile"><div class="label">Paid with no Palantir notice found</div><div class="value">${money(sum(noNotice, (r) => r.paid))}</div><div class="foot">${noNotice.length} public bodies: ${esc(noNotice.map((r) => r.payer).join(", "))}</div></div>
+      <div class="tile"><div class="label">Paid beyond notice values, even adding 20% VAT</div><div class="value">${money(sum(beyond, (r) => r.beyond_notices_plus_vat))}</div><div class="foot">${beyond.length} public bodies</div></div>`;
+    donut($("#by-route"), byRoute, { label: "Award value by route", centre: money(total), centreSub: `${C.length} awards` });
+    $("#route-notes").innerHTML = byRoute.map((x) => `<li><b>${esc(x.label)}</b> (${x.n}): ${esc(routeNote[x.label] || "")} <a href="contracts.html#route=${encodeURIComponent(x.label)}">See them</a></li>`).join("");
+    dataTable($("#recon"), {
+      rows: () => R.map((r, i) => ({ ...r, _id: i })), sort: { key: "paid", dir: "desc" },
+      cols: [
+        { key: "payer", label: "Payer" },
+        { key: "paid", label: "Paid (spend files)", right: true, render: (r) => money(r.paid) },
+        { key: "notices", label: "Palantir notices found", right: true, render: (r) => (r.no_notice_found ? '<span class="stamp">None found</span>' : `${r.notices} · ${money(r.notice_total)}`) },
+        { key: "beyond_notices_plus_vat", label: "Paid beyond notices + VAT", right: true, render: (r) => (r.beyond_notices_plus_vat == null ? "–" : r.beyond_notices_plus_vat > 0.05 * r.notice_total * 1.2 && r.beyond_notices_plus_vat > 50000 ? `<b>${money(r.beyond_notices_plus_vat)}</b>` : `<span class="muted">${r.beyond_notices_plus_vat > 0 ? "within 5% (VAT/rounding)" : "none"}</span>`) },
+        { key: "paid_outside_terms", label: "Paid after a notice's term ended", right: true, render: (r) => (r.paid_outside_terms ? `${money(r.paid_outside_terms)} · ${r.lines_outside_terms} lines` : "–") },
+        { key: "first", label: "Payments", render: (r) => `<span class="num">${esc(fmtDate(r.first))} – ${esc(fmtDate(r.last))}</span>` },
+      ],
+    });
+    $("#chains").innerHTML = DEPTS.map(([name, rx]) => {
+      const xs = C.filter((c) => rx.test(c.buyer)).sort((p, q) => (p.awarded < q.awarded ? -1 : 1));
+      if (xs.length < 2) return "";
+      return `<section class="card chain"><h3>${esc(name)}</h3><ol class="timeline">${xs.map((c) => `<li><div class="date">${esc(fmtDate(c.awarded))} · ${c.route === "Direct award" ? '<span class="stamp">No competition</span>' : `<span class="pill">${esc(c.route)}</span>`}</div><div class="event"><b>${money(c.value)}</b> ${esc(c.title)} ${link(c.url, "notice")}</div></li>`).join("")}</ol>
+        <p class="small muted">Total: ${money(sum(xs, (c) => c.value))} across ${xs.length} awards.</p></section>`;
+    }).join("");
+  };
+
+  page.revolving = function () {
+    const fromInfluence = D.influence.filter((r) => r.category === "revolving-door" || r.category === "acoba")
+      .filter((r) => !/^The Nerve|Trickett/i.test(r.who))
+      .map((r) => ({ person: r.who, former_org: r.organisation, joined_palantir: r.date, approval_route: r.category === "acoba" ? "ACOBA" : "", conditions: "", summary: r.summary, source_url: r.source_url, source_type: r.source_type }));
+    const M = (D.revolving.length ? D.revolving : fromInfluence).filter((m) => (m.direction || "gov-to-palantir") !== "palantir-to-gov" || true);
+    $("#tiles").innerHTML = `
+      <div class="tile"><div class="label">Documented moves between UK public office and Palantir</div><div class="value">${M.length}</div><div class="foot">from ACOBA letters, departmental business appointment records, Companies House and attributed press</div></div>
+      <div class="tile"><div class="label">From the Ministry of Defence</div><div class="value">${M.filter((m) => /defence|\bMOD\b|armed forces/i.test(m.former_org + " " + (m.former_role || ""))).length}</div><div class="foot">the department that has awarded Palantir the most</div></div>`;
+    const sel = $("#dept");
+    sel.innerHTML = DEPTS.slice(0, 3).map(([n]) => `<option>${esc(n)}</option>`).join("");
+    const draw = () => {
+      const [name, rx] = DEPTS.find(([n]) => n === sel.value);
+      const awards = C.filter((c) => rx.test(c.buyer) && c.awarded);
+      const moves = M.filter((m) => rx.test(`${m.former_org} ${m.former_role || ""}`) || (name === "Ministry of Defence" && /armed forces|military/i.test(`${m.former_org} ${m.former_role || ""}`)));
+      timingStrip($("#strip"), awards, moves, { from: "2015", to: "2026" });
+      $("#strip-note").innerHTML = `${awards.length} contract awards from ${esc(name)} (red: no competition; size: value) and ${moves.length} people who moved from ${esc(name)} to Palantir.`;
+    };
+    sel.addEventListener("change", draw); draw();
+    $("#people").innerHTML = [...M].reverse().map((m) => `<article class="quote">
+        <div class="meta"><b>${esc(fmtDate(m.joined_palantir || m.left_public_office || ""))}</b> · ${esc(m.approval_route || "")}${m.source_type ? ` <span class="pill">${esc(m.source_type)}</span>` : ""}</div>
+        <h3 style="margin:6px 0 4px">${esc(m.person)}</h3>
+        <div>${esc([m.former_role, m.former_org].filter(Boolean).join(", "))}${m.palantir_role ? ` → <b>${esc(m.palantir_role)}</b>, Palantir` : ""}</div>
+        ${m.summary ? `<div class="ctx">${esc(m.summary)}</div>` : ""}
+        ${m.conditions ? `<div class="ctx"><b>Conditions:</b> ${esc(m.conditions)}${m.conditions_until ? ` (until ${esc(fmtDate(m.conditions_until))})` : ""}</div>` : ""}
+        ${m.recorded_contact_with_palantir_in_office ? `<div class="ctx"><b>Recorded contact with Palantir in office:</b> ${esc(m.recorded_contact_with_palantir_in_office)}</div>` : ""}
+        <div class="meta" style="margin-top:8px">${link(m.source_url, "Source")}</div></article>`).join("");
+    if (D.notes["revolving-door-notes"]) $("#notes").innerHTML = `<h2>What the record shows</h2><div class="prose">${D.notes["revolving-door-notes"]}</div>`;
+  };
+
+  page.market = function () {
+    const Mk = D.market, top = D.marketTop;
+    if (!Mk.length) { $("#content").innerHTML = pending("We are measuring Palantir's share of each public body's IT, software and data spending from the published spend files."); return; }
+    const whole = Mk.filter((r) => /all|20\d\d.?[-–].?20\d\d/i.test(r.period) || r.period === "all");
+    const payers = uniq(Mk.map((r) => r.payer));
+    $("#content").innerHTML = payers.map((p, i) => `<section class="card market-card"><h2 style="margin-top:0">${esc(p)}</h2><div class="grid-2"><div id="mk-d-${i}"></div><div><h3 style="margin-top:0">Palantir's share of IT, software and data spending by year</h3><div id="mk-y-${i}"></div><p class="small muted" id="mk-n-${i}"></p></div></div></section>`).join("")
+      + (D.notes["market-notes"] ? `<h2>Method and caveats</h2><div class="prose">${D.notes["market-notes"]}</div>` : "");
+    payers.forEach((p, i) => {
+      const rows = Mk.filter((r) => r.payer === p);
+      const all = rows.find((r) => !/^\d{4}$/.test(r.period)) || rows[0];
+      const it = num(all.it_total_gbp), pal = num(all.palantir_gbp);
+      const t5 = top.filter((r) => r.payer === p && r.period === all.period && !/palantir/i.test(r.supplier)).sort((x, y) => +x.rank - +y.rank).slice(0, 4);
+      if (it) {
+        const named = t5.map((r) => ({ label: r.supplier, value: num(r.amount_gbp) }));
+        const rest = it - pal - sum(named, (x) => x.value);
+        donut($(`#mk-d-${i}`), [{ label: "Palantir", value: pal, emphasis: true }, ...named, ...(rest > 0 ? [{ label: "Everyone else", value: rest }] : [])],
+          { label: `${p}: IT, software and data spending by supplier`, centre: ((pal / it) * 100).toFixed(1) + "%", centreSub: "to Palantir" });
+      } else $(`#mk-d-${i}`).innerHTML = `<div class="empty">This body's files have no spending categories, so its IT share can't be measured.</div>`;
+      const years = rows.filter((r) => /^\d{4}$/.test(r.period)).sort((x, y) => (x.period < y.period ? -1 : 1));
+      hbars($(`#mk-y-${i}`), years.map((r) => ({ label: r.period, value: num(r.palantir_share_of_it) || 0, n: money(num(r.palantir_gbp)) })), { colour: () => "var(--stamp)" });
+      $(`#mk-y-${i}`).querySelectorAll(".hbar .num b").forEach((b, j) => (b.textContent = ((num(years[j].palantir_share_of_it) || 0) * (num(years[j].palantir_share_of_it) > 1 ? 1 : 100)).toFixed(1) + "%"));
+      $(`#mk-n-${i}`).textContent = all.coverage_note || "";
+    });
+  };
+  function num(v) { const n = parseFloat(String(v ?? "").replace(/[£,]/g, "")); return isNaN(n) ? null : n; }
 
   layout();
   const fn = page[document.body.dataset.page];

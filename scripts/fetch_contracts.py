@@ -128,13 +128,21 @@ def main():
     def key(r):
         return (re.sub(r"\W", "", r["buyer"].lower())[:12], r["title"].lower()[:40])
 
-    best = {}
+    groups = {}
     for r in rows:
-        k, have = key(r), best.get(key(r))
-        rank = (float(r["value_gbp"] or 0) > 0, r["source"] == "Find a Tender")
-        if not have or rank > (float(have["value_gbp"] or 0) > 0, have["source"] == "Find a Tender"):
-            best[k] = r
-    unique = list(best.values())
+        groups.setdefault(key(r), []).append(r)
+    unique = []
+    for dupes in groups.values():
+        dupes.sort(key=lambda r: (float(r["value_gbp"] or 0) > 0, r["source"] == "Find a Tender"), reverse=True)
+        best = dict(dupes[0])
+        # Fill anything the preferred copy leaves blank (e.g. contract dates) from the other copy.
+        for other in dupes[1:]:
+            for field, value in other.items():
+                if not best.get(field) and value:
+                    best[field] = value
+        if len(dupes) > 1:
+            best["notes"] = (best.get("notes") or "") + f" [Also published on {', '.join(sorted({d['source'] for d in dupes[1:]}))}.]"
+        unique.append(best)
     unique.sort(key=lambda r: r["awarded"])
     with open(ROOT / "data" / "contracts.csv", "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=FIELDS)

@@ -195,3 +195,6 @@ td.nw, th.nw, td .num { white-space: nowrap; }
 .market-card { margin-bottom: 16px; }
 .dept-pick { margin: 10px 0; }
 #recon td:first-child { min-width: 13em; }
+.lookup { margin: 0 0 20px; }
+.lookup-hit h3 { margin: 10px 0 4px; }
+.lookup-hit ul { margin: 0 0 8px; padding-left: 20px; }

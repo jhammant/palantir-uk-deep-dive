@@ -366,6 +366,7 @@
 
   const page = {
     overview() {
+      bodyLookup($("#lookup"));
       $("#tiles").innerHTML = `
         <div class="tile"><div class="label">Published contract awards to Palantir</div><div class="value">${money(total)}</div><div class="foot">${C.length} awards, ${esc(uniq(C.map((c) => c.year)).sort()[0] || "")}–${esc(uniq(C.map((c) => c.year)).sort().pop() || "")}, values as published</div></div>
         <div class="tile"><div class="label">Direct awards in the past 12 months</div><div class="value">${money(sum(directRecent, (c) => c.value))}</div><div class="foot">${directRecent.length} contracts awarded with no competition</div></div>
@@ -577,6 +578,41 @@
       render();
     },
   };
+
+  /* "Does my council / police force / NHS body use Palantir?" across every record we hold. */
+  function bodyLookup(host) {
+    const norm = (n) => String(n || "").toLowerCase().replace(/&amp;/g, "&").replace(/\b(the|nhs foundation trust|nhs trust|limited|ltd)\b/g, "").replace(/[^a-z0-9]+/g, " ").trim();
+    const bodies = new Map();
+    const add = (name, kind, row) => {
+      if (!name) return;
+      const k = norm(name);
+      if (!bodies.has(k)) bodies.set(k, { name, contracts: [], payments: [], influence: [] });
+      bodies.get(k)[kind].push(row);
+    };
+    C.forEach((c) => add(c.buyer, "contracts", c));
+    D.payments.filter((p) => p.counted).forEach((p) => add(p.payer, "payments", p));
+    const names = [...bodies.values()].map((b) => b.name).sort((x, y) => x.localeCompare(y));
+    host.innerHTML = `<div class="lookup card"><h2 style="margin-top:0">Does your council, police force or NHS body use Palantir?</h2>
+      <div class="filters" style="margin:8px 0 12px"><label style="flex:1">Type a public body<input type="search" id="body-q" list="body-list" placeholder="e.g. Coventry, Bedfordshire Police, NHS England" style="width:100%"></label></div>
+      <datalist id="body-list">${names.map((n) => `<option value="${esc(n)}">`).join("")}</datalist>
+      <div id="body-out" class="small"></div></div>`;
+    const out = $("#body-out", host);
+    const render = () => {
+      const q = norm($("#body-q", host).value);
+      if (q.length < 3) { out.innerHTML = `<span class="muted">${bodies.size} public bodies have a published Palantir contract or payment.</span>`; return; }
+      const hits = [...bodies.entries()].filter(([k]) => k.includes(q)).map(([, b]) => b).slice(0, 6);
+      const nhs = /nhs|trust|health|hospital|icb|integrated care/.test(q), police = /police|constabulary/.test(q);
+      const caveat = nhs ? `<p class="muted">NHS trusts can use Palantir's software through NHS England's national Federated Data Platform contract without a contract of their own, so no record here doesn't mean no use.</p>`
+        : police ? `<p class="muted">Police pilots are often bought through regional units or the Home Office, so check the regional unit too.</p>` : "";
+      out.innerHTML = hits.length ? hits.map((b) => `<div class="lookup-hit"><h3>${esc(b.name)}</h3><ul>
+          ${b.contracts.length ? `<li><b>${b.contracts.length}</b> contract award${b.contracts.length === 1 ? "" : "s"}, <b>${money(sum(b.contracts, (c) => c.value))}</b> as published${b.contracts.some((c) => c.route === "Direct award") ? ' <span class="stamp">incl. no competition</span>' : ""}. <a href="contracts.html#q=${encodeURIComponent(b.name.slice(0, 30))}">See them</a></li>` : ""}
+          ${b.payments.length ? `<li><b>${money(sum(b.payments, (p) => p.amount))}</b> paid across ${b.payments.length} payment lines (${esc(fmtDate(b.payments.map((p) => p.period).sort()[0]))} to ${esc(fmtDate(b.payments.map((p) => p.period).sort().pop()))}). <a href="payments.html">See payments</a></li>` : ""}
+        </ul></div>`).join("") + caveat
+        : `<p>No published Palantir contract or payment found for that name.</p>${caveat}<p class="muted">Know of one we've missed? <a href="https://github.com/jhammant/palantir-uk-deep-dive/issues">Tell us, with the source</a>.</p>`;
+    };
+    $("#body-q", host).addEventListener("input", render);
+    render();
+  }
 
   /* ---------- competition, revolving door, market share ---------- */
   const DEPTS = [

@@ -67,13 +67,20 @@ def figures(d):
     g = d.get("groupTax", [])
     uk_cash = next((r["amount"] for r in g if r.get("measure") == "cash_income_tax_upper_bound"), None)
     uk_rev = next((r["amount"] for r in g if r.get("year") == "2025" and r.get("jurisdiction") == "United Kingdom" and r.get("measure") == "revenue"), None)
+    thiel = []
+    for q in d.get("quotes", []):
+        if q.get("who") == "Peter Thiel" and re.search(r"NHS makes people sick|freedom and democracy are compatible", q["quote"]):
+            text = re.sub(r"^(And|Most importantly,)\s+", "", q["quote"]).strip()
+            where = "Oxford Union speech" if "Oxford" in q.get("context", "") else "Essay for the Cato Institute" if "Cato" in (q.get("context", "") + q.get("source_url", "")) else ""
+            thiel.append((text[0].upper() + text[1:], f'{where}, {q["date"][:4]}' if where else q["date"][:4]))
+    thiel.sort(key=lambda x: x[1], reverse=True)
     routes = []
     for rt in ("Direct award", "Framework call-off", "Competitive", "Not stated", "Other"):
         v = sum(c["value"] or 0 for c in contracts if c["route"] == rt)
         if v:
             routes.append((rt, v))
     return {
-        "routes": routes,
+        "routes": routes, "thiel": thiel,
         "uk_cash": uk_cash, "uk_rev": uk_rev,
         "total": total, "n": len(contracts), "y0": years[0], "y1": years[-1],
         "direct": sum(c["value"] or 0 for c in direct), "direct_pct": 100 * sum(c["value"] or 0 for c in direct) / total,
@@ -99,7 +106,7 @@ def donut_svg(parts, total):
         g += 0 if i == 0 else 1
         out.append(f'<path d="M{x0:.1f},{y0:.1f}A{R},{R} 0 {large} 1 {x1:.1f},{y1:.1f}L{x2:.1f},{y2:.1f}A{r},{r} 0 {large} 0 {x3:.1f},{y3:.1f}Z" fill="{fill}" stroke="#f5f1e6" stroke-width="3"/>')
         a0 = a1
-    return f'<svg viewBox="0 0 260 260" width="230" height="230">{"".join(out)}</svg>', ["#b5102b"] + greys
+    return f'<svg viewBox="0 0 260 260" width="170" height="170">{"".join(out)}</svg>', ["#b5102b"] + greys
 
 
 def render(f):
@@ -114,9 +121,12 @@ def render(f):
     access = f'{f["ministers"]} ministerial meetings' if f["ministers"] else "ministerial meetings"
     svg, cols = donut_svg(f["routes"], f["total"])
     legend = "".join(
-        f'<li><span class="sw" style="background:{cols[0] if i == 0 else cols[min(i, 4)]}"></span>{e(label)}<b>{money(v)} · {v / f["total"] * 100:.0f}%</b></li>'
+        f'<li><span class="sw" style="background:{cols[0] if i == 0 else cols[min(i, 4)]}"></span>{e(label.replace(" call-off", ""))}<b>{money(v)} · {v / f["total"] * 100:.0f}%</b></li>'
         for i, (label, v) in enumerate(f["routes"]))
-    routes_band = f'<div class="band"><div class="band-svg">{svg}</div><div><div class="band-title">How the {money(f["total"])} was awarded</div><ul class="band-legend">{legend}</ul></div></div>'
+    thiel_html = "".join(f'<p class="tq">“{e(t)}”<span>{e(y)}</span></p>' for t, y in f["thiel"])
+    routes_band = (f'<div class="band"><div class="band-left"><div class="band-title">How the {money(f["total"])} was awarded</div>'
+                   f'<div class="band-row"><div class="band-svg">{svg}</div><ul class="band-legend">{legend}</ul></div></div>'
+                   f'<div class="band-right"><div class="band-title">Its chairman, co-founder Peter Thiel</div>{thiel_html}</div></div>')
     usd = lambda v: f"${v / 1e6:.1f}m"
     tax_card = (
         f'<div class="card hit"><div class="big">&lt;{usd(f["uk_cash"])}</div><div class="what">UK cash income tax in 2025, on <b>{usd(f["uk_rev"])} of UK revenue</b>. Less than Palantir paid in Germany, Japan, France or South Korea</div></div>'
@@ -131,23 +141,28 @@ body {{ background:var(--bg); display:flex; align-items:center; justify-content:
 .sheet {{ width:980px; height:1250px; background:var(--paper); padding:54px 56px 44px; display:flex; flex-direction:column; box-shadow:0 30px 80px rgba(0,0,0,.5); }}
 .eyebrow {{ font:600 17px/1 "SF Mono",Menlo,monospace; letter-spacing:.24em; color:var(--muted); }}
 h1 {{ font-size:66px; font-weight:800; letter-spacing:-.025em; margin:14px 0 6px; line-height:1; }}
-.hero {{ font-size:84px; font-weight:800; letter-spacing:-.03em; line-height:1; margin:18px 0 12px; }}
+.hero {{ font-size:78px; font-weight:800; letter-spacing:-.03em; line-height:1; margin:18px 0 12px; }}
 .hero-who {{ font-size:19px; line-height:1.4; color:var(--muted); max-width:860px; }}
-.grid {{ display:grid; grid-template-columns:1fr 1fr; gap:10px 40px; margin:26px 0 18px; }}
+.grid {{ display:grid; grid-template-columns:1fr 1fr; gap:6px 40px; margin:20px 0 16px; }}
 .card {{ border-top:3px solid var(--ink); padding:16px 0 8px; }}
 .card.hit {{ border-top-color:var(--red); }}
-.big {{ font-size:60px; font-weight:800; letter-spacing:-.03em; line-height:1.02; }}
+.big {{ font-size:54px; font-weight:800; letter-spacing:-.03em; line-height:1.02; }}
 .card.hit .big {{ color:var(--red); }}
-.what {{ font-size:19px; line-height:1.3; margin-top:8px; color:#2b2a27; }}
+.what {{ font-size:18px; line-height:1.3; margin-top:8px; color:#2b2a27; }}
 .what b {{ font-weight:700; }}
 .stamp {{ display:inline-block; border:2.5px solid var(--red); color:var(--red); font:800 14px/1 "SF Mono",Menlo,monospace; letter-spacing:.12em; padding:5px 8px; transform:rotate(-3deg); margin-left:8px; vertical-align:12px; }}
-.band {{ display:grid; grid-template-columns:230px 1fr; gap:34px; align-items:center; border-top:3px solid var(--ink); padding-top:18px; }}
-.band-title {{ font-size:26px; font-weight:800; margin-bottom:12px; }}
-.band-legend {{ list-style:none; display:grid; gap:8px; font-size:19px; }}
-.band-legend li {{ display:grid; grid-template-columns:18px 1fr auto; gap:10px; align-items:center; }}
-.band-legend .sw {{ width:14px; height:14px; border-radius:3px; display:inline-block; }}
+.band {{ display:grid; grid-template-columns:1.05fr 1fr; gap:34px; border-top:3px solid var(--ink); padding-top:16px; }}
+.band-title {{ font-size:20px; font-weight:800; margin-bottom:10px; }}
+.band-row {{ display:grid; grid-template-columns:170px 1fr; gap:16px; align-items:center; }}
+.band-legend {{ list-style:none; display:grid; gap:5px; font-size:15px; }}
+.band-legend b {{ font-weight:700; }}
+.band-right {{ border-left:5px solid var(--ink); padding-left:18px; }}
+.tq {{ font-size:25px; font-weight:800; line-height:1.2; margin:0 0 12px; }}
+.tq span {{ display:block; font-size:15px; font-weight:400; color:var(--muted); margin-top:4px; }}
+.band-legend li {{ display:grid; grid-template-columns:14px 1fr auto; gap:8px; align-items:center; }}
+.band-legend .sw {{ width:12px; height:12px; border-radius:3px; display:inline-block; }}
 .quote {{ border-left:5px solid var(--red); padding:4px 0 4px 20px; margin-top:auto; }}
-.quote q {{ font-size:24px; font-weight:800; line-height:1.25; quotes:"\\201C" "\\201D"; }}
+.quote q {{ font-size:21px; font-weight:800; line-height:1.25; quotes:"\\201C" "\\201D"; }}
 .quote .who {{ font-size:17px; color:var(--muted); margin-top:8px; }}
 .foot {{ display:flex; justify-content:space-between; align-items:flex-end; border-top:2px dashed var(--rule); margin-top:26px; padding-top:16px; font-size:16px; color:var(--muted); }}
 .foot .url {{ font:700 17px "SF Mono",Menlo,monospace; color:var(--ink); white-space:nowrap; }}

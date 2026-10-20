@@ -21,9 +21,6 @@ LINES = [  # (match on title, buyer pattern, label) for the itemised awards, big
     (r"Transition & Exit", r"NHS England", 'NHS "Transition & Exit" from Palantir, 2023'),
     (r"National Health Service Commissioning Board", r"ARDEN", "NHS Covid data platform, 2020"),
     (r"NESO Interim Capability", r"ENERGY SYSTEM", "NESO, the grid operator, 2026"),
-    (r"Contract Extension of the Data Platform", r"NHS England", "NHS platform extension, 2022"),
-    (r"703156450", r"Defence", "MoD data integration, 2022"),
-    (r"Firearms Licensing", r"POLICE DIGITAL", "National firearms licensing, 2026"),
 ]
 
 
@@ -78,6 +75,29 @@ def build(d):
     recent = [t for t in tax if t["year_end"][:4] >= "2022"]
     rate = 100 * sum(t["tax_charge_total_gbp"] or 0 for t in recent) / sum(t["profit_before_tax_gbp"] or 0 for t in recent)
 
+    # The tax box: everything to scale, so the gap is visible at a glance.
+    import math
+    cents = math.ceil(10000 * uk_cash / uk_rev)  # cents of income tax per $100 of UK revenue; rounded up, since uk_cash is an upper bound
+    pbt = tax[-1]["profit_before_tax_gbp"]
+    mx = max(v for _, v in others if v)
+    bars = "".join(
+        f'<div class="cbar"><span class="cn">{e(j)}</span><span class="ct"><span class="cf" style="width:{100 * v / mx:.1f}%"></span></span><span class="cv">{usd(v)}</span></div>'
+        for j, v in others if v)
+    bars += (f'<div class="cbar uk"><span class="cn">United Kingdom</span><span class="ct"><span class="cf" style="width:{100 * uk_cash / mx:.1f}%"></span></span>'
+             f'<span class="cv">under {usd(uk_cash)}</span></div>')
+    tax_box = f"""
+    <div class="taxbox">
+      <div class="section">TAX, 2025 · PALANTIR'S OWN ANNUAL REPORT</div>
+      <div class="scale"><span class="lbl">Revenue from UK customers</span><span class="val">{usd(uk_rev)}</span></div>
+      <div class="bar"><span style="width:100%"></span></div>
+      <div class="scale hit"><span class="lbl">UK cash income tax paid</span><span class="val">under {usd(uk_cash)}</span></div>
+      <div class="bar tax"><span style="width:{max(0.4, 100 * uk_cash / uk_rev):.2f}%"></span><em>← to scale</em></div>
+      <div class="big">Under {cents}¢ in every $100.</div>
+      <div class="sub2">Palantir paid more income tax in each of these countries, none of which is even 10% of its revenue. The UK is 10%.</div>
+      {bars}
+      <div class="fine">Income tax is charged on profit; Palantir's UK company reported {money(pbt)} profit before tax for {tax[-1]['year_end'][:4]}, and a {rate:.1f}% net tax rate for 2022–{tax[-1]['year_end'][:4]} (its UK accounts).</div>
+    </div>"""
+
     def line(label, amount, stamp=False, cls=""):
         st = '<span class="tag">NO COMPETITION</span>' if stamp else ""
         return f'<div class="row {cls}"><span class="what">{e(label)}{st}</span><span class="amt">{amount}</span></div>'
@@ -100,11 +120,7 @@ def build(d):
     {line(f"NHS England, Apr–Sep 2025 · no. {nhs_rank} supplier" if nhs_rank else "NHS England, Apr–Sep 2025", f'{100 * num(nhs["palantir_share_of_it"]):.1f}%') if nhs else ""}
     {line("Cabinet Office, 2021", f'{100 * num(co["palantir_share_of_it"]):.1f}%') if co else ""}
     <div class="rule"></div>
-    <div class="section">TAX, 2025 (PALANTIR'S OWN ANNUAL REPORT)</div>
-    {line("Revenue from UK customers", usd(uk_rev))}
-    {line("UK cash income tax paid", f"under {usd(uk_cash)}", cls="hitline")}
-    {"".join(line(f"  {j} (under 10% of revenue)", usd(v), cls="small") for j, v in others if v)}
-    {line(f"UK company's net tax rate, 2022–{tax[-1]['year_end'][:4]} (its UK accounts)", f"{rate:.1f}%")}
+    {tax_box}
     <div class="rule"></div>
     <div class="section">ACCESS</div>
     {line("Ministerial meetings on record", mins.group(1) if mins else "n/a")}
@@ -123,24 +139,43 @@ def build(d):
 * {{ box-sizing:border-box; margin:0; padding:0; }}
 html, body {{ width:1080px; height:1920px; }}
 body {{ background:var(--bg); display:flex; align-items:center; justify-content:center; font-family:"SF Mono",Menlo,"DejaVu Sans Mono",monospace; color:var(--ink); }}
-.receipt {{ width:900px; background:var(--paper); padding:54px 56px 46px; box-shadow:0 30px 80px rgba(0,0,0,.55);
+.receipt {{ width:900px; background:var(--paper); padding:44px 54px 36px; box-shadow:0 30px 80px rgba(0,0,0,.55);
   -webkit-mask: conic-gradient(from -45deg at bottom, #0000, #000 1deg 89deg, #0000 90deg) bottom/24px 51% repeat-x,
                 conic-gradient(from 135deg at top, #0000, #000 1deg 89deg, #0000 90deg) top/24px 51% repeat-x; }}
 .head {{ text-align:center; }}
 .eyebrow {{ font-size:18px; letter-spacing:.26em; color:var(--muted); }}
-h1 {{ font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; font-weight:800; font-size:62px; letter-spacing:-.02em; margin:10px 0 8px; }}
+h1 {{ font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; font-weight:800; font-size:58px; letter-spacing:-.02em; margin:8px 0 6px; }}
 .sub {{ font-size:18px; color:var(--muted); }}
-.rule {{ border-top:2px dashed var(--rule); margin:16px 0 12px; }}
+.rule {{ border-top:2px dashed var(--rule); margin:11px 0 8px; }}
 .section {{ font-size:15px; letter-spacing:.2em; color:var(--muted); margin:6px 0 6px; }}
-.row {{ display:grid; grid-template-columns:1fr auto; gap:14px; font-size:19.5px; line-height:1.25; padding:4px 0; align-items:baseline; }}
+.row {{ display:grid; grid-template-columns:1fr auto; gap:14px; font-size:19px; line-height:1.22; padding:3px 0; align-items:baseline; }}
 .row .amt {{ font-weight:700; font-variant-numeric:tabular-nums; white-space:nowrap; }}
 .row.small {{ color:var(--muted); font-size:17px; padding:2px 0; }}
 .row.total {{ font-size:30px; font-weight:800; }}
 .row.total .amt {{ font-size:38px; }}
 .row.hitline .amt, .row.hitline .what {{ color:var(--red); font-weight:700; }}
 .tag {{ display:inline-block; margin-left:10px; vertical-align:2px; border:2px solid var(--red); color:var(--red); font-size:12px; font-weight:800; letter-spacing:.12em; padding:2px 6px; transform:rotate(-3deg); }}
-.q {{ margin:12px 0; }}
-.qt {{ font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; font-size:25px; font-weight:800; line-height:1.2; }}
+.taxbox {{ border:3px solid var(--ink); padding:16px 18px 14px; margin:4px 0 6px; background:#fbf8ef; }}
+.taxbox .section {{ margin-top:0; }}
+.scale {{ display:grid; grid-template-columns:1fr auto; font-size:21px; margin-top:8px; }}
+.scale .val {{ font-weight:800; font-size:24px; }}
+.scale.hit .lbl, .scale.hit .val {{ color:var(--red); font-weight:800; }}
+.bar {{ height:22px; background:#e6e0d1; margin:6px 0 2px; position:relative; }}
+.bar span {{ display:block; height:100%; background:var(--ink); }}
+.bar.tax {{ background:#efe9db; }}
+.bar.tax span {{ background:var(--red); }}
+.bar em {{ position:absolute; left:14px; top:0; font-style:normal; font-size:14px; color:var(--red); line-height:22px; font-weight:700; }}
+.big {{ font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; font-size:40px; font-weight:800; color:var(--red); margin:10px 0 2px; letter-spacing:-.01em; }}
+.sub2 {{ font-size:16px; color:var(--ink); line-height:1.4; margin:4px 0 10px; }}
+.cbar {{ display:grid; grid-template-columns:170px 1fr 130px; gap:10px; align-items:center; font-size:17px; margin:3px 0; }}
+.cbar .ct {{ height:16px; background:#e6e0d1; }}
+.cbar .cf {{ display:block; height:100%; background:#8f897d; }}
+.cbar .cv {{ text-align:right; font-weight:700; }}
+.cbar.uk .cn, .cbar.uk .cv {{ color:var(--red); font-weight:800; }}
+.cbar.uk .cf {{ background:var(--red); }}
+.fine {{ font-size:13.5px; color:var(--muted); line-height:1.4; margin-top:10px; }}
+.q {{ margin:8px 0; }}
+.qt {{ font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; font-size:23px; font-weight:800; line-height:1.2; }}
 .qw {{ font-size:15px; color:var(--muted); line-height:1.4; margin-top:5px; }}
 .foot {{ font-size:14px; color:var(--muted); line-height:1.5; margin-top:14px; }}
 .foot b {{ color:var(--ink); }}

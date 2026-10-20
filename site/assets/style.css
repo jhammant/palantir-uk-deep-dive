@@ -165,5 +165,14 @@ tr.detail dd { margin: 0; }
 .quote .pill { white-space: normal; }
 .timeline li { min-width: 0; overflow-wrap: anywhere; }
 .timeline .pill { white-space: normal; }
-.prose { overflow-wrap: anywhere; }
+.prose p, .prose li, .prose blockquote { overflow-wrap: break-word; }
 .pill.caption { background: transparent; border: 1px dashed var(--muted); }
+
+/* tables: never break inside words, numbers or dates; scroll inside the box on small screens */
+th, td { overflow-wrap: normal; word-break: normal; hyphens: manual; }
+td.nw, th.nw, td .num { white-space: nowrap; }
+.prose .table-wrap { margin: 0 0 18px; }
+@media (max-width: 760px) {
+  .table-wrap table { min-width: 680px; }
+  th, td { padding: 9px 10px; }
+}

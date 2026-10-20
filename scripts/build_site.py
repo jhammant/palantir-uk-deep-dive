@@ -106,9 +106,11 @@ def md_to_html(md):
         body = [r for r in cells if not all(re.fullmatch(r":?-{3,}:?", c) for c in r)]
         head, rows = body[0], body[1:]
         right = [bool(re.fullmatch(r"-{3,}:", c)) for c in (cells[1] if len(cells) > 1 else [])]
-        cls = lambda i: ' class="r num"' if i < len(right) and right[i] else ""
+        # Right-aligned columns are numeric; any cell that is just a number, money or date never wraps.
+        short = re.compile(r"^[\s£$€%+\-–−.,:/0-9()*]*\d[\s£$€%+\-–−.,:/0-9()*]*(bn|m|k)?$|^\d{4}-\d{2}(-\d{2})?$")
+        cls = lambda i, c="": (' class="r num"' if i < len(right) and right[i] else (' class="nw"' if short.match(re.sub(r"\*\*", "", c)) else ""))
         out.append('<div class="table-wrap"><table><thead><tr>' + "".join(f"<th{cls(i)}>{inline(c)}</th>" for i, c in enumerate(head))
-                   + "</tr></thead><tbody>" + "".join("<tr>" + "".join(f"<td{cls(i)}>{inline(c)}</td>" for i, c in enumerate(r)) + "</tr>" for r in rows)
+                   + "</tr></thead><tbody>" + "".join("<tr>" + "".join(f"<td{cls(i, c)}>{inline(c)}</td>" for i, c in enumerate(r)) + "</tr>" for r in rows)
                    + "</tbody></table></div>")
         table = []
 

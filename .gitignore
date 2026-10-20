@@ -8,3 +8,5 @@ sources/quotes-evidence/
 sources/companies-house/*.pdf
 # - bulk spending files (large; payments.csv cites each file's official URL)
 sources/raw/payments/
+# built by scripts/build_site.py (the Pages workflow builds it from committed data)
+site/assets/bundle.js

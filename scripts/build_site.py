@@ -270,6 +270,7 @@ def build():
         "market": read_csv("market-share.csv"),
         "marketTop": read_csv("market-top-suppliers.csv"),
         "reconciliation": reconciliation,
+        "groupTax": [{**r, "amount": num(r.get("amount_usd"))} for r in read_csv("palantir-group-tax.csv")],
         "notes": notes,
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)

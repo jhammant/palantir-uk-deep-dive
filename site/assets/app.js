@@ -516,6 +516,7 @@
           <div class="tile"><div class="label">UK corporation tax</div><div class="value hit">${money(l.uk_corporation_tax_current_gbp)}</div><div class="foot">total tax charge ${money(l.tax_charge_total_gbp)}</div></div>
           <div class="tile"><div class="label">At the ${l.standard_rate ? Math.round(l.standard_rate * 100) : 25}% headline rate</div><div class="value">${money(l.tax_at_standard_rate_gbp)}</div><div class="foot">from the accounts' own reconciliation</div></div>
         </div>
+        <div id="cash-tax"></div>
         <h2>Net tax rate</h2>
         <p class="muted small">Total tax charged, net of credits, divided by total profit before tax over each period. The accounts show tax <em>charged</em>, not cash paid (the company is exempt from publishing a cash-flow statement). "UK corporation tax" is the current-tax line for UK profits; the total also includes deferred tax, foreign tax and adjustments.</p>
         <div id="periods"></div>
@@ -523,6 +524,23 @@
         <div id="tax-chart" class="card"></div>
         <h2>Year by year</h2><div id="table"></div>
         ${D.notes["tax-notes"] ? `<h2>What the accounts say</h2><div class="prose">${D.notes["tax-notes"]}</div>` : ""}`;
+      const G = D.groupTax || [];
+      if (G.length) {
+        const usd = (v) => "$" + (v >= 1e9 ? (v / 1e9).toFixed(2) + "bn" : v >= 1e6 ? (v / 1e6).toFixed(1) + "m" : Math.round(v / 1e3) + "k");
+        const cash = G.filter((r) => r.year === "2025" && r.measure === "cash_income_tax" && !/total|all other|federal|state/i.test(r.jurisdiction));
+        const uk = G.find((r) => r.measure === "cash_income_tax_upper_bound"), ukRev = G.find((r) => r.year === "2025" && r.jurisdiction === "United Kingdom" && r.measure === "revenue");
+        const totalCash = G.find((r) => r.year === "2025" && /^Total/.test(r.jurisdiction) && r.measure === "cash_income_tax");
+        $("#cash-tax").innerHTML = `<h2>Cash tax actually paid, from Palantir's own annual report</h2>
+          <div class="tiles">
+            <div class="tile"><div class="label">UK customers paid Palantir, 2025</div><div class="value">${usd(ukRev.amount)}</div><div class="foot">10% of its global revenue, by customer location</div></div>
+            <div class="tile"><div class="label">Palantir's UK cash income tax, 2025</div><div class="value hit">under ${usd(uk.amount)}</div><div class="foot">The UK is not listed separately: only countries paying 5% or more of the ${usd(totalCash.amount)} total must be named</div></div>
+          </div>
+          <div class="card"><h3 style="margin-top:0">Cash income tax paid in 2025, by country (Palantir group)</h3><div id="cash-bars"></div>
+          <p class="small muted" style="margin:12px 0 0">Each of these countries is under 10% of Palantir's revenue, per the same filing; the UK is 10%. The UK bar is an upper limit. Source: ${link(uk.source_url, "Palantir Form 10-K for 2025, note 11 and geographic information")}.</p></div>`;
+        hbars($("#cash-bars"), [...cash.map((r) => ({ label: r.jurisdiction, value: r.amount, n: "paid" })), { label: "United Kingdom (at most)", value: uk.amount, n: "upper limit", uk: true }]
+          .sort((x, y) => y.value - x.value), { colour: (i) => (i.uk ? "var(--stamp)" : "var(--g2)") });
+        $("#cash-bars").querySelectorAll(".hbar .num b").forEach((el, k, all) => { const items = [...cash.map((r) => r.amount), uk.amount].sort((x, y) => y - x); el.textContent = (items[k] === uk.amount ? "< " : "") + usd(items[k]); });
+      }
       const yrs = T.map((t) => t.year_end.slice(0, 4));
       const span = (a0, b0, label, note) => {
         const xs = T.filter((t) => t.year_end.slice(0, 4) >= a0 && t.year_end.slice(0, 4) <= b0);

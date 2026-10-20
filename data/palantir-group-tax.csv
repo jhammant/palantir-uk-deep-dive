@@ -1,0 +1,14 @@
+year,jurisdiction,measure,amount_usd,note,source_url
+2025,Federal (US),cash_income_tax,0,,https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm
+2025,State (US),cash_income_tax,2500000,,https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm
+2025,South Korea,cash_income_tax,5771000,,https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm
+2025,Japan,cash_income_tax,4796000,,https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm
+2025,France,cash_income_tax,2843000,,https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm
+2025,Germany,cash_income_tax,1724000,,https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm
+2025,All other foreign,cash_income_tax,4052000,"Includes the United Kingdom, which is not listed separately",https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm
+2025,"Total, net of refunds",cash_income_tax,21686000,,https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm
+2025,United Kingdom,cash_income_tax_upper_bound,1084300,"Not separately disclosed. ASU 2023-09 requires each jurisdiction paying 5% or more of total income taxes paid to be listed, so the UK paid less than 5% of $21,686,000",https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm
+2025,United Kingdom,revenue,427398000,Revenue by customer location; 10% of total revenue,https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm
+2024,United Kingdom,revenue,304575000,Revenue by customer location; 11% of total revenue,https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm
+2023,United Kingdom,revenue,235257000,Revenue by customer location; 11% of total revenue,https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm
+2025,Total,revenue,4475446000,No country other than the US and UK represented 10% or more of total revenue,https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm

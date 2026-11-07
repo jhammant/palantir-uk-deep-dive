@@ -6,7 +6,7 @@
   "uid": "D2",
   "uri": "https://www.gov.uk/government/organisations/cabinet-office"
  },
- "publishedDate": "2026-10-06T17:12:36+01:00",
+ "publishedDate": "2026-10-27T16:40:39Z",
  "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
  "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
  "version": "1.1",
@@ -865,14 +865,143 @@
       "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
       "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json"
      ]
+    },
+    {
+     "buyerID": [],
+     "id": "101756-2026",
+     "tag": [
+      "contractAmendment"
+     ],
+     "date": "2026-10-27T16:40:39Z",
+     "initiationType": "tender",
+     "ocid": "ocds-h6vhtk-06ed0c",
+     "parties": [
+      {
+       "name": "NATIONAL ENERGY SYSTEM OPERATOR LIMITED",
+       "id": "GB-COH-11014226",
+       "identifier": {
+        "scheme": "GB-COH",
+        "id": "11014226"
+       },
+       "additionalIdentifiers": [
+        {
+         "scheme": "GB-PPON",
+         "id": "PHQL-5234-MWWV"
+        }
+       ],
+       "address": {
+        "streetAddress": "St Catherine's Lodge Bearwood Road",
+        "locality": "Wokingham",
+        "postalCode": "RG41 5BN",
+        "country": "GB",
+        "countryName": "United Kingdom",
+        "region": "UKJ11"
+       },
+       "contactPoint": {
+        "email": "nesoprocurement@neso.energy"
+       },
+       "roles": [
+        "buyer"
+       ],
+       "details": {
+        "url": "https://www.neso.energy/",
+        "classifications": [
+         {
+          "scheme": "UK_CA_TYPE",
+          "id": "publicUndertaking",
+          "description": "Public undertaking"
+         }
+        ]
+       }
+      }
+     ],
+     "buyer": {
+      "id": "GB-COH-11014226",
+      "name": "NATIONAL ENERGY SYSTEM OPERATOR LIMITED"
+     },
+     "tender": {
+      "id": "ocds-h6vhtk-06ed0c",
+      "legalBasis": {
+       "id": "2023/54",
+       "scheme": "UKPGA",
+       "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+      },
+      "documents": [
+       {
+        "id": "conflictOfInterest",
+        "documentType": "conflictOfInterest",
+        "description": "Not published"
+       }
+      ],
+      "title": "NESO Interim Capability"
+     },
+     "contracts": [
+      {
+       "id": "1",
+       "awardID": "1",
+       "documents": [
+        {
+         "id": "A-24481",
+         "documentType": "contractSigned",
+         "description": "This notice does not describe a modification of the contract.  Instead  this notice is being used as an addendum to contract detail notice. This notice has a copy of the redacted contract included, which is a requirement of the Procurement Act. Find a Tender service currently doesn't have the functionality to edit the notices to attach the contract to the UK7 that this notice is linked to.",
+         "url": "https://www.find-tender.service.gov.uk/Notice/Attachment/A-24481",
+         "format": "application/pdf"
+        },
+        {
+         "id": "101756-2026",
+         "documentType": "contractNotice",
+         "noticeType": "UK10",
+         "description": "Contract change notice on Find a Tender",
+         "url": "https://www.find-tender.service.gov.uk/Notice/101756-2026",
+         "datePublished": "2026-10-27T16:40:39Z",
+         "format": "text/html"
+        }
+       ],
+       "amendments": [
+        {
+         "date": "2026-09-08T00:00:00+01:00",
+         "id": "101756-2026",
+         "rationale": "This notice does not describe a modification of the contract.  Instead  this notice is being used as an addendum to contract detail notice. This notice has a copy of the redacted contract included, which is a requirement of the Procurement Act. Find a Tender service currently doesn't have the functionality to edit the notices to attach the contract to the UK7 that this notice is linked to.\nGiven this notice is not for an actual modification to the contract.  The modification date is the same as the contract signature date",
+         "rationaleClassifications": [
+          {
+           "id": "providedContract"
+          }
+         ]
+        }
+       ],
+       "statusDetails": null,
+       "period": {
+        "startDate": "2026-09-08T00:00:00+01:00"
+       },
+       "value": {
+        "amountGross": 20129619,
+        "amount": 16799683,
+        "currency": "GBP"
+       },
+       "aboveThreshold": true
+      }
+     ],
+     "language": "en",
+     "extensions": [
+      "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_performance_failures_extension/master/extension.json",
+      "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+      "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+      "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json"
+     ]
     }
    ],
    "compiledRelease": {
     "tag": [
      "compiled"
     ],
-    "id": "ocds-h6vhtk-06ed0c-2026-10-06T17:12:36+01:00",
-    "date": "2026-10-06T17:12:36+01:00",
+    "id": "ocds-h6vhtk-06ed0c-2026-10-27T16:40:39Z",
+    "date": "2026-10-27T16:40:39Z",
     "ocid": "ocds-h6vhtk-06ed0c",
     "initiationType": "tender",
     "parties": [
@@ -1325,6 +1454,34 @@
         "url": "https://www.find-tender.service.gov.uk/Notice/094458-2026",
         "datePublished": "2026-10-06T17:12:36+01:00",
         "format": "text/html"
+       },
+       {
+        "id": "A-24481",
+        "documentType": "contractSigned",
+        "description": "This notice does not describe a modification of the contract.  Instead  this notice is being used as an addendum to contract detail notice. This notice has a copy of the redacted contract included, which is a requirement of the Procurement Act. Find a Tender service currently doesn't have the functionality to edit the notices to attach the contract to the UK7 that this notice is linked to.",
+        "url": "https://www.find-tender.service.gov.uk/Notice/Attachment/A-24481",
+        "format": "application/pdf"
+       },
+       {
+        "id": "101756-2026",
+        "documentType": "contractNotice",
+        "noticeType": "UK10",
+        "description": "Contract change notice on Find a Tender",
+        "url": "https://www.find-tender.service.gov.uk/Notice/101756-2026",
+        "datePublished": "2026-10-27T16:40:39Z",
+        "format": "text/html"
+       }
+      ],
+      "amendments": [
+       {
+        "id": "101756-2026",
+        "date": "2026-09-08T00:00:00+01:00",
+        "rationale": "This notice does not describe a modification of the contract.  Instead  this notice is being used as an addendum to contract detail notice. This notice has a copy of the redacted contract included, which is a requirement of the Procurement Act. Find a Tender service currently doesn't have the functionality to edit the notices to attach the contract to the UK7 that this notice is linked to.\nGiven this notice is not for an actual modification to the contract.  The modification date is the same as the contract signature date",
+        "rationaleClassifications": [
+         {
+          "id": "providedContract"
+         }
+        ]
        }
       ]
      }
@@ -3958,6 +4115,151 @@
            "contract"
           ],
           "value": "text/html"
+         }
+        ]
+       },
+       {
+        "id": "A-24481",
+        "documentType": [
+         {
+          "releaseID": "101756-2026",
+          "releaseDate": "2026-10-27T16:40:39Z",
+          "releaseTag": [
+           "contractAmendment"
+          ],
+          "value": "contractSigned"
+         }
+        ],
+        "description": [
+         {
+          "releaseID": "101756-2026",
+          "releaseDate": "2026-10-27T16:40:39Z",
+          "releaseTag": [
+           "contractAmendment"
+          ],
+          "value": "This notice does not describe a modification of the contract.  Instead  this notice is being used as an addendum to contract detail notice. This notice has a copy of the redacted contract included, which is a requirement of the Procurement Act. Find a Tender service currently doesn't have the functionality to edit the notices to attach the contract to the UK7 that this notice is linked to."
+         }
+        ],
+        "url": [
+         {
+          "releaseID": "101756-2026",
+          "releaseDate": "2026-10-27T16:40:39Z",
+          "releaseTag": [
+           "contractAmendment"
+          ],
+          "value": "https://www.find-tender.service.gov.uk/Notice/Attachment/A-24481"
+         }
+        ],
+        "format": [
+         {
+          "releaseID": "101756-2026",
+          "releaseDate": "2026-10-27T16:40:39Z",
+          "releaseTag": [
+           "contractAmendment"
+          ],
+          "value": "application/pdf"
+         }
+        ]
+       },
+       {
+        "id": "101756-2026",
+        "documentType": [
+         {
+          "releaseID": "101756-2026",
+          "releaseDate": "2026-10-27T16:40:39Z",
+          "releaseTag": [
+           "contractAmendment"
+          ],
+          "value": "contractNotice"
+         }
+        ],
+        "noticeType": [
+         {
+          "releaseID": "101756-2026",
+          "releaseDate": "2026-10-27T16:40:39Z",
+          "releaseTag": [
+           "contractAmendment"
+          ],
+          "value": "UK10"
+         }
+        ],
+        "description": [
+         {
+          "releaseID": "101756-2026",
+          "releaseDate": "2026-10-27T16:40:39Z",
+          "releaseTag": [
+           "contractAmendment"
+          ],
+          "value": "Contract change notice on Find a Tender"
+         }
+        ],
+        "url": [
+         {
+          "releaseID": "101756-2026",
+          "releaseDate": "2026-10-27T16:40:39Z",
+          "releaseTag": [
+           "contractAmendment"
+          ],
+          "value": "https://www.find-tender.service.gov.uk/Notice/101756-2026"
+         }
+        ],
+        "datePublished": [
+         {
+          "releaseID": "101756-2026",
+          "releaseDate": "2026-10-27T16:40:39Z",
+          "releaseTag": [
+           "contractAmendment"
+          ],
+          "value": "2026-10-27T16:40:39Z"
+         }
+        ],
+        "format": [
+         {
+          "releaseID": "101756-2026",
+          "releaseDate": "2026-10-27T16:40:39Z",
+          "releaseTag": [
+           "contractAmendment"
+          ],
+          "value": "text/html"
+         }
+        ]
+       }
+      ],
+      "amendments": [
+       {
+        "id": "101756-2026",
+        "date": [
+         {
+          "releaseID": "101756-2026",
+          "releaseDate": "2026-10-27T16:40:39Z",
+          "releaseTag": [
+           "contractAmendment"
+          ],
+          "value": "2026-09-08T00:00:00+01:00"
+         }
+        ],
+        "rationale": [
+         {
+          "releaseID": "101756-2026",
+          "releaseDate": "2026-10-27T16:40:39Z",
+          "releaseTag": [
+           "contractAmendment"
+          ],
+          "value": "This notice does not describe a modification of the contract.  Instead  this notice is being used as an addendum to contract detail notice. This notice has a copy of the redacted contract included, which is a requirement of the Procurement Act. Find a Tender service currently doesn't have the functionality to edit the notices to attach the contract to the UK7 that this notice is linked to.\nGiven this notice is not for an actual modification to the contract.  The modification date is the same as the contract signature date"
+         }
+        ],
+        "rationaleClassifications": [
+         {
+          "releaseID": "101756-2026",
+          "releaseDate": "2026-10-27T16:40:39Z",
+          "releaseTag": [
+           "contractAmendment"
+          ],
+          "value": [
+           {
+            "id": "providedContract"
+           }
+          ]
          }
         ]
        }

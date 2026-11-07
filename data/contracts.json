@@ -448,5 +448,20 @@
   "source": "Find a Tender",
   "url": "https://www.find-tender.service.gov.uk/procurement/ocds-h6vhtk-06ed0c",
   "notes": "National Energy System Operation (NESO), has awarded an interim capability agreement to Palantir Technologies UK Limited (Palantir) for continued licencing and support for Connections and Skip Rate related activities. A redacted copy of the signed contract will be made available within 90 days of signature."
+ },
+ {
+  "awarded": "2026-10-09",
+  "buyer": "The Police and Crime Commissioner for Cambridgeshire",
+  "title": "BCH Palantir Foundry Platform",
+  "value_gbp": 10093202,
+  "value_basis": "as published on Contracts Finder",
+  "status": "awarded",
+  "procedure": "CallOffFromFrameworkAgreement",
+  "procedure_rationale": "",
+  "start": "2026-10-09",
+  "end": "2031-10-08",
+  "source": "Contracts Finder",
+  "url": "https://www.contractsfinder.service.gov.uk/Notice/d7a7acf6-a793-427d-a674-ee989e704974",
+  "notes": "The Palantir platform provides an enterprise-wide data integration and analytics capability, enabling the secure ingestion, linking, and analysis of data from multiple systems and sources across the policing environment."
  }
 ]

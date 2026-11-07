@@ -1,5 +1,5 @@
 {
- "hitCount": 31,
+ "hitCount": 32,
  "noticeList": [
   {
    "score": 1,
@@ -37,6 +37,44 @@
     "regionText": "North East,North West,Yorkshire and The Humber,East Midlands,West Midlands,East of England,London,South East,South West",
     "start": "2023-06-12T00:00:00+01:00",
     "end": "2024-06-11T00:00:00+01:00"
+   }
+  },
+  {
+   "score": 1,
+   "item": {
+    "id": "d7a7acf6-a793-427d-a674-ee989e704974",
+    "parentId": null,
+    "noticeIdentifier": "CF-0061600D4K000001WteKUAS",
+    "title": "BCH Palantir Foundry Platform",
+    "description": "The Palantir platform provides an enterprise-wide data integration and analytics capability, enabling the secure ingestion, linking, and analysis of data from multiple systems and sources across the policing environment.",
+    "cpvDescription": "Software package and information systems",
+    "cpvDescriptionExpanded": "Software package and information systems",
+    "publishedDate": "2026-11-06T12:06:04Z",
+    "deadlineDate": "2026-08-04T12:00:00+01:00",
+    "awardedDate": "2026-10-09T00:00:00+01:00",
+    "awardedValue": 10093202,
+    "awardedSupplier": "Palantir Technologies UK Ltd",
+    "approachMarketDate": null,
+    "valueLow": 10093202,
+    "valueHigh": 10093202,
+    "postcode": "PE29 6NP",
+    "coordinates": "52.321308,-0.181509",
+    "isSubNotice": false,
+    "noticeType": "Contract",
+    "noticeStatus": "Awarded",
+    "isSuitableForSme": false,
+    "isSuitableForVco": false,
+    "awardedToSme": false,
+    "awardedToVcse": false,
+    "lastNotifableUpdate": "2026-11-06T12:06:04Z",
+    "organisationName": "The Police and Crime Commissioner for Cambridgeshire",
+    "sector": "",
+    "cpvCodes": "48000000",
+    "cpvCodesExtended": "48000000",
+    "region": "East of England",
+    "regionText": "East of England",
+    "start": "2026-10-09T00:00:00+01:00",
+    "end": "2031-10-08T00:00:00+01:00"
    }
   },
   {
@@ -1200,6 +1238,10 @@
     "value": "13"
    },
    {
+    "key": "East of England",
+    "value": "13"
+   },
+   {
     "key": "North East",
     "value": "14"
    },
@@ -1214,10 +1256,6 @@
    {
     "key": "West Midlands",
     "value": "13"
-   },
-   {
-    "key": "East of England",
-    "value": "12"
    },
    {
     "key": "London",
@@ -1254,7 +1292,7 @@
   "items": [
    {
     "key": "Contract",
-    "value": "31"
+    "value": "32"
    },
    {
     "key": "Pipeline",
@@ -1279,7 +1317,7 @@
    },
    {
     "key": "Awarded",
-    "value": "31"
+    "value": "32"
    }
   ],
   "other": 0
